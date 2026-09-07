@@ -1,0 +1,4 @@
+pair_id,absorber,emitter,species,z_abs,z_emit,reference,note
+NGC3067-3C232,NGC 3067 halo,3C 232,Ca II K,0.005,0.533,"Stocke et al. 1991, ApJ 374, 72",Ca II K absorption at the galaxy redshift in the quasar spectrum
+NGC3067-3C232,NGC 3067 halo,3C 232,H I 21 cm,0.005,0.533,"Carilli, van Gorkom & Stocke 1989, Nature 338, 134",21-cm absorption feature at the galaxy redshift; maps neutral halo gas
+NGC1199-companion,NGC 1199 body,compact companion (z=0.044),continuum extinction,0.0083,0.044,"Arp 1978, ApJ 220, 401",Companion silhouetted against the galaxy's diffuse light; absorption of companion continuum places it behind the galaxy body

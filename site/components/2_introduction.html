@@ -1,0 +1,223 @@
+<h2>1. Introduction: The Discordant-Redshift Anomaly</h2>
+
+<p>
+    In 1966 Halton Arp published the <em>Atlas of Peculiar
+    Galaxies</em>, a systematic survey of the sky's morphologically
+    disturbed systems. Among them he found the anomaly that would
+    occupy the rest of his career: galaxies and quasars that
+    appear, on the sky, to be physically connected yet carry
+    redshifts differing by one to two orders of magnitude
+    (Arp 1987, <em>Quasars, Redshifts and Controversies</em>).
+    Under the standard interpretation, redshift is distance: an
+    object at $z_Q$ is placed a factor $\sim z_Q/z_G$ farther
+    away than a companion at $z_G$. On that reading, every
+    luminous bridge, filament, and absorption association Arp
+    documented between a low-redshift galaxy and a high-redshift
+    companion must be a chance superposition of unrelated objects
+    at vastly different distances. The discordant pairs were
+    accordingly absorbed into the background census, and the
+    question of their association was treated as resolved by
+    assumption rather than by measurement.
+</p>
+
+<p>
+    The anomaly was never resolved; it was set aside under the
+    standard metric-expansion paradigm, and the programme lost
+    its instrument access in 1983 (Section&nbsp;7.5). The
+    resolution rests on
+    a single identifiability
+    assumption: that a redshift differential between two
+    sky-coincident objects can encode only a difference in
+    cosmological distance. That assumption is what the present
+    paper tests. If redshift also carries a contribution
+    intrinsic to the emitting object&mdash;a local proper-time
+    offset rather than a distance&mdash;then the discordant pairs
+    are not superpositions at all, and the luminous bridges are
+    what they appear to be: physical connections between objects
+    at a common distance.
+</p>
+
+<p>
+    This paper returns to the same sky with the tools that did not
+    then exist&mdash;digital all-sky imaging, homogeneous quasar
+    catalogues, archive redshift services, and a reproducible
+    inference pipeline&mdash;and measures what the controversy
+    only argued.
+</p>
+
+<h3>1.1 The Observational Basis</h3>
+
+<p>
+    The Arp associations are not anecdotal. They were assembled
+    over four decades by a consistent observational method: start
+    from morphologically disturbed galaxies, look for compact
+    radio, X-ray or blue stellar objects paired or aligned across
+    their nuclei&mdash;preferentially along the minor
+    axis&mdash;and test the candidate connections with whatever
+    spectroscopy the epoch allowed. The morphological premise
+    descends from the <em>Atlas</em> itself, whose first
+    101&nbsp;entries are peculiar spiral galaxies and spirals
+    carrying small attached companions (Arp 1966)&mdash;the
+    configuration from which the discordant-redshift claim
+    originally grew&mdash;and the associations were consolidated
+    in the <em>Catalogue of Discordant Redshift Associations</em>
+    (Arp 2003). The catalogue on which
+    the present analysis is built comprises twelve well-documented
+    systems whose claimed physical connections span four
+    distinct, independently testable types. In the flagship pair,
+    the Seyfert&nbsp;1 nucleus Markarian&nbsp;205 at $z = 0.0708$ is
+    projected $42$ arcsec from the nucleus of the barred spiral
+    NGC&nbsp;4319 at $z = 0.0047$, inside the galaxy's outer
+    isophotes, with a luminous optical bridge between them
+    (Arp 1971) confirmed on deep CCD imagery and spectroscopy
+    (Sulentic 1983; Sulentic &amp; Arp 1987). Under the Hubble relation the
+    companion is placed $\sim 15$ times farther away than the
+    galaxy it appears to touch.
+</p>
+
+<p>
+    NGC&nbsp;7603 is connected to its companion NGC&nbsp;7603B by a luminous
+    filament (Arp 1970) that hosts two additional emission knots at
+    intermediate redshifts, $z = 0.243$ and $z = 0.391$
+    (L&oacute;pez-Corredoira &amp; Guti&eacute;rrez 2002), producing a
+    four-point redshift transect along a single continuous
+    structure. In NGC&nbsp;3067, the radio quasar 3C&nbsp;232 at
+    $z = 0.533$ exhibits Ca&nbsp;II K absorption at the redshift
+    of the foreground galaxy, $z_{\rm abs} = 0.005$ (Stocke et al.\
+    1991), and 21-cm H&nbsp;I absorption at the same velocity
+    (Carilli, van Gorkom &amp; Stocke 1989)&mdash;gas at the galaxy
+    redshift lying demonstrably between the observer and the quasar.
+    Three quasars at $z = 0.60$, $1.40$, and $1.94$ are projected
+    on the disk of NGC&nbsp;1073 at $z = 0.007$ (Arp &amp; Sulentic 1979).
+    A strong X-ray quasar at $z = 2.114$ sits $9$ arcsec from the
+    nucleus of NGC&nbsp;7319 in Stephan's Quintet (Galianni et al.\
+    2005)&mdash;a Chandra ultraluminous X-ray source (Trinchieri
+    et al.\ 2003) lying inside
+    the galaxy's shocked interstellar medium, with spectral
+    evidence reported for direct interaction between the quasar
+    and the host's gas at $z = 0.022$ (Galianni et al.\ 2005). A compact companion at $z = 0.044$ is silhouetted in
+    absorption against the diffuse body of NGC&nbsp;1199 at
+    $z = 0.0083$ (Arp 1978)&mdash;the higher-redshift object lying
+    in front of the lower-redshift galaxy's light. X-ray quasars
+    trace the minor axis of the edge-on spiral NGC&nbsp;3628
+    (Arp et al.\ 2002), the morphological signature of the
+    ejection-axis alignment reported across the Arp systems.
+    The same signature repeats across the added fields: two
+    compact ROSAT X-ray sources symmetrically disposed across
+    the nucleus of NGC&nbsp;4258, along a line touching the ends
+    of its anomalous arms, proved on spectroscopy to be quasars
+    at $z = 0.398$ and $z = 0.653$ (Pietsch et al.\ 1994;
+    Burbidge 1995); two X-ray quasars at $z = 0.305$ and
+    $z = 0.323$ sit nearly symmetrically across the nucleus of
+    NGC&nbsp;2639 along its minor-axis direction, within a
+    seven-source X-ray chain on the same axis (Burbidge 1997;
+    Burbidge, Burbidge, Arp &amp; Zibetti 2004); the complete
+    quasar survey of the NGC&nbsp;1097 field found the quasar
+    density rising toward the galaxy and peaking between its two
+    strongest optical jets (Wolstencroft et al.\ 1983; Arp,
+    Wolstencroft &amp; He 1984; Arp &amp; Carosati 2007); and the
+    companion on the spiral arm of NGC&nbsp;1232&mdash;the
+    prototype of the Atlas companion-on-arm morphology
+    (Arp&nbsp;41)&mdash;carries a recession velocity
+    $+4\,776\ {\rm km\,s^{-1}}$ in excess of its host
+    (Arp 1982).
+</p>
+
+<p>
+    Each of these associations carries its own geometrical
+    argument, and several carry two: a luminous connection and an
+    absorption or silhouette ordering that fixes the line-of-sight
+    sequence independently of any redshift interpretation. The
+    standard response&mdash;that each is individually a chance
+    alignment&mdash;is an assignable probability, and Section&nbsp;5
+    computes it. What the standard framework cannot do is convert
+    the ensemble into a coincidence: the joint probability for the 
+    sample evaluates to a catalogue severity statistic, computed in 
+    this paper for the first time, to test the hypothesis that the 
+    catalogue is merely a collection of random projections.
+</p>
+
+<h3>1.2 The Temporal Equivalence Principle</h3>
+
+<p>
+    The Temporal Equivalence Principle (TEP; Paper&nbsp;0, Jakarta) is
+    a bi-metric scalar-tensor framework in which gravity is
+    mediated by the Einstein-frame metric $g_{\mu\nu}$ while
+    matter, clocks, and light propagate on the causal matter
+    metric
+</p>
+
+<div class="equation">
+    \begin{equation}\tilde{g}_{\mu\nu} = A^2(\phi)\,g_{\mu\nu} + B(\phi)\,\nabla_\mu\phi\,\nabla_\nu\phi ,\end{equation}
+</div>
+
+<p>
+    with a universal conformal coupling $A(\phi) = \exp(\beta_A
+    \phi/M_{\rm Pl})$, $\beta_A = -1$. Every non-gravitational
+    process runs on the proper time of $\tilde{g}_{\mu\nu}$; local
+    Lorentz invariance and the local light speed $c$ are strictly
+    preserved in every freely falling laboratory. The scalar field
+    $\phi$ is positive near masses and vanishes in the ambient
+    today by convention, so $A &lt; 1$ inside gravitational wells
+    and clocks there run slower than ambient&mdash;reproducing
+    gravitational redshift as a clock-rate ratio rather than a
+    metric expansion. Because the quasar sits in a deeper temporal well,
+    $\phi_Q > \phi_G$ and $A_{\rm int} = e^{-(\phi_Q-\phi_G)} &lt; 1$,
+    consistent with the corpus sign convention of Jakarta (Paper&nbsp;0).
+</p>
+
+<p>
+    The cosmological content of the framework, developed in the
+    companion papers of this series, is that the universe is
+    spatially static, eternal, and non-expanding. Within this
+    two-metric cosmology, the Hubble relation is a clock-rate comparison
+    between the ambient field today and the field at the source at
+    emission; and structure, motion, and local geometry evolve on
+    the static manifold. Within that framework an observed
+    redshift factorises into a background clock-rate
+    factor&mdash;the ambient temporal level at the source's
+    position and emission epoch&mdash;and an intrinsic conformal
+    factor generated by the emitting object's own proper-time field. The
+    second factor is the quantity the standard distance ladder
+    discards&mdash;and the quantity the Arp pairs measure
+    directly.
+</p>
+
+<h3>1.3 Scope of the Present Paper</h3>
+
+<p>
+    This paper applies the TEP redshift decomposition to the
+    Arp discordant-pair catalogue as a complete, reproducible
+    inference chain. The analysis proceeds in four stages. First,
+    the intrinsic conformal factor $A_{\rm int}(Q)$ is computed
+    for each pair from published, archive-verified redshifts; the
+    diagnostic is distance-independent by construction. Second,
+    the physical-connection evidence is evaluated on its own
+    terms: surface-brightness transects across the claimed
+    bridges against rotated control axes, the published
+    foreground-absorption and silhouette systems, an empirical
+    quasar-overdensity test around the Arp hosts against seeded
+    random fields, and the Poisson chance-alignment probability
+    of each pair and of the joint ensemble. Third, the scalar-field
+    transition across the connecting structures is inferred:
+    monotonic and nested-wells profile families are fitted to
+    the redshift transect of the NGC&nbsp;7603 filament&mdash;the
+    only Arp structure with measured interior redshifts&mdash;and
+    the local well depths are estimated by Markov Chain Monte
+    Carlo with full residual diagnostics. Fourth, every test is aggregated into a single
+    falsification table opposing the TEP spatial-proximity
+    hypothesis against the chance-superposition interpretation.
+</p>
+
+<p>
+    The claim under test is narrow and therefore strong: the
+    catalogue contains a subset of physically associated discordant
+    systems at a common distance, while allowing individual historical
+    candidates to be chance superpositions, and their redshift differentials
+    are localized proper-time gradients of the TEP scalar field rather than gaps
+    in cosmological distance. Every numerical statement in this
+    paper is produced by the accompanying open pipeline from real
+    archival and published data; no synthetic data are used at any
+    stage, and the pipeline fails loudly when a required input is
+    unavailable.
+</p>

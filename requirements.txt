@@ -1,0 +1,49 @@
+# Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+# Core stack for archive ingestion (NED/SkyView/SDSS), field-profile fitting, and Bayesian inference
+
+# Astronomical computing
+astropy>=5.0.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# MCMC sampling (optional — falls back to scipy.optimize if not installed)
+emcee>=3.1.0
+
+# Corner/covariance figure (optional — step_31 skips the figure if absent)
+corner>=2.2.0
+
+# Residual normality diagnostics (optional — step_33 omits the
+# Lilliefors check if absent)
+statsmodels>=0.14.0
+
+# Data storage
+h5py>=3.8.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# HTTP requests (for HEASARC / XSA archive queries)
+requests>=2.28.0
+
+# Astronomical database queries
+astroquery>=0.4.6
+
+# Testing (scripts/tests/)
+pytest>=8.0.0
+
+# PDF rendering of the built site (scripts/utils/html_to_pdf.py)
+playwright>=1.40.0
+
+# FITS file handling (included with astropy, listed explicitly for clarity)
+# astropy.io.fits
+
+# PyXspec (optional — for XSPEC spectral fitting integration)
+# Requires HEASoft installation: https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/
+# pyxspec>=2.0.0  # Uncomment if XSPEC integration is needed

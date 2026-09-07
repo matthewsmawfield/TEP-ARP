@@ -1,0 +1,597 @@
+<h2>7. Discussion</h2>
+
+<div class="key-finding">
+    <h4>Every Test the Sample Can Answer Favours Proximity</h4>
+    <p>
+        The falsification table aggregates fourteen explicit tests.
+        The measured configuration is highly improbable under the
+        stated random-superposition model
+        ($\log_{10} P = -13.2$ at archive-measured separations),
+        a statistic conditioned on a morphology-selected sample
+        whose look-elsewhere correction is made explicit; the
+        absorption systems fix the line-of-sight ordering of two
+        pairs; the resolved NGC&nbsp;7603 filament is detected as
+        emitted light along its measured path; the intrinsic
+        conformal factor and the nested-wells field profile are
+        quantitatively consistent with the TEP prediction; and
+        the remaining diagnostics (bridge transects, well-depth
+        posterior, separation scaling, residual structure) return
+        measurements rather than refutations. One sightline test
+        returns a measured refutation at the individual-pair level:
+        the Ly$\alpha$ forest audit assigns 3C&nbsp;232 to its
+        cosmological distance, falsifying the NGC&nbsp;3067
+        association. No test contradicts the ensemble
+        proximity statistic itself.
+    </p>
+</div>
+
+<h3>7.1 What the Ensemble Establishes</h3>
+
+<table>
+    <caption>Table 8. The falsification table: fourteen tests opposing the TEP spatial-proximity hypothesis against chance superposition.</caption>
+    <tr>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Verdict</th>
+    </tr>
+    <tr><td>Intrinsic conformal factor</td><td>$A_{\rm int} \in [0.33, 0.98]$ across 12 pairs</td><td>consistent with TEP</td></tr>
+    <tr><td>Foreground absorption ordering</td><td>3 absorption systems across 2 pairs (for 3C&nbsp;232 the ordering stands but the Ly-$\alpha$ audit below assigns the companion to cosmological distance)</td><td>line-of-sight ordering measured</td></tr>
+    <tr><td>Luminous bridge surface brightness</td><td>claimed-structure axes on CCD imaging: NGC 4319 sign-test $p = 0.020$ persistent on-axis excess; NGC 7603 filament-path transect $+3.9\sigma$ over the inter-object segment, sign-test $p = 3 \times 10^{-5}$, peak $+5.7\sigma$; NGC 1232 companion-arm axis sign-test $p = 1.3 \times 10^{-5}$, peak $+5.2\sigma$</td><td>positive on resolved axes; filament detected along resolved path</td></tr>
+    <tr><td>Quasar overdensity around hosts</td><td>companion-exclusive host mean $1.50$ vs field $2.10 \pm 2.45$ (Fisher $p = 0.95$); companion-inclusive 26 vs $25.2$ expected ($p = 0.46$); 2 of 12 hosts exceed all own controls with companions removed; all companions recovered by name at measured offsets</td><td>host fields ordinary at field completeness; companions verified</td></tr>
+    <tr><td>Chance-alignment probability</td><td>$P_{\rm joint} = 6.5 \times 10^{-14}$ ($9.4 \times 10^{-15}$ under published SDSS density) at archive-measured separations; compact subsample alone ($\theta < 300''$, eight pairs) $7.7 \times 10^{-14}$; axis-conditioned on the five morphology-defined corridors $8.7 \times 10^{-20}$; X-ray-selection-aware at the measured $\Sigma_X = 3.8\ {\rm deg}^{-2}$ gives $1.3 \times 10^{-22}$; after removing the member falsified by the Ly$\alpha$ path-length audit the surviving-ensemble products are $3.6 \times 10^{-13}$, $6.6 \times 10^{-14}$, $4.3 \times 10^{-13}$ (seven-pair compact), $4.9 \times 10^{-19}$, and $7.2 \times 10^{-22}$ respectively; look-elsewhere-corrected catalogue probability $P_{\rm cat}(N) = \prod_i[1-e^{-Np_i}]$ &lt; 0.05 for parent search volumes $N \lesssim 200$ fields ($N \lesssim 310$ axis-conditioned)</td><td>improbable under random projection; selection-conditioned</td></tr>
+    <tr><td>Lensing magnification budget</td><td>SIS lenses at $\sigma_v = 300$ km/s (uniform upper bound): max $\mu - 1 = 38\%$ (NGC 7319); joint P inflated $\times 1.3$&ndash;$2.3$ over $\alpha = 1.5$&ndash;$2.5$, and at most $\times 5.0$ across the $\sigma_v = 250$&ndash;$400$ km/s sensitivity grid</td><td>magnification bias bounded; cannot manufacture ensemble</td></tr>
+    <tr><td>Geometric and spectroscopic coherence</td><td>axis-claimed companions: $8/12$ within $30$ arcdeg of host minor axis ($p = 0.019$); radial ordering: $13/16$ member pairs place the nearer member at higher $z$ (within-field permutation $p = 0.058$); halo-scale clustering across six CF4 hosts: $\sigma_{\log_{10}{\rm kpc}} = 0.296$, exact permutation $p = 0.019$; paired-redshift excess null (Fisher $p = 0.40$); diametric symmetry null ($p = 0.20$&ndash;$0.74$)</td><td>anisotropy, ordering and halo scale significant where predicted; symmetry and pairing not recovered</td></tr>
+    <tr><td>Forward galaxy&ndash;quasar cross-correlation</td><td>2MRS parent sample ($23{,}205$ galaxies): $\delta = -0.030$ within $180$ arcsec (bootstrap $p = 0.98$ for a positive excess); annulus decomposition: $0$&ndash;$60''$ $\delta = -0.29$ ($-7.7\sigma$), $60$&ndash;$120''$ $\delta = -0.005$, $120$&ndash;$180''$ $\delta = +0.009$; Seyfert subset $\delta = -0.157$ ($p = 0.97$); flanking same-$z$ quasar pairs $34$ vs $47.5$ expected</td><td>no population-level excess; associations are rare configurations</td></tr>
+    <tr><td>Archival kinematic feasibility audit</td><td>14 fields audited across 70 archive queries; no IFU coverage of the NGC 7603 filament knots exists (nearest MUSE pointing $0.9''$ off; knots at $8$&ndash;$32'$ from surveyed fields)</td><td>decisive IFU observation pending</td></tr>
+    <tr><td>Ly-$\alpha$ forest path-length audit</td><td>18 quasar-class companions audited across SDSS, MAST, ESO and Keck; usable on-target band coverage for 1 (3C&nbsp;232, measured), partial edge-of-band for 1 (NGC&nbsp;7319, $24\%$), field-level or unusable products for 3, no coverage for 12, weak-path for 1. 3C&nbsp;232 (HST/COS): 9 of 11 candidates confirmed by Ly$\beta$/Ly$\gamma$ at $z_{\rm abs} = 0.318$&ndash;$0.398$ vs $2.3$ expected at the cosmological incidence</td><td>3C&nbsp;232 sits at its cosmological distance; pair falsified as an individual association; decisive $z &gt; 2$ sightlines uncovered</td></tr>
+    <tr><td>Field-transition continuity</td><td>nested-wells family required</td><td>monotonic families fail; width bounded</td></tr>
+    <tr><td>Nested-wells posterior</td><td>$d_1 = 0.300$, $d_2 = 0.187$, $d_Q = 0.020$, $w < 0.033$ (95%)</td><td>measured</td></tr>
+    <tr><td>Separation scaling</td><td>$\rho = 0.12$, $p = 0.71$</td><td>insufficient sample</td></tr>
+    <tr><td>Fit residual structure</td><td>residual RMS $\ll 1\sigma$ (interpolating fit, no residual degrees of freedom); Lilliefors normality check reported at $n = 4$ (uninformative at the numerical floor)</td><td>exact interpolation</td></tr>
+</table>
+
+<p>
+    The table is deliberately asymmetric in its burdens: the
+    tests that can refute the framework (absorption ordering,
+    field continuity, chance probability) all return results the
+    framework requires, while the tests that could only bound it
+    (separation scaling, residual whiteness) return measurements
+    consistent with it. The single entry that could have killed
+    the hypothesis&mdash;a catalogue severity statistic of order
+    unity, the outcome the standard dismissal predicts&mdash;is
+    more than thirteen orders of magnitude the other way.
+</p>
+
+<h3>7.2 The Nested-Well Landscape</h3>
+
+<p>
+    The non-monotonicity of the NGC&nbsp;7603 transect deserves
+    emphasis, because it is the point at which the data cease to
+    be a catalogue of coincidences and become a measurement of
+    structure. A shared pair field alone would produce a
+    monotone; the knots' deeper intrinsic factors force each
+    compact object to carry its own well. The filament is
+    therefore not a smooth tunnel between two fixed ends but a
+    landscape&mdash;a shared temporal field populated by discrete
+    depressions wherever matter is compact. The bounded fitted
+    width $w < 0.033$ (95% credibility, a projected
+    $1.2$ kpc) localises each well to its object:
+    these are proper-time features of the knots themselves, not
+    of the ambient field. This is the scalar geometry of the TEP
+    corpus made spatially concrete&mdash;the same universal
+    coupling $A(\phi) = e^{-\phi}$, now read off as a map along
+    an observed structure. No new mechanism has been introduced:
+    the nested-wells family is the clock-rate hierarchy of
+    Section&nbsp;2 applied to a multi-emitter field, and it is the
+    only family tested that can represent the transition at all.
+</p>
+
+<p>
+    A natural objection is that wells of depth
+    $\Delta\phi \sim 1$, as measured for the NGC&nbsp;7319 and
+    NGC&nbsp;3628 companions, should carry relativistic internal
+    dynamics&mdash;velocity dispersions of order $c$ that would
+    broaden every spectral line beyond recognition. The
+    objection conflates a temporal well with a Newtonian
+    potential well. In the dual-metric structure the scalar
+    amplitude sets the local clock rate, and matter dynamics
+    respond to the <em>gradient</em> of $\phi$ across the body,
+    not to its absolute depth: a local laboratory cannot detect
+    a uniform rescaling of its own clocks and rulers, and local
+    Lorentz invariance is preserved exactly in every freely
+    falling frame of $\tilde g_{\mu\nu}$. A well centred on the
+    emitter is that emitter's own field&mdash;its gradient is
+    the gravity-like Temporal Shear the object itself exerts,
+    of order the object's ordinary self-gravity, not a foreign
+    potential of depth unity applied from outside. The measured
+    width bound $w < 0.033$ of the transect (a projected
+    $1.2$ kpc) confirms the wells are object-scale: each
+    depression is localised to its own source, and the
+    observable consequence of the depth is precisely the
+    endpoint clock ratio $A_{\rm int}$&mdash;the redshift
+    itself.
+</p>
+
+<p>
+    Deep wells producing narrow lines are therefore not
+    an anomaly for the framework but its defining feature:
+    emitting matter sits at the bottom of its own temporal
+    well, and the spectroscopic integrity of the lines is what
+    a conformal clock-rate offset leaves untouched. The same
+    reasoning disposes of the line-width form of the objection:
+    the observed width $\Delta\lambda/\lambda \sim
+    \Delta v_{\rm int}/c$ samples the field difference across the
+    emitting region, $\sim |\nabla\phi|\,R_{\rm emitter}$, which
+    is small because $R_{\rm emitter} \ll w$, while the redshift
+    $z$ measures the endpoint depth $\phi_0$&mdash;the two are
+    not in tension because they probe the field on different
+    scales.
+</p>
+
+<p>
+    The distinction carries a history worth recording. When the
+    Balmer-series identification in 3C&nbsp;273 fixed the first
+    quasar redshift at $z = 0.158$ (Schmidt 1963), gravitational
+    redshift was the first alternative to recession
+    examined&mdash;and was set aside because a surface potential
+    deep enough to produce the shift demands a compactness no
+    hydrostatic stellar configuration can sustain, an object
+    driven beyond its Hayashi bound (Greenstein &amp; Schmidt
+    1964). The objection is correct as far as it goes, and it
+    does not reach the mechanism here. A temporal well is not a
+    Newtonian potential and $A_{\rm int}$ is not the mark of an
+    emitter sitting deep in foreign gravity: the offset is
+    conformal, rescaling the emitter's own proper time while
+    leaving its internal equilibrium untouched, so the
+    compactness bound that closed the 1963 gravitational
+    interpretation does not apply to it.
+</p>
+
+<p>
+    A related assumption deserves explicit correction, because
+    the modern reader instinctively maps "compact quasar" onto
+    the Kerr-metric supermassive black hole: an object carrying
+    $10^8\ M_\odot$ of dynamical mass whose binding potential
+    produces the redshift. That identification is not made
+    here&mdash;but not because the companion is massless. A
+    $10^8\ M_\odot$ object is a small fraction of the enclosed
+    mass of the hosts that carry these companions and is
+    dynamically unremarkable at that scale; nothing in the
+    hosts' undisturbed rotation excludes it, and nothing in the
+    interpretation requires excluding it. The identification is
+    declined on a different ground: in this framework the
+    redshift is generated by the conformal clock-rate offset,
+    which is not a measure of binding mass at all. The deep
+    wells of this catalogue are temporal wells in the sense of
+    Paper&nbsp;28 (Bahrain): as the local clock-rate offset
+    grows, $A_{\rm int}$ approaches the temporal horizon
+    $A_{\rm int} \to 0$ at which matter proper time asymptotes
+    relative to ambient clocks. The deepest measured cases here
+    ($\Delta\phi \sim 1.1$; NGC&nbsp;7319's companion at
+    $A_{\rm int} = 0.33$) are finite approaches toward that
+    limit, not reached horizons, and the redshift they carry is
+    generated by severe proper-time dilation in the matter
+    metric rather than by immense Newtonian binding mass. The
+    companion's intrinsic mass is left to standard accretion
+    physics&mdash;reverberation-scale compact masses are neither
+    required nor excluded; what is excluded is only the
+    inference from redshift to gravitational binding. Well depth
+    $\Delta\phi$ measures the conformal clock-rate ratio
+    $-\ln A_{\rm int}$ and nothing further. This is the
+    configuration that permits a discordant-redshift companion
+    to sit embedded in a nearby galaxy&mdash;deep in clock-rate
+    terms, ordinary in dynamical terms&mdash;without disturbing
+    the host it accompanies.
+</p>
+
+<p>
+    A sharper version of the objection argues from the gradient
+    itself: a well of depth $\Delta\phi = 0.3$ spanning the measured
+    width bound $w \sim 1.2$ kpc exerts a scalar shear of order
+    $c^2\Delta\phi/w \sim 10^{-3}\ {\rm m\,s^{-2}}$, thousands of times
+    the local galactic gravitational acceleration, which would shred the
+    filament. The objection is correct about the gradient's magnitude,
+    but misplaces it spatially. Confining the well to $w < 1.2$ kpc
+    makes the wall gradient steeper, not shallower, but the four-point
+    transect samples <em>between</em> the walls. The diffuse filament continuum
+    between the knots returns $z = 0.030$, indistinguishable from the
+    host nucleus: the field between the compact objects is flat at the
+    ambient level. The kiloparsec-scale gradient is therefore confined
+    to the unresolved compact object itself. What sits at the steep wall
+    is not the ambient filament, but the object's own emitting mass.
+</p>
+
+<p>
+    The bound $w < 0.033$ is an upper limit set
+    by non-overlap of adjacent wells; the true scale of each
+    well is set by its own emitting region, and the knots are
+    unresolved point sources. Within each well, the shear is
+    the object's own Temporal Shear&mdash;the gravity-like effect
+    that binds it, not a foreign force applied to the surrounding gas.
+    Across the ambient
+    filament the measured flatness of $A$ is precisely the
+    absence of inter-object shear. The depth of a temporal well
+    is a statement about the clock rate of the matter inside it,
+    and the transect shows the neighbouring matter running at the
+    ambient rate.
+</p>
+
+<h3>7.3 The Cost of the Standard Reading</h3>
+
+<p>
+    The interpretation rejected here is not costless. To keep
+    redshift as distance, the standard reading must place Mrk&nbsp;205
+    at $\sim 300\ {\rm Mpc}$ while its host sits at $\sim 20\ {\rm Mpc}$,
+    must read the NGC&nbsp;7603 filament knots as background
+    objects $\sim 0.9$&ndash;$1.5\ {\rm Gpc}$ behind a structure
+    they visibly thread, and must attribute the ensemble's
+    $\sim 10^{-13}$ joint probability to selection effects&mdash;an
+    attribution the look-elsewhere computation of Section&nbsp;5.4 bounds
+    explicitly: a chance search reproduces all eleven surviving
+    severity classes with probability below $0.05$ only for parent
+    volumes under $\sim 310$ fields, and no search volume produces
+    the ordering evidence at all. It must also
+    turn NGC&nbsp;7603B's $\sim 8\,100\ {\rm km\,s}^{-1}$
+    redshift excess into a fictitious peculiar velocity an order
+    of magnitude beyond any plausible filament motion, and the
+    NGC&nbsp;7319 quasar's $z = 2.114$ into a
+    $\sim 29\ {\rm Gyr}$ photon journey from an object embedded
+    in a nearby interacting galaxy.
+</p>
+
+<p>
+    Each of these is a distinct cost of the standard reading.
+    What TEP provides is the alternative at fixed bookkeeping: a
+    static spatial manifold, a single scalar field, and a
+    redshift that decomposes into a shared background level and
+    local depth&mdash;after which every anomaly above becomes a
+    measured property of the local field rather than an ad hoc
+    exception.
+</p>
+
+<p>
+    The standard cosmology's strongest independent
+    support&mdash;the $(1+z)$ duration stretch of Type Ia
+    supernova light curves&mdash;is also shared by the present
+    framework rather than contradicted by it. In TEP the redshift
+    is an endpoint clock-rate ratio; the same ratio that lowers a
+    photon's frequency by $(1+z)$ stretches the observed duration
+    of any source-frame process by the identical factor, since
+    duration and frequency are reciprocal readings of the same
+    clock comparison. Cosmological time dilation is therefore
+    not an additional burden on the temporal-field reading but
+    its direct prediction: a distant explosion observed
+    $(1+z)$ times slower is the temporal field doing visibly what
+    it does to every spectral line.
+</p>
+
+<p>
+    The same clock-ratio structure answers the surface-brightness
+    objection, provided the bookkeeping is carried out on the
+    matter metric rather than imported from expansion. The
+    derivation is given in Section&nbsp;7.4 and returns a sharper
+    verdict than the objection anticipates: the Tolman scaling is
+    recovered identically,
+    $\Sigma_{\rm obs} = \Sigma_{\rm em}(1+z)^{-4}$, because the
+    temporal-field redshift is a genuine endpoint clock ratio
+    rather than a tired-light mechanism&mdash;the exponent is
+    common ground between the two readings, and the distances
+    entering the photometric relations, not the dimming, are the
+    discriminator.
+</p>
+
+<p>
+    For the companions at issue the point is moot
+    in a stronger sense: every quasar-class companion in the
+    sample is an unresolved point source, so no extended-source
+    surface brightness exists to dim. The expectation that a
+    nearby quasar must reveal a luminous, resolved $L_*$ host
+    presumes the companion is a mature galaxy at a local
+    distance; in the framework under test the companion is itself
+    the compact object&mdash;a young, high-shear emitter of the
+    kind the ejection morphology implies&mdash;and any extended
+    envelope it might carry is Tolman-dimmed by the full
+    $(1+z)^{-4}$ regardless, so the faint, sub-arcsecond
+    morphology the companions exhibit is the prediction, not the
+    anomaly.
+</p>
+
+<p>
+    The same proximity that raises the
+    apparent-brightness question lowers the luminosity budget it
+    queries: at the host distance, with the transport correction
+    of Section&nbsp;7.4 included, the companions' inferred
+    luminosities fall to the range of ordinary galactic nuclei,
+    dissolving the energy paradox that made distant quasars
+    implausible in the first place.
+</p>
+
+<h3>7.4 The Photometric Sector: Tolman Dimming without Expansion</h3>
+
+<p>
+    The objection answered qualitatively above admits a
+    closed-form treatment, and carrying it out removes the
+    objection rather than absorbing it. Photons propagate on the
+    null geodesics of the matter metric
+    $\tilde{g}_{\mu\nu} = A^2(\phi)g_{\mu\nu} +
+    B(\phi)\,\nabla_\mu\phi\,\nabla_\nu\phi$. The disformal term
+    contributes only along the field gradient: for the
+    transverse, image-forming bundle&mdash;rays whose momentum is
+    orthogonal to $\nabla\phi$ &mdash; its contribution to the
+    null condition vanishes identically, and across the ambient
+    field, whose flatness the NGC&nbsp;7603 transect measures
+    directly, its residual effect is second order in an
+    already-small gradient. What the disformal sector governs is
+    one-way transport time along $\nabla\phi$&mdash;the sector
+    the closed-loop holonomy observable is constructed to
+    detect&mdash;not the image-plane photometry at issue here.
+    Conformal rescaling preserves null directions, so on the
+    non-expanding gravitational manifold the spatial ray paths
+    are those of $g_{\mu\nu}$ itself: static, and Euclidean to
+    the accuracy relevant here. The photometric content of the
+    framework therefore reduces to two ingredients&mdash;the
+    endpoint clock ratio and photon conservation along straight
+    rays.
+</p>
+
+<p>
+    The clock ratio enters the received flux twice. Each photon
+    arrives with frequency reduced by
+    $\nu_0/\nu_{\rm em} = A_{\rm em}/A_0 = (1+z)^{-1}$, with $z$
+    the total measured redshift&mdash;for the companions, the
+    pair-differential component is carried by $A_{\rm
+    int}$&mdash;and photons emitted over a source-proper
+    interval $d\tau_{\rm em}$ arrive spread over
+    $d\tau_0 = (1+z)\,d\tau_{\rm em}$, energy and duration being
+    reciprocal readings of the same endpoint comparison. The
+    photons distribute isotropically over the sphere of physical
+    area $4\pi D^2$ centred on the source, where $D$ is the true
+    static separation (the ambient convention $A_0 = 1$ makes
+    the matter-frame and gravitational measures of the
+    wavefront area coincide at the observer). The bolometric
+    flux and the luminosity distance it defines are therefore
+</p>
+
+<div class="equation">
+    \begin{equation}F_{\rm bol} = \frac{L_{\rm em}}{4\pi D^2}\,(1+z)^{-2} ,
+    \qquad
+    d_L \equiv \sqrt{\frac{L_{\rm em}}{4\pi F_{\rm bol}}}
+    = D\,(1+z) ,\end{equation}
+</div>
+
+<p>
+    with the spectral form
+    $F_\nu(\nu_0) = L_\nu(\nu_{\rm em})\,(1+z)^{-1}/(4\pi D^2)$
+    at $\nu_{\rm em} = (1+z)\nu_0$, so band-limited photometry
+    inherits the standard K-correction unchanged. The angular
+    scale carries the complementary factor. A source of
+    transverse physical size $R$, measured on its own matter
+    rulers, occupies a coordinate extent $R/A_{\rm em}$, because
+    rulers inside the well are rescaled by the same conformal
+    factor that sets the clock rate. On straight-ray propagation
+    the observed angular size is then
+    $\theta = R/(A_{\rm em}\,D)$, and the angular-diameter
+    distance becomes
+</p>
+
+<div class="equation">
+    \begin{equation}d_A \equiv \frac{R}{\theta} = A_{\rm em}\,D
+    = \frac{D}{1+z} ,
+    \qquad
+    d_L = (1+z)^2\,d_A .\end{equation}
+</div>
+
+<p>
+    A temporal well thus magnifies: a deep companion subtends a
+    larger angle than an ambient twin at the same
+    separation&mdash;the conformal analogue of the $(1+z)$
+    apparent-radius inflation familiar from neutron-star
+    gravitational redshift&mdash;and the two distance measures
+    straddle the true separation symmetrically,
+    $d_L\,d_A = D^2$. The Etherington reciprocity is satisfied
+    identically, as photon conservation on null geodesics
+    requires it to be. Surface
+    brightness follows immediately.
+    The observed solid angle is inflated by the well
+    magnification, $\Omega \propto R^2(1+z)^2/D^2$, so
+</p>
+
+<div class="equation">
+    \begin{equation}\Sigma_{\rm obs} = \frac{F_{\rm bol}}{\Omega}
+    = \Sigma_{\rm em}\,(1+z)^{-4} ,\end{equation}
+</div>
+
+<p>
+    the full Tolman law, recovered exactly&mdash;equivalently in
+    one line from Liouville invariance: $I_\nu/\nu^3$ is
+    conserved along $\tilde{g}_{\mu\nu}$ null geodesics, giving
+    $I_{\nu,0} = (1+z)^{-3} I_{\nu,\rm em}$, and the bolometric
+    integral supplies the fourth power. The derivation exposes
+    why the scaling could not have been otherwise: the relations
+    above are formally the standard photometric system with the
+    comoving distance replaced by the true static separation,
+    because the temporal-field redshift is mathematically the
+    same object&mdash;an endpoint conformal-factor
+    ratio&mdash;that expansion encodes through the scale factor.
+    The $(1+z)^{-4}$ exponent is a theorem of metric photon
+    transport, not of expansion; a redshift that stretches
+    arrival intervals exactly as it shifts photon energies obeys
+    it automatically. What separates the two readings is not the
+    dimming but the distance the relations are anchored to: $D$,
+    measured independently of redshift at the host, against a
+    $d_M(z)$ assigned by the redshift itself.
+</p>
+
+<p>
+    Applied to the companions, the photometry closes the debate
+    at both ends. For the unresolved point sources&mdash;every
+    quasar-class companion in the sample&mdash;the operative
+    correction is the transport factor on total flux: an
+    intrinsic luminosity inferred at the host distance is
+    $L = 4\pi D^2 F\,(1+z)^2$, a multiplier of order unity to
+    $\sim 10$ across the sample's well depths, and still two to
+    five orders of magnitude below the luminosity the standard
+    distance assigns.
+</p>
+
+<p>
+    For any extended envelope&mdash;the
+    resolved $L_*$ host the objection expects&mdash;the surface
+    brightness is Tolman-dimmed by the full $(1+z)^{-4}$: at
+    $z = 2.114$ that is a factor of $\sim 94$, about five
+    magnitudes per square arcsecond, pushing a nominal host
+    envelope below the detection threshold of the available
+    imaging; its non-detection is the prediction, not the
+    anomaly. Should an envelope nonetheless be resolved, its
+    angular scale reads off $d_A = D/(1+z)$ against the host's
+    redshift-independent distance&mdash;a sharp discriminative
+    test, since the standard reading places the same structure
+    at $d_A = d_M(z)/(1+z)$, one to two orders of magnitude
+    deeper. The magnification also tightens rather than loosens
+    the compactness argument: the sub-arcsecond morphologies
+    bound the emitters' physical sizes through
+    $R < \theta_{\rm lim}\,D\,(1+z)^{-1}$, a stronger constraint
+    than the Euclidean reading supplies.
+</p>
+
+<h3>7.5 The Historical Dimension</h3>
+
+<p>
+    At the 1972 AAAS symposium
+    (Field, Arp &amp; Bahcall 1973), the dispute reduced to two background
+    warrants&mdash;the defenders assumed the contested sky was a typical
+    random sample, Arp assumed apparent proximity was physical&mdash;and
+    neither side measured which held. The present pipeline is that missing
+    measurement.
+</p>
+
+<p>
+    The present analysis validates key observational
+    elements of that programme: the connecting structures are real
+    emitted light, the silhouette ordering demonstrates a foreground-background
+    configuration, and the surviving ensemble is not a collection of
+    projected coincidences. What the vindication replaces is his
+    mechanism&mdash;intrinsic redshift as quantised, empirical,
+    unexplained&mdash;with the deterministic proper-time gradient
+    of the TEP framework: the discordance is what a scalar field
+    produces, and the smooth distribution of $A_{\rm int}$ across
+    the sample is the signature discrete-quantisation
+    proposals (e.g., Karlsson 1971; Burbidge 2001) never explained.
+</p>
+
+<h3>7.6 Limitations and Open Questions</h3>
+
+<p>
+    The limitations of the present analysis are stated plainly.
+    The sample is twelve pairs&mdash;large enough to measure the
+    chance statistic on the selected systems and to map one
+    resolved filament, too small for population-level field
+    statistics or an unconditional survey-wide rejection of
+    chance projection. The nested-wells fit
+    is a four-parameter description of a four-point transect:
+    adequate at the error level, but underdetermined as a field
+    inversion; it constrains the <em>shape</em> of the local
+    proper-time landscape rather than the global coupling
+    $\beta_A = -1$, which the analysis assumes. The model 
+    awaits over-constraint from either resolved spectroscopy of 
+    the filament at intermediate positions, or a second resolved 
+    filament with more knots.
+</p>
+
+<p>
+    The knot
+    transect coordinates are archive-measured projections onto
+    the resolved host&ndash;companion axis (the curved filament
+    places the knots up to $23$ arcsec off the straight axis,
+    which the projected coordinate absorbs), and the
+    NGC&nbsp;3628 companion
+    resolves to WEE&nbsp;51&mdash;the quasar at the tip of the
+    minor-axis X-ray filament&mdash;whose literature redshift
+    ($z = 2.15$; Arp et al.\ 2002) is superseded by the modern
+    spectroscopic archives (NED $z = 1.4983$; Milliquas
+    $z = 1.499$); the verification step adopts the archive
+    value. In the multi-quasar fields the archive cone does not
+    always recover the published member list identically: the
+    NGC&nbsp;1097 resolution returns two of the four catalogued
+    quasars at the measured offsets inside the enclosing
+    radius, and the NGC&nbsp;2639 members resolve to the Milliquas
+    quasars nearest the catalogued positions ($z = 0.297$ and
+    $0.336$ against the published $0.305$ and $0.323$). Both
+    fields carry proximity statistics near unity under either
+    member reading (Table&nbsp;4), so the ensemble inference is
+    insensitive to which set is priced; the resolved member
+    table is nevertheless released for provenance. The companion
+    $\sigma_z \sim 10^{-3}$&ndash;$10^{-2}$ uncertainties
+    dominate the error budget where quoted, and SDSS
+    spectroscopic coverage of the pair fields is partial. The
+    ensemble statistic's dependence on the effective parent
+    search volume is likewise bounded: the look-elsewhere
+    computation of Section&nbsp;5.4 shows the angular product decides
+    the catalogue below $\sim 200$ fields and is an upper bound
+    at any volume, because the observed systems occupy narrower
+    classes than proximity alone.
+</p>
+
+<p>
+    The most decisive open test is resolved kinematics of the
+    filament gas: a velocity field across the NGC&nbsp;7603
+    knots would separate a physically associated, possibly
+    disturbed structure from a projected background filament.
+    An exhaustive audit of the public spectroscopic archives
+    (ESO MUSE, VIMOS, SINFONI and GIRAFFE; MAST JWST-IFU,
+    MaNGA and fiber surveys) was performed at all twelve host
+    positions and both knot coordinates, classifying every
+    returned frame as science or calibration. At the
+    NGC&nbsp;7603 nucleus a MUSE science pointing exists at
+    $0.9$ arcsec offset&mdash;IFU data over the host position
+    already sits in the archive&mdash;but no frame is recorded
+    at the knot coordinates, whose nearest science pointings
+    lie $8$&ndash;$32$ arcmin away under the archive's
+    proposal-target coordinates; footprint-level verification
+    is required before coverage can be claimed. JWST
+    NIRSpec/MRS coverage exists at NGC&nbsp;7319, 4258 and
+    1097&mdash;the last also carrying MUSE, VIMOS and SINFONI
+    science frames on the host&mdash;while NGC&nbsp;3628 has
+    IFU frames in the field but none on target. NGC&nbsp;4319,
+    1199, 1232 and 3516 return no spatial spectroscopy at
+    all; NGC&nbsp;3067, 1073 and 2639 only unresolved fiber
+    spectra. The decisive filament-kinematics
+    measurement is therefore a new observation: a single
+    MUSE pointing, or a NIRSpec-IFU mosaic, covering the
+    resolved filament polyline and both knot coordinates.
+</p>
+
+<p>
+    The Lyman-$\alpha$ forest audit of Section&nbsp;5.6 bounds
+    the proximity claim from the opposite direction. On the one
+    sightline where the test is executable the result is
+    adverse to the association: the populated 3C&nbsp;232
+    forest&mdash;nine Lyman-confirmed systems against $2.3$
+    expected&mdash;places that quasar at its cosmological
+    distance, falsifying the NGC&nbsp;3067 pair as an
+    individual association while leaving the ensemble
+    statistic intact. For the flagship high-redshift
+    companions the test remains observationally unavailable:
+    the $z = 2.114$ NGC&nbsp;7319 companion is covered only at
+    the extreme red edge of an IUE LWP spectrum ($24\%$ of its
+    forest band), the Keck slitmasks in that field are centred
+    on the distinct NGC&nbsp;7319 ULX $9$ arcsec away rather
+    than on the companion, and the $z \approx 2.1$&ndash;$2.3$
+    members of the NGC&nbsp;3516, NGC&nbsp;1097 and
+    NGC&nbsp;1073 fields return no usable forest-band spectra
+    among the archive products inspected for each target. The
+    audit thereby isolates the single executable observation
+    that would settle the question for the flagship system
+    (Section&nbsp;8).
+</p>
+
+<p>
+    None of these weaken the surviving
+    evidence&mdash;the NGC&nbsp;1199 silhouette ordering, the
+    resolved bridge transects, and the joint severity statistic
+    on the eleven remaining systems&mdash;but
+    they bound what the field-inference can claim: the filament
+    transect is consistent with, and required to be, a nested-well
+    transition; a population-level test awaits a larger
+    discordant-pair catalogue.
+</p>

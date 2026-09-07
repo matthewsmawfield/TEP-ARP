@@ -1,0 +1,552 @@
+{
+  "n_pairs": 12,
+  "n_queries": 60,
+  "n_successful": 60,
+  "n_with_records": 45,
+  "n_no_match": 15,
+  "n_query_failed": 0,
+  "n_unresolved_fields": 0,
+  "records": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 7,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 9,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 3,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 12,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 4,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 10,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 3,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 4,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 5.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 5.0,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 7.0,
+      "n_records": 4,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 7.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 7.0,
+      "n_records": 4,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 7.0,
+      "n_records": 3,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 7.0,
+      "n_records": 8,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 13.44,
+      "n_records": 10,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 13.44,
+      "n_records": 10,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 13.44,
+      "n_records": 6,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 13.44,
+      "n_records": 15,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 13.44,
+      "n_records": 28,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 14.0,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 14.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 14.0,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 14.0,
+      "n_records": 12,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 14.0,
+      "n_records": 20,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 16.799999999999997,
+      "n_records": 7,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 16.799999999999997,
+      "n_records": 1,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 16.799999999999997,
+      "n_records": 4,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 16.799999999999997,
+      "n_records": 10,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 16.799999999999997,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 6.16,
+      "n_records": 6,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 6.16,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 6.16,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 6.16,
+      "n_records": 6,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 6.16,
+      "n_records": 0,
+      "status": "no_match"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "band": "X-ray",
+      "archive": "Chandra",
+      "catalog_or_table": "chanmaster",
+      "radius_arcmin": 15.738333333333333,
+      "n_records": 16,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "band": "X-ray",
+      "archive": "XMM-Newton",
+      "catalog_or_table": "xmmmaster",
+      "radius_arcmin": 15.738333333333333,
+      "n_records": 24,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "band": "X-ray",
+      "archive": "ROSAT",
+      "catalog_or_table": "rosmaster",
+      "radius_arcmin": 15.738333333333333,
+      "n_records": 2,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "band": "radio",
+      "archive": "NVSS",
+      "catalog_or_table": "VIII/65/nvss",
+      "radius_arcmin": 15.738333333333333,
+      "n_records": 10,
+      "status": "ok"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "band": "radio",
+      "archive": "FIRST",
+      "catalog_or_table": "VIII/92/first14",
+      "radius_arcmin": 15.738333333333333,
+      "n_records": 0,
+      "status": "no_match"
+    }
+  ],
+  "data_policy": "Archive coverage queried live from HEASARC and CDS VizieR; negative n_records denotes a failed query, never a fabricated count."
+}

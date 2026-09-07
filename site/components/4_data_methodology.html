@@ -1,0 +1,262 @@
+<h2>3. The Discordant-Pair Sample and the Analysis Pipeline</h2>
+
+<p>
+    The analysis is built as a single reproducible pipeline: a
+    registered sequence of processing stages that begins with the
+    published literature values for the discordant pairs, verifies
+    them against public archives, ingests the available
+    observational data, and terminates in the falsification
+    summary and manuscript figures. Every number quoted in this
+    paper is an output of that pipeline; the pipeline is
+    deterministic, seeded where randomness enters, and fails
+    loudly when a required real input is missing. No synthetic
+    data are generated at any stage.
+</p>
+
+<h3>3.1 The Pair Catalogue</h3>
+
+<p>
+    The catalogue comprises twelve discordant pairs selected for
+    the strength and diversity of their claimed physical
+    connections, covering the connection morphologies of the
+    consolidated Arp catalogue (Arp 2003): a luminous bridge (NGC&nbsp;4319&ndash;Mrk&nbsp;205), a
+    luminous filament with embedded emission knots
+    (NGC&nbsp;7603&ndash;NGC&nbsp;7603B), foreground absorption systems
+    (NGC&nbsp;3067&ndash;3C&nbsp;232, NGC&nbsp;1199 and its compact companion),
+    disk and minor-axis projections of multiple quasars
+    (NGC&nbsp;1073, NGC&nbsp;3628), an X-ray-selected quasar chain with a
+    paired $z = 2.10$ redshift (NGC&nbsp;3516), a strong X-ray
+    ejection candidate (NGC&nbsp;7319), symmetrically paired X-ray
+    quasars across active nuclei on the minor-axis and
+    anomalous-arm directions (NGC&nbsp;4258, NGC&nbsp;2639), a
+    quasar overdensity correlated with the optical jets of
+    NGC&nbsp;1097, and the companion-on-arm system
+    NGC&nbsp;1232&ndash;NGC&nbsp;1232A&mdash;the prototype of the
+    Atlas companion-on-arm morphology. Each entry carries the published galaxy and
+    companion redshifts, the projected angular separation, the
+    documented connection evidence with its literature
+    references, and a flag identifying the redshift provenance.
+    The catalogue is seeded exclusively with literature values;
+    the companion redshift of NGC&nbsp;3628 enters at the value
+    Arp et al.\ (2002) tabulate for the minor-axis quasar
+    Wee&nbsp;51 ($z = 2.15$), flagged as approximate pending archive
+    verification&mdash;the verification step supersedes it with
+    the spectroscopic archive value ($z = 1.498$), as recorded
+    in the verification manifest.
+</p>
+
+<p>
+    Every catalogued redshift is then verified against the
+    NASA/IPAC Extragalactic Database (NED). The heliocentric
+    redshift of each resolvable object is extracted from the NED
+    object record and compared against the catalogue value at a
+    fractional tolerance $|\Delta z|/(1+z) = 0.01$; companions
+    catalogued under descriptive labels are verified through
+    their archive-resolved identities, by alternate name or by
+    cone search at the resolved position. Objects that cannot
+    be securely identified in the archive are carried at their
+    literature values and flagged rather than substituted, while
+    provisional literature values are superseded by the archive
+    value wherever a secure identification exists&mdash;the one
+    such correction in the sample is recorded in the
+    verification manifest.
+</p>
+
+<h3>3.2 Archival Data Ingestion</h3>
+
+<p>
+    Three archival layers are ingested per pair field. Optical
+    imaging is retrieved as deep CCD data: the DESI Legacy
+    Imaging Surveys DR10 $r$-band cutout service (Dey et al.\
+    2019; $0.262$ arcsec pixels) is the primary survey, with
+    SDSS $r$-band and DSS2 Red through the SkyView interface as
+    fallbacks where the DR10 layer has no coverage (one field,
+    NGC&nbsp;7319, uses SDSS $r$). Each field is centred on the host galaxy
+    and sized to cover the catalogued companion separation with
+    margin; these images provide the spatial base on which the
+    bridge transects are drawn. A multi-wavelength provenance
+    manifest is compiled from the HEASARC master catalogues
+    (Chandra, XMM-Newton, ROSAT) and VizieR radio catalogues
+    (NVSS, FIRST), recording the archival coverage of each field
+    so that the physicality of connecting structures can be
+    assessed across bands rather than in a single image.
+    Finally, SDSS DR18 is queried for spectroscopic coverage of
+    each pair member, and available spectra are ingested; where a
+    member lies outside the footprint the absence is recorded,
+    not replaced.
+</p>
+
+<p>
+    A fourth archival layer anchors the distance scale. The
+    Cosmicflows-4 catalogue (Tully et al.\ 2023; VizieR
+    J/ApJ/944/94) is cone-searched at every member position for
+    redshift-independent distance moduli drawn from the primary
+    and secondary distance ladder&mdash;Cepheids, the tip of the
+    red giant branch, masers, surface-brightness fluctuations,
+    the Tully&ndash;Fisher and fundamental-plane relations, and
+    Type&nbsp;Ia supernovae. A catalogue entry is adopted only
+    within a $30$ arcsec positional match, beyond which the
+    nearest record belongs to a different object; where a
+    companion's nearest entry is the host's own catalogue
+    record, the absence of an independent companion distance is
+    recorded rather than substituted. Six of the twelve hosts
+    carry matched distances&mdash;NGC&nbsp;7603 at
+    $113\pm17$&nbsp;Mpc, NGC&nbsp;3067 at $22\pm4$&nbsp;Mpc
+    (Tully&ndash;Fisher), NGC&nbsp;1199 at $34\pm5$&nbsp;Mpc
+    (surface-brightness fluctuations), NGC&nbsp;3628 at
+    $11\pm2$&nbsp;Mpc (Tully&ndash;Fisher), NGC&nbsp;1097 at
+    $15\pm3$&nbsp;Mpc (Tully&ndash;Fisher), and NGC&nbsp;4258 at
+    $7.54\pm0.09$&nbsp;Mpc, the most precisely anchored distance
+    in the sample, averaged across the maser, Cepheid, TRGB,
+    surface-brightness-fluctuation and Tully&ndash;Fisher
+    records&mdash;each consistent
+    with its redshift-inferred distance, as expected for hosts
+    in shallow wells. These measurements anchor every projected
+    physical scale reported below in a redshift-independent
+    distance rather than an assumed one. No companion carries a
+    redshift-independent distance of its own&mdash;quasar and
+    compact-knot companions admit no stellar-population distance
+    indicator&mdash;so the decisive co-distance test remains a
+    defined future measurement rather than a result claimed here
+    (Section&nbsp;7).
+</p>
+
+<h3>3.3 Intrinsic-Factor Computation</h3>
+
+<p>
+    For every pair the pipeline computes the intrinsic conformal
+    factor $A_{\rm int}(Q) = (1+z_G)/(1+z_Q)$, the scalar-field
+    offset $\Delta\phi = -\ln A_{\rm int}$, and the proper-time
+    budget: the fractional clock-rate difference between
+    companion and host, the fictitious recession velocity
+    $c\,z_{\rm intr}$ that a Doppler reading would assign, the
+    Hubble-law distances implied by each redshift separately at
+    $h = 0.70$, and the distance-inflation factor between them.
+    These quantities are reported in Section&nbsp;4.
+</p>
+
+<h3>3.4 Physical-Connection Tests</h3>
+
+<p>
+    Five independent tests of physical association are
+    implemented. The bridge-morphology test first resolves every
+    companion to an archive position&mdash;by NED object-name
+    query where the catalogued name is resolvable, and otherwise
+    by redshift-matched cone searches of Simbad, the Milliquas
+    catalogue, and NED in turn&mdash;then draws a
+    surface-brightness transect along the measured
+    galaxy&ndash;companion axis of each pair field and compares
+    the inter-object segment (the central $45$&ndash;$80\%$ of
+    the axis, excluding both nuclear regions) against rotated
+    control transects of identical length and width sampling the
+    galaxy's outer isophotes away from the companion direction.
+    The statistics reported are the mean-significance
+    $S_{\rm bridge}$ of the on-axis excess over the control
+    distribution, a one-sided sign test of the on-axis excess's
+    persistence across the segment, and the peak per-sample
+    significance with its transect coordinate; for the
+    silhouette pair a complementary annulus decrement test is
+    evaluated about the companion position. The
+    absorption-system test compiles the
+    published absorption and silhouette evidence&mdash;gas at the
+    host redshift intervening along the line of sight to the
+    companion&mdash;which fixes the line-of-sight ordering
+    independently of any redshift model. The association test
+    resolves each Arp host through Simbad and performs a VizieR
+    cone search of the Million Quasars catalogue (Milliquas
+    v7.2; Flesch 2021; VizieR VII/290), counting
+    spectroscopically confirmed quasar-class objects (catalogue
+    classes Q, A, B and K) within $6$ arcmin of each host. The
+    host's own catalogue entry is removed by name, and the
+    catalogued companions are excluded within $15$ arcsec of
+    their archive-resolved positions, so that the objects the
+    pairs were selected for cannot inflate the count. The
+    identical query is repeated on twelve seeded random control
+    fields offset by $1.5^\circ$ per host, constructing an
+    empirical field quasar surface density from the same
+    catalogue, and the measured catalogue offset of every
+    recovered object is recorded. The comparison is evaluated
+    both against the pooled control distribution and in paired
+    form&mdash;each host against its own twelve
+    controls&mdash;because the pooled null mixes sight-lines of
+    unequal spectroscopic completeness. The chance-alignment
+    test computes, per pair and jointly, the Poisson probability
+</p>
+
+<div class="equation">
+    \begin{equation}P = 1 - e^{-\Sigma_Q\,\pi\,\theta^2}\end{equation}
+</div>
+
+<p>
+    of finding at least one background quasar within projected
+    radius $\theta$ of an arbitrary bright galaxy, evaluated for
+    quasar companions under both the SDSS DR16 quasar-catalogue
+    surface density $\Sigma_Q = 51.6\ {\rm deg}^{-2}$ (Lyke et
+    al.\ 2020) and the more conservative empirical field density
+    measured by the association test in the same sight-lines,
+    and using the conservative bright-galaxy density
+    $\sim 10\ {\rm deg}^{-2}$ for resolved companions; the
+    headline value is the larger of the two evaluations. The
+    fifth test lifts the association question to population
+    level: a predefined parent sample&mdash;2MRS galaxies
+    (Huchra et al.\ 2012) with $500 < cz < 10\,000$ km/s and
+    $|b| > 15^\circ$, defined without reference to the Arp
+    catalogue&mdash;is bulk cross-matched to the same confirmed
+    Milliquas classes within $180$ arcsec through the CDS XMatch
+    service, and each parent galaxy is paired with four seeded
+    offset control fields cross-matched identically. The
+    quasar overdensity is measured in three annuli and as a
+    paired galaxy-versus-own-controls difference tested by a
+    galaxy-unit bootstrap. A suite of consistency audits
+    complements these tests: a lensing magnification budget on
+    the measured separations (Section&nbsp;5.4), geometric and
+    spectroscopic coherence diagnostics (Section&nbsp;5.5), a
+    live archive audit of resolved-kinematics coverage
+    (Section&nbsp;7.6), and the Ly$\alpha$ forest path-length
+    audit of Section&nbsp;5.6, which prices each quasar-class
+    companion's distance directly from the intergalactic
+    absorption content of its spectrum.
+</p>
+
+<h3>3.5 Field-Gradient Inference</h3>
+
+<p>
+    The scalar-field transition is inferred on the NGC&nbsp;7603
+    filament, the only connecting structure in the sample with
+    measured interior redshifts: the host and companion supply
+    the transect endpoints $x = 0$ and $x = 1$, and the two
+    emission knots at $z = 0.391$ and $z = 0.243$ supply interior
+    points at archive-measured positions: both knots resolve to
+    Simbad entries (the [LG2002] emission-line objects), and their
+    transect coordinates $x = 0.55$ and $x = 0.91$ are the
+    projection of the resolved positions onto the
+    host&ndash;companion axis&mdash;no positional assumption
+    enters the transect. The profile
+    families of Section&nbsp;2.3&mdash;the three monotonic
+    transitions and the nested-wells model&mdash;are fitted to
+    the four-point transect by least squares on their interior
+    parameters and compared by chi-squared. The nested-wells
+    parameters&mdash;the three local well depths and the shared
+    width&mdash;are then sampled by Markov Chain Monte Carlo
+    (emcee ensemble sampler; Foreman-Mackey et al.\ 2013,
+    32 walkers, 8\,000 steps with 2\,000
+    burn-in, flat priors $d_i \in [0, 2]$ and
+    $w \in [0.002, 1]$, Gaussian likelihood in the measured
+    $A_{\rm int}$ values with propagated redshift
+    uncertainties), producing posteriors on the well depths
+    that are directly comparable to the per-object
+    $\Delta\phi$ measurements of Section&nbsp;4. The
+    sample-level structure of $A_{\rm int}$ is analysed across
+    all twelve pairs: its distribution, its dependence on
+    projected separation (the Spearman correlation against
+    angular separation, testing Arp's empirical claim that
+    discordance declines with separation), and the comparison of
+    absorption-verified against morphology-only pairs. Finally,
+    the transect fits are subjected to residual diagnostics:
+    weighted residuals, reduced chi-squared, residual RMS,
+    lag-1 autocorrelation, and a Lilliefors normality check
+    (Lilliefors 1967), so
+    that model adequacy is assessed on residual structure rather
+    than parameter-count arguments alone. All tests are
+    aggregated into the falsification table of Section&nbsp;7.
+</p>

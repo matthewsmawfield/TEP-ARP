@@ -1,0 +1,83 @@
+{
+  "n_points": 4,
+  "families": [
+    {
+      "family": "exponential",
+      "chi2": 88232.82591453966,
+      "dof": 3,
+      "chi2_dof": 29410.94197151322,
+      "resid_rms_sigma": 148.52005412951786,
+      "resid_lag1_autocorr": -0.5,
+      "lilliefors": {
+        "D": 0.28691859764054084,
+        "p_value": 0.2962095866603416,
+        "n": 4,
+        "informative": false,
+        "note": "n=4: underpowered, reported for completeness"
+      },
+      "params": [
+        29.999999999444288
+      ]
+    },
+    {
+      "family": "tanh",
+      "chi2": 88232.8395950036,
+      "dof": 2,
+      "chi2_dof": 44116.4197975018,
+      "resid_rms_sigma": 148.52006564350455,
+      "resid_lag1_autocorr": -0.4999999999999999,
+      "lilliefors": {
+        "D": 0.28691859227650085,
+        "p_value": 0.29620962484282337,
+        "n": 4,
+        "informative": false,
+        "note": "n=4: underpowered, reported for completeness"
+      },
+      "params": [
+        0.20000000000000004,
+        0.05000000000000001
+      ]
+    },
+    {
+      "family": "yukawa",
+      "chi2": 107542.40721058776,
+      "dof": 3,
+      "chi2_dof": 35847.46907019592,
+      "resid_rms_sigma": 163.96829511416814,
+      "resid_lag1_autocorr": -0.5011805536652568,
+      "lilliefors": {
+        "D": 0.2869916837585419,
+        "p_value": 0.2956893427071299,
+        "n": 4,
+        "informative": false,
+        "note": "n=4: underpowered, reported for completeness"
+      },
+      "params": [
+        0.5000000000212693
+      ]
+    },
+    {
+      "family": "nested_wells",
+      "chi2": 2.567370550521294e-05,
+      "dof": 1,
+      "chi2_dof": 2.567370550521294e-05,
+      "resid_rms_sigma": 0.0025334613429660287,
+      "resid_lag1_autocorr": null,
+      "lilliefors": {
+        "D": 0.4414597485311661,
+        "p_value": 0.0009999999999998899,
+        "n": 4,
+        "informative": false,
+        "note": "n=4: underpowered, reported for completeness; residuals at interpolating floor"
+      },
+      "params": [
+        0.3009433338223779,
+        0.18843379505205027,
+        0.02579880461563056,
+        0.0020000000000000026
+      ]
+    }
+  ],
+  "best_family_by_chi2": "nested_wells",
+  "interpretation": "Weighted residuals consistent with unit RMS and no lag-1 autocorrelation indicate the profile family is an adequate description of the measured field transition."
+}

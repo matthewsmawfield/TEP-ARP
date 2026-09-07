@@ -1,0 +1,260 @@
+{
+  "search_radius_arcmin": 6.0,
+  "n_random_fields_total": 144,
+  "field_mean_qso": 2.0972222222222223,
+  "field_std_qso": 2.453253710575767,
+  "host_mean_qso": 1.5,
+  "host_total_qso": 18,
+  "host_mean_qso_inclusive": 2.1666666666666665,
+  "host_total_qso_inclusive": 26,
+  "companions_excluded_from_host_counts": true,
+  "excess_sigma_of_field_scatter": -0.24344087187054825,
+  "p_pooled_poisson": 0.9432131649051985,
+  "p_pooled_poisson_inclusive": 0.46032995936297705,
+  "paired_test": {
+    "description": "Each host compared only against its own 12 seeded control fields (completeness-robust null); empirical tail p = (1 + #{own controls >= host})/(1 + 12); combined across pairs by Fisher's method.",
+    "per_host": [
+      {
+        "pair_id": "NGC4319-Mrk205",
+        "n_qso": 2,
+        "own_control_mean": 0.0,
+        "own_control_max": 0.0,
+        "n_own_controls_ge_host": 0,
+        "p_empirical_own_controls": 0.07692307692307693
+      },
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "n_qso": 5,
+        "own_control_mean": 4.166666666666667,
+        "own_control_max": 9.0,
+        "n_own_controls_ge_host": 6,
+        "p_empirical_own_controls": 0.5384615384615384
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "n_qso": 0,
+        "own_control_mean": 4.333333333333333,
+        "own_control_max": 6.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "n_qso": 2,
+        "own_control_mean": 5.166666666666667,
+        "own_control_max": 12.0,
+        "n_own_controls_ge_host": 11,
+        "p_empirical_own_controls": 0.9230769230769231
+      },
+      {
+        "pair_id": "NGC7319-QSO",
+        "n_qso": 2,
+        "own_control_mean": 0.75,
+        "own_control_max": 4.0,
+        "n_own_controls_ge_host": 3,
+        "p_empirical_own_controls": 0.3076923076923077
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "n_qso": 0,
+        "own_control_mean": 0.0,
+        "own_control_max": 0.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "n_qso": 4,
+        "own_control_mean": 0.9166666666666666,
+        "own_control_max": 2.0,
+        "n_own_controls_ge_host": 0,
+        "p_empirical_own_controls": 0.07692307692307693
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "n_qso": 2,
+        "own_control_mean": 4.166666666666667,
+        "own_control_max": 7.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "n_qso": 1,
+        "own_control_mean": 3.8333333333333335,
+        "own_control_max": 7.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "n_qso": 0,
+        "own_control_mean": 1.75,
+        "own_control_max": 3.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC1232-NGC1232A",
+        "n_qso": 0,
+        "own_control_mean": 0.08333333333333333,
+        "own_control_max": 1.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "n_qso": 0,
+        "own_control_mean": 0.0,
+        "own_control_max": 0.0,
+        "n_own_controls_ge_host": 12,
+        "p_empirical_own_controls": 1.0
+      }
+    ],
+    "n_hosts_exceed_all_own_controls_p01": 2,
+    "fisher_chi2": 14.015271254688958,
+    "p_fisher_combined": 0.9463047138202983,
+    "p_wilcoxon_host_vs_own_controls": 0.8335601227158056
+  },
+  "allsky_confirmed_density_deg2": 20.30608166369614,
+  "allsky_expected_per_field": 0.6379343697786221,
+  "field_to_allsky_ratio": 3.2875203493895566,
+  "hosts": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "n_qso": 2,
+      "n_qso_inclusive": 3,
+      "companions_excluded": "MARK 205",
+      "qso_names": "XMM J12208+7518;XMM J12213+7516",
+      "qso_types": "QX;KX",
+      "qso_offsets_arcmin": "3.738;3.412",
+      "p_poisson": 0.6196702235235602,
+      "p_empirical": 0.47586206896551725
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "n_qso": 5,
+      "n_qso_inclusive": 5,
+      "companions_excluded": "",
+      "qso_names": "2SLAQ J231840.26+001602.5;SDSS J231842.78+001231.0;SDSS J231854.55+001221.4;2SLAQ J231856.30+001157.4;2SLAQ J231900.82+001226.5",
+      "qso_types": "QX;Q;Q;K;QX",
+      "qso_offsets_arcmin": "4.332;4.062;2.334;2.677;2.426",
+      "p_poisson": 0.06185081981990481,
+      "p_empirical": 0.20689655172413793
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "n_qso": 0,
+      "n_qso_inclusive": 1,
+      "companions_excluded": "3C 232",
+      "qso_names": "",
+      "qso_types": "",
+      "qso_offsets_arcmin": "",
+      "p_poisson": 1.0,
+      "p_empirical": 1.0
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "n_qso": 2,
+      "n_qso_inclusive": 5,
+      "companions_excluded": "NGC 1073 U2;NGC 1073 U1;PKS 0241+011",
+      "qso_names": "SDSS J024323.93+012550.1;SDSS J024359.93+012344.0",
+      "qso_types": "Q;Q",
+      "qso_offsets_arcmin": "5.304;4.975",
+      "p_poisson": 0.6196702235235602,
+      "p_empirical": 0.47586206896551725
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "n_qso": 2,
+      "n_qso_inclusive": 3,
+      "companions_excluded": "Q 2233+337",
+      "qso_names": "ChaMP J223551.8+340105;ChaMP J223557.6+340353",
+      "qso_types": "QX;QX",
+      "qso_offsets_arcmin": "3.516;5.478",
+      "p_poisson": 0.6196702235235602,
+      "p_empirical": 0.47586206896551725
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "n_qso": 0,
+      "n_qso_inclusive": 0,
+      "companions_excluded": "",
+      "qso_names": "",
+      "qso_types": "",
+      "qso_offsets_arcmin": "",
+      "p_poisson": 1.0,
+      "p_empirical": 1.0
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "n_qso": 4,
+      "n_qso_inclusive": 5,
+      "companions_excluded": "WEE 51",
+      "qso_names": "1WGA J1120.2+1332;1WGA J1120.4+1340;1WGA J1120.6+1336;WEE 52",
+      "qso_types": "QX;QX;AX;QX",
+      "qso_offsets_arcmin": "2.957;5.513;5.627;5.984",
+      "p_poisson": 0.1608324320275598,
+      "p_empirical": 0.296551724137931
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "n_qso": 2,
+      "n_qso_inclusive": 2,
+      "companions_excluded": "",
+      "qso_names": "SDSS J121848.86+471447.8;SDSS J121925.80+471631.1",
+      "qso_types": "QX;AX",
+      "qso_offsets_arcmin": "3.734;5.075",
+      "p_poisson": 0.6196702235235602,
+      "p_empirical": 0.47586206896551725
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "n_qso": 1,
+      "n_qso_inclusive": 1,
+      "companions_excluded": "",
+      "qso_names": "SDSS J084355.44+501227.2",
+      "qso_types": "Q",
+      "qso_offsets_arcmin": "2.784",
+      "p_poisson": 0.8772029421241988,
+      "p_empirical": 0.5586206896551724
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "n_qso": 0,
+      "n_qso_inclusive": 0,
+      "companions_excluded": "",
+      "qso_names": "",
+      "qso_types": "",
+      "qso_offsets_arcmin": "",
+      "p_poisson": 1.0,
+      "p_empirical": 1.0
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "n_qso": 0,
+      "n_qso_inclusive": 0,
+      "companions_excluded": "",
+      "qso_names": "",
+      "qso_types": "",
+      "qso_offsets_arcmin": "",
+      "p_poisson": 1.0,
+      "p_empirical": 1.0
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "n_qso": 0,
+      "n_qso_inclusive": 1,
+      "companions_excluded": "1WGA J1107.7+7232",
+      "qso_names": "",
+      "qso_types": "",
+      "qso_offsets_arcmin": "",
+      "p_poisson": 1.0,
+      "p_empirical": 1.0
+    }
+  ],
+  "rng_seed": 20260924,
+  "catalog": "Milliquas v7.2 (VizieR VII/290; Flesch 2021)",
+  "quasar_definition": "Milliquas spectroscopic classes Q, A, B, K (confirmed quasar-class: type-I QSO, type-I Seyfert/AGN, BL Lac, type-II quasar); N-class (NELG/LINER residue), L (lensed images) and candidates excluded; the host galaxy's own catalogue entry removed by name, and catalogued companions removed by position (non-circular primary count).",
+  "method": "Simbad host resolution; VizieR cone-search counts of confirmed quasar-class objects within 6.0 arcmin of each host vs 12 seeded random offset fields per host. Primary counts exclude the catalogued companions (step_20 archive positions, 15 arcsec exclusion) so the selection objects do not inflate the overdensity; companion-inclusive counts are reported alongside."
+}

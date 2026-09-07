@@ -1,0 +1,122 @@
+{
+  "n_tests": 14,
+  "n_consistent_with_tep": 2,
+  "n_association_proven": 1,
+  "n_chance_rejected": 1,
+  "n_tep_rejected": 1,
+  "tests": [
+    {
+      "test": "Intrinsic conformal factor",
+      "observable": "A_int(Q) = (1+z_G)/(1+z_Q) < 1",
+      "tep_prediction": "A_int < 1 for every companion; sub-unity local field",
+      "std_prediction": "no local field; A_int is a distance ratio artifact",
+      "result": "A_int in [0.328, 0.984] across 12 pairs",
+      "verdict": "consistent_with_tep"
+    },
+    {
+      "test": "Foreground absorption ordering",
+      "observable": "z_abs = z_G in companion spectra",
+      "tep_prediction": "absorber and companion share a local volume",
+      "std_prediction": "coincidental halo intersection of a background source",
+      "result": "3 absorption systems across 2 pairs",
+      "verdict": "physical_association_proven"
+    },
+    {
+      "test": "Luminous bridge surface brightness",
+      "observable": "S_bridge = (mu_bridge - mean(mu_ctrl))/std(mu_ctrl) over the inter-object segment, plus sign-test persistence and peak localised z",
+      "tep_prediction": "positive excess along companion axis",
+      "std_prediction": "no excess; bridge is noise",
+      "result": "claimed luminous-structure axes (NGC4319-Mrk205: S=0.19, sign p=0.0195, peak z=1.7 at x=0.46, NGC7603-NGC7603B: S=0.09, sign p=0.613, peak z=2.7 at x=0.80; filament-path transect S=3.92, sign p=3.05e-05, peak z=5.7 at path fraction 0.49; g-band confirmation S=4.00, sign p=3.05e-05; DSS2 photographic plate S=3.00, sign p=0.000977; 2 knots on elevated corridor (extended excess, PSF excluded) at 4.8/19.1 sigma vs rotated controls, NGC1232-NGC1232A: S=0.34, sign p=1.25e-05, peak z=5.2 at x=0.63); contextual axes (NGC3067-3C232: S=-0.40, NGC1073-QSOs: S=0.34, NGC7319-QSO: S=0.48, NGC1199-companion: S=0.21, NGC3628-XQSO: S=-0.72, NGC4258-QSOs: S=0.82, NGC2639-QSOs: S=-0.08, NGC1097-jetQSOs: S=0.49, NGC3516-Qchain: S=-0.10)",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Quasar overdensity around hosts",
+      "observable": "Milliquas confirmed quasar-class counts vs random control fields; catalogued companions excluded (non-circular)",
+      "tep_prediction": "positive overdensity at host positions",
+      "std_prediction": "host fields are ordinary lines of sight",
+      "result": "host mean 1.50 vs field 2.10 +/- 2.45; excess -0.24 sigma; paired own-controls test: 2 of 12 hosts exceed all 12 own controls, Fisher p = 0.95; companion-inclusive total 26 (selection objects removed from primary count)",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Chance-alignment probability",
+      "observable": "Poisson probability of joint chance superposition",
+      "tep_prediction": "physically associated; P_chance not applicable",
+      "std_prediction": "independent chance superpositions",
+      "result": "joint P_chance = 6.459e-14 (log10 P = -13.2, step_22 empirical field density (conservative)); under published SDSS density: 9.352e-15 (log10 P = -14.0); compact subsample alone (theta < 300 arcsec, 8 pairs): 7.701e-14 (log10 P = -13.1); wide-field systems contribute factor 0.84; axis-conditioned (host-morphology corridor, f=1/9 on 5 pairs): 8.739e-20 (log10 P = -19.1); after removing NGC3067-3C232 (falsified by the step_29 Ly-alpha audit), the 11-system residual is 3.621e-13 empirical / 6.637e-14 SDSS; seven-pair compact residual 4.317e-13; look-elsewhere: P_cat(N fields) = prod_i [1-exp(-N p_i)] stays <0.05 for N < 201 parent fields; axis-conditioned N_crit = 310; on-structure: 2 emission knots on the 75 arcsec NGC 7603 filament corridor, chance P <= 1.0e-03 even at Sigma=2000 deg^-2",
+      "verdict": "chance_hypothesis_rejected"
+    },
+    {
+      "test": "Gravitational-lensing magnification bias",
+      "observable": "SIS magnification mu at each catalogued separation and the mu^(alpha-1) density-bias correction to the joint chance probability",
+      "tep_prediction": "n/a (null-model correction)",
+      "std_prediction": "foreground lenses promote background quasars above flux limits, inflating the apparent overdensity",
+      "result": "max mu-1 = 38.40% (NGC7319-QSO) at sigma_v=300 km/s uniform bound; lensed joint P = 1.111e-13 vs 6.459e-14 (x1.72)",
+      "verdict": "magnification_bias_bounded"
+    },
+    {
+      "test": "Forward galaxy-quasar cross-correlation",
+      "observable": "confirmed-quasar surface density around a predefined bright-galaxy sample vs seeded offset controls",
+      "tep_prediction": "generic excess if associations are a population-level effect; no requirement if deep-well companions are rare",
+      "std_prediction": "no excess",
+      "result": "23205 2MRS parents, delta = -0.030 within 180 arcsec (bootstrap p = 0.978); Seyfert-class subset (n = 490): delta = -0.157 (p = 0.973); flanking same-z pair signature: 34 pairs in parents vs 47.5 expected from controls (p = 0.983)",
+      "verdict": "no_generic_excess"
+    },
+    {
+      "test": "Geometric and spectroscopic coherence",
+      "observable": "structure not used in selection: minor-axis anisotropy, selection-aware densities, radial ordering, physical-scale clustering, paired redshifts, symmetric configurations",
+      "tep_prediction": "ordered, anisotropic, physically scaled configurations",
+      "std_prediction": "isotropic, unordered, scale-free projections",
+      "result": "minor-axis anisotropy (axis-claimed subset): 8/12 companions within 30 deg of a minor axis (binomial p = 0.0188, V-test p = 0.0183; pooled catalogue 9/21, p = 0.24); X-ray-selected repricing: Sigma_X = 3.8 deg^-2 measured on the control fields; selection-aware joint P = 1.29e-22; radial z-ordering: 13/16 nearer member higher-z (within-field permutation p = 0.0583); halo-scale clustering: std(log10 kpc) = 0.296 across 6 CF4 hosts (exact permutation p = 0.0194); paired-redshift excess: Fisher p = 0.401 on resolved members; symmetric configurations: NGC1097-jetQSOs joint p = 0.279; NGC2639-QSOs joint p = 0.74; NGC4258-QSOs joint p = 0.196",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Archival kinematic feasibility audit",
+      "observable": "resolved IFU kinematics (gas disturbance) at the NGC 7603 filament knots",
+      "tep_prediction": "gas is kinematically disturbed by the knot in the host rest-frame",
+      "std_prediction": "knot is a background object; no host-frame disturbance",
+      "result": "14 fields audited (70 archive queries); NGC 7603 knots: [LG2002]: fiber_spectra_only, [LG2002]: fiber_spectra_only",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Ly-alpha forest path-length audit",
+      "observable": "incidence of intergalactic Ly-alpha absorption in companion spectra",
+      "tep_prediction": "sparse/absent forest (no cosmological path length)",
+      "std_prediction": "populated forest at cosmic-mean incidence dN/dz",
+      "result": "18 companions audited: 1 with usable band coverage, 4 partial or field-level only, 12 not covered; 4 ground-accessible decisive targets lack usable forest spectra; 3C 232 test case: 9/11 candidates confirmed by Ly-beta/Ly-gamma vs 2.3 expected cosmological (z_abs 0.313-0.407)",
+      "verdict": "tep_rejected"
+    },
+    {
+      "test": "Field-transition continuity",
+      "observable": "smooth A_int(x) through NGC 7603 filament knots",
+      "tep_prediction": "single smooth profile fits 4-point transect",
+      "std_prediction": "knots are unrelated background objects",
+      "result": "best family: nested_wells",
+      "verdict": "consistent_with_tep"
+    },
+    {
+      "test": "Nested-wells posterior",
+      "observable": "well depths and width posteriors",
+      "tep_prediction": "finite, well-constrained local well depths",
+      "std_prediction": "no interior structure to constrain",
+      "result": "d_knot1=0.300, d_knot2=0.187, d_companion=0.020, w < 0.033 (95%); chi2 at median = 0.13; w information gain: compression x31 vs flat prior (KL 3.4 nats)",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Separation scaling",
+      "observable": "Spearman(z_intrinsic, separation)",
+      "tep_prediction": "discordance declines with separation",
+      "std_prediction": "no correlation expected",
+      "result": "rho=0.12, p=0.713",
+      "verdict": "see_measurement"
+    },
+    {
+      "test": "Fit residual structure",
+      "observable": "weighted residuals of best profile fit",
+      "tep_prediction": "white residuals at error level",
+      "std_prediction": "n/a (no model)",
+      "result": "nested_wells: resid RMS=0.00 sigma (dof=1), lag-1=n/a (interpolating fit), Lilliefors p=0.001 (uninformative, n=4)",
+      "verdict": "see_measurement"
+    }
+  ],
+  "missing_steps": []
+}

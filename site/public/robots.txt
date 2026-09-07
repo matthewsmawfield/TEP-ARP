@@ -1,0 +1,4 @@
+# robots.txt for TEP-ARP: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+User-agent: *
+Allow: /
+Sitemap: https://mlsmawfield.com/tep/arp/sitemap.xml

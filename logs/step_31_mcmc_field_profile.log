@@ -1,0 +1,15 @@
+[20:34:32] [PROCESS] Running MCMC field-profile inference...
+[20:34:35] [TEST] emcee: mean acceptance 0.52
+[20:34:35] [TEST] d_knot1: 0.300 (+0.001/-0.001)
+[20:34:35] [TEST] d_knot2: 0.187 (+0.002/-0.002)
+[20:34:35] [TEST] d_companion: 0.020 (+0.005/-0.010)
+[20:34:35] [TEST] w: 0.016 (+0.011/-0.009)
+[20:34:35] [TEST] w 95% upper limit: 0.0327 transect units
+[20:34:36] [TEST] information gain d_knot1: prior CDF at p95 bound = 0.1513; compression x6.3; KL = 3.72 nats
+[20:34:36] [TEST] information gain d_knot2: prior CDF at p95 bound = 0.0949; compression x10.0; KL = 4.38 nats
+[20:34:36] [TEST] information gain d_companion: prior CDF at p95 bound = 0.0132; compression x72.0; KL = 3.95 nats
+[20:34:36] [TEST] information gain w: prior CDF at p95 bound = 0.0308; compression x30.9; KL = 3.35 nats
+[20:34:36] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_31_mcmc_field_profile.json
+[20:34:37] [SUCCESS] Saved figures: step_31_mcmc_field_profile.png, step_31_mcmc_profiles.png, step_31_mcmc_corner.png
+[20:34:37] [SUCCESS] MCMC field-profile inference complete.
+[20:34:37] [SUCCESS] step_31 completed in 5.1s

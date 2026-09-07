@@ -1,0 +1,12 @@
+{
+  "version": "0.1",
+  "codename": "Pasadena",
+  "first_published": "2026-09-24",
+  "last_updated": "2026-09-24",
+  "date": "2026-09-24",
+  "doi": "10.5281/zenodo.22938153",
+  "status": "Preprint (Draft)",
+  "description": "Paper 37: TEP-ARP — Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs. Application of the Temporal Equivalence Principle to Halton Arp's discordant quasar-galaxy pairs. The intrinsic conformal factor A_int = (1+z_G)/(1+z_Q) isolates a distance-independent proper-time gradient; luminous bridges, foreground absorption systems, and Poisson chance-alignment statistics demonstrate spatial proximity.",
+  "previous_version": "",
+  "paper": "37"
+}

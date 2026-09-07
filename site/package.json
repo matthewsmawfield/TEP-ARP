@@ -1,0 +1,65 @@
+{
+  "name": "tep-arp-site",
+  "version": "0.1.0",
+  "description": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
+  "comment": "Package version matches manuscript version v0.1 (Pasadena)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "start": "python3 -m http.server 8000",
+    "build": "node build.js",
+    "build:dev": "npm run build && cd dist && python3 -m http.server 8350",
+    "build:markdown": "npm run build && node html-to-markdown.js",
+    "markdown": "node html-to-markdown.js",
+    "serve": "python3 -m http.server",
+    "serve:dist": "cd dist && python3 -m http.server 8351"
+  },
+  "keywords": [
+    "TEP-ARP",
+    "Temporal Equivalence Principle",
+    "Halton Arp",
+    "discordant redshifts",
+    "quasar-galaxy associations",
+    "intrinsic redshift",
+    "scalar-tensor theory",
+    "modified gravity",
+    "Markarian 205",
+    "NGC 4319",
+    "NGC 7603",
+    "NGC 7603B",
+    "NGC 3067",
+    "3C 232",
+    "NGC 1073",
+    "NGC 7319",
+    "Stephan's Quintet",
+    "NGC 1199",
+    "NGC 3628",
+    "NGC 4258",
+    "NGC 2639",
+    "NGC 1097",
+    "NGC 1232",
+    "Arp 41",
+    "Atlas of Peculiar Galaxies",
+    "anomalous redshifts",
+    "two-metric cosmology",
+    "variable clock rates",
+    "non-expanding universe",
+    "proper-time field"
+  ],
+  "author": "Matthew Lukin Smawfield <matthew@mlsmawfield.com>",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewsmawfield/TEP-ARP.git"
+  },
+  "homepage": "https://mlsmawfield.com/tep/arp/",
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "live-server": "^1.2.2",
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.10"
+  }
+}

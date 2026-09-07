@@ -1,0 +1,999 @@
+{
+  "rng_seed": 20260924,
+  "xray_selection_pricing": {
+    "sigma_xray_deg2": 3.7578250452253066,
+    "sigma_xray_err_deg2": 0.9114064461209059,
+    "n_xray_in_control_fields": 17,
+    "n_control_members": 302,
+    "xray_fraction_of_field": 0.056291390728476824,
+    "density_note": "X-ray-detected fraction of confirmed quasar-class Milliquas objects measured on the step_22 control fields; the flag spans all X-ray missions (deeper than the ROSAT-era selection of the companions), so Sigma_X is an upper bound and the repriced probabilities are conservative",
+    "pairs": [
+      {
+        "pair_id": "NGC4319-Mrk205",
+        "selection_class": "quasar",
+        "sigma_used_deg2": 66.75665668576721,
+        "density_basis": "quasar-class density",
+        "n_members": 1,
+        "lambda_sel": 0.02955095792546868,
+        "p_chance_selection_aware": 0.02911859772151215
+      },
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "selection_class": "galaxy",
+        "sigma_used_deg2": 10.0,
+        "density_basis": "resolved-galaxy density",
+        "n_members": 1,
+        "lambda_sel": 0.008230862289334282,
+        "p_chance_selection_aware": 0.008197081487566371
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "selection_class": "quasar",
+        "sigma_used_deg2": 66.75665668576721,
+        "density_basis": "quasar-class density",
+        "n_members": 1,
+        "lambda_sel": 0.19649813545014072,
+        "p_chance_selection_aware": 0.17839713678667157
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "selection_class": "quasar",
+        "sigma_used_deg2": 66.75665668576721,
+        "density_basis": "quasar-class density",
+        "n_members": 3,
+        "lambda_sel": 0.23857207122110133,
+        "p_chance_selection_aware": 0.001894389484238812
+      },
+      {
+        "pair_id": "NGC7319-QSO",
+        "selection_class": "xray",
+        "sigma_used_deg2": 3.7578250452253066,
+        "density_basis": "X-ray-detected quasar-class density",
+        "n_members": 1,
+        "lambda_sel": 7.803465659719975e-05,
+        "p_chance_selection_aware": 7.803161197261765e-05
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "selection_class": "galaxy",
+        "sigma_used_deg2": 10.0,
+        "density_basis": "resolved-galaxy density",
+        "n_members": 1,
+        "lambda_sel": 0.008109317205444135,
+        "p_chance_selection_aware": 0.00807652539228132
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "selection_class": "xray",
+        "sigma_used_deg2": 3.7578250452253066,
+        "density_basis": "X-ray-detected quasar-class density",
+        "n_members": 1,
+        "lambda_sel": 0.057439234605433216,
+        "p_chance_selection_aware": 0.05582073793130049
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "selection_class": "xray",
+        "sigma_used_deg2": 3.7578250452253066,
+        "density_basis": "X-ray-detected quasar-class density",
+        "n_members": 2,
+        "lambda_sel": 0.5675592494032959,
+        "p_chance_selection_aware": 0.11133901280049241
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "selection_class": "xray",
+        "sigma_used_deg2": 3.7578250452253066,
+        "density_basis": "X-ray-detected quasar-class density",
+        "n_members": 2,
+        "lambda_sel": 0.3239183722850339,
+        "p_chance_selection_aware": 0.042397552644305114
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "selection_class": "quasar",
+        "sigma_used_deg2": 66.75665668576721,
+        "density_basis": "quasar-class density",
+        "n_members": 4,
+        "lambda_sel": 15.965611124416366,
+        "p_chance_selection_aware": 0.9999041792472235
+      },
+      {
+        "pair_id": "NGC1232-NGC1232A",
+        "selection_class": "galaxy",
+        "sigma_used_deg2": 10.0,
+        "density_basis": "resolved-galaxy density",
+        "n_members": 1,
+        "lambda_sel": 0.14320058489920992,
+        "p_chance_selection_aware": 0.13341977144660366
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "selection_class": "xray",
+        "sigma_used_deg2": 3.7578250452253066,
+        "density_basis": "X-ray-detected quasar-class density",
+        "n_members": 5,
+        "lambda_sel": 0.4144583897314791,
+        "p_chance_selection_aware": 7.22742046348479e-05
+      }
+    ],
+    "joint_probability_selection_aware": 1.291598789670569e-22,
+    "joint_log10_selection_aware": -21.8888723706227,
+    "joint_excluding": {
+      "NGC4319-Mrk205": 4.435649003510789e-21,
+      "NGC7603-NGC7603B": 1.575681285625515e-20,
+      "NGC3067-3C232": 7.240019727531115e-22,
+      "NGC1073-QSOs": 6.81802132252412e-20,
+      "NGC7319-QSO": 1.6552250517697987e-18,
+      "NGC1199-companion": 1.5992010511165372e-20,
+      "NGC3628-XQSO": 2.313833241079975e-21,
+      "NGC4258-QSOs": 1.1600594950352e-21,
+      "NGC2639-QSOs": 3.0463994007070546e-21,
+      "NGC1097-jetQSOs": 1.2917225634989818e-22,
+      "NGC1232-NGC1232A": 9.680715051947782e-22,
+      "NGC3516-Qchain": 1.787081291584091e-18
+    }
+  },
+  "minor_axis_anisotropy": {
+    "host_pa": {
+      "NGC4319-Mrk205": {
+        "galaxy": "NGC 4319",
+        "pa_deg": 150.0,
+        "axis_ratio": 0.7,
+        "n_measurements": 4,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC7603-NGC7603B": {
+        "galaxy": "NGC 7603",
+        "pa_deg": 162.28786562115528,
+        "axis_ratio": 0.7,
+        "n_measurements": 7,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC3067-3C232": {
+        "galaxy": "NGC 3067",
+        "pa_deg": 103.74317706625024,
+        "axis_ratio": 0.38,
+        "n_measurements": 7,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC1073-QSOs": {
+        "galaxy": "NGC 1073",
+        "pa_deg": 33.67203880537672,
+        "axis_ratio": 0.72,
+        "n_measurements": 3,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC7319-QSO": {
+        "galaxy": "NGC 7319",
+        "pa_deg": 147.5,
+        "axis_ratio": 0.56,
+        "n_measurements": 2,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC1199-companion": {
+        "galaxy": "NGC 1199",
+        "pa_deg": 40.22837635987032,
+        "axis_ratio": 0.72,
+        "n_measurements": 3,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC3628-XQSO": {
+        "galaxy": "NGC 3628",
+        "pa_deg": 100.49634406576145,
+        "axis_ratio": 0.432,
+        "n_measurements": 7,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC4258-QSOs": {
+        "galaxy": "NGC 4258",
+        "pa_deg": 167.60225084485094,
+        "axis_ratio": 0.49,
+        "n_measurements": 8,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC2639-QSOs": {
+        "galaxy": "NGC 2639",
+        "pa_deg": 143.37953531933982,
+        "axis_ratio": 0.51,
+        "n_measurements": 9,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC1097-jetQSOs": {
+        "galaxy": "NGC 1097",
+        "pa_deg": 133.89568513364534,
+        "axis_ratio": 1.62,
+        "n_measurements": 13,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC1232-NGC1232A": {
+        "galaxy": "NGC 1232",
+        "pa_deg": 111.6924818190728,
+        "axis_ratio": 1.27,
+        "n_measurements": 14,
+        "source": "NED diameters (literature photometry)"
+      },
+      "NGC3516-Qchain": {
+        "galaxy": "NGC 3516",
+        "pa_deg": 21.25507823773119,
+        "axis_ratio": 0.72,
+        "n_measurements": 3,
+        "source": "NED diameters (literature photometry)"
+      }
+    },
+    "companions": [
+      {
+        "pair_id": "NGC1073-QSOs",
+        "resolved_name": "QSO B0240+011",
+        "is_primary": true,
+        "connection_type": "disk_projection",
+        "pa_companion_deg": 242.44193792395572,
+        "pa_major_deg": 33.67203880537672,
+        "theta_rel_deg": 28.76989911857899,
+        "offset_from_minor_deg": 61.23010088142101,
+        "offset_from_major_deg": 28.76989911857899,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 121.4199573092049
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "resolved_name": "QSO B0241+011",
+        "is_primary": false,
+        "connection_type": "disk_projection",
+        "pa_companion_deg": 190.68930722692414,
+        "pa_major_deg": 33.67203880537672,
+        "theta_rel_deg": 157.0172684215474,
+        "offset_from_minor_deg": 67.01726842154741,
+        "offset_from_major_deg": 22.982731578452587,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 85.1254722972822
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "resolved_name": "[VV96] J024333.6+012222",
+        "is_primary": false,
+        "connection_type": "disk_projection",
+        "pa_companion_deg": 263.77286385032494,
+        "pa_major_deg": 33.67203880537672,
+        "theta_rel_deg": 50.10082504494821,
+        "offset_from_minor_deg": 39.89917495505179,
+        "offset_from_major_deg": 50.10082504494821,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 106.4345392775338
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "resolved_name": "CEMM J1779.9BL  2",
+        "is_primary": true,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 240.65440579900974,
+        "pa_major_deg": 133.89568513364534,
+        "theta_rel_deg": 106.7587206653644,
+        "offset_from_minor_deg": 16.758720665364393,
+        "offset_from_major_deg": 73.2412793346356,
+        "host_axis_ratio": 1.62,
+        "host_axis_ratio_folded": 0.6172839506172839,
+        "separation_arcsec": 725.9759816645338
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "resolved_name": "WISP 257  129",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 168.48443580226942,
+        "pa_major_deg": 133.89568513364534,
+        "theta_rel_deg": 34.58875066862407,
+        "offset_from_minor_deg": 55.41124933137593,
+        "offset_from_major_deg": 34.58875066862407,
+        "host_axis_ratio": 1.62,
+        "host_axis_ratio_folded": 0.6172839506172839,
+        "separation_arcsec": 993.2831056524266
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "resolved_name": "2MASXi J0303366-153740",
+        "is_primary": true,
+        "connection_type": "silhouette",
+        "pa_companion_deg": 206.34015366334148,
+        "pa_major_deg": 40.22837635987032,
+        "theta_rel_deg": 166.11177730347117,
+        "offset_from_minor_deg": 76.11177730347117,
+        "offset_from_major_deg": 13.888222696528828,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 57.83885791018318
+      },
+      {
+        "pair_id": "NGC1232-NGC1232A",
+        "resolved_name": "NGC 1232A",
+        "is_primary": true,
+        "connection_type": "luminous_filament",
+        "pa_companion_deg": 108.38904798602255,
+        "pa_major_deg": 111.6924818190728,
+        "theta_rel_deg": 176.69656616694976,
+        "offset_from_minor_deg": 86.69656616694976,
+        "offset_from_major_deg": 3.303433833050235,
+        "host_axis_ratio": 1.27,
+        "host_axis_ratio_folded": 0.7874015748031495,
+        "separation_arcsec": 243.0524260265937
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "resolved_name": "SDSS J084331.40+500227.0",
+        "is_primary": true,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 186.1549310760769,
+        "pa_major_deg": 143.37953531933982,
+        "theta_rel_deg": 42.77539575673708,
+        "offset_from_minor_deg": 47.22460424326292,
+        "offset_from_major_deg": 42.77539575673708,
+        "host_axis_ratio": 0.51,
+        "host_axis_ratio_folded": 0.51,
+        "separation_arcsec": 596.3168438759134
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "resolved_name": "SDSS J084326.65+500845.6",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 207.0764862107314,
+        "pa_major_deg": 143.37953531933982,
+        "theta_rel_deg": 63.696950891391566,
+        "offset_from_minor_deg": 26.303049108608434,
+        "offset_from_major_deg": 63.696950891391566,
+        "host_axis_ratio": 0.51,
+        "host_axis_ratio_folded": 0.51,
+        "separation_arcsec": 240.68805216620916
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "resolved_name": "3C 232",
+        "is_primary": true,
+        "connection_type": "absorption_system",
+        "pa_companion_deg": 359.1892600614708,
+        "pa_major_deg": 103.74317706625024,
+        "theta_rel_deg": 75.44608299522056,
+        "offset_from_minor_deg": 14.553917004779436,
+        "offset_from_major_deg": 75.44608299522056,
+        "host_axis_ratio": 0.38,
+        "host_axis_ratio_folded": 0.38,
+        "separation_arcsec": 110.19439179706704
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "resolved_name": "[VV98] J110833.2+722610",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 135.02906326411775,
+        "pa_major_deg": 21.25507823773119,
+        "theta_rel_deg": 113.77398502638655,
+        "offset_from_minor_deg": 23.773985026386555,
+        "offset_from_major_deg": 66.22601497361345,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 674.5276452942178
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "resolved_name": "1WGA J1106.2+7244",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 346.91247813172356,
+        "pa_major_deg": 21.25507823773119,
+        "theta_rel_deg": 145.65739989399236,
+        "offset_from_minor_deg": 55.65739989399236,
+        "offset_from_major_deg": 34.34260010600764,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 622.6290523933615
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "resolved_name": "NuSTAR J110752+7230.7",
+        "is_primary": true,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 124.81847095161852,
+        "pa_major_deg": 21.25507823773119,
+        "theta_rel_deg": 103.56339271388734,
+        "offset_from_minor_deg": 13.563392713887339,
+        "offset_from_major_deg": 76.43660728611266,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 357.23909715617754
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "resolved_name": "1WGA J1105.4+7238",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 304.12680358467276,
+        "pa_major_deg": 21.25507823773119,
+        "theta_rel_deg": 102.87172534694156,
+        "offset_from_minor_deg": 12.87172534694156,
+        "offset_from_major_deg": 77.12827465305844,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 445.6377159398765
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "resolved_name": "1WGA J1107.7+7232",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 110.52823661995643,
+        "pa_major_deg": 21.25507823773119,
+        "theta_rel_deg": 89.27315838222523,
+        "offset_from_minor_deg": 0.7268416177747667,
+        "offset_from_major_deg": 89.27315838222523,
+        "host_axis_ratio": 0.72,
+        "host_axis_ratio_folded": 0.72,
+        "separation_arcsec": 260.5057050214705
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "resolved_name": "WEE 51",
+        "is_primary": true,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 197.4598470098891,
+        "pa_major_deg": 100.49634406576145,
+        "theta_rel_deg": 96.96350294412765,
+        "offset_from_minor_deg": 6.963502944127654,
+        "offset_from_major_deg": 83.03649705587235,
+        "host_axis_ratio": 0.432,
+        "host_axis_ratio_folded": 0.432,
+        "separation_arcsec": 251.1097688146428
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "resolved_name": "SDSS J121902.21+470505.4",
+        "is_primary": true,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 176.60645890298818,
+        "pa_major_deg": 167.60225084485094,
+        "theta_rel_deg": 9.004208058137237,
+        "offset_from_minor_deg": 80.99579194186276,
+        "offset_from_major_deg": 9.004208058137237,
+        "host_axis_ratio": 0.49,
+        "host_axis_ratio_folded": 0.49,
+        "separation_arcsec": 789.3414133486841
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "resolved_name": "SDSS J121952.31+472058.5",
+        "is_primary": false,
+        "connection_type": "axis_alignment",
+        "pa_companion_deg": 73.46967396524707,
+        "pa_major_deg": 167.60225084485094,
+        "theta_rel_deg": 85.86742312039613,
+        "offset_from_minor_deg": 4.132576879603874,
+        "offset_from_major_deg": 85.86742312039613,
+        "host_axis_ratio": 0.49,
+        "host_axis_ratio_folded": 0.49,
+        "separation_arcsec": 580.1439359488575
+      },
+      {
+        "pair_id": "NGC4319-Mrk205",
+        "resolved_name": "MRK 0205",
+        "is_primary": true,
+        "connection_type": "luminous_bridge",
+        "pa_companion_deg": 178.9811125164935,
+        "pa_major_deg": 150.0,
+        "theta_rel_deg": 28.98111251649351,
+        "offset_from_minor_deg": 61.01888748350649,
+        "offset_from_major_deg": 28.98111251649351,
+        "host_axis_ratio": 0.7,
+        "host_axis_ratio_folded": 0.7,
+        "separation_arcsec": 42.73326314206645
+      },
+      {
+        "pair_id": "NGC7319-QSO",
+        "resolved_name": "[VV2006] J223603.7+335824",
+        "is_primary": true,
+        "connection_type": "ejection_candidate",
+        "pa_companion_deg": 172.44413142062024,
+        "pa_major_deg": 147.5,
+        "theta_rel_deg": 24.944131420620238,
+        "offset_from_minor_deg": 65.05586857937976,
+        "offset_from_major_deg": 24.944131420620238,
+        "host_axis_ratio": 0.56,
+        "host_axis_ratio_folded": 0.56,
+        "separation_arcsec": 9.255567403332028
+      },
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "resolved_name": "NGC 7603B",
+        "is_primary": true,
+        "connection_type": "luminous_filament",
+        "pa_companion_deg": 120.53019702455984,
+        "pa_major_deg": 162.28786562115528,
+        "theta_rel_deg": 138.24233140340456,
+        "offset_from_minor_deg": 48.24233140340456,
+        "offset_from_major_deg": 41.75766859659544,
+        "host_axis_ratio": 0.7,
+        "host_axis_ratio_folded": 0.7,
+        "separation_arcsec": 58.27069959003526
+      }
+    ],
+    "samples": {
+      "all_companions": {
+        "n": 21,
+        "n_within_30deg": 9,
+        "frac_within_30deg": 0.42857142857142855,
+        "mean_offset_deg": 41.152796757747616,
+        "median_offset_deg": 47.22460424326292,
+        "p_binomial_vs_uniform": 0.23987542010344126,
+        "v_statistic": 0.5469305766021592,
+        "p_vtest_minor_axis": 0.29221321405063877
+      },
+      "primary_companions": {
+        "n": 12,
+        "n_within_30deg": 4,
+        "frac_within_30deg": 0.3333333333333333,
+        "mean_offset_deg": 48.20128844428478,
+        "median_offset_deg": 54.630609443455526,
+        "p_binomial_vs_uniform": 0.6069253219077937,
+        "v_statistic": -0.4748340554212762,
+        "p_vtest_minor_axis": 0.6825473713048098
+      },
+      "axis_alignment_pairs": {
+        "n": 12,
+        "n_within_30deg": 8,
+        "frac_within_30deg": 0.6666666666666666,
+        "mean_offset_deg": 28.698569976099048,
+        "median_offset_deg": 20.266352845875474,
+        "p_binomial_vs_uniform": 0.01875843226247128,
+        "v_statistic": 2.0898522943589573,
+        "p_vtest_minor_axis": 0.018315535040978912
+      },
+      "well_defined_pa_subset": {
+        "n": 21,
+        "n_within_30deg": 9,
+        "frac_within_30deg": 0.42857142857142855,
+        "mean_offset_deg": 41.152796757747616,
+        "median_offset_deg": 47.22460424326292,
+        "p_binomial_vs_uniform": 0.23987542010344126,
+        "v_statistic": 0.5469305766021592,
+        "p_vtest_minor_axis": 0.29221321405063877
+      }
+    },
+    "method": "Host major-axis PA = circular median of all literature photometric PAs in the NED diameters table; companion PA = host-to-companion direction E of N at archive positions (step_20).  Offset folded to axial [0,90] deg from the minor axis.  Uniform-null checks: binomial on |offset|<=30 deg (expectation 1/3) and circular V-test on doubled angles."
+  },
+  "radial_redshift_ordering": {
+    "n_ordered_member_pairs": 16,
+    "n_farther_higher_z": 3,
+    "n_nearer_higher_z": 13,
+    "frac_farther_higher_z": 0.1875,
+    "p_binomial_two_sided": 0.021270751953125,
+    "p_permutation_two_sided": 0.05833333333333333,
+    "per_field": [
+      {
+        "pair_id": "NGC1073-QSOs",
+        "n_members": 3,
+        "spearman_rho": -0.5,
+        "p_perm_two_sided": 1.0,
+        "n_perms": 6
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "n_members": 2
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "n_members": 2
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "n_members": 5,
+        "spearman_rho": -0.8999999999999998,
+        "p_perm_two_sided": 0.08333333333333333,
+        "n_perms": 120
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "n_members": 2
+      }
+    ],
+    "sign_pairs": [
+      {
+        "pair_id": "NGC1073-QSOs",
+        "r_near": 85.1254722972822,
+        "r_far": 121.4199573092049,
+        "z_near": 1.4,
+        "z_far": 0.59824,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "r_near": 106.4345392775338,
+        "r_far": 121.4199573092049,
+        "z_near": 1.945,
+        "z_far": 0.59824,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "r_near": 85.1254722972822,
+        "r_far": 106.4345392775338,
+        "z_near": 1.4,
+        "z_far": 1.945,
+        "sign": 1
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "r_near": 725.9759816645338,
+        "r_far": 993.2831056524266,
+        "z_near": 0.53,
+        "z_far": 2.3342,
+        "sign": 1
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "r_near": 240.68805216620916,
+        "r_far": 596.3168438759134,
+        "z_near": 0.3364,
+        "z_far": 0.2971,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 622.6290523933615,
+        "r_far": 674.5276452942178,
+        "z_near": 0.6899999976158142,
+        "z_far": 0.328,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 357.23909715617754,
+        "r_far": 674.5276452942178,
+        "z_near": 0.901,
+        "z_far": 0.328,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 445.6377159398765,
+        "r_far": 674.5276452942178,
+        "z_near": 1.39900004863739,
+        "z_far": 0.328,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 260.5057050214705,
+        "r_far": 674.5276452942178,
+        "z_near": 2.0999999046325684,
+        "z_far": 0.328,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 357.23909715617754,
+        "r_far": 622.6290523933615,
+        "z_near": 0.901,
+        "z_far": 0.6899999976158142,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 445.6377159398765,
+        "r_far": 622.6290523933615,
+        "z_near": 1.39900004863739,
+        "z_far": 0.6899999976158142,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 260.5057050214705,
+        "r_far": 622.6290523933615,
+        "z_near": 2.0999999046325684,
+        "z_far": 0.6899999976158142,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 357.23909715617754,
+        "r_far": 445.6377159398765,
+        "z_near": 0.901,
+        "z_far": 1.39900004863739,
+        "sign": 1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 260.5057050214705,
+        "r_far": 357.23909715617754,
+        "z_near": 2.0999999046325684,
+        "z_far": 0.901,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "r_near": 260.5057050214705,
+        "r_far": 445.6377159398765,
+        "z_near": 2.0999999046325684,
+        "z_far": 1.39900004863739,
+        "sign": -1
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "r_near": 580.1439359488575,
+        "r_far": 789.3414133486841,
+        "z_near": 0.6535,
+        "z_far": 0.40846,
+        "sign": -1
+      }
+    ],
+    "method": "Every unordered within-field member pair contributes sign(dr*dz): +1 when the member farther from the nucleus carries the higher redshift.  No directional claim is registered a priori.  Because pairs within a field share members and are correlated, the null distribution is built by permuting redshifts within each field independently and convolving the per-field distributions; the two-sided p_permutation_two_sided is reported as the primary result.  The pooled binomial p_binomial_two_sided is retained for reference but is anti-conservative.  Fields with >=3 members additionally report Spearman rho with an exact n! permutation p-value."
+  },
+  "halo_scale_clustering": {
+    "n_anchored_hosts": 6,
+    "pairs": [
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "host_distance_mpc": 113.34434884565088,
+        "separation_arcsec": 58.27069959003526,
+        "projected_sep_kpc": 32.02026861480669
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "host_distance_mpc": 21.727006445039862,
+        "separation_arcsec": 110.19439179706704,
+        "projected_sep_kpc": 11.607381328611057
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "host_distance_mpc": 34.41910883609822,
+        "separation_arcsec": 57.83885791018318,
+        "projected_sep_kpc": 9.651486269457756
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "host_distance_mpc": 10.641431303892324,
+        "separation_arcsec": 251.1097688146428,
+        "projected_sep_kpc": 12.955032917133535
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "host_distance_mpc": 7.543972518331142,
+        "separation_arcsec": 789.3414133486841,
+        "projected_sep_kpc": 28.869539298670162
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "host_distance_mpc": 15.031421245271774,
+        "separation_arcsec": 725.9759816645338,
+        "projected_sep_kpc": 52.90505439535167
+      }
+    ],
+    "projected_sep_kpc": [
+      32.02026861480669,
+      11.607381328611057,
+      9.651486269457756,
+      12.955032917133535,
+      28.869539298670162,
+      52.90505439535167
+    ],
+    "std_log10_kpc_observed": 0.2955891135076186,
+    "permutation_test": {
+      "statistic": "std(log10 projected kpc)",
+      "n_permutations": 720,
+      "p_le_observed": 0.019444444444444445,
+      "description": "Exact enumeration of all 6! reassignments of the measured angular separations to the measured host distances; under chance projection theta and D are unrelated, so a true pairing tighter than random indicates a preferred physical scale."
+    }
+  },
+  "paired_redshift_excess": {
+    "z_pool_n": 302,
+    "z_pool_range": [
+      0.152999997138977,
+      3.578000068664551
+    ],
+    "n_mc": 200000,
+    "member_tests": [
+      {
+        "pair_id": "NGC1073-QSOs",
+        "n_members": 3,
+        "member_z": [
+          0.59824,
+          1.4,
+          1.945
+        ],
+        "min_pair_dz": 0.5450000000000002,
+        "p_mc_vs_field_z": 0.8372358138209309
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "n_members": 2,
+        "member_z": [
+          0.53,
+          2.3342
+        ],
+        "min_pair_dz": 1.8042,
+        "p_mc_vs_field_z": 0.9399053004734976
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "n_members": 2,
+        "member_z": [
+          0.2971,
+          0.3364
+        ],
+        "min_pair_dz": 0.0393,
+        "p_mc_vs_field_z": 0.037919810400947995
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "n_members": 5,
+        "member_z": [
+          0.328,
+          0.6899999976158142,
+          0.901,
+          1.39900004863739,
+          2.0999999046325684
+        ],
+        "min_pair_dz": 0.21100000238418581,
+        "p_mc_vs_field_z": 0.8793056034719826
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "n_members": 2,
+        "member_z": [
+          0.40846,
+          0.6535
+        ],
+        "min_pair_dz": 0.24503999999999998,
+        "p_mc_vs_field_z": 0.20416897915510424
+      }
+    ],
+    "field_census_tests": [
+      {
+        "pair_id": "NGC1073-QSOs",
+        "radius_arcmin": 6.0,
+        "n_field_quasars": 5,
+        "field_z": [
+          1.9249999523162842,
+          0.5979999899864197,
+          1.940999984741211,
+          1.399999976158142,
+          1.3339999914169312
+        ],
+        "min_pair_dz": 0.016000032424926758,
+        "p_mc_vs_field_z": 0.16309418452907737
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "radius_arcmin": 16.554718427540443,
+        "n_field_quasars": 10,
+        "field_z": [
+          1.8200000524520874,
+          0.5019999742507935,
+          0.6909999847412109,
+          0.08799999952316284,
+          0.652999997138977,
+          1.6510000228881836,
+          0.8870000243186951,
+          3.072999954223633,
+          0.527999997138977,
+          0.2980000078678131
+        ],
+        "min_pair_dz": 0.026000022888183594,
+        "p_mc_vs_field_z": 0.7033414832925835
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "radius_arcmin": 9.938614064598557,
+        "n_field_quasars": 9,
+        "field_z": [
+          0.7789999842643738,
+          0.6959999799728394,
+          2.250999927520752,
+          2.265000104904175,
+          2.7639999389648438,
+          1.3869999647140503,
+          1.555999994277954,
+          1.281999945640564,
+          1.6990000009536743
+        ],
+        "min_pair_dz": 0.014000177383422852,
+        "p_mc_vs_field_z": 0.45026274868625654
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "radius_arcmin": 11.242127421570297,
+        "n_field_quasars": 6,
+        "field_z": [
+          0.9300000071525574,
+          1.3990000486373901,
+          0.6899999976158142,
+          0.008999999612569809,
+          2.0999999046325684,
+          0.328000009059906
+        ],
+        "min_pair_dz": 0.24000000953674316,
+        "p_mc_vs_field_z": 0.9758551207243964
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "radius_arcmin": 13.155690222478068,
+        "n_field_quasars": 15,
+        "field_z": [
+          1.7599999904632568,
+          0.39800000190734863,
+          1.1239999532699585,
+          1.3530000448226929,
+          0.09399999678134918,
+          1.1230000257492065,
+          3.6640000343322754,
+          2.5739998817443848,
+          0.6079999804496765,
+          1.3650000095367432,
+          1.906000018119812,
+          0.7250000238418579,
+          1.1790000200271606,
+          0.6539999842643738,
+          1.7970000505447388
+        ],
+        "min_pair_dz": 0.0009999275207519531,
+        "p_mc_vs_field_z": 0.40266298668506656
+      }
+    ],
+    "fisher_combined_member": {
+      "chi2": 10.458674669143246,
+      "p": 0.40121425203911604
+    },
+    "fisher_combined_census": {
+      "chi2": 7.794721267630944,
+      "p": 0.6488803481040551
+    },
+    "method": "Null: members are independent draws from the empirical confirmed-quasar redshift distribution measured on the step_22 control fields (same catalogue, same selection function).  p_i = fraction of Monte-Carlo n_i-draws whose closest pair is at least as tight as observed.  The census variant repeats the test on every confirmed quasar in the field cone, not only the catalogued members."
+  },
+  "symmetric_configuration": {
+    "tests": [
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "members": [
+          "CEMM J1779.9BL  2",
+          "WISP 257  129"
+        ],
+        "opposition_angle_deg": 72.16996999674029,
+        "deg_from_exact_opposition": 107.83003000325971,
+        "radius_ratio": 0.7308852607411307,
+        "p_opposition": 0.5990557222403317,
+        "p_radius_ratio": 0.46580673563136943,
+        "p_joint_analytic": 0.2790441904380612,
+        "p_joint_mc": 0.28156
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "members": [
+          "SDSS J084331.40+500227.0",
+          "SDSS J084326.65+500845.6"
+        ],
+        "opposition_angle_deg": 20.92155513465446,
+        "deg_from_exact_opposition": 159.07844486534555,
+        "radius_ratio": 0.40362443999031755,
+        "p_opposition": 0.8837691381408086,
+        "p_radius_ratio": 0.8370873114425026,
+        "p_joint_analytic": 0.7397919317821472,
+        "p_joint_mc": 0.74022
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "members": [
+          "SDSS J121902.21+470505.4",
+          "SDSS J121952.31+472058.5"
+        ],
+        "opposition_angle_deg": 103.13678493774111,
+        "deg_from_exact_opposition": 76.86321506225889,
+        "radius_ratio": 0.7349721250373371,
+        "p_opposition": 0.42701786145699383,
+        "p_radius_ratio": 0.45981597541810093,
+        "p_joint_analytic": 0.1963496344867991,
+        "p_joint_mc": 0.19768
+      }
+    ],
+    "method": "Two-member fields only.  Null: companions are two uniform-random points in the field disk bounded by the widest member.  Opposition angle is uniform on [0,180] deg; radius ratio has density 2*rho; the joint price is the product, verified by Monte Carlo.  Computed for all resolved two-member fields and interpreted only where a symmetric pairing is the published claim (NGC 4258, NGC 2639)."
+  }
+}

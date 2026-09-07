@@ -1,0 +1,219 @@
+{
+  "n_queried": 19,
+  "n_verified": 18,
+  "n_discrepant": 0,
+  "n_corrected": 1,
+  "n_no_match": 0,
+  "tolerance_frac": 0.01,
+  "records": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "role": "galaxy",
+      "object": "NGC 4319",
+      "literature_z": 0.00468,
+      "ned_z": 0.004923,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.00024186805749094254,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "role": "companion",
+      "object": "Markarian 205",
+      "literature_z": 0.0708,
+      "ned_z": 0.070846,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 4.2958535674266315e-05,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "role": "galaxy",
+      "object": "NGC 7603",
+      "literature_z": 0.0295,
+      "ned_z": 0.028762,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.0007168528411850404,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "role": "companion",
+      "object": "NGC 7603B",
+      "literature_z": 0.0565,
+      "ned_z": 0.055702,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.0007553241836251776,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "role": "galaxy",
+      "object": "NGC 3067",
+      "literature_z": 0.0049,
+      "ned_z": 0.004841,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 5.871230968255551e-05,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "role": "companion",
+      "object": "3C 232",
+      "literature_z": 0.533,
+      "ned_z": 0.530615,
+      "ned_type": "QSO",
+      "match_method": "name",
+      "frac_diff": 0.0015557729941292119,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "role": "galaxy",
+      "object": "NGC 1073",
+      "literature_z": 0.007,
+      "ned_z": 0.004013,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.002966236345580934,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "role": "galaxy",
+      "object": "NGC 7319",
+      "literature_z": 0.0225,
+      "ned_z": 0.022507,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 6.845965770171209e-06,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "role": "companion",
+      "object": "QSO (z=2.114)",
+      "literature_z": 2.114,
+      "ned_z": 2.114,
+      "ned_type": "QSO",
+      "match_method": "ned_name",
+      "frac_diff": 0.0,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "role": "galaxy",
+      "object": "NGC 1199",
+      "literature_z": 0.0083,
+      "ned_z": 0.008573,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.0002707527521570968,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "role": "companion",
+      "object": "compact companion (z=0.044)",
+      "literature_z": 0.044,
+      "ned_z": 0.0444,
+      "ned_type": "G",
+      "match_method": "ned_name",
+      "frac_diff": 0.0003831417624521116,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "role": "galaxy",
+      "object": "NGC 3628",
+      "literature_z": 0.0038,
+      "ned_z": 0.002822,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.0009742976688583385,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "role": "companion",
+      "object": "Wee 51 (minor-axis X-ray quasar)",
+      "literature_z": 2.15,
+      "ned_z": 1.498283,
+      "ned_type": "QSO",
+      "match_method": "ned_name",
+      "frac_diff": 0.20689428571428567,
+      "status": "corrected"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "role": "galaxy",
+      "object": "NGC 4258",
+      "literature_z": 0.0015,
+      "ned_z": 0.001538,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 3.794308537194214e-05,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "role": "galaxy",
+      "object": "NGC 2639",
+      "literature_z": 0.0111,
+      "ned_z": 0.011128,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 2.769261200672559e-05,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "role": "galaxy",
+      "object": "NGC 1097",
+      "literature_z": 0.00424,
+      "ned_z": 0.00424,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 0.0,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "role": "galaxy",
+      "object": "NGC 1232",
+      "literature_z": 0.00535,
+      "ned_z": 0.005347,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 2.984035410553072e-06,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "role": "companion",
+      "object": "NGC 1232A",
+      "literature_z": 0.02201,
+      "ned_z": 0.022012,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 1.956928014404947e-06,
+      "status": "verified"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "galaxy",
+      "object": "NGC 3516",
+      "literature_z": 0.0088,
+      "ned_z": 0.008836,
+      "ned_type": "G",
+      "match_method": "name",
+      "frac_diff": 3.568596352101465e-05,
+      "status": "verified"
+    }
+  ]
+}

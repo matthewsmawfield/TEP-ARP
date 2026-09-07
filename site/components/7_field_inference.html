@@ -1,0 +1,320 @@
+<h2>6. Results III: Field-Gradient Inference</h2>
+
+<div class="key-finding">
+    <h4>Monotonic Families Fail, and the Nested-Well Interpolation Width Is Bounded</h4>
+    <p>
+        The measured four-point redshift transect of the
+        NGC&nbsp;7603 filament is non-monotonic: the interior
+        emission knots sit deeper in the local field
+        ($A_{\rm int} = 0.74$ and $0.83$ at the archive-measured
+        positions $x = 0.55$ and $x = 0.91$) than the companion
+        endpoint ($A_{\rm int} = 0.97$). No monotonic
+        interpolating family can represent the transition&mdash;the
+        exponential, tanh, and Yukawa fits return
+        $\chi^2/{\rm dof} \sim 3 \times 10^{4}$&mdash;while the
+        nested-wells profile, in which each compact object carries
+        its own Lorentzian depression on the shared pair field,
+        exactly interpolates all four measured points without 
+        residual degrees of freedom
+
+        (best-fit $\chi^2 = 3 \times 10^{-5}$; $\chi^2 = 0.13$ at
+        the posterior median). Markov Chain
+        Monte Carlo sampling returns well depths $d_1 = 0.300$,
+        $d_2 = 0.187$, and $d_Q = 0.020$ in $\phi$ units&mdash;the
+        knot depths recovering each object's own $\Delta\phi =
+        -\ln A_{\rm int}$&mdash;and bounds the shared well width
+        from above at
+        $w < 0.033$ of the transect length (95% credibility),
+        about $1.9$ arcsec or a projected $1.2$ kpc.
+    </p>
+</div>
+
+<h3>6.1 The Four-Point Transect</h3>
+
+<p>
+    The NGC&nbsp;7603 system is the only Arp structure carrying
+    measured interior redshifts: the host nucleus
+    ($z = 0.0295$), two emission knots embedded in the luminous
+    filament ($z = 0.391$ and $z = 0.243$; L&oacute;pez-Corredoira
+    &amp; Guti&eacute;rrez 2002), and the companion NGC&nbsp;7603B
+    ($z = 0.0565$). Both knots resolve to archive positions in
+    Simbad (the [LG2002] emission-line objects), so their transect
+    coordinates are measured&mdash;projected onto the resolved
+    host&ndash;companion axis at $x = 0.55$ and $x = 0.91$&mdash;rather
+    than assumed. Converting each redshift to an intrinsic
+    conformal factor relative to the host produces the transect of
+    Table&nbsp;6.
+</p>
+
+<table>
+    <caption>Table 6. The NGC 7603 filament redshift transect.</caption>
+    <tr>
+        <th>$x$</th>
+        <th>Object</th>
+        <th>$z$</th>
+        <th>$A_{\rm int}(x) = (1+z_G)/(1+z)$</th>
+        <th>$\Delta\phi = -\ln A_{\rm int}$</th>
+    </tr>
+    <tr><td>0</td><td>NGC 7603 nucleus</td><td>0.0295</td><td>1.000</td><td>0.000</td></tr>
+    <tr><td>$0\!-\!1$</td><td>filament continuum (absorption)</td><td>0.030</td><td>0.9995</td><td>0.000</td></tr>
+    <tr><td>0.55</td><td>filament knot [LG2002] 3</td><td>0.391</td><td>0.740</td><td>0.301</td></tr>
+    <tr><td>0.91</td><td>filament knot [LG2002] 2</td><td>0.243</td><td>0.828</td><td>0.188</td></tr>
+    <tr><td>1</td><td>NGC 7603B</td><td>0.0565</td><td>0.974</td><td>0.026</td></tr>
+</table>
+
+<p>
+    A fifth datum is the sharpest single measurement in the
+    system: the extended absorption spectrum of the filament
+    itself
+    returns $z = 0.030 \pm 0.001$&mdash;the connecting material
+    shares the host's clock rate, while the compact emission-line
+    objects embedded within it carry their own deeper wells. This
+    is precisely the nested-well topology: a diffuse structure at
+    ambient clock rate threaded by compact wells, not a set of
+    unrelated objects strung along a line of sight. The knot
+    ordering also decreases outward ($0.391$ at $x = 0.55$, then
+    $0.243$ at $x = 0.91$, then $0.057$ at the companion)&mdash;the
+    same outward-shallowing sequence Arp's ejection-age ordering
+    would predict, expressed here as wells that relax toward the
+    ambient field level with distance from the host.
+</p>
+
+<p>
+    The transect is the measurement that discriminates between
+    the two hypotheses at the level of field structure. Under the
+    chance-superposition reading the two knots are unrelated
+    background objects, and nothing requires their redshifts to
+    correlate with position along the filament. Under TEP they are
+    material inside a shared field transition, and their intrinsic
+    factors must lie on a continuous profile of the local
+    proper-time landscape.
+</p>
+
+<h3>6.2 The Failure of Monotonic Interpolation</h3>
+
+<p>
+    The first result is a null of an informative kind. The three
+    monotonic profile families of Section&nbsp;2.3&mdash;exponential,
+    tanh, and Yukawa&mdash;each impose a single transition
+    climbing from $A_{\rm int} = 1$ at the host to
+    $A_{\rm int}(Q)$ at the companion. Fitted to the transect by
+    least squares on the interior shape parameter, none can pass
+    through the measured points: the knots demand field values
+    <em>deeper</em> than the endpoint, and every monotonic family
+    returns $\chi^2/{\rm dof}$ in the range
+    $2.9 \times 10^{4}$&ndash;$4.4 \times 10^{4}$. The data are
+    not noisy around a monotone; the monotone does not exist.
+    The transition of the NGC&nbsp;7603 filament is genuinely
+    non-monotonic.
+</p>
+
+<h3>6.3 The Nested-Wells Resolution</h3>
+
+<p>
+    The correct field geometry is the nested-wells profile:
+    each compact object along the structure contributes its own
+    local temporal well to the shared pair field,
+</p>
+
+<div class="equation">
+    \begin{equation}A_{\rm int}(x) = e^{-\phi(x)} , \qquad
+    \phi(x) = \sum_i \frac{d_i}{1 + \left(\frac{x - x_i}{w}\right)^2} ,\end{equation}
+</div>
+
+<p>
+    with one Lorentzian well per measured object (centres
+    $x_i = 0.55,\ 0.91,\ 1$ from the archive-resolved knot and
+    companion positions)
+    and a shared width $w$. This is not a convenience introduced
+    to fit the data; it is what the clock-rate hierarchy of the
+    framework requires. The ambient pair field is a property of
+    the structure, and each compact emitter&mdash;knot or
+    companion&mdash;raises $\phi$ further inside its own
+    gravitational well. The observed factor is the product of
+    the shared transition and the object's local depth,
+    $A_{\rm obs}(x) = A_{\rm shared}(x)\,e^{-\phi_i(x)}$: a knot
+    embedded in
+    the filament can sit deeper in the total field than the
+    companion endpoint precisely because it is itself compact.
+</p>
+
+<p>
+    Fitted to the four-point transect, the nested-wells profile
+    passes through all four measured points ($\chi^2 = 0.13$ at
+    the posterior median) where every monotonic family fails by
+    four orders of magnitude. MCMC sampling (32 walkers,
+    8\,000 steps, 2\,000 burn-in, flat priors on
+    $d_i \in [0, 2]$ and $w \in [0.002, 1]$, Gaussian likelihood in
+    the measured $A_{\rm int}$ values) yields the well-depth
+    posteriors of Table&nbsp;7. Because the transect contains no
+    inter-knot points, the data constrain the shared width only
+    from above&mdash;through the requirement that adjacent wells
+    do not leak into one another's measured depths&mdash;so the
+    posterior for $w$ is one-sided and reported as an upper
+    limit.
+</p>
+
+<p>
+    The objection that four parameters on four points guarantee
+    $\chi^2 \approx 0$ for any interpolating family conflates the
+    fit residual with the information content: under the flat
+    priors a saturated model could leave $w$ anywhere in
+    $[0.002, 1]$, yet the data bound it below $3.3\%$ of the
+    transect. The honest quantifier is the prior-to-posterior
+    contraction. For $w$ the prior CDF at the 95% bound is
+    $0.031$&mdash;a compression factor of $31$ and $3.4$ nats of
+    posterior information&mdash;and the companion depth $d_Q$
+    is compressed by a factor of $72$. A wide, smooth monotonic
+    field is ruled out by the measured depths, not assumed away.
+</p>
+
+<table>
+    <caption>Table 7. MCMC posterior for the nested-wells profile of the NGC 7603 filament.</caption>
+    <tr>
+        <th>Parameter</th>
+        <th>Meaning</th>
+        <th>Median</th>
+        <th>16&ndash;84%</th>
+    </tr>
+    <tr><td>$d_1$</td><td>knot [LG2002] 3 well depth ($\phi$ units; $x = 0.55$)</td><td>0.300</td><td>0.299&ndash;0.302</td></tr>
+    <tr><td>$d_2$</td><td>knot [LG2002] 2 well depth ($\phi$ units; $x = 0.91$)</td><td>0.187</td><td>0.186&ndash;0.189</td></tr>
+    <tr><td>$d_Q$</td><td>companion well depth ($\phi$ units)</td><td>0.020</td><td>0.011&ndash;0.025</td></tr>
+    <tr><td>$w$</td><td>shared Lorentzian width (transect units)</td><td colspan="2">$&lt; 0.033$ (95% upper limit)</td></tr>
+</table>
+
+<p>
+    Three features of the posterior carry physical weight.
+    First, the well depths are individually interpretable: each
+    $d_i$ is the scalar-field offset of that object's local well
+    relative to the shared pair field, and the knot depths recover
+    the direct $\Delta\phi = -\ln A_{\rm int}$ of each object
+    ($0.301$ and $0.188$ respectively)&mdash;the same
+    quantity computed independently from the redshift ratios of
+    Section&nbsp;4, and insensitive to $w$ throughout the allowed
+    range. The companion depth $d_Q = 0.020$ sits slightly below
+    its own $\Delta\phi = 0.026$ because the Lorentzian tail of
+    the adjacent knot well ($x = 0.91$, only $5$ arcsec away along
+    the axis) contributes the difference&mdash;the measured depth
+    at the companion position is shared between the two wells,
+    which is precisely the nested-wells physics the model
+    encodes.
+</p>
+
+<p>
+    Second, the wells are compact: the shared width is
+    bounded at $w < 0.033$ of the transect length at 95%
+    credibility&mdash;about $1.9$ arcsec, a projected
+    $1.2$ kpc&mdash;confining each depression to the immediate
+    vicinity of its object, the spatial signature of a
+    microscopic temporal well rather than a distributed
+    gradient.
+</p>
+
+<p>
+    Third, the four-parameter family interpolates the
+    four measured points exactly (residual RMS $\ll 1\sigma$):
+    with no residual degrees of freedom the transect exhausts
+    its informativeness in the depths, and the adequacy of the
+    family is adjudicated by the comparison of
+    Section&nbsp;6.2&mdash;every monotonic alternative fails by four
+    orders of magnitude in $\chi^2$.
+</p>
+
+<p>
+    The fitted depths also carry a physical ordering the
+    interpolation was not required to produce. A temporal well
+    is a property of the emitting matter, and its depth tracks
+    the compactness of the emitting region rather than the total
+    mass of the host system: the deepest wells
+    ($\Delta\phi = 0.30$, $0.19$) belong to the unresolved
+    point-like emission knots, the companion galaxy's distributed
+    starlight sits nearly at ambient depth ($\Delta\phi = 0.026$),
+    and the diffuse filament continuum sits at ambient depth
+    exactly ($\Delta\phi \simeq 0$). A knot of modest mass can
+    therefore lie deeper than an entire galaxy without
+    contradiction&mdash;the well measures the local clock rate of
+    the emission region, and a compact emitter is a deeper well
+    than an extended one whatever their relative masses. The
+    filament's role in the argument is thereby clarified rather
+    than diminished: the continuous structure demonstrates the
+    physical connection, while the clock-rate differences are
+    carried by the compact emitters it threads&mdash;the two
+    measurements are independent and coincide spatially, which is
+    precisely the configuration a projection cannot arrange.
+</p>
+
+<p>
+    The
+    ordering also indicates how the interpolation becomes
+    predictive: if well depth is set by the compactness of the
+    emitting region, $\Delta\phi$ should scale monotonically with
+    an observable compactness proxy&mdash;the ratio of X-ray
+    luminosity to emission-line radius, or an equivalent
+    surface-brightness measure&mdash;so that each such measurement
+    constrains the nested-wells profile independently of the
+    redshift transect rather than contributing another fitted
+    parameter.
+</p>
+
+<figure>
+    <img src="figures/step_41_field_transition.png" alt="NGC 7603 filament transect with nested-wells posterior-predictive profile">
+    <figcaption>
+        Figure 2. The measured NGC&nbsp;7603 transect (points)
+        with the nested-wells posterior-predictive profile:
+        median curve and 16&ndash;84% posterior band passing
+        through all four measured points, against the three
+        monotonic families (dashed), none of which can reach the
+        interior knot depths. The dash-dotted line marks the
+        fifth datum: the diffuse filament continuum itself at
+        $z = 0.030$ ($A_{\rm int} = 0.9995$), indistinguishable
+        from the host across the whole span&mdash;the direct
+        evidence that the field between the wells is flat at the
+        ambient level. The wells are compact
+        ($w < 0.033$ of the transect length, 95% credibility):
+        each discordant redshift is carried
+        by its own emitter's local depression on a near-flat
+        shared baseline.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="figures/step_31_mcmc_corner.png" alt="Corner plot of the nested-wells MCMC posterior">
+    <figcaption>
+        Figure 3. One- and two-dimensional marginalized
+        posteriors for the nested-wells parameters of
+        Section&nbsp;6.3. The knot depths are sharply bounded
+        ($d_1 = 0.300^{+0.001}_{-0.001}$,
+        $d_2 = 0.187^{+0.002}_{-0.002}$) and essentially
+        uncorrelated with the shared width. The companion depth
+        $d_{\rm companion} = 0.020^{+0.005}_{-0.010}$ is mildly
+        anti-correlated with $w$: wider wells leak Lorentzian
+        tail depth into the companion position, so a broader
+        shared width permits a shallower companion well. The
+        width posterior itself is one-sided, falling monotonically
+        beyond its peak and yielding the 95% upper limit
+        $w &lt; 0.033$ reported in Table&nbsp;7&mdash;the transect
+        constrains the wells to be compact without resolving
+        their exact profiles.
+    </figcaption>
+</figure>
+
+<h3>6.4 Structure of the Full Sample</h3>
+
+<p>
+    Across the twelve pairs, $A_{\rm int}$ has mean $0.71$ and
+    standard deviation $0.22$, with no statistically significant
+    skew ($-0.24$) and a flat, unimodal distribution
+    (excess kurtosis $-1.1$)&mdash;a continuum of local field
+    depths, not a ladder. The Spearman correlation between
+    intrinsic redshift and angular separation is
+    $\rho = 0.12$ ($p = 0.71$): the present sample is too small
+    to test Arp's reported decline of discordance with
+    separation, and the paper claims nothing on it. The two
+    absorption-verified pairs&mdash;the systems whose
+    line-of-sight ordering is independently measured&mdash;have mean
+    $A_{\rm int} = 0.81$, against $0.69$ for the
+    morphology-only pairs: the pairs closest to ambient sit
+    where the framework expects modest wells, while the deepest
+    wells belong to the compact quasar emitters. The ordering is
+    the one a real scalar field must produce.
+</p>

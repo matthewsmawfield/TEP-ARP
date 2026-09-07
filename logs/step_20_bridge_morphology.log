@@ -1,0 +1,22 @@
+[20:31:53] [PROCESS] Analysing bridge morphology...
+[20:31:53] [TEST] NGC4319-Mrk205: S_bridge = 0.19 sigma, sign p = 0.0195, peak z = 1.74 at x = 0.46 (ned_name, sep 42.7")
+[20:31:55] [TEST] NGC7603-NGC7603B: S_bridge = 0.09 sigma, sign p = 0.613, peak z = 2.69 at x = 0.80 (ned_name, sep 58.3"); filament path S = 3.92 sigma
+[20:31:55] [TEST] NGC3067-3C232: S_bridge = -0.40 sigma, sign p = 1, peak z = 2.75 at x = 0.75 (ned_name, sep 110.2")
+[20:31:58] [TEST] NGC1073-QSOs: S_bridge = 0.34 sigma, sign p = 5.96e-08, peak z = 1.94 at x = 0.51 (simbad_milliquas_cone_zmatch, sep 121.4")
+[20:32:00] [TEST] NGC7319-QSO: S_bridge = 0.48 sigma, sign p = nan, peak z = 1.06 at x = 0.77 (simbad_milliquas_cone_zmatch, sep 9.3")
+[20:32:02] [TEST] NGC1199-companion: S_bridge = 0.21 sigma, sign p = 0.000244, peak z = 0.90 at x = 0.45 (ned_cone_zmatch, sep 57.8")
+[20:32:04] [TEST] NGC3628-XQSO: S_bridge = -0.72 sigma, sign p = 1, peak z = -0.56 at x = 0.68 (simbad_milliquas_cone_zmatch, sep 251.1")
+[20:32:08] [TEST] NGC4258-QSOs: S_bridge = 0.82 sigma, sign p = 6.06e-05, peak z = 2.16 at x = 0.46 (simbad_milliquas_cone_zmatch, sep 789.3")
+[20:32:08] [INFO] NED name lookup: 'paired X-ray quasars and minor-axis chain' is not a resolvable catalogue identifier; proceeding to cone searches.
+[20:32:11] [TEST] NGC2639-QSOs: S_bridge = -0.08 sigma, sign p = 0.725, peak z = 8.63 at x = 0.66 (simbad_milliquas_cone_zmatch, sep 596.3")
+[20:32:11] [INFO] NED name lookup: 'quasar field correlated with optical jets' is not a resolvable catalogue identifier; proceeding to cone searches.
+[20:32:14] [INFO] NED cone radius 18.0 arcmin exceeds the service limit; capped at 10.0 arcmin.
+[20:32:15] [TEST] NGC1097-jetQSOs: S_bridge = 0.49 sigma, sign p = 0.00381, peak z = 88.71 at x = 0.52 (mixed, sep 726.0")
+[20:32:15] [TEST] NGC1232-NGC1232A: S_bridge = 0.34 sigma, sign p = 1.25e-05, peak z = 5.18 at x = 0.63 (ned_name, sep 243.1")
+[20:32:17] [TEST] NGC3516-Qchain: S_bridge = -0.10 sigma, sign p = 0.973, peak z = 6.00 at x = 0.75 (simbad_milliquas_cone_zmatch, sep 357.2")
+[20:32:17] [SUCCESS] Saved 2 filament-knot archive positions.
+[20:32:17] [SUCCESS] Saved morphology, transect and companion-position tables.
+[20:32:17] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_20_bridge_morphology.json
+[20:32:18] [SUCCESS] Saved figure: step_20_bridge_morphology.png
+[20:32:18] [SUCCESS] Bridge morphology analysis complete.
+[20:32:18] [SUCCESS] step_20 completed in 25.0s

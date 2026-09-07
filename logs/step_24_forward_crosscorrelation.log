@@ -1,0 +1,13 @@
+[20:33:00] [PROCESS] Running forward galaxy-quasar cross-correlation...
+[20:33:00] [INFO] Parent sample loaded from cache (23205 galaxies).
+[20:33:01] [TEST] Active-host subset (self-identified AGN class): 490 of 23205 parents.
+[20:33:01] [TEST] Annulus 0-60 arcsec: delta = -0.291 (-7.7 sigma; 423 vs 2388 matches)
+[20:33:01] [TEST] Annulus 60-120 arcsec: delta = -0.005 (-0.2 sigma; 1752 vs 7044 matches)
+[20:33:01] [TEST] Annulus 120-180 arcsec: delta = +0.009 (+0.4 sigma; 2976 vs 11801 matches)
+[20:33:01] [TEST] Active subset 0-180 arcsec: 0.3143 vs 0.3730; delta = -0.157; bootstrap p = 0.9725
+[20:33:01] [TEST] Pairing signature: 34 qualifying pairs in 34 parent fields vs 190 in 178 control fields (expected 47.5; Poisson p = 0.9830)
+[20:33:01] [TEST] 0-180 arcsec: 0.2220 +/- per galaxy vs 0.2288 per control; delta = -0.030; bootstrap p = 0.9780
+[20:33:01] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_24_forward_crosscorrelation.json
+[20:33:01] [SUCCESS] Saved figure: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/figures/step_24_radial_overdensity.png
+[20:33:01] [SUCCESS] Forward cross-correlation complete.
+[20:33:01] [SUCCESS] step_24 completed in 0.8s

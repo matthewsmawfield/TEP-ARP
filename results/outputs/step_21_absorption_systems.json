@@ -1,0 +1,37 @@
+{
+  "n_systems": 3,
+  "n_pairs_with_absorption": 2,
+  "systems": [
+    {
+      "pair_id": "NGC3067-3C232",
+      "absorber": "NGC 3067 halo",
+      "emitter": "3C 232",
+      "species": "Ca II K",
+      "z_abs": 0.005,
+      "z_emit": 0.533,
+      "reference": "Stocke et al. 1991, ApJ 374, 72",
+      "note": "Ca II K absorption at the galaxy redshift in the quasar spectrum"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "absorber": "NGC 3067 halo",
+      "emitter": "3C 232",
+      "species": "H I 21 cm",
+      "z_abs": 0.005,
+      "z_emit": 0.533,
+      "reference": "Carilli, van Gorkom & Stocke 1989, Nature 338, 134",
+      "note": "21-cm absorption feature at the galaxy redshift; maps neutral halo gas"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "absorber": "NGC 1199 body",
+      "emitter": "compact companion (z=0.044)",
+      "species": "continuum extinction",
+      "z_abs": 0.0083,
+      "z_emit": 0.044,
+      "reference": "Arp 1978, ApJ 220, 401",
+      "note": "Companion silhouetted against the galaxy's diffuse light; absorption of companion continuum places it behind the galaxy body"
+    }
+  ],
+  "interpretation": "Absorption at the galaxy redshift in a companion spectrum is a distance-ordering measurement: the absorber must lie between the observer and the emitter. Under TEP this is direct evidence that the two members occupy the same local volume rather than a projected coincidence."
+}

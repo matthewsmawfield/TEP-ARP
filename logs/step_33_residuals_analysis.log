@@ -1,0 +1,9 @@
+[20:34:38] [PROCESS] Running residuals analysis...
+[20:34:38] [TEST] exponential: chi2/dof=29410.94, resid RMS=148.52 sigma, lag-1=-0.5, Lilliefors p=0.296
+[20:34:38] [TEST] tanh: chi2/dof=44116.42, resid RMS=148.52 sigma, lag-1=-0.4999999999999999, Lilliefors p=0.296
+[20:34:38] [TEST] yukawa: chi2/dof=35847.47, resid RMS=163.97 sigma, lag-1=-0.5011805536652568, Lilliefors p=0.296
+[20:34:38] [TEST] nested_wells: chi2/dof=0.00, resid RMS=0.00 sigma, lag-1=n/a, Lilliefors p=0.001
+[20:34:38] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_33_residuals_analysis.json
+[20:34:38] [SUCCESS] Saved figure: step_33_residuals_analysis.png
+[20:34:38] [SUCCESS] Residuals analysis complete.
+[20:34:38] [SUCCESS] step_33 completed in 0.1s

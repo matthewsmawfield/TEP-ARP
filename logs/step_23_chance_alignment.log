@@ -1,0 +1,19 @@
+[21:36:04] [PROCESS] Computing chance-alignment probabilities...
+[21:36:04] [INFO] Empirical QSO density from step_22: 66.8 deg^-2
+[21:36:04] [TEST] Joint P under SDSS DR16 density (51.6 deg^-2): 9.352e-15 (log10 P = -14.0)
+[21:36:04] [TEST] Joint P under empirical field density (66.8 deg^-2): 6.459e-14 (log10 P = -13.2)
+[21:36:04] [SUCCESS] Saved table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/chance_alignment.csv
+[21:36:04] [TEST] Axis-conditioned joint P (f=1/9 wedge on 5 axis pairs): 8.739e-20 (log10 P = -19.1)
+[21:36:04] [TEST] Tight-subset joint P (8 pairs, theta < 300 arcsec): 7.701e-14 (log10 P = -13.1); wide-field systems contribute a factor of 0.84
+[21:36:04] [TEST] Leave-one-out repricing (dropping NGC3067-3C232, falsified by the step_29 Ly-alpha audit): 3.62e-13 empirical / 6.64e-14 SDSS density; tight subset 4.32e-13
+[21:36:06] [TEST] On-structure coincidence: 2 knots on a 75 arcsec filament corridor; P(>=2) ranges 3.0e-07 (quasar-class) to 1.0e-03 (deep-ELG extreme)
+[21:36:06] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_23_chance_alignment.json
+[21:36:06] [TEST] Joint chance-alignment probability: 6.459e-14 (log10 P = -13.2)
+[21:36:06] [SUCCESS] Chance-alignment analysis complete.
+[21:36:06] [SUCCESS] step_23 completed in 2.3s
+[21:36:06] [INFO] 
+[21:36:06] [INFO] ================================================================================
+[21:36:06] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 2.3s total
+[21:36:06] [INFO] ================================================================================
+[21:36:06] [INFO] 
+[21:36:07] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

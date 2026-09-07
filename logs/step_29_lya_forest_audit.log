@@ -1,0 +1,31 @@
+[21:04:07] [PROCESS] Auditing Ly-alpha forest coverage and path length...
+[21:04:07] [INFO] 18 quasar-class companions audited
+[21:04:22] [INFO] MRK 0205: z=0.071 forest 1115-1269A (space_uv) SDSS=0 MAST_cov=12 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:04:24] [INFO] 3C 232: z=0.533 forest 1596-1817A (space_uv) SDSS=2 MAST_cov=14 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:04:28] [INFO] QSO B0240+011: z=0.598 forest 1664-1894A (space_uv) SDSS=3 MAST_cov=0 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=0
+[21:04:31] [INFO] QSO B0241+011: z=1.400 forest 2498-2844A (space_uv) SDSS=0 MAST_cov=0 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=0
+[21:04:48] [INFO] [VV96] J024333.6+012222: z=1.945 forest 3066-3490A (ground) SDSS=0 MAST_cov=0 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=1
+[21:05:07] [INFO] [VV2006] J223603.7+335824: z=2.114 forest 3242-3690A (ground) SDSS=0 MAST_cov=1 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=1
+[21:05:12] [INFO] WEE 51: z=1.499 forest 2601-2961A (space_uv) SDSS=2 MAST_cov=0 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=0
+[21:05:18] [INFO] SDSS J121902.21+470505.4: z=0.408 forest 1466-1669A (space_uv) SDSS=2 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:05:23] [INFO] SDSS J121952.31+472058.5: z=0.653 forest 1721-1959A (space_uv) SDSS=1 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:05:26] [INFO] SDSS J084331.40+500227.0: z=0.297 forest 1350-1537A (space_uv) SDSS=1 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:05:29] [INFO] SDSS J084326.65+500845.6: z=0.336 forest 1391-1584A (space_uv) SDSS=1 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:05:36] [INFO] CEMM J1779.9BL  2: z=0.530 forest 1593-1813A (space_uv) SDSS=0 MAST_cov=2 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=0
+[21:06:00] [INFO] WISP 257  129: z=2.334 forest 3471-3951A (ground) SDSS=0 MAST_cov=0 ESO_slit=0 ESO_fld=0 KOA_on=0 KOA_field=0
+[21:06:07] [INFO] [VV98] J110833.2+722610: z=0.328 forest 1382-1574A (space_uv) SDSS=0 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:06:14] [INFO] 1WGA J1106.2+7244: z=0.690 forest 1759-2003A (space_uv) SDSS=0 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:06:21] [INFO] NuSTAR J110752+7230.7: z=0.901 forest 1979-2253A (space_uv) SDSS=0 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:06:29] [INFO] 1WGA J1105.4+7238: z=1.399 forest 2497-2843A (space_uv) SDSS=0 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=0
+[21:06:50] [INFO] 1WGA J1107.7+7232: z=2.100 forest 3227-3673A (ground) SDSS=0 MAST_cov=0 ESO_slit=-1 ESO_fld=-1 KOA_on=0 KOA_field=1
+[21:06:50] [TEST] 3C 232: 9/11 Lyman-confirmed forest systems at z_abs 0.318-0.398 (expected ~2.3 cosmological)
+[21:06:50] [SUCCESS] Saved audit table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/lya_forest_audit.csv
+[21:06:50] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_29_lya_forest_audit.json
+[21:06:50] [SUCCESS] Ly-alpha forest audit complete.
+[21:06:50] [SUCCESS] step_29 completed in 163.5s
+[21:06:50] [INFO] 
+[21:06:50] [INFO] ================================================================================
+[21:06:50] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 163.5s total
+[21:06:50] [INFO] ================================================================================
+[21:06:50] [INFO] 
+[21:06:52] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

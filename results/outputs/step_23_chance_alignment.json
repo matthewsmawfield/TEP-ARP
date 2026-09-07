@@ -1,0 +1,565 @@
+{
+  "sigma_qso_deg2": 66.75665668576721,
+  "sigma_qso_source": "step_22 empirical field density (conservative)",
+  "sigma_qso_sdss_deg2": 51.6,
+  "sigma_qso_empirical_deg2": 66.75665668576721,
+  "sigma_gal_deg2": 10.0,
+  "n_pairs": 12,
+  "joint_probability_all_pairs": 6.459439984318408e-14,
+  "joint_log10_p": -13.189805132510006,
+  "joint_probability_sdss_density": 9.352088587666745e-15,
+  "joint_log10_p_sdss_density": -14.0290913879719,
+  "joint_probability_empirical_density": 6.459439984318408e-14,
+  "joint_log10_p_empirical_density": -13.189805132510006,
+  "joint_probability_axis_conditioned": 8.738723691663006e-20,
+  "joint_log10_p_axis_conditioned": -19.058551992324848,
+  "tight_subset": {
+    "description": "Joint product restricted to pairs whose nucleus-companion separation is below 300 arcsec - the subsample for which angular proximity is the operative statistic. The wide-field symmetric/jet systems (theta >= 300 arcsec) carry their evidence in structure and selection rather than proximity and enter the full product at weights near unity; their joint factor is reported separately so the headline number is not read as a proximity claim about them.",
+    "separation_threshold_arcsec": 300.0,
+    "n_tight": 8,
+    "tight_pair_ids": [
+      "NGC4319-Mrk205",
+      "NGC7603-NGC7603B",
+      "NGC3067-3C232",
+      "NGC1073-QSOs",
+      "NGC7319-QSO",
+      "NGC1199-companion",
+      "NGC3628-XQSO",
+      "NGC1232-NGC1232A"
+    ],
+    "wide_pair_ids": [
+      "NGC4258-QSOs",
+      "NGC2639-QSOs",
+      "NGC1097-jetQSOs",
+      "NGC3516-Qchain"
+    ],
+    "joint_probability_tight": 7.701015644578596e-14,
+    "joint_log10_p_tight": -13.113451994340714,
+    "wide_field_joint_factor": 0.8387776732885549
+  },
+  "axis_conditioning_model": {
+    "description": "For pairs whose published claim places companions on a host-morphology axis (minor axis or jet axis), the target direction is fixed by the host's own light distribution before any companion position is examined. The probability is therefore priced against the axis corridor \u2014 a +/-10 deg azimuthal wedge about each axis direction, f = 1/9 of the annulus \u2014 rather than the full pair circle. Published alignment tolerances are tighter than 10 deg, so the factor is conservative. Only connection_type == 'axis_alignment' pairs are weighted; bridges/filaments are excluded because their direction is partially defined by the companion itself.",
+    "wedge_half_angle_deg": 10.0,
+    "geometry_factor": 0.1111111111111111,
+    "n_axis_pairs": 5
+  },
+  "pairs": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "separation_arcsec": 42.73326314206645,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 0.02955095792546868,
+      "geometry_factor": 1.0,
+      "p_chance": 0.02911859772151215,
+      "p_chance_axis_conditioned": 0.02911859772151215,
+      "p_chance_sdss": 0.022582714074833476,
+      "expected_count_sdss": 0.022841608682288662
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "separation_arcsec": 58.27069959003526,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 10.0,
+      "expected_count": 0.008230862289334282,
+      "geometry_factor": 1.0,
+      "p_chance": 0.008197081487566371,
+      "p_chance_axis_conditioned": 0.008197081487566371,
+      "p_chance_sdss": 0.008197081487566371,
+      "expected_count_sdss": 0.008230862289334282
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "separation_arcsec": 110.19439179706704,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 0.19649813545014072,
+      "geometry_factor": 1.0,
+      "p_chance": 0.17839713678667146,
+      "p_chance_axis_conditioned": 0.17839713678667146,
+      "p_chance_sdss": 0.140912530841368,
+      "expected_count_sdss": 0.1518845354547092
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "separation_arcsec": 121.4199573092049,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 0.23857207122110133,
+      "geometry_factor": 1.0,
+      "p_chance": 0.001894389484238812,
+      "p_chance_axis_conditioned": 0.001894389484238812,
+      "p_chance_sdss": 0.0009107262056962107,
+      "expected_count_sdss": 0.18440586281837326
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "separation_arcsec": 9.255567403332028,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 0.0013862627230796663,
+      "geometry_factor": 1.0,
+      "p_chance": 0.0013853023047596391,
+      "p_chance_axis_conditioned": 0.0013853023047596391,
+      "p_chance_sdss": 0.0010709470812083621,
+      "expected_count_sdss": 0.001071520954795831
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "separation_arcsec": 57.83885791018318,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 10.0,
+      "expected_count": 0.008109317205444137,
+      "geometry_factor": 1.0,
+      "p_chance": 0.00807652539228132,
+      "p_chance_axis_conditioned": 0.00807652539228132,
+      "p_chance_sdss": 0.00807652539228132,
+      "expected_count_sdss": 0.008109317205444137
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "separation_arcsec": 251.1097688146428,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 1.02039110887299,
+      "geometry_factor": 0.1111111111111111,
+      "p_chance": 0.6395460641317638,
+      "p_chance_axis_conditioned": 0.10718580661675658,
+      "p_chance_sdss": 0.5455730330062518,
+      "expected_count_sdss": 0.7887180669590355
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "separation_arcsec": 789.3414133486841,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 10.082523136458553,
+      "geometry_factor": 0.1111111111111111,
+      "p_chance": 0.999536708337298,
+      "p_chance_axis_conditioned": 0.3083892825548993,
+      "p_chance_sdss": 0.9963730273057622,
+      "expected_count_sdss": 7.793353047774522
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "separation_arcsec": 596.3168438759134,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 5.754314613534133,
+      "geometry_factor": 0.1111111111111111,
+      "p_chance": 0.9785950507610839,
+      "p_chance_axis_conditioned": 0.1350272812334068,
+      "p_chance_sdss": 0.9362392324698954,
+      "expected_count_sdss": 4.4478355987181475
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "separation_arcsec": 993.2831056524266,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 15.965611124416364,
+      "geometry_factor": 0.1111111111111111,
+      "p_chance": 0.9999041792472235,
+      "p_chance_axis_conditioned": 0.10456056984840778,
+      "p_chance_sdss": 0.9982400614028294,
+      "expected_count_sdss": 12.340724879284245
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "separation_arcsec": 243.0524260265937,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 10.0,
+      "expected_count": 0.1432005848992099,
+      "geometry_factor": 1.0,
+      "p_chance": 0.13341977144660355,
+      "p_chance_axis_conditioned": 0.13341977144660355,
+      "p_chance_sdss": 0.13341977144660355,
+      "expected_count_sdss": 0.1432005848992099
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "separation_arcsec": 674.5276452942178,
+      "separation_source": "archive_astrometry",
+      "surface_density_deg2": 66.75665668576721,
+      "expected_count": 7.362731394053335,
+      "geometry_factor": 0.1111111111111111,
+      "p_chance": 0.857603835951875,
+      "p_chance_axis_conditioned": 0.0015550552031069476,
+      "p_chance_sdss": 0.6714695450983315,
+      "expected_count_sdss": 5.6910720038223825
+    }
+  ],
+  "leave_one_out": [
+    {
+      "excluded_pair_id": "NGC4319-Mrk205",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 2.218321103954225e-12,
+      "joint_probability_sdss_density": 4.1412597957341605e-13,
+      "joint_probability_axis_conditioned": 3.0010798511794415e-18,
+      "joint_probability_tight_remaining": 2.6447069045805152e-12,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC7603-NGC7603B",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 7.880170514488942e-12,
+      "joint_probability_sdss_density": 1.1409046746518682e-12,
+      "joint_probability_axis_conditioned": 1.0660774453588344e-17,
+      "joint_probability_tight_remaining": 9.394826263786432e-12,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC3067-3C232",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 3.6208204350513785e-13,
+      "joint_probability_sdss_density": 6.636804074007349e-14,
+      "joint_probability_axis_conditioned": 4.898466336997756e-19,
+      "joint_probability_tight_remaining": 4.3167820870284094e-13,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC1073-QSOs",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 3.4097739868493015e-11,
+      "joint_probability_sdss_density": 1.0268825613201146e-11,
+      "joint_probability_axis_conditioned": 4.612949852376462e-17,
+      "joint_probability_tight_remaining": 4.0651701820826815e-11,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC7319-QSO",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 4.662837824007751e-11,
+      "joint_probability_sdss_density": 8.732540339075112e-12,
+      "joint_probability_axis_conditioned": 6.308170903663643e-17,
+      "joint_probability_tight_remaining": 5.559086719280949e-11,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC1199-companion",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 7.997795673980811e-12,
+      "joint_probability_sdss_density": 1.1579346480609715e-12,
+      "joint_probability_axis_conditioned": 1.081990493091806e-17,
+      "joint_probability_tight_remaining": 9.535060277205869e-12,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC3628-XQSO",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 1.010003867835169e-13,
+      "joint_probability_sdss_density": 1.714177208527759e-14,
+      "joint_probability_axis_conditioned": 8.152873936852785e-19,
+      "joint_probability_tight_remaining": 1.2041377590265296e-13,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC4258-QSOs",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 6.462433976100274e-14,
+      "joint_probability_sdss_density": 9.386131831524184e-15,
+      "joint_probability_axis_conditioned": 2.8336664683239403e-19
+    },
+    {
+      "excluded_pair_id": "NGC2639-QSOs",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 6.600728237175028e-14,
+      "joint_probability_sdss_density": 9.988994546826408e-15,
+      "joint_probability_axis_conditioned": 6.47182081416371e-19
+    },
+    {
+      "excluded_pair_id": "NGC1097-jetQSOs",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 6.460058992034015e-14,
+      "joint_probability_sdss_density": 9.368576707414726e-15,
+      "joint_probability_axis_conditioned": 8.357570836054535e-19
+    },
+    {
+      "excluded_pair_id": "NGC1232-NGC1232A",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 4.84144135032007e-13,
+      "joint_probability_sdss_density": 7.00952226665266e-14,
+      "joint_probability_axis_conditioned": 6.549796628275879e-19,
+      "joint_probability_tight_remaining": 5.772019814664924e-13,
+      "n_tight_remaining": 7
+    },
+    {
+      "excluded_pair_id": "NGC3516-Qchain",
+      "n_remaining": 11,
+      "joint_probability_empirical_density": 7.531962560718856e-14,
+      "joint_probability_sdss_density": 1.3927792639198835e-14,
+      "joint_probability_axis_conditioned": 5.619558504549138e-17
+    }
+  ],
+  "on_structure_coincidence": {
+    "pair_id": "NGC7603-NGC7603B",
+    "n_knots_on_filament": 2,
+    "filament_path_length_arcsec": 74.83600219684638,
+    "corridor_widths_arcsec": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "surface_densities_deg2": {
+      "quasar_class_empirical": 66.75665668576721,
+      "faint_elg_conservative": 500.0,
+      "deep_elg_extreme": 2000.0
+    },
+    "scenarios": {
+      "w2_quasar_class_empirical": {
+        "lambda": 0.0007709569917268819,
+        "p_at_least_n_knots_on_filament": 2.9703463988450807e-07
+      },
+      "w2_faint_elg_conservative": {
+        "lambda": 0.005774382885559134,
+        "p_at_least_n_knots_on_filament": 1.6607708240190533e-05
+      },
+      "w2_deep_elg_extreme": {
+        "lambda": 0.023097531542236534,
+        "p_at_least_n_knots_on_filament": 0.00026267586088601913
+      },
+      "w3_quasar_class_empirical": {
+        "lambda": 0.0011564354875903226,
+        "p_at_least_n_knots_on_filament": 6.681562250143713e-07
+      },
+      "w3_faint_elg_conservative": {
+        "lambda": 0.0086615743283387,
+        "p_at_least_n_knots_on_filament": 3.729553146658571e-05
+      },
+      "w3_deep_elg_extreme": {
+        "lambda": 0.0346462973133548,
+        "p_at_least_n_knots_on_filament": 0.0005864986716369591
+      },
+      "w4_quasar_class_empirical": {
+        "lambda": 0.0015419139834537637,
+        "p_at_least_n_knots_on_filament": 1.187528106294522e-06
+      },
+      "w4_faint_elg_conservative": {
+        "lambda": 0.011548765771118267,
+        "p_at_least_n_knots_on_filament": 6.617577717094036e-05
+      },
+      "w4_deep_elg_extreme": {
+        "lambda": 0.04619506308447307,
+        "p_at_least_n_knots_on_filament": 0.0010346943777169715
+      }
+    },
+    "interpretation": "Poisson probability that >= the measured number of emission knots land inside the detected filament corridor by chance; the conservative bracket (w=4 arcsec, Sigma=2000 deg^-2) still prices the configuration at ~1e-3. The corridor was traced through the knot positions, so these values price the conditional configuration: given the detected continuous filament (independently supported by the g-band and DSS2 detections and the PSF-excluded corridor excess), the probability that unrelated background emitters also furnish the corridor's two brightest emission objects.",
+    "combined_configuration": {
+      "w2_quasar_class_empirical": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 2.9703463988450807e-07,
+        "p_ngc7603_configuration": 2.434817147763245e-09,
+        "p_ensemble_configuration": 1.9186774295976106e-20
+      },
+      "w2_faint_elg_conservative": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 1.6607708240190533e-05,
+        "p_ngc7603_configuration": 1.3613473776656928e-07,
+        "p_ensemble_configuration": 1.0727649465458103e-18
+      },
+      "w2_deep_elg_extreme": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 0.00026267586088601913,
+        "p_ngc7603_configuration": 2.153175436499347e-06,
+        "p_ensemble_configuration": 1.6967389587224115e-17
+      },
+      "w3_quasar_class_empirical": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 6.681562250143713e-07,
+        "p_ngc7603_configuration": 5.476931022867534e-09,
+        "p_ensemble_configuration": 4.3159150356290774e-20
+      },
+      "w3_faint_elg_conservative": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 3.729553146658571e-05,
+        "p_ngc7603_configuration": 3.0571451055369877e-07,
+        "p_ensemble_configuration": 2.4090824719166907e-18
+      },
+      "w3_deep_elg_extreme": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 0.0005864986716369591,
+        "p_ngc7603_configuration": 4.807577403757585e-06,
+        "p_ensemble_configuration": 3.788452970321406e-17
+      },
+      "w4_quasar_class_empirical": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 1.187528106294522e-06,
+        "p_ngc7603_configuration": 9.734264656071576e-09,
+        "p_ensemble_configuration": 7.670766532300756e-20
+      },
+      "w4_faint_elg_conservative": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 6.617577717094036e-05,
+        "p_ngc7603_configuration": 5.424482379732325e-07,
+        "p_ensemble_configuration": 4.2745846105131746e-18
+      },
+      "w4_deep_elg_extreme": {
+        "p_pair_angular": 0.008197081487566371,
+        "p_corridor_occupancy": 0.0010346943777169715,
+        "p_ngc7603_configuration": 8.481474128872794e-06,
+        "p_ensemble_configuration": 6.683546234974459e-17
+      }
+    }
+  },
+  "search_volume_correction": {
+    "description": "Look-elsewhere correction to the ensemble statistic. Under the chance hypothesis each of N parent bright-galaxy fields is an independent Poisson trial; mu_i = N p_i is the expected number of chance lookalikes of pair i, and P_cat(N) = prod_i [1 - exp(-N p_i)] is the probability that the search reproduces every observed severity class simultaneously. N = 338 anchors the grid at the entry count of Arp's Atlas of Peculiar Galaxies. The angular statistic alone decides the ensemble only for search volumes below n_crit_95pct; above it the conjunction with the model-independent ordering evidence carries the argument.",
+    "n_grid": [
+      {
+        "n_parent_fields": 10,
+        "p_catalogue_by_chance": 2.4360081974278113e-07,
+        "p_catalogue_by_chance_axis_conditioned": 1.135520926740139e-09,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 0.2911859772151215,
+          "NGC7603-NGC7603B": 0.08197081487566371,
+          "NGC3067-3C232": 1.7839713678667146,
+          "NGC1073-QSOs": 0.01894389484238812,
+          "NGC7319-QSO": 0.013853023047596391,
+          "NGC1199-companion": 0.0807652539228132,
+          "NGC3628-XQSO": 6.395460641317639,
+          "NGC4258-QSOs": 9.99536708337298,
+          "NGC2639-QSOs": 9.785950507610838,
+          "NGC1097-jetQSOs": 9.999041792472235,
+          "NGC1232-NGC1232A": 1.3341977144660355,
+          "NGC3516-Qchain": 8.57603835951875
+        }
+      },
+      {
+        "n_parent_fields": 30,
+        "p_catalogue_by_chance": 6.004854153188194e-05,
+        "p_catalogue_by_chance_axis_conditioned": 2.4691214872281232e-06,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 0.8735579316453645,
+          "NGC7603-NGC7603B": 0.24591244462699113,
+          "NGC3067-3C232": 5.351914103600144,
+          "NGC1073-QSOs": 0.05683168452716436,
+          "NGC7319-QSO": 0.04155906914278917,
+          "NGC1199-companion": 0.2422957617684396,
+          "NGC3628-XQSO": 19.186381923952915,
+          "NGC4258-QSOs": 29.986101250118942,
+          "NGC2639-QSOs": 29.357851522832515,
+          "NGC1097-jetQSOs": 29.997125377416705,
+          "NGC1232-NGC1232A": 4.002593143398107,
+          "NGC3516-Qchain": 25.72811507855625
+        }
+      },
+      {
+        "n_parent_fields": 50,
+        "p_catalogue_by_chance": 0.0005173622540696611,
+        "p_catalogue_by_chance_axis_conditioned": 3.826874662222128e-05,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 1.4559298860756076,
+          "NGC7603-NGC7603B": 0.40985407437831856,
+          "NGC3067-3C232": 8.919856839333573,
+          "NGC1073-QSOs": 0.0947194742119406,
+          "NGC7319-QSO": 0.06926511523798196,
+          "NGC1199-companion": 0.403826269614066,
+          "NGC3628-XQSO": 31.977303206588193,
+          "NGC4258-QSOs": 49.9768354168649,
+          "NGC2639-QSOs": 48.929752538054196,
+          "NGC1097-jetQSOs": 49.995208962361176,
+          "NGC1232-NGC1232A": 6.670988572330177,
+          "NGC3516-Qchain": 42.880191797593746
+        }
+      },
+      {
+        "n_parent_fields": 100,
+        "p_catalogue_by_chance": 0.006544098118989514,
+        "p_catalogue_by_chance_axis_conditioned": 0.0009424163592446917,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 2.911859772151215,
+          "NGC7603-NGC7603B": 0.8197081487566371,
+          "NGC3067-3C232": 17.839713678667145,
+          "NGC1073-QSOs": 0.1894389484238812,
+          "NGC7319-QSO": 0.1385302304759639,
+          "NGC1199-companion": 0.807652539228132,
+          "NGC3628-XQSO": 63.954606413176386,
+          "NGC4258-QSOs": 99.9536708337298,
+          "NGC2639-QSOs": 97.85950507610839,
+          "NGC1097-jetQSOs": 99.99041792472235,
+          "NGC1232-NGC1232A": 13.341977144660355,
+          "NGC3516-Qchain": 85.76038359518749
+        }
+      },
+      {
+        "n_parent_fields": 200,
+        "p_catalogue_by_chance": 0.049129777895799025,
+        "p_catalogue_by_chance_axis_conditioned": 0.013132105334708107,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 5.82371954430243,
+          "NGC7603-NGC7603B": 1.6394162975132742,
+          "NGC3067-3C232": 35.67942735733429,
+          "NGC1073-QSOs": 0.3788778968477624,
+          "NGC7319-QSO": 0.2770604609519278,
+          "NGC1199-companion": 1.615305078456264,
+          "NGC3628-XQSO": 127.90921282635277,
+          "NGC4258-QSOs": 199.9073416674596,
+          "NGC2639-QSOs": 195.71901015221678,
+          "NGC1097-jetQSOs": 199.9808358494447,
+          "NGC1232-NGC1232A": 26.68395428932071,
+          "NGC3516-Qchain": 171.52076719037498
+        }
+      },
+      {
+        "n_parent_fields": 338,
+        "p_catalogue_by_chance": 0.15491099190252017,
+        "p_catalogue_by_chance_axis_conditioned": 0.06332832319425814,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 9.842086029871107,
+          "NGC7603-NGC7603B": 2.7706135427974337,
+          "NGC3067-3C232": 60.29823223389496,
+          "NGC1073-QSOs": 0.6403036456727185,
+          "NGC7319-QSO": 0.468232179008758,
+          "NGC1199-companion": 2.729865582591086,
+          "NGC3628-XQSO": 216.16656967653617,
+          "NGC4258-QSOs": 337.84340741800673,
+          "NGC2639-QSOs": 330.76512715724635,
+          "NGC1097-jetQSOs": 337.96761258556154,
+          "NGC1232-NGC1232A": 45.095882748952,
+          "NGC3516-Qchain": 289.87009655173375
+        }
+      },
+      {
+        "n_parent_fields": 1000,
+        "p_catalogue_by_chance": 0.6366082367045812,
+        "p_catalogue_by_chance_axis_conditioned": 0.5021707577821553,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 29.118597721512153,
+          "NGC7603-NGC7603B": 8.197081487566372,
+          "NGC3067-3C232": 178.39713678667147,
+          "NGC1073-QSOs": 1.894389484238812,
+          "NGC7319-QSO": 1.3853023047596391,
+          "NGC1199-companion": 8.076525392281319,
+          "NGC3628-XQSO": 639.5460641317638,
+          "NGC4258-QSOs": 999.536708337298,
+          "NGC2639-QSOs": 978.5950507610839,
+          "NGC1097-jetQSOs": 999.9041792472235,
+          "NGC1232-NGC1232A": 133.41977144660356,
+          "NGC3516-Qchain": 857.603835951875
+        }
+      },
+      {
+        "n_parent_fields": 10000,
+        "p_catalogue_by_chance": 0.9999990308914901,
+        "p_catalogue_by_chance_axis_conditioned": 0.9999988544987766,
+        "expected_lookalikes_per_pair": {
+          "NGC4319-Mrk205": 291.1859772151215,
+          "NGC7603-NGC7603B": 81.9708148756637,
+          "NGC3067-3C232": 1783.9713678667147,
+          "NGC1073-QSOs": 18.94389484238812,
+          "NGC7319-QSO": 13.853023047596391,
+          "NGC1199-companion": 80.7652539228132,
+          "NGC3628-XQSO": 6395.460641317639,
+          "NGC4258-QSOs": 9995.36708337298,
+          "NGC2639-QSOs": 9785.950507610838,
+          "NGC1097-jetQSOs": 9999.041792472235,
+          "NGC1232-NGC1232A": 1334.1977144660354,
+          "NGC3516-Qchain": 8576.038359518749
+        }
+      }
+    ],
+    "n_crit_95pct": 201.4100385944024,
+    "n_crit_95pct_axis_conditioned": 309.62969794193793,
+    "arp_atlas_entries": 338
+  },
+  "interpretation": "Under the chance-superposition hypothesis each pair is an independent draw. The joint probability that all 12 systems arise by chance is the product of the individual probabilities, evaluated under both the published SDSS DR16 quasar density and the empirical density measured in the same fields by the association test; the headline value is the more conservative of the two."
+}

@@ -1,0 +1,20 @@
+[20:33:10] [PROCESS] Auditing archives for resolved-kinematics coverage...
+[20:33:10] [INFO] Auditing 14 field positions (12 hosts, 2 filament knots)
+[20:34:32] [SUCCESS] Saved audit table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/archive_kinematic_audit.csv (70 queries)
+[20:34:32] [TEST] NGC 4319 (host): ESO-IFU science=0 (min offset nan arcmin), JWST-IFU=0, MaNGA=0, fibers=0, HST=30 -> no_spatial_spectroscopy
+[20:34:32] [TEST] NGC 7603 (host): ESO-IFU science=4 (min offset 0.02 arcmin), JWST-IFU=0, MaNGA=0, fibers=17, HST=46 -> ifu_covers_position
+[20:34:32] [TEST] NGC 3067 (host): ESO-IFU science=0 (min offset 5541.21 arcmin), JWST-IFU=0, MaNGA=0, fibers=5, HST=85 -> fiber_spectra_only
+[20:34:32] [TEST] NGC 1073 (host): ESO-IFU science=0 (min offset 344.10 arcmin), JWST-IFU=0, MaNGA=0, fibers=16, HST=23 -> fiber_spectra_only
+[20:34:32] [TEST] NGC 7319 (host): ESO-IFU science=0 (min offset 3693.81 arcmin), JWST-IFU=201, MaNGA=0, fibers=0, HST=234 -> ifu_covers_position
+[20:34:32] [TEST] NGC 1199 (host): ESO-IFU science=0 (min offset 197.31 arcmin), JWST-IFU=0, MaNGA=0, fibers=0, HST=46 -> no_spatial_spectroscopy
+[20:34:32] [TEST] NGC 3628 (host): ESO-IFU science=18 (min offset 2.02 arcmin), JWST-IFU=0, MaNGA=0, fibers=6, HST=27 -> ifu_in_field_not_on_target
+[20:34:32] [TEST] NGC 4258 (host): ESO-IFU science=0 (min offset nan arcmin), JWST-IFU=138, MaNGA=0, fibers=10, HST=987 -> ifu_covers_position
+[20:34:32] [TEST] NGC 2639 (host): ESO-IFU science=0 (min offset nan arcmin), JWST-IFU=0, MaNGA=0, fibers=8, HST=26 -> fiber_spectra_only
+[20:34:32] [TEST] NGC 1097 (host): ESO-IFU science=31 (min offset 0.13 arcmin), JWST-IFU=27, MaNGA=0, fibers=0, HST=123 -> ifu_covers_position
+[20:34:32] [TEST] NGC 1232 (host): ESO-IFU science=0 (min offset 1323.18 arcmin), JWST-IFU=0, MaNGA=0, fibers=0, HST=0 -> no_spatial_spectroscopy
+[20:34:32] [TEST] NGC 3516 (host): ESO-IFU science=0 (min offset nan arcmin), JWST-IFU=0, MaNGA=0, fibers=0, HST=102 -> no_spatial_spectroscopy
+[20:34:32] [TEST] [LG2002] 3 (filament knot): ESO-IFU science=0 (min offset 32.12 arcmin), JWST-IFU=0, MaNGA=0, fibers=14, HST=46 -> fiber_spectra_only
+[20:34:32] [TEST] [LG2002] 2 (filament knot): ESO-IFU science=0 (min offset 8.15 arcmin), JWST-IFU=0, MaNGA=0, fibers=15, HST=46 -> fiber_spectra_only
+[20:34:32] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_28_archive_kinematic_audit.json
+[20:34:32] [SUCCESS] Kinematic feasibility audit complete.
+[20:34:32] [SUCCESS] step_28 completed in 81.9s

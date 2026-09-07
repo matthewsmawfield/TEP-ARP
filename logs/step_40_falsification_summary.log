@@ -1,0 +1,12 @@
+[22:05:10] [PROCESS] Compiling falsification summary...
+[22:05:10] [SUCCESS] Saved falsification table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/falsification_summary.csv (14 tests)
+[22:05:10] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_40_falsification_summary.json
+[22:05:10] [TEST] Falsification summary: 14 tests — 2 TEP-consistent, 1 association-proven, 1 chance-rejected, 1 TEP-rejected.
+[22:05:10] [SUCCESS] Falsification summary complete.
+[22:05:10] [SUCCESS] step_40 completed in 0.3s
+[22:05:10] [INFO] 
+[22:05:10] [INFO] ================================================================================
+[22:05:10] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 0.3s total
+[22:05:10] [INFO] ================================================================================
+[22:05:10] [INFO] 
+[22:05:11] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

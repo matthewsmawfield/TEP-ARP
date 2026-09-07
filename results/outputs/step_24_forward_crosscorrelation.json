@@ -1,0 +1,79 @@
+{
+  "parent_sample": "2MRS table3 (VizieR J/ApJS/199/26; Huchra et al. 2012), 500 < cz < 10000 km/s, |b| > 15 deg",
+  "n_parent_galaxies": 23205,
+  "n_control_fields": 92820,
+  "controls_per_galaxy": 4,
+  "control_offset_deg": 1.5,
+  "max_separation_arcsec": 180.0,
+  "self_match_exclusion_arcsec": 3.0,
+  "quasar_definition": "Milliquas v7.2 confirmed classes Q, A, B, K (same definition as step_22); matches closer than 3 arcsec removed as the parent's own AGN entry.",
+  "annuli": [
+    {
+      "annulus_arcsec": "0-60",
+      "mean_per_galaxy": 0.018228829993535877,
+      "mean_per_control": 0.02572721396250808,
+      "overdensity_delta": -0.29145728643216073,
+      "delta_sigma": -7.658841492014316,
+      "n_gal_matches": 423,
+      "n_ctrl_matches": 2388
+    },
+    {
+      "annulus_arcsec": "60-120",
+      "mean_per_galaxy": 0.07550096961861667,
+      "mean_per_control": 0.07588881706528765,
+      "overdensity_delta": -0.005110732538330498,
+      "delta_sigma": -0.17908281052697184,
+      "n_gal_matches": 1752,
+      "n_ctrl_matches": 7044
+    },
+    {
+      "annulus_arcsec": "120-180",
+      "mean_per_galaxy": 0.1282482223658694,
+      "mean_per_control": 0.127138547726783,
+      "overdensity_delta": 0.008728073892042998,
+      "delta_sigma": 0.3740428782182855,
+      "n_gal_matches": 2976,
+      "n_ctrl_matches": 11801
+    }
+  ],
+  "inner_0_180_arcsec": {
+    "mean_qso_per_galaxy": 0.22197802197802197,
+    "mean_qso_per_control": 0.22875457875457875,
+    "surface_density_deg2_galaxy": 28.26311956445086,
+    "surface_density_deg2_control": 29.125937570956374,
+    "overdensity_delta": -0.02962369895916739,
+    "paired_mean_difference": -0.006776556776556777,
+    "bootstrap_ci95": [
+      -0.013725759534583064,
+      -0.0001613337642749422
+    ],
+    "bootstrap_p_one_sided": 0.9780109945027486,
+    "fisher_chi2": 6773.7828059234525,
+    "p_fisher_combined": 1.0,
+    "p_wilcoxon_paired": 0.9999999995725292
+  },
+  "active_host_subset": {
+    "n_active_hosts": 490,
+    "mean_qso_per_galaxy": 0.3142857142857143,
+    "mean_qso_per_control": 0.37295918367346936,
+    "overdensity_delta": -0.1573187414500684,
+    "bootstrap_ci95_mean_diff": [
+      -0.11889030612244897,
+      0.0010331632653060529
+    ],
+    "bootstrap_p_one_sided": 0.9725137431284357,
+    "definition": "parent galaxies self-identified in Milliquas as confirmed quasar-class objects (Seyfert-class hosts); companion counts exclude the <3 arcsec self-match"
+  },
+  "pairing_signature": {
+    "criterion": "two confirmed quasars within 180 arcsec, folded PA difference >= 135 deg, |dz| <= 0.1",
+    "n_pairs_parents": 34,
+    "n_pairs_controls": 190,
+    "n_fields_with_pair_parents": 34,
+    "n_fields_with_pair_controls": 178,
+    "expected_from_controls": 47.5,
+    "rate_ratio_parents_over_controls": 0.7157894736842105,
+    "poisson_p_excess": 0.9830052486434369
+  },
+  "rng_seed": 20260924,
+  "method": "Predefined parent sample (2MRS, cz and |b| cuts only; no reference to the Arp catalogue) bulk cross-matched to confirmed Milliquas quasars via CDS XMatch at 180 arcsec; 4 seeded 1.5-deg offset controls per galaxy cross-matched identically. Overdensity per annulus with per-field count-variance propagation; paired galaxy-vs-own-controls difference tested by galaxy-unit bootstrap, Fisher-combined per-galaxy empirical tails, and a paired Wilcoxon test."
+}

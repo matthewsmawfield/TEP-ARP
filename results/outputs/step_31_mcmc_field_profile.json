@@ -1,0 +1,89 @@
+{
+  "sampler": "emcee EnsembleSampler (32 walkers)",
+  "n_steps": 8000,
+  "n_burn": 2000,
+  "n_samples": 192000,
+  "model": "nested_wells: A_int(x) = exp(-sum_i d_i/(1+((x-x_i)/w)^2))",
+  "well_centers": [
+    0.545607813399531,
+    0.9051116558813485,
+    1.0
+  ],
+  "well_centers_source": "archive-measured knot positions (step_20), projected onto the resolved host->companion axis",
+  "posterior": {
+    "d_knot1": {
+      "median": 0.3004275184366182,
+      "p16": 0.2991234036141085,
+      "p84": 0.30171188541862404,
+      "p95": 0.30256765453498874
+    },
+    "d_knot2": {
+      "median": 0.18720360555835058,
+      "p16": 0.18552455721642724,
+      "p84": 0.1887660250779559,
+      "p95": 0.18973254020284586
+    },
+    "d_companion": {
+      "median": 0.02031148129286519,
+      "p16": 0.010521661380035892,
+      "p84": 0.02493339496893463,
+      "p95": 0.02639844313820973
+    },
+    "w": {
+      "median": 0.015870311415597443,
+      "p16": 0.006482992420183663,
+      "p84": 0.02731918188645359,
+      "p95": 0.03270723702442653
+    }
+  },
+  "chi2_at_median": 0.12793212870124243,
+  "w_upper_95": 0.03270723702442653,
+  "w_upper_95_arcsec": 1.9297269844411653,
+  "w_upper_95_kpc": 1.1819943907877342,
+  "likelihood": "Gaussian in A_int with propagated z errors",
+  "prior": "flat on d_i in [0,2], w in [0.002,1]",
+  "information_gain": {
+    "d_knot1": {
+      "prior_range": [
+        0.0,
+        2.0
+      ],
+      "posterior_p95": 0.30256765453498874,
+      "prior_cdf_at_p95": 0.15128382726749437,
+      "compression_factor_95": 6.2795872973272004,
+      "kl_divergence_nats": 3.72240628893079
+    },
+    "d_knot2": {
+      "prior_range": [
+        0.0,
+        2.0
+      ],
+      "posterior_p95": 0.18973254020284586,
+      "prior_cdf_at_p95": 0.09486627010142293,
+      "compression_factor_95": 10.014096675081047,
+      "kl_divergence_nats": 4.38202663461005
+    },
+    "d_companion": {
+      "prior_range": [
+        0.0,
+        2.0
+      ],
+      "posterior_p95": 0.02639844313820973,
+      "prior_cdf_at_p95": 0.013199221569104864,
+      "compression_factor_95": 71.97394141967013,
+      "kl_divergence_nats": 3.953027489463662
+    },
+    "w": {
+      "prior_range": [
+        0.002,
+        1.0
+      ],
+      "posterior_p95": 0.03270723702442653,
+      "prior_cdf_at_p95": 0.030768774573573677,
+      "compression_factor_95": 30.875457770616734,
+      "kl_divergence_nats": 3.354656067751153
+    }
+  },
+  "saturation_note": "Four parameters on four points guarantee chi2~0 for ANY flexible interpolating family; the chi2 is therefore not the evidence. The substantive, falsifiable content is the prior->posterior contraction: under flat priors the shared width was a priori allowed to span [0.002, 1] of the transect, yet the data bound it below ~3% (compression factor and KL divergence in information_gain['w']). A wide, smooth monotonic field is ruled out by the measured depths, not assumed away.",
+  "interpretation": "Each d_i is the scalar-field depth of that object's local proper-time well relative to the shared pair field; the wells are nested depressions on a common temporal landscape, so the transition need not be monotonic. The shared width w is bounded only from above (no inter-knot points exist), so w_upper_95 is the interpretable summary."
+}

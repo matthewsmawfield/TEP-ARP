@@ -1,0 +1,26 @@
+{
+  "n_pairs": 12,
+  "a_int_mean": 0.7126359634765788,
+  "a_int_std": 0.22449865755414022,
+  "a_int_skew": -0.24197573981244364,
+  "a_int_kurtosis": -1.0725382091500635,
+  "spearman_zint_sep": {
+    "rho": 0.1188811188811189,
+    "p_value": 0.712884219214772
+  },
+  "a_int_by_absorption_flag": {
+    "count": {
+      "false": 10,
+      "true": 2
+    },
+    "mean": {
+      "false": 0.6930314896176961,
+      "true": 0.8106583327709921
+    },
+    "std": {
+      "false": 0.23170749494403226,
+      "true": 0.21940995201575753
+    }
+  },
+  "interpretation": "Arp reported that discordance declines with projected separation for ejection-aged companions (a negative Spearman rho between intrinsic redshift and separation); the test evaluates this scaling on the catalogued sample. The measured rho is reported with its p-value and the sample size bounds the power of the test."
+}

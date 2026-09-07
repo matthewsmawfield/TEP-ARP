@@ -1,0 +1,1110 @@
+{
+  "n_quasar_companions": 18,
+  "n_forest_band_covered": 1,
+  "n_forest_band_partial_or_field": 4,
+  "n_forest_not_covered": 12,
+  "n_ground_accessible_uncovered": 4,
+  "audit_rows": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "resolved_name": "MRK 0205",
+      "z": 0.0708,
+      "forest_lo_a": 1114.7028,
+      "forest_hi_a": 1268.898,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 12,
+      "mast_forest_covered_a": 154.1951999999999,
+      "mast_forest_covered_frac": 1.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "weak_path_low_power"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "resolved_name": "3C 232",
+      "z": 0.533,
+      "forest_lo_a": 1595.8529999999998,
+      "forest_hi_a": 1816.6049999999998,
+      "observability": "space_uv",
+      "n_sdss_spec": 2,
+      "n_mast_forest_products": 14,
+      "mast_forest_covered_a": 220.75199999999995,
+      "mast_forest_covered_frac": 1.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_measured"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "QSO B0240+011",
+      "z": 0.59824,
+      "forest_lo_a": 1663.7678400000002,
+      "forest_hi_a": 1893.9144000000001,
+      "observability": "space_uv",
+      "n_sdss_spec": 3,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "QSO B0241+011",
+      "z": 1.4,
+      "forest_lo_a": 2498.4,
+      "forest_hi_a": 2844.0,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "[VV96] J024333.6+012222",
+      "z": 1.945,
+      "forest_lo_a": 3065.7450000000003,
+      "forest_hi_a": 3489.8250000000003,
+      "observability": "ground",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "koa_lris",
+      "koa_nearest": "LB.20050311.21368.fits(IXO 5 counterpa,94.5arcsec)",
+      "status": "ok",
+      "verdict": "unusable_or_field_only"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "resolved_name": "[VV2006] J223603.7+335824",
+      "z": 2.114,
+      "forest_lo_a": 3241.674,
+      "forest_hi_a": 3690.0899999999997,
+      "observability": "ground",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 1,
+      "mast_forest_covered_a": 108.32600000000002,
+      "mast_forest_covered_frac": 0.24157478769713858,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "koa_lris",
+      "koa_nearest": "LB.20031003.30962.fits(NGC 7319 ULX,9.3arcsec)",
+      "status": "ok",
+      "verdict": "forest_band_partial"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "resolved_name": "WEE 51",
+      "z": 1.4989999532699585,
+      "forest_lo_a": 2601.458951354027,
+      "forest_hi_a": 2961.314944624901,
+      "observability": "space_uv",
+      "n_sdss_spec": 2,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "resolved_name": "SDSS J121902.21+470505.4",
+      "z": 0.40846,
+      "forest_lo_a": 1466.20686,
+      "forest_hi_a": 1669.0251,
+      "observability": "space_uv",
+      "n_sdss_spec": 2,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "resolved_name": "SDSS J121952.31+472058.5",
+      "z": 0.6535,
+      "forest_lo_a": 1721.2935,
+      "forest_hi_a": 1959.3975,
+      "observability": "space_uv",
+      "n_sdss_spec": 1,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "resolved_name": "SDSS J084331.40+500227.0",
+      "z": 0.2971,
+      "forest_lo_a": 1350.2811,
+      "forest_hi_a": 1537.0635,
+      "observability": "space_uv",
+      "n_sdss_spec": 1,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "resolved_name": "SDSS J084326.65+500845.6",
+      "z": 0.3364,
+      "forest_lo_a": 1391.1924000000001,
+      "forest_hi_a": 1583.634,
+      "observability": "space_uv",
+      "n_sdss_spec": 1,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "resolved_name": "CEMM J1779.9BL  2",
+      "z": 0.53,
+      "forest_lo_a": 1592.73,
+      "forest_hi_a": 1813.05,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 2,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "unusable_or_field_only"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "resolved_name": "WISP 257  129",
+      "z": 2.3342,
+      "forest_lo_a": 3470.9022,
+      "forest_hi_a": 3951.027,
+      "observability": "ground",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": 0,
+      "eso_in_field": 0,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "[VV98] J110833.2+722610",
+      "z": 0.328,
+      "forest_lo_a": 1382.448,
+      "forest_hi_a": 1573.68,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1106.2+7244",
+      "z": 0.6899999976158142,
+      "forest_lo_a": 1759.2899975180626,
+      "forest_hi_a": 2002.6499971747398,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "NuSTAR J110752+7230.7",
+      "z": 0.901,
+      "forest_lo_a": 1978.941,
+      "forest_hi_a": 2252.685,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1105.4+7238",
+      "z": 1.39900004863739,
+      "forest_lo_a": 2497.359050631523,
+      "forest_hi_a": 2842.8150576353073,
+      "observability": "space_uv",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "",
+      "koa_nearest": "",
+      "status": "ok",
+      "verdict": "forest_not_covered"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1107.7+7232",
+      "z": 2.0999999046325684,
+      "forest_lo_a": 3227.0999007225037,
+      "forest_hi_a": 3673.4998869895935,
+      "observability": "ground",
+      "n_sdss_spec": 0,
+      "n_mast_forest_products": 0,
+      "mast_forest_covered_a": 0.0,
+      "mast_forest_covered_frac": 0.0,
+      "eso_on_slit": -1,
+      "eso_in_field": -1,
+      "koa_on_target": "",
+      "koa_in_field": "koa_lris",
+      "koa_nearest": "LB.20160214.43045.fits(ngc3516_sA1124,101.5arcsec)",
+      "status": "ok",
+      "verdict": "unusable_or_field_only"
+    }
+  ],
+  "audit_details": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "resolved_name": "MRK 0205",
+      "sdss_covers": false,
+      "mast_products": [
+        {
+          "obs_id": "swp01894",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "QO2AB",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "swp19238",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "EE249",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "swp39842",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "RIASS",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "hst_hasp_8625_stis_mrk205_o62q",
+          "instrument": "STIS",
+          "filters": "E140M",
+          "proposal_id": "8625",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "hst_hsla_mrk205--4427",
+          "instrument": "STIS",
+          "filters": "E140M",
+          "proposal_id": "8625",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "y1hi0x02t",
+          "instrument": "FOS/BL",
+          "filters": "G130H",
+          "proposal_id": "4952",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1150.0,
+              1268.898
+            ]
+          ],
+          "covered_a": 118.89799999999991
+        },
+        {
+          "obs_id": "d0540101000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "D054",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        },
+        {
+          "obs_id": "d0540102000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "D054",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        },
+        {
+          "obs_id": "d0540103000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "D054",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        },
+        {
+          "obs_id": "q1060203000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "Q106",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        },
+        {
+          "obs_id": "s6010801000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "S601",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        },
+        {
+          "obs_id": "u1031102000",
+          "instrument": "FUV",
+          "filters": "--",
+          "proposal_id": "U103",
+          "collection": "FUSE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1114.7028,
+              1187.0
+            ]
+          ],
+          "covered_a": 72.29719999999998
+        }
+      ],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "resolved_name": "3C 232",
+      "sdss_covers": false,
+      "mast_products": [
+        {
+          "obs_id": "swp03173",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "PP2ED",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "swp05144",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "QSBWS",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "swp05169",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "QSBWS",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "swp08825",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "UK242",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "swp25496",
+          "instrument": "SWP",
+          "filters": "LOW DISP",
+          "proposal_id": "QSHBW",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "hst_hasp_17211_cos_ton-469_leys",
+          "instrument": "COS",
+          "filters": "G140L;G160M",
+          "proposal_id": "17211",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ],
+            [
+              1595.8529999999998,
+              1775.0
+            ]
+          ],
+          "covered_a": 399.8990000000001
+        },
+        {
+          "obs_id": "hst_hasp_8596_stis_3c232_o670",
+          "instrument": "STIS",
+          "filters": "G140M",
+          "proposal_id": "8596",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1710.0
+            ],
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 334.8990000000001
+        },
+        {
+          "obs_id": "hst_hasp_9506_stis_3c232_o6my",
+          "instrument": "STIS",
+          "filters": "G140L",
+          "proposal_id": "9506",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "hst_hsla_ton469--2636",
+          "instrument": "COS",
+          "filters": "G130M;G140L;G160M",
+          "proposal_id": "MULTI",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ],
+            [
+              1595.8529999999998,
+              1775.0
+            ]
+          ],
+          "covered_a": 399.8990000000001
+        },
+        {
+          "obs_id": "leys13010",
+          "instrument": "COS/FUV",
+          "filters": "G160M",
+          "proposal_id": "17211",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1775.0
+            ]
+          ],
+          "covered_a": 179.14700000000016
+        },
+        {
+          "obs_id": "leys13020",
+          "instrument": "COS/FUV",
+          "filters": "G140L",
+          "proposal_id": "17211",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "o6my40010",
+          "instrument": "STIS/FUV-MAMA",
+          "filters": "G140L",
+          "proposal_id": "9506",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        },
+        {
+          "obs_id": "y1hi0802t",
+          "instrument": "FOS/BL",
+          "filters": "G130H",
+          "proposal_id": "4952",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1600.0
+            ]
+          ],
+          "covered_a": 4.147000000000162
+        },
+        {
+          "obs_id": "y2gq1c01t",
+          "instrument": "FOS/BL",
+          "filters": "PRISM",
+          "proposal_id": "5588",
+          "collection": "HST",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              1595.8529999999998,
+              1816.6049999999998
+            ]
+          ],
+          "covered_a": 220.75199999999995
+        }
+      ],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "QSO B0240+011",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "QSO B0241+011",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "[VV96] J024333.6+012222",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": [
+        {
+          "table": "koa_lris",
+          "koaid": "LB.20050311.21368.fits",
+          "targname": "IXO 5 counterpa",
+          "offset_arcsec": 94.46239882600581
+        }
+      ]
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "resolved_name": "[VV2006] J223603.7+335824",
+      "sdss_covers": false,
+      "mast_products": [
+        {
+          "obs_id": "lwp18109",
+          "instrument": "LWP",
+          "filters": "LOW DISP",
+          "proposal_id": "MQ005",
+          "collection": "IUE",
+          "dist_arcsec": 0.0,
+          "usable": true,
+          "intervals": [
+            [
+              3241.674,
+              3350.0
+            ]
+          ],
+          "covered_a": 108.32600000000002
+        }
+      ],
+      "koa_nearest": [
+        {
+          "table": "koa_lris",
+          "koaid": "LB.20031003.30962.fits",
+          "targname": "NGC 7319 ULX",
+          "offset_arcsec": 9.331244487484957
+        }
+      ]
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "resolved_name": "WEE 51",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "resolved_name": "SDSS J121902.21+470505.4",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "resolved_name": "SDSS J121952.31+472058.5",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "resolved_name": "SDSS J084331.40+500227.0",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "resolved_name": "SDSS J084326.65+500845.6",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "resolved_name": "CEMM J1779.9BL  2",
+      "sdss_covers": false,
+      "mast_products": [
+        {
+          "obs_id": "3064985556950712320",
+          "instrument": "GALEX",
+          "filters": "FUV",
+          "proposal_id": "--",
+          "collection": "GALEX",
+          "dist_arcsec": 0.0,
+          "usable": false,
+          "intervals": [
+            [
+              1592.73,
+              1800.0
+            ]
+          ],
+          "covered_a": 207.26999999999998
+        },
+        {
+          "obs_id": "3064985556950712320",
+          "instrument": "GALEX",
+          "filters": "NUV",
+          "proposal_id": "--",
+          "collection": "GALEX",
+          "dist_arcsec": 0.0,
+          "usable": false,
+          "intervals": [
+            [
+              1750.0,
+              1813.05
+            ]
+          ],
+          "covered_a": 63.049999999999955
+        }
+      ],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "resolved_name": "WISP 257  129",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "[VV98] J110833.2+722610",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1106.2+7244",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "NuSTAR J110752+7230.7",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1105.4+7238",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1107.7+7232",
+      "sdss_covers": false,
+      "mast_products": [],
+      "koa_nearest": [
+        {
+          "table": "koa_lris",
+          "koaid": "LB.20160214.43045.fits",
+          "targname": "ngc3516_sA1124",
+          "offset_arcsec": 101.45257054950254
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "3C 232": {
+      "products": [
+        "leys13010_x1dsum.fits",
+        "leys13020_x1dsum.fits"
+      ],
+      "provenance": "HST/COS G160M+G140L x1dsum products, program 17211 (MAST obs leys13010/leys13020), downloaded via astroquery.mast",
+      "clean_window_obs_a": [
+        1596.0,
+        1710.0
+      ],
+      "z_abs_covered": [
+        0.31285628501155727,
+        0.4066317339409542
+      ],
+      "dz_covered": 0.09377544892939693,
+      "n_candidates_4sigma": 11,
+      "n_lyman_confirmed": 9,
+      "systems": [
+        {
+          "lam_obs": 1602.2090111819641,
+          "ew_a": 0.45636879162983474,
+          "sig": 13.968602996997925,
+          "z_abs": 0.3179637658097707,
+          "lyb_depth_sig": 9.43056507516499,
+          "lyg_depth_sig": 0.15486997106871947,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1616.0094002862331,
+          "ew_a": 0.39352305895182343,
+          "sig": 7.698491323725872,
+          "z_abs": 0.329315850754097,
+          "lyb_depth_sig": 2.910677896873632,
+          "lyg_depth_sig": 1.8357837100450232,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1618.2605275869296,
+          "ew_a": 0.1248790707070617,
+          "sig": 8.404120682217275,
+          "z_abs": 0.33116760929111466,
+          "lyb_depth_sig": 9.2187673195469,
+          "lyg_depth_sig": 3.7815548277887143,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1646.937931895801,
+          "ew_a": 0.3704972355533862,
+          "sig": 11.82590160077062,
+          "z_abs": 0.35475740282790635,
+          "lyb_depth_sig": 6.102947349596,
+          "lyg_depth_sig": 1.5475540510378005,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1654.5721896981627,
+          "ew_a": 0.0,
+          "sig": 4.470029928926275,
+          "z_abs": 0.3610372796056187,
+          "lyb_depth_sig": 1.4404073993990407,
+          "lyg_depth_sig": 2.065179298374883,
+          "lyman_confirmed": false
+        },
+        {
+          "lam_obs": 1654.7679398982232,
+          "ew_a": 0.19943264565248137,
+          "sig": 7.518223258849653,
+          "z_abs": 0.3611983020870986,
+          "lyb_depth_sig": 3.1648688200636923,
+          "lyg_depth_sig": 2.065179298374883,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1656.2360663986774,
+          "ew_a": 0.944639001102008,
+          "sig": 10.099925528122641,
+          "z_abs": 0.362405970698197,
+          "lyb_depth_sig": 32.60594700506695,
+          "lyg_depth_sig": 2.690050267673403,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1658.1935683992829,
+          "ew_a": 0.24091739123627276,
+          "sig": 9.272650826418644,
+          "z_abs": 0.364016195512995,
+          "lyb_depth_sig": 8.859928747064039,
+          "lyg_depth_sig": 1.54146189617756,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1678.649464305611,
+          "ew_a": 0.9917183726131712,
+          "sig": 9.06894150377004,
+          "z_abs": 0.380843044827635,
+          "lyb_depth_sig": 0.9493533734329184,
+          "lyg_depth_sig": 0.6409310057408815,
+          "lyman_confirmed": false
+        },
+        {
+          "lam_obs": 1693.5264795102132,
+          "ew_a": 0.0,
+          "sig": 4.129268315214187,
+          "z_abs": 0.3930807534201002,
+          "lyb_depth_sig": 1.3616594909354092,
+          "lyg_depth_sig": 2.948274176122281,
+          "lyman_confirmed": true
+        },
+        {
+          "lam_obs": 1699.5947357120904,
+          "ew_a": 1.2072410968394143,
+          "sig": 7.167957160268741,
+          "z_abs": 0.39807245034597405,
+          "lyb_depth_sig": 26.977754161201364,
+          "lyg_depth_sig": 7.422883829098705,
+          "lyman_confirmed": true
+        }
+      ],
+      "expected_cosmological_dndz": 25.0,
+      "expected_cosmological_n": 2.344386223234923
+    }
+  },
+  "method": {
+    "forest_band": "observed [1041*(1+z_Q), 1185*(1+z_Q)] A; the blue edge sits above the Ly-beta forest complex and the red edge below the quasar proximity zone",
+    "detection": "spectrum rebinned to ~1 resolution element; 80th-percentile sliding continuum; dips >4 sigma; Galactic-ISM and intrinsic O VI exclusion; each candidate confirmed by a significant decrement at the predicted Ly-beta or Ly-gamma position (standard forest validation)",
+    "expectation": "cosmic-mean incidence dN/dz ~ 25 for W > 0.1 A at z < 1 (Danforth et al. 2016, ApJ 817, 111); a companion at the host distance (~tens of Mpc) predicts ~0-1 lines"
+  },
+  "required_observation": "For the ground-accessible companions (z >~ 1.7: NGC 7319 QSO, NGC 3516 z=2.10 member, WISP 257, BSO 3, and marginally WEE 51): a single blue-arm echelle or X-Shooter UVB exposure (~1 hr, 8-10m class; UVES/XSHOOTER, HIRES/ESI, or HST/STIS G430L) covering the forest band settles the path length directly.",
+  "interpretation": "A populated forest at the cosmic-mean incidence is consistent with a full cosmological path and is adverse to a strictly local position for that sightline; a sparse or absent forest would directly favour the local interpretation. Both outcomes are reported; coverage verdicts are audited negatives, not assumptions."
+}

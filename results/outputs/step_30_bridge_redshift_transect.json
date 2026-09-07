@@ -1,0 +1,260 @@
+{
+  "n_transect_points": 26,
+  "n_knots_ngc7603": 2,
+  "sigma_z_default": 0.001,
+  "knot_positions": [
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "resolved_name": "[LG2002] 3",
+      "ra_deg": 349.7404166666667,
+      "dec_deg": 0.2338888888888889,
+      "z": 0.391,
+      "z_target": 0.391,
+      "z_match_rel": 0.0,
+      "x": 0.545607813399531,
+      "perp_offset_arcsec": 23.01762038399108,
+      "resolution_method": "simbad_cone_zmatch"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "resolved_name": "[LG2002] 2",
+      "ra_deg": 349.7475,
+      "dec_deg": 0.2344444444444444,
+      "z": 0.243,
+      "z_target": 0.243,
+      "z_match_rel": 0.0,
+      "x": 0.9051116558813485,
+      "perp_offset_arcsec": 8.341208350942754,
+      "resolution_method": "simbad_cone_zmatch"
+    }
+  ],
+  "well_centers": [
+    0.545607813399531,
+    0.9051116558813485,
+    1.0
+  ],
+  "knot_position_source": "Archive-measured positions (Simbad cone search, redshift-matched [LG2002] objects), projected onto the resolved host->companion axis; no positional assumption enters the transect.",
+  "fits": {
+    "exponential": {
+      "params": [
+        29.999999999444288
+      ],
+      "chi2": 88232.82591452244,
+      "dof": 3,
+      "chi2_dof": 29410.94197150748
+    },
+    "tanh": {
+      "params": [
+        0.20000000000000004,
+        0.05000000000000001
+      ],
+      "chi2": 88232.83959498638,
+      "dof": 2,
+      "chi2_dof": 44116.41979749319
+    },
+    "yukawa": {
+      "params": [
+        0.5000000000212693
+      ],
+      "chi2": 107542.40721056677,
+      "dof": 3,
+      "chi2_dof": 35847.46907018893
+    },
+    "nested_wells": {
+      "params": [
+        0.3009433338223779,
+        0.18843379505205027,
+        0.02579880461563056,
+        0.0020000000000000026
+      ],
+      "chi2": 2.567370550521294e-05,
+      "dof": 1,
+      "chi2_dof": 2.567370550521294e-05
+    }
+  },
+  "best_family": "nested_wells",
+  "transect": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "x": 1.0,
+      "a_int": 0.9382517743742996,
+      "sigma_a": 0.0012805811463950378,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "x": 1.0,
+      "a_int": 0.9744439185991484,
+      "sigma_a": 0.0013215898046503793,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "x": 1.0,
+      "a_int": 0.6555120678408349,
+      "sigma_a": 0.0007799732475497366,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "x": 1.0,
+      "a_int": 0.6294930299431143,
+      "sigma_a": 0.0007386604271254024,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "x": 1.0,
+      "a_int": 0.3283558124598587,
+      "sigma_a": 0.00033799907379109976,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "x": 1.0,
+      "a_int": 0.9658045977011492,
+      "sigma_a": 0.0013316513897088738,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "x": 1.0,
+      "a_int": 0.4014044846000233,
+      "sigma_a": 0.0004313183746461483,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "x": 1.0,
+      "a_int": 0.7163805436337625,
+      "sigma_a": 0.0008799158694531082,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "x": 1.0,
+      "a_int": 0.774908031882281,
+      "sigma_a": 0.0009695752283211509,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "x": 1.0,
+      "a_int": 0.6606842105263158,
+      "sigma_a": 0.0007885146658789926,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "x": 1.0,
+      "a_int": 0.983698789640023,
+      "sigma_a": 0.0013725249517923116,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "x": 0.0,
+      "a_int": 1.0,
+      "sigma_a": 0.001,
+      "point_type": "host"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "x": 1.0,
+      "a_int": 0.5226943005181346,
+      "sigma_a": 0.0005846454814793661,
+      "point_type": "companion"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "x": 0.545607813399531,
+      "a_int": 0.7401150251617542,
+      "sigma_a": 0.000894388316718591,
+      "point_type": "filament_knot"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "x": 0.9051116558813485,
+      "a_int": 0.8282381335478682,
+      "sigma_a": 0.001044611674770687,
+      "point_type": "filament_knot"
+    }
+  ]
+}

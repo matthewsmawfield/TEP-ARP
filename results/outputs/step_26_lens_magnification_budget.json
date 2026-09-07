@@ -1,0 +1,80 @@
+{
+  "model": "SIS lens; theta_E = 4 pi (sigma_v/c)^2 D_ls/D_s; mu = theta/(theta - theta_E); Sigma -> Sigma * mu^(alpha-1)",
+  "sigma_v_kms_nominal": 300.0,
+  "sigma_v_note": "300 km/s applied uniformly exceeds published central dispersions for all twelve hosts (~130-230 km/s); the correction is an upper bound.",
+  "alpha_qlf_nominal": 2.0,
+  "h0_kms_mpc": 70.0,
+  "n_pairs": 12,
+  "max_mu_minus_1_pct": 38.39887475731389,
+  "max_mu_pair": "NGC7319-QSO",
+  "joint_p_baseline": 6.459439984318038e-14,
+  "joint_p_lensed": 1.1105354619483293e-13,
+  "joint_log10_p_lensed": -12.954467568873651,
+  "joint_p_inflation_factor": 1.7192441831558796,
+  "sensitivity_grid": [
+    {
+      "sigma_v_kms": 250.0,
+      "alpha_qlf": 1.5,
+      "joint_probability": 7.748750214232699e-14,
+      "joint_log10_p": -13.110768338633262,
+      "inflation_vs_baseline": 1.1996009302733357
+    },
+    {
+      "sigma_v_kms": 250.0,
+      "alpha_qlf": 2.0,
+      "joint_probability": 9.295024403233529e-14,
+      "joint_log10_p": -13.03174946569028,
+      "inflation_vs_baseline": 1.4389830118090121
+    },
+    {
+      "sigma_v_kms": 250.0,
+      "alpha_qlf": 2.5,
+      "joint_probability": 1.114938581634307e-13,
+      "joint_log10_p": -12.952749055837325,
+      "inflation_vs_baseline": 1.7260607488282405
+    },
+    {
+      "sigma_v_kms": 300.0,
+      "alpha_qlf": 1.5,
+      "joint_probability": 8.469993881449127e-14,
+      "joint_log10_p": -13.072116903394658,
+      "inflation_vs_baseline": 1.3112582363195926
+    },
+    {
+      "sigma_v_kms": 300.0,
+      "alpha_qlf": 2.0,
+      "joint_probability": 1.1105354619483293e-13,
+      "joint_log10_p": -12.954467568873651,
+      "inflation_vs_baseline": 1.7192441831558796
+    },
+    {
+      "sigma_v_kms": 300.0,
+      "alpha_qlf": 2.5,
+      "joint_probability": 1.4559313097283043e-13,
+      "joint_log10_p": -12.836859114384021,
+      "inflation_vs_baseline": 2.253959032459399
+    },
+    {
+      "sigma_v_kms": 400.0,
+      "alpha_qlf": 1.5,
+      "joint_probability": 1.1031939996839625e-13,
+      "joint_log10_p": -12.957348108970741,
+      "inflation_vs_baseline": 1.7078787052163211
+    },
+    {
+      "sigma_v_kms": 400.0,
+      "alpha_qlf": 2.0,
+      "joint_probability": 1.88349089101976e-13,
+      "joint_log10_p": -12.725036475800199,
+      "inflation_vs_baseline": 2.915873350619282
+    },
+    {
+      "sigma_v_kms": 400.0,
+      "alpha_qlf": 2.5,
+      "joint_probability": 3.214458456484315e-13,
+      "joint_log10_p": -12.49289218266846,
+      "inflation_vs_baseline": 4.976373283579141
+    }
+  ],
+  "verdict": "magnification bias is bounded at the percent level and cannot generate the observed joint improbability"
+}

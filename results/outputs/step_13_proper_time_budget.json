@@ -1,0 +1,143 @@
+{
+  "n_pairs": 12,
+  "clock_rate_ratio_range": [
+    0.3283558124598587,
+    0.983698789640023
+  ],
+  "max_fictitious_gap_mpc": 5244.3705305708345,
+  "pairs": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "a_int": 0.9382517743742996,
+      "delta_phi": 0.0637369498157978,
+      "clock_rate_ratio": 0.9382517743742996,
+      "clock_lag_per_gyr": 0.06174822562570037,
+      "v_intrinsic_doppler_kms": 19729.941198152643,
+      "fictitious_distance_gap_mpc": 278.2983182252738,
+      "fictitious_lookback_gap_gyr": 0.8751172548364821,
+      "distance_inflation_factor": 14.899528890525023
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "a_int": 0.9744439185991484,
+      "delta_phi": 0.0258883105882671,
+      "clock_rate_ratio": 0.9744439185991484,
+      "clock_lag_per_gyr": 0.025556081400851638,
+      "v_intrinsic_doppler_kms": 7862.453973773612,
+      "fictitious_distance_gap_mpc": 113.3667324675736,
+      "fictitious_lookback_gap_gyr": 0.35453845894618574,
+      "distance_inflation_factor": 1.9033396919281447
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "a_int": 0.6555120678408349,
+      "delta_phi": 0.4223385658169011,
+      "clock_rate_ratio": 0.6555120678408349,
+      "clock_lag_per_gyr": 0.34448793215916507,
+      "v_intrinsic_doppler_kms": 157548.40986147878,
+      "fictitious_distance_gap_mpc": 1974.614085092611,
+      "fictitious_lookback_gap_gyr": 5.2024735860452385,
+      "distance_inflation_factor": 95.1983004849246
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "a_int": 0.6294930299431143,
+      "delta_phi": 0.4628404979289878,
+      "clock_rate_ratio": 0.6294930299431143,
+      "clock_lag_per_gyr": 0.3705069700568857,
+      "v_intrinsic_doppler_kms": 176451.82706713007,
+      "fictitious_distance_gap_mpc": 2175.513404529201,
+      "fictitious_lookback_gap_gyr": 5.610523105547158,
+      "distance_inflation_factor": 73.68196231544461
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "a_int": 0.3283558124598587,
+      "delta_phi": 1.1136574644769868,
+      "clock_rate_ratio": 0.3283558124598587,
+      "clock_lag_per_gyr": 0.6716441875401413,
+      "v_intrinsic_doppler_kms": 613218.5094444987,
+      "fictitious_distance_gap_mpc": 5244.3705305708345,
+      "fictitious_lookback_gap_gyr": 10.102284783685308,
+      "distance_inflation_factor": 55.701958364039875
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "a_int": 0.9658045977011492,
+      "delta_phi": 0.0347937450434144,
+      "clock_rate_ratio": 0.9658045977011492,
+      "clock_lag_per_gyr": 0.03419540229885076,
+      "v_intrinsic_doppler_kms": 10614.490479619177,
+      "fictitious_distance_gap_mpc": 151.07822614444467,
+      "fictitious_lookback_gap_gyr": 0.48026563114194154,
+      "distance_inflation_factor": 5.258085444166284
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "a_int": 0.4014044846000233,
+      "delta_phi": 0.91278567028564,
+      "clock_rate_ratio": 0.4014044846000233,
+      "clock_lag_per_gyr": 0.5985955153999767,
+      "v_intrinsic_doppler_kms": 447066.3079122096,
+      "fictitious_distance_gap_mpc": 4348.608002403578,
+      "fictitious_lookback_gap_gyr": 9.222777071067233,
+      "distance_inflation_factor": 361.0365565667098
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "a_int": 0.7163805436337625,
+      "delta_phi": 0.3335437676878827,
+      "clock_rate_ratio": 0.7163805436337625,
+      "clock_lag_per_gyr": 0.28361945636623753,
+      "v_intrinsic_doppler_kms": 118689.67508437348,
+      "fictitious_distance_gap_mpc": 1538.1799850456898,
+      "fictitious_lookback_gap_gyr": 4.244751740799662,
+      "distance_inflation_factor": 240.5189508547278
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "a_int": 0.774908031882281,
+      "delta_phi": 0.2550109252094505,
+      "clock_rate_ratio": 0.774908031882281,
+      "clock_lag_per_gyr": 0.22509196811771903,
+      "v_intrinsic_doppler_kms": 87082.42994224108,
+      "fictitious_distance_gap_mpc": 1164.587171859037,
+      "fictitious_lookback_gap_gyr": 3.3085987062766744,
+      "distance_inflation_factor": 25.55924142502797
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "a_int": 0.6606842105263158,
+      "delta_phi": 0.4144792983303692,
+      "clock_rate_ratio": 0.6606842105263158,
+      "clock_lag_per_gyr": 0.33931578947368424,
+      "v_intrinsic_doppler_kms": 153968.1332530869,
+      "fictitious_distance_gap_mpc": 1935.5522116714608,
+      "fictitious_lookback_gap_gyr": 5.122143189564703,
+      "distance_inflation_factor": 107.69185478891774
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "a_int": 0.983698789640023,
+      "delta_phi": 0.0164355368799355,
+      "clock_rate_ratio": 0.983698789640023,
+      "clock_lag_per_gyr": 0.016301210359977003,
+      "v_intrinsic_doppler_kms": 4967.963744248306,
+      "fictitious_distance_gap_mpc": 70.90923399667821,
+      "fictitious_lookback_gap_gyr": 0.22816135788247927,
+      "distance_inflation_factor": 4.098489642476337
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "a_int": 0.5226943005181346,
+      "delta_phi": 0.6487584972482217,
+      "clock_rate_ratio": 0.5226943005181346,
+      "clock_lag_per_gyr": 0.4773056994818654,
+      "v_intrinsic_doppler_kms": 273759.7267145124,
+      "fictitious_distance_gap_mpc": 3092.4240103433813,
+      "fictitious_lookback_gap_gyr": 7.304665241014101,
+      "distance_inflation_factor": 83.21595064266711
+    }
+  ],
+  "interpretation": "A_int is the relative clock rate of companion matter versus host matter. The 'fictitious' columns quantify the distance and lookback-time gaps that the standard interpretation inserts between the two members."
+}

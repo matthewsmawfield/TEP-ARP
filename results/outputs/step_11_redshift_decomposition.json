@@ -1,0 +1,230 @@
+{
+  "h0_km_s_mpc": 70.0,
+  "cosmology": "FlatLambdaCDM(H0=70, Om0=0.3)",
+  "n_pairs": 12,
+  "median_distance_inflation": 64.69196033974224,
+  "max_distance_inflation": 361.0365565667098,
+  "max_comoving_gap_mpc": 5244.3705305708345,
+  "max_lookback_gap_gyr": 10.102284783685308,
+  "projected_separations_kpc": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "projected_sep_kpc": 4.0579519625722105
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "projected_sep_kpc": 34.86864441208466
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "projected_sep_kpc": 11.529116697115091
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "projected_sep_kpc": 17.292658369364077
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "projected_sep_kpc": 4.045684862280476
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "projected_sep_kpc": 9.894653682772665
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "projected_sep_kpc": 17.517653425393895
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "projected_sep_kpc": 17.90662224432202
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "projected_sep_kpc": 136.42346012616548
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "projected_sep_kpc": 63.058476389574636
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "projected_sep_kpc": 29.134948622910734
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "projected_sep_kpc": 121.92554374017176
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "d_hubble_gal_mpc": 20.043267192000002,
+      "d_hubble_comp_mpc": 303.21865751999997,
+      "d_comoving_gal_mpc": 20.02214034858283,
+      "d_comoving_comp_mpc": 298.3204585738566,
+      "distance_inflation_factor": 14.899528890525023,
+      "hubble_inflation_factor": 15.128205128205124,
+      "comoving_gap_mpc": 278.2983182252738,
+      "lookback_gap_gyr": 0.8751172548364821,
+      "a_bg_at_pair": 0.9953418003742485,
+      "a_int": 0.9382517743742996,
+      "projected_sep_kpc": 4.0579519625722105
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "d_hubble_gal_mpc": 126.34110729999998,
+      "d_hubble_comp_mpc": 241.9753411,
+      "d_comoving_gal_mpc": 125.49734444370154,
+      "d_comoving_comp_mpc": 238.86407691127513,
+      "distance_inflation_factor": 1.9033396919281447,
+      "hubble_inflation_factor": 1.915254237288136,
+      "comoving_gap_mpc": 113.3667324675736,
+      "lookback_gap_gyr": 0.35453845894618574,
+      "a_bg_at_pair": 0.9713453132588634,
+      "a_int": 0.9744439185991484,
+      "projected_sep_kpc": 34.86864441208466
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "d_hubble_gal_mpc": 20.985472059999996,
+      "d_hubble_comp_mpc": 2282.7054302,
+      "d_comoving_gal_mpc": 20.962311155588484,
+      "d_comoving_comp_mpc": 1995.5763962481994,
+      "distance_inflation_factor": 95.1983004849246,
+      "hubble_inflation_factor": 108.77551020408166,
+      "comoving_gap_mpc": 1974.614085092611,
+      "lookback_gap_gyr": 5.2024735860452385,
+      "a_bg_at_pair": 0.9951238929246692,
+      "a_int": 0.6555120678408349,
+      "projected_sep_kpc": 11.529116697115091
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "d_hubble_gal_mpc": 29.979245799999998,
+      "d_hubble_comp_mpc": 2568.36481518,
+      "d_comoving_gal_mpc": 29.93195746542074,
+      "d_comoving_comp_mpc": 2205.445361994622,
+      "distance_inflation_factor": 73.68196231544461,
+      "hubble_inflation_factor": 85.67142857142858,
+      "comoving_gap_mpc": 2175.513404529201,
+      "lookback_gap_gyr": 5.610523105547158,
+      "a_bg_at_pair": 0.99304865938431,
+      "a_int": 0.6294930299431143,
+      "projected_sep_kpc": 17.292658369364077
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "d_hubble_gal_mpc": 96.36186149999999,
+      "d_hubble_comp_mpc": 9053.732231599999,
+      "d_comoving_gal_mpc": 95.87171442144187,
+      "d_comoving_comp_mpc": 5340.242244992276,
+      "distance_inflation_factor": 55.701958364039875,
+      "hubble_inflation_factor": 93.95555555555556,
+      "comoving_gap_mpc": 5244.3705305708345,
+      "lookback_gap_gyr": 10.102284783685308,
+      "a_bg_at_pair": 0.9779951100244499,
+      "a_int": 0.3283558124598587,
+      "projected_sep_kpc": 4.045684862280476
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "d_hubble_gal_mpc": 35.54682002,
+      "d_hubble_comp_mpc": 188.44097359999998,
+      "d_comoving_gal_mpc": 35.4803181207711,
+      "d_comoving_comp_mpc": 186.55854426521577,
+      "distance_inflation_factor": 5.258085444166284,
+      "hubble_inflation_factor": 5.301204819277108,
+      "comoving_gap_mpc": 151.07822614444467,
+      "lookback_gap_gyr": 0.48026563114194154,
+      "a_bg_at_pair": 0.991768322919766,
+      "a_int": 0.9658045977011492,
+      "projected_sep_kpc": 9.894653682772665
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "d_hubble_gal_mpc": 12.085918806799999,
+      "d_hubble_comp_mpc": 6416.7706192802,
+      "d_comoving_gal_mpc": 12.078240176141229,
+      "d_comoving_comp_mpc": 4360.68624257972,
+      "distance_inflation_factor": 361.0365565667098,
+      "hubble_inflation_factor": 530.9294826364281,
+      "comoving_gap_mpc": 4348.608002403578,
+      "lookback_gap_gyr": 9.222777071067233,
+      "a_bg_at_pair": 0.9971859412737254,
+      "a_int": 0.4014044846000233,
+      "projected_sep_kpc": 17.517653425393895
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "d_hubble_gal_mpc": 6.424124099999999,
+      "d_hubble_comp_mpc": 1704.5342612,
+      "d_comoving_gal_mpc": 6.4219552547164485,
+      "d_comoving_comp_mpc": 1544.6019403004063,
+      "distance_inflation_factor": 240.5189508547278,
+      "hubble_inflation_factor": 265.33333333333337,
+      "comoving_gap_mpc": 1538.1799850456898,
+      "lookback_gap_gyr": 4.244751740799662,
+      "a_bg_at_pair": 0.9985022466300548,
+      "a_int": 0.7163805436337625,
+      "projected_sep_kpc": 17.90662224432202
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "d_hubble_gal_mpc": 47.538518339999996,
+      "d_hubble_comp_mpc": 1305.38201712,
+      "d_comoving_gal_mpc": 47.41950908435726,
+      "d_comoving_comp_mpc": 1212.0066809433943,
+      "distance_inflation_factor": 25.55924142502797,
+      "hubble_inflation_factor": 27.459459459459463,
+      "comoving_gap_mpc": 1164.587171859037,
+      "lookback_gap_gyr": 3.3085987062766744,
+      "a_bg_at_pair": 0.989021857383048,
+      "a_int": 0.774908031882281,
+      "projected_sep_kpc": 136.42346012616548
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "d_hubble_gal_mpc": 18.158857456,
+      "d_hubble_comp_mpc": 2227.029688,
+      "d_comoving_gal_mpc": 18.141518070904414,
+      "d_comoving_comp_mpc": 1953.6937297423651,
+      "distance_inflation_factor": 107.69185478891774,
+      "hubble_inflation_factor": 122.64150943396227,
+      "comoving_gap_mpc": 1935.5522116714608,
+      "lookback_gap_gyr": 5.122143189564703,
+      "a_bg_at_pair": 0.9957779016968056,
+      "a_int": 0.6606842105263158,
+      "projected_sep_kpc": 63.058476389574636
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "d_hubble_gal_mpc": 22.91270929,
+      "d_hubble_comp_mpc": 94.26331429399998,
+      "d_comoving_gal_mpc": 22.8850963464919,
+      "d_comoving_comp_mpc": 93.7943303431701,
+      "distance_inflation_factor": 4.098489642476337,
+      "hubble_inflation_factor": 4.114018691588784,
+      "comoving_gap_mpc": 70.90923399667821,
+      "lookback_gap_gyr": 0.22816135788247927,
+      "a_bg_at_pair": 0.9946784701845129,
+      "a_int": 0.983698789640023,
+      "projected_sep_kpc": 29.134948622910734
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "d_hubble_gal_mpc": 37.68819472,
+      "d_hubble_comp_mpc": 3982.956942,
+      "d_comoving_gal_mpc": 37.61343128882493,
+      "d_comoving_comp_mpc": 3130.037441632206,
+      "distance_inflation_factor": 83.21595064266711,
+      "hubble_inflation_factor": 105.68181818181819,
+      "comoving_gap_mpc": 3092.4240103433813,
+      "lookback_gap_gyr": 7.304665241014101,
+      "a_bg_at_pair": 0.9912767644726408,
+      "a_int": 0.5226943005181346,
+      "projected_sep_kpc": 121.92554374017176
+    }
+  ],
+  "interpretation": "Under the standard LambdaCDM redshift-distance reading each companion is placed distance_inflation_factor times farther than its host (comoving-distance ratio). Under TEP the pair shares the galaxy distance; the excess redshift is carried by the intrinsic conformal factor."
+}

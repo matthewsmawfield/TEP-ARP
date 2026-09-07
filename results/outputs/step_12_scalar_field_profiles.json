@@ -1,0 +1,228 @@
+{
+  "n_pairs": 12,
+  "profiles": [
+    "exponential",
+    "tanh",
+    "yukawa"
+  ],
+  "n_x": 200,
+  "boundary_conditions": "A_int(0)=1 at galaxy nucleus; A_int(1)=A_int(Q) at companion",
+  "profile_slopes": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "profile": "exponential",
+      "slope_at_galaxy": -0.24908934105101965,
+      "slope_at_companion": -0.0046548613915033754
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.0010835765239562978,
+      "slope_at_companion": -0.001083576523956293
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "profile": "yukawa",
+      "slope_at_galaxy": -9.32551934262893e-06,
+      "slope_at_companion": -1.519043799857888
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "profile": "exponential",
+      "slope_at_galaxy": -0.10309199027955085,
+      "slope_at_companion": -0.0019265333606873687
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.0004484658396113339,
+      "slope_at_companion": -0.00044846583961133195
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "profile": "yukawa",
+      "slope_at_galaxy": -3.787788565912109e-06,
+      "slope_at_companion": -0.6392553216774189
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "profile": "exponential",
+      "slope_at_galaxy": -1.389647575327917,
+      "slope_at_companion": -0.025969063224067446
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.006045178339797563,
+      "slope_at_companion": -0.006045178339797537
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "profile": "yukawa",
+      "slope_at_galaxy": -6.179309487641671e-05,
+      "slope_at_companion": -7.195343228027
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "profile": "exponential",
+      "slope_at_galaxy": -1.494607109614982,
+      "slope_at_companion": -0.027930496345887946
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.006501768279941311,
+      "slope_at_companion": -0.0065017682799412835
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "profile": "yukawa",
+      "slope_at_galaxy": -6.771895864610133e-05,
+      "slope_at_companion": -7.592082753720231
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "profile": "exponential",
+      "slope_at_galaxy": -2.7093800088968387,
+      "slope_at_companion": -0.050631586021017805
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.011786215177753356,
+      "slope_at_companion": -0.011786215177753306
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "profile": "yukawa",
+      "slope_at_galaxy": -0.00016293933229183377,
+      "slope_at_companion": -9.938053253719234
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "profile": "exponential",
+      "slope_at_galaxy": -0.13794259088880656,
+      "slope_at_companion": -0.0025778045654818336
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.000600071253599177,
+      "slope_at_companion": -0.0006000712535991744
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "profile": "yukawa",
+      "slope_at_galaxy": -5.09076598464997e-06,
+      "slope_at_companion": -0.8520208785388214
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "profile": "exponential",
+      "slope_at_galaxy": -2.4147052158373175,
+      "slope_at_companion": -0.04512484570253841
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.010504335003304277,
+      "slope_at_companion": -0.010504335003304232
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "profile": "yukawa",
+      "slope_at_galaxy": -0.00013355019887639763,
+      "slope_at_companion": -9.828602574827869
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "profile": "exponential",
+      "slope_at_galaxy": -1.1441071023441964,
+      "slope_at_companion": -0.0213805213662789
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.004977039931765237,
+      "slope_at_companion": -0.004977039931765215
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "profile": "yukawa",
+      "slope_at_galaxy": -4.880144335850378e-05,
+      "slope_at_companion": -6.174983712120278
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "profile": "exponential",
+      "slope_at_galaxy": -0.9080100593365855,
+      "slope_at_companion": -0.016968453770342878
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.003949981880631448,
+      "slope_at_companion": -0.003949981880631431
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "profile": "yukawa",
+      "slope_at_galaxy": -3.731119690109086e-05,
+      "slope_at_companion": -5.0812045084753965
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "profile": "exponential",
+      "slope_at_galaxy": -1.368783403114175,
+      "slope_at_companion": -0.02557916364309598
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.005954416016895392,
+      "slope_at_companion": -0.005954416016895366
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "profile": "yukawa",
+      "slope_at_galaxy": -6.064319948850816e-05,
+      "slope_at_companion": -7.113575911118472
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "profile": "exponential",
+      "slope_at_galaxy": -0.06575829031126745,
+      "slope_at_companion": -0.0012288591934613792
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.0002860585657178394,
+      "slope_at_companion": -0.00028605856571783814
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "profile": "yukawa",
+      "slope_at_galaxy": -2.404728111748966e-06,
+      "slope_at_companion": -0.409448002021668
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "profile": "exponential",
+      "slope_at_galaxy": -1.9254279934215945,
+      "slope_at_companion": -0.03598146910219087
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "profile": "tanh",
+      "slope_at_galaxy": -0.008375904659086997,
+      "slope_at_companion": -0.00837590465908696
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "profile": "yukawa",
+      "slope_at_galaxy": -9.492064016647372e-05,
+      "slope_at_companion": -8.942569588824972
+    }
+  ]
+}

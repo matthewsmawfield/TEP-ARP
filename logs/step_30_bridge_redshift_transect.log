@@ -1,0 +1,10 @@
+[20:34:32] [PROCESS] Fitting bridge redshift transects...
+[20:34:32] [TEST] NGC 7603 exponential: chi2/dof = 29410.94 (params=[30.])
+[20:34:32] [TEST] NGC 7603 tanh: chi2/dof = 44116.42 (params=[0.2  0.05])
+[20:34:32] [TEST] NGC 7603 yukawa: chi2/dof = 35847.47 (params=[0.5])
+[20:34:32] [TEST] NGC 7603 nested_wells: chi2/dof = 0.00 (params=[0.301 0.188 0.026 0.002])
+[20:34:32] [TEST] Best transect family: nested_wells (chi2/dof=0.00)
+[20:34:32] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_30_bridge_redshift_transect.json
+[20:34:32] [SUCCESS] Saved figure: step_30_bridge_redshift_transect.png
+[20:34:32] [SUCCESS] Bridge redshift transect fit complete.
+[20:34:32] [SUCCESS] step_30 completed in 0.1s

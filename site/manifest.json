@@ -1,0 +1,91 @@
+{
+  "title": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
+  "version": "v0.1 (Pasadena)",
+  "first_published": "24 September 2026",
+  "last_updated": "24 September 2026",
+  "description": "Application of the Temporal Equivalence Principle to Halton Arp's discordant quasar-galaxy pairs. The intrinsic conformal factor A_int = (1+z_G)/(1+z_Q) isolates a distance-independent proper-time gradient; luminous bridges, foreground absorption systems, and Poisson chance-alignment statistics demonstrate spatial proximity.",
+  "sections": [
+    {
+      "id": "section-abstract",
+      "title": "Abstract",
+      "file": "1_abstract.html",
+      "order": 1
+    },
+    {
+      "id": "section-intro",
+      "title": "1. Introduction: The Discordant-Redshift Anomaly",
+      "file": "2_introduction.html",
+      "order": 2
+    },
+    {
+      "id": "section-formalism",
+      "title": "2. Theoretical Framework: Redshift as Proper-Time Transport",
+      "file": "3_tep_formalism.html",
+      "order": 3
+    },
+    {
+      "id": "section-data",
+      "title": "3. The Discordant-Pair Sample and the Analysis Pipeline",
+      "file": "4_data_methodology.html",
+      "order": 4
+    },
+    {
+      "id": "section-intrinsic",
+      "title": "4. Results I: The Intrinsic Conformal Factor",
+      "file": "5_intrinsic_factor.html",
+      "order": 5
+    },
+    {
+      "id": "section-connection",
+      "title": "5. Results II: Physical-Connection Evidence",
+      "file": "6_connection_evidence.html",
+      "order": 6
+    },
+    {
+      "id": "section-inference",
+      "title": "6. Results III: Field-Gradient Inference",
+      "file": "7_field_inference.html",
+      "order": 7
+    },
+    {
+      "id": "section-discussion",
+      "title": "7. Discussion",
+      "file": "8_discussion.html",
+      "order": 8
+    },
+    {
+      "id": "section-conclusion",
+      "title": "8. Conclusion",
+      "file": "9_conclusion.html",
+      "order": 9
+    },
+    {
+      "id": "section-references",
+      "title": "References",
+      "file": "10_references.html",
+      "order": 10
+    },
+    {
+      "id": "section-reproducibility",
+      "title": "Data Availability and Reproducibility",
+      "file": "11_reproducibility.html",
+      "order": 11
+    }
+  ],
+  "icons": [
+    {
+      "src": "public/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a3a3a"
+}

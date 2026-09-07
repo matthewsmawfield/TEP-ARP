@@ -1,0 +1,16 @@
+[22:05:11] [INFO] 
+[22:05:11] [INFO] ================================================================================
+[22:05:11] [INFO]    TEP-ARP Analysis Pipeline
+[22:05:11] [INFO] ================================================================================
+[22:05:11] [INFO] 
+[22:05:11] [PROCESS] Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+[22:05:11] [INFO] Project root: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP
+[22:05:11] [INFO] Results: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results
+[22:05:11] [INFO] Logs: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/logs
+[22:05:11] [PROCESS] Running 1 step(s)
+[22:05:12] [INFO]   step_41: OK (1.1s)
+[22:05:12] [INFO] 
+[22:05:12] [INFO] ================================================================================
+[22:05:12] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 1.1s total
+[22:05:12] [INFO] ================================================================================
+[22:05:12] [INFO] 

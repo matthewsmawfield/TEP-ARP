@@ -1,0 +1,196 @@
+{
+  "catalog": "Tully 2015 2MASS groups (VizieR J/AJ/149/171); dominant member = PGC1, velocities CMB-frame",
+  "nmb_min": 3,
+  "n_groups_used": 2822,
+  "n_satellites_total": 14155,
+  "offset_statistics": [
+    {
+      "cut": "all_offsets",
+      "n_satellites": 14142,
+      "n_positive": 7044,
+      "frac_positive": 0.49809079338141704,
+      "median_dv_kms": -1.0,
+      "binomial_p_two_sided": 0.6558319302108615,
+      "wilcoxon_p_positive": 0.27136894002245565
+    },
+    {
+      "cut": "bound_members_|dV|<300",
+      "n_satellites": 7708,
+      "n_positive": 3770,
+      "frac_positive": 0.48910223144784637,
+      "median_dv_kms": -5.0,
+      "binomial_p_two_sided": 0.05714401960628613,
+      "wilcoxon_p_positive": 0.8888282210220616
+    },
+    {
+      "cut": "|dV| > 50 km/s",
+      "n_satellites": 12593,
+      "n_positive": 6309,
+      "frac_positive": 0.5009926149448106,
+      "median_dv_kms": 51.0,
+      "binomial_p_two_sided": 0.8306507290055144,
+      "wilcoxon_p_positive": 0.23639293731678473
+    },
+    {
+      "cut": "|dV| > 150 km/s",
+      "n_satellites": 9684,
+      "n_positive": 4860,
+      "frac_positive": 0.5018587360594795,
+      "median_dv_kms": 152.0,
+      "binomial_p_two_sided": 0.7220937536716279,
+      "wilcoxon_p_positive": 0.1787446632467467
+    }
+  ],
+  "resolved_statistics": [
+    {
+      "cut": "Vsys 0-2000 | |dV| 50-150",
+      "n_satellites": 180,
+      "n_positive": 91,
+      "frac_positive": 0.5055555555555555,
+      "median_dv_kms": 51.0,
+      "binomial_p_two_sided": 0.9406117367092572,
+      "wilcoxon_p_positive": 0.5392594241568969
+    },
+    {
+      "cut": "Vsys 0-2000 | |dV| 150-300",
+      "n_satellites": 168,
+      "n_positive": 91,
+      "frac_positive": 0.5416666666666666,
+      "median_dv_kms": 161.5,
+      "binomial_p_two_sided": 0.3158749116129897,
+      "wilcoxon_p_positive": 0.028992080063585814
+    },
+    {
+      "cut": "Vsys 0-2000 | |dV| 300-600",
+      "n_satellites": 180,
+      "n_positive": 129,
+      "frac_positive": 0.7166666666666667,
+      "median_dv_kms": 353.0,
+      "binomial_p_two_sided": 5.53269881370083e-09,
+      "wilcoxon_p_positive": 2.1466616980469634e-07
+    },
+    {
+      "cut": "Vsys 0-2000 | |dV| 600-100000",
+      "n_satellites": 93,
+      "n_positive": 56,
+      "frac_positive": 0.6021505376344086,
+      "median_dv_kms": 690.0,
+      "binomial_p_two_sided": 0.06138589870445953,
+      "wilcoxon_p_positive": 0.0059117175028997205
+    },
+    {
+      "cut": "Vsys 2000-4000 | |dV| 50-150",
+      "n_satellites": 312,
+      "n_positive": 164,
+      "frac_positive": 0.5256410256410257,
+      "median_dv_kms": 54.0,
+      "binomial_p_two_sided": 0.3958014452706357,
+      "wilcoxon_p_positive": 0.5582068104847788
+    },
+    {
+      "cut": "Vsys 2000-4000 | |dV| 150-300",
+      "n_satellites": 281,
+      "n_positive": 155,
+      "frac_positive": 0.5516014234875445,
+      "median_dv_kms": 160.0,
+      "binomial_p_two_sided": 0.0946766675552122,
+      "wilcoxon_p_positive": 0.01745299208353218
+    },
+    {
+      "cut": "Vsys 2000-4000 | |dV| 300-600",
+      "n_satellites": 184,
+      "n_positive": 103,
+      "frac_positive": 0.5597826086956522,
+      "median_dv_kms": 319.5,
+      "binomial_p_two_sided": 0.12135284705944048,
+      "wilcoxon_p_positive": 0.02564525023273991
+    },
+    {
+      "cut": "Vsys 2000-4000 | |dV| 600-100000",
+      "n_satellites": 131,
+      "n_positive": 109,
+      "frac_positive": 0.8320610687022901,
+      "median_dv_kms": 920.0,
+      "binomial_p_two_sided": 4.778271938920025e-15,
+      "wilcoxon_p_positive": 6.09931510478483e-16
+    },
+    {
+      "cut": "Vsys 4000-7000 | |dV| 50-150",
+      "n_satellites": 974,
+      "n_positive": 480,
+      "frac_positive": 0.4928131416837782,
+      "median_dv_kms": -50.0,
+      "binomial_p_two_sided": 0.6770314668112685,
+      "wilcoxon_p_positive": 0.474418205364254
+    },
+    {
+      "cut": "Vsys 4000-7000 | |dV| 150-300",
+      "n_satellites": 1118,
+      "n_positive": 517,
+      "frac_positive": 0.462432915921288,
+      "median_dv_kms": -157.5,
+      "binomial_p_two_sided": 0.013018106453610146,
+      "wilcoxon_p_positive": 0.984609841191231
+    },
+    {
+      "cut": "Vsys 4000-7000 | |dV| 300-600",
+      "n_satellites": 1004,
+      "n_positive": 490,
+      "frac_positive": 0.48804780876494025,
+      "median_dv_kms": -304.0,
+      "binomial_p_two_sided": 0.46793381347762536,
+      "wilcoxon_p_positive": 0.8158145028259767
+    },
+    {
+      "cut": "Vsys 4000-7000 | |dV| 600-100000",
+      "n_satellites": 623,
+      "n_positive": 283,
+      "frac_positive": 0.45425361155698235,
+      "median_dv_kms": -627.0,
+      "binomial_p_two_sided": 0.024780570391312155,
+      "wilcoxon_p_positive": 0.9421777943059716
+    },
+    {
+      "cut": "Vsys 7000-11000 | |dV| 50-150",
+      "n_satellites": 997,
+      "n_positive": 498,
+      "frac_positive": 0.49949849548645936,
+      "median_dv_kms": -50.0,
+      "binomial_p_two_sided": 1.0,
+      "wilcoxon_p_positive": 0.24846665327566048
+    },
+    {
+      "cut": "Vsys 7000-11000 | |dV| 150-300",
+      "n_satellites": 1135,
+      "n_positive": 561,
+      "frac_positive": 0.49427312775330395,
+      "median_dv_kms": -151.0,
+      "binomial_p_two_sided": 0.7217144263202854,
+      "wilcoxon_p_positive": 0.5948724984985116
+    },
+    {
+      "cut": "Vsys 7000-11000 | |dV| 300-600",
+      "n_satellites": 1159,
+      "n_positive": 586,
+      "frac_positive": 0.5056082830025884,
+      "median_dv_kms": 301.0,
+      "binomial_p_two_sided": 0.7244919090058113,
+      "wilcoxon_p_positive": 0.3643772338943046
+    },
+    {
+      "cut": "Vsys 7000-11000 | |dV| 600-100000",
+      "n_satellites": 865,
+      "n_positive": 488,
+      "frac_positive": 0.5641618497109827,
+      "median_dv_kms": 650.0,
+      "binomial_p_two_sided": 0.00018052339425505604,
+      "wilcoxon_p_positive": 3.9602120197490315e-06
+    }
+  ],
+  "per_group": {
+    "n_groups": 2822,
+    "frac_groups_mean_dv_positive": 0.4805102763997165,
+    "wilcoxon_p_positive": 0.863681118731491
+  },
+  "method": "Per satellite: dV = V_member - V_dominant (CMB frame); sign distribution vs symmetric null by two-sided binomial and Wilcoxon; reported over all offsets and with |dV| > 50 and > 150 km/s cuts. Group membership is assigned about the nest's systemic velocity, not the dominant galaxy, so the test carries no construction bias."
+}

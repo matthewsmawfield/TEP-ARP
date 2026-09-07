@@ -1,0 +1,163 @@
+{
+  "formalism": {
+    "redshift_decomposition": "1 + z = A_0 / (A_bg(r) * A_int)",
+    "pair_ratio": "(1+z_Q)/(1+z_G) = 1/A_int(Q)",
+    "coupling": "A(phi) = exp(beta_A * phi), beta_A = -1",
+    "delta_phi": "Delta phi = phi_Q - phi_G = -ln A_int(Q)"
+  },
+  "n_pairs": 12,
+  "a_int_range": [
+    0.32835581245985873,
+    0.983698789640023
+  ],
+  "delta_phi_range": [
+    0.016435536879935545,
+    1.1136574644769868
+  ],
+  "pairs": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "z_gal": 0.00468,
+      "z_comp": 0.0708,
+      "a_int": 0.9382517743742996,
+      "delta_phi": 0.06373694981579786,
+      "z_intrinsic": 0.06581199984074537,
+      "clock_rate_ratio": 0.9382517743742996,
+      "hubble_distance_factor": 15.128205128205128,
+      "separation_arcsec": 42.0,
+      "connection_type": "luminous_bridge"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "z_gal": 0.0295,
+      "z_comp": 0.0565,
+      "a_int": 0.9744439185991483,
+      "delta_phi": 0.025888310588267127,
+      "z_intrinsic": 0.026226323457989142,
+      "clock_rate_ratio": 0.9744439185991483,
+      "hubble_distance_factor": 1.9152542372881358,
+      "separation_arcsec": 59.0,
+      "connection_type": "luminous_filament"
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "z_gal": 0.0049,
+      "z_comp": 0.533,
+      "a_int": 0.6555120678408349,
+      "delta_phi": 0.42233856581690116,
+      "z_intrinsic": 0.5255249278535179,
+      "clock_rate_ratio": 0.6555120678408349,
+      "hubble_distance_factor": 108.77551020408164,
+      "separation_arcsec": 114.0,
+      "connection_type": "absorption_system"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "z_gal": 0.007,
+      "z_comp": 0.5997,
+      "a_int": 0.6294930299431143,
+      "delta_phi": 0.4628404979289878,
+      "z_intrinsic": 0.5885799404170804,
+      "clock_rate_ratio": 0.6294930299431143,
+      "hubble_distance_factor": 85.67142857142858,
+      "separation_arcsec": 120.0,
+      "connection_type": "disk_projection"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "z_gal": 0.0225,
+      "z_comp": 2.114,
+      "a_int": 0.32835581245985873,
+      "delta_phi": 1.1136574644769868,
+      "z_intrinsic": 2.0454767726161367,
+      "clock_rate_ratio": 0.32835581245985873,
+      "hubble_distance_factor": 93.95555555555555,
+      "separation_arcsec": 8.9,
+      "connection_type": "ejection_candidate"
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "z_gal": 0.0083,
+      "z_comp": 0.044,
+      "a_int": 0.9658045977011493,
+      "delta_phi": 0.03479374504341444,
+      "z_intrinsic": 0.03540612912823571,
+      "clock_rate_ratio": 0.9658045977011493,
+      "hubble_distance_factor": 5.301204819277108,
+      "separation_arcsec": 58.0,
+      "connection_type": "silhouette"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "z_gal": 0.002822,
+      "z_comp": 1.498283,
+      "a_int": 0.40140448460002337,
+      "delta_phi": 0.91278567028564,
+      "z_intrinsic": 1.4912526849231464,
+      "clock_rate_ratio": 0.40140448460002337,
+      "hubble_distance_factor": 530.9294826364281,
+      "separation_arcsec": 300.0,
+      "connection_type": "axis_alignment"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "z_gal": 0.0015,
+      "z_comp": 0.398,
+      "a_int": 0.7163805436337625,
+      "delta_phi": 0.3335437676878827,
+      "z_intrinsic": 0.3959061407888169,
+      "clock_rate_ratio": 0.7163805436337625,
+      "hubble_distance_factor": 265.3333333333333,
+      "separation_arcsec": 576.0,
+      "connection_type": "axis_alignment"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "z_gal": 0.0111,
+      "z_comp": 0.3048,
+      "a_int": 0.774908031882281,
+      "delta_phi": 0.2550109252094505,
+      "z_intrinsic": 0.2904757195134011,
+      "clock_rate_ratio": 0.774908031882281,
+      "hubble_distance_factor": 27.45945945945946,
+      "separation_arcsec": 600.0,
+      "connection_type": "axis_alignment"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "z_gal": 0.00424,
+      "z_comp": 0.52,
+      "a_int": 0.6606842105263158,
+      "delta_phi": 0.4144792983303692,
+      "z_intrinsic": 0.5135824105791444,
+      "clock_rate_ratio": 0.6606842105263158,
+      "hubble_distance_factor": 122.64150943396227,
+      "separation_arcsec": 720.0,
+      "connection_type": "axis_alignment"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "z_gal": 0.00535,
+      "z_comp": 0.02201,
+      "a_int": 0.983698789640023,
+      "delta_phi": 0.016435536879935545,
+      "z_intrinsic": 0.016571343313274145,
+      "clock_rate_ratio": 0.983698789640023,
+      "hubble_distance_factor": 4.114018691588785,
+      "separation_arcsec": 264.0,
+      "connection_type": "luminous_filament"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "z_gal": 0.0088,
+      "z_comp": 0.93,
+      "a_int": 0.5226943005181346,
+      "delta_phi": 0.6487584972482217,
+      "z_intrinsic": 0.913164155432197,
+      "clock_rate_ratio": 0.5226943005181346,
+      "hubble_distance_factor": 105.68181818181819,
+      "separation_arcsec": 674.5,
+      "connection_type": "axis_alignment"
+    }
+  ]
+}

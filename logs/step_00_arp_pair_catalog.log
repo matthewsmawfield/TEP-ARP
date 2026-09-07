@@ -1,0 +1,8 @@
+[20:29:08] [PROCESS] Compiling Arp discordant-pair catalog...
+[20:29:08] [SUCCESS] Saved catalog: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/arp_pair_catalog.csv (12 pairs)
+[20:29:08] [TEST] (1+z) ratio range: 1.017 - 3.14
+[20:29:08] [TEST] Pairs with absorption evidence: 2
+[20:29:08] [TEST] Pairs pending NED verification: 1
+[20:29:08] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_00_arp_pair_catalog.json
+[20:29:08] [SUCCESS] Arp pair catalog compiled.
+[20:29:08] [SUCCESS] step_00 completed in 0.2s

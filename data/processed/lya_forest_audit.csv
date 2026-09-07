@@ -1,0 +1,19 @@
+pair_id,resolved_name,z,forest_lo_a,forest_hi_a,observability,n_sdss_spec,n_mast_forest_products,mast_forest_covered_a,mast_forest_covered_frac,eso_on_slit,eso_in_field,koa_on_target,koa_in_field,koa_nearest,status,verdict
+NGC4319-Mrk205,MRK 0205,0.0708,1114.7028,1268.898,space_uv,0,12,154.1951999999999,1.0,-1,-1,,,,ok,weak_path_low_power
+NGC3067-3C232,3C 232,0.533,1595.8529999999998,1816.6049999999998,space_uv,2,14,220.75199999999995,1.0,-1,-1,,,,ok,forest_measured
+NGC1073-QSOs,QSO B0240+011,0.59824,1663.7678400000002,1893.9144000000001,space_uv,3,0,0.0,0.0,0,0,,,,ok,forest_not_covered
+NGC1073-QSOs,QSO B0241+011,1.4,2498.4,2844.0,space_uv,0,0,0.0,0.0,0,0,,,,ok,forest_not_covered
+NGC1073-QSOs,[VV96] J024333.6+012222,1.945,3065.7450000000003,3489.8250000000003,ground,0,0,0.0,0.0,0,0,,koa_lris,"LB.20050311.21368.fits(IXO 5 counterpa,94.5arcsec)",ok,unusable_or_field_only
+NGC7319-QSO,[VV2006] J223603.7+335824,2.114,3241.674,3690.0899999999997,ground,0,1,108.32600000000002,0.24157478769713858,-1,-1,,koa_lris,"LB.20031003.30962.fits(NGC 7319 ULX,9.3arcsec)",ok,forest_band_partial
+NGC3628-XQSO,WEE 51,1.4989999532699585,2601.458951354027,2961.314944624901,space_uv,2,0,0.0,0.0,0,0,,,,ok,forest_not_covered
+NGC4258-QSOs,SDSS J121902.21+470505.4,0.40846,1466.20686,1669.0251,space_uv,2,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC4258-QSOs,SDSS J121952.31+472058.5,0.6535,1721.2935,1959.3975,space_uv,1,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC2639-QSOs,SDSS J084331.40+500227.0,0.2971,1350.2811,1537.0635,space_uv,1,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC2639-QSOs,SDSS J084326.65+500845.6,0.3364,1391.1924000000001,1583.634,space_uv,1,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC1097-jetQSOs,CEMM J1779.9BL  2,0.53,1592.73,1813.05,space_uv,0,2,0.0,0.0,0,0,,,,ok,unusable_or_field_only
+NGC1097-jetQSOs,WISP 257  129,2.3342,3470.9022,3951.027,ground,0,0,0.0,0.0,0,0,,,,ok,forest_not_covered
+NGC3516-Qchain,[VV98] J110833.2+722610,0.328,1382.448,1573.68,space_uv,0,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC3516-Qchain,1WGA J1106.2+7244,0.6899999976158142,1759.2899975180626,2002.6499971747398,space_uv,0,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC3516-Qchain,NuSTAR J110752+7230.7,0.901,1978.941,2252.685,space_uv,0,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC3516-Qchain,1WGA J1105.4+7238,1.39900004863739,2497.359050631523,2842.8150576353073,space_uv,0,0,0.0,0.0,-1,-1,,,,ok,forest_not_covered
+NGC3516-Qchain,1WGA J1107.7+7232,2.0999999046325684,3227.0999007225037,3673.4998869895935,ground,0,0,0.0,0.0,-1,-1,,koa_lris,"LB.20160214.43045.fits(ngc3516_sA1124,101.5arcsec)",ok,unusable_or_field_only

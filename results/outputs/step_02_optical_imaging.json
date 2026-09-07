@@ -1,0 +1,181 @@
+{
+  "n_fields": 12,
+  "n_images": 23,
+  "n_failed": 0,
+  "surveys": [
+    "LS-DR10r",
+    "SDSSr",
+    "DSS2 Red"
+  ],
+  "manifest": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC4319-Mrk205_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC4319-Mrk205_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC7603-NGC7603B_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC7603-NGC7603B_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC3067-3C232_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC3067-3C232_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC1073-QSOs_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC1073-QSOs_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "survey": "LS-DR10g",
+      "file": null,
+      "status": "no_coverage",
+      "bytes": 0
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "survey": "SDSSr",
+      "file": "data/raw/skyview/NGC7319-QSO_SDSSr.fits",
+      "status": "skip_exists",
+      "bytes": 5771520
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC1199-companion_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC1199-companion_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 13458240
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC3628-XQSO_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC3628-XQSO_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC4258-QSOs_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC4258-QSOs_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC2639-QSOs_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC2639-QSOs_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC1097-jetQSOs_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC1097-jetQSOs_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC1232-NGC1232A_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 31858560
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC1232-NGC1232A_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 31858560
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "survey": "LS-DR10r",
+      "file": "data/raw/skyview/NGC3516-Qchain_LS-DR10r.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "survey": "LS-DR10g",
+      "file": "data/raw/skyview/NGC3516-Qchain_LS-DR10g.fits",
+      "status": "skip_exists",
+      "bytes": 36002880
+    }
+  ],
+  "data_policy": "All images retrieved from the DESI Legacy Imaging Surveys DR10 cutout service or NASA SkyView (SDSS/DSS2); no synthetic imaging."
+}

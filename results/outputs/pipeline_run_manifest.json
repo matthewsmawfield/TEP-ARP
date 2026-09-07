@@ -1,0 +1,94 @@
+{
+  "pipeline": "TEP-ARP",
+  "title": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
+  "run_mode": "partial (1 steps)",
+  "environment": {
+    "generated_utc": "2026-09-24T21:05:12+00:00",
+    "python_version": "3.13.5",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "astropy": "7.1.1",
+      "astroquery": "0.4.11",
+      "scipy": "1.14.1",
+      "matplotlib": "3.9.2",
+      "emcee": "3.1.6",
+      "corner": "2.2.3",
+      "requests": "2.32.4"
+    },
+    "git_commit": "a3cb9976b954a8d0983c628b2f2b464993ad3967",
+    "git_dirty": true,
+    "manuscript_version": {
+      "version": "0.1",
+      "codename": "Pasadena",
+      "first_published": "2026-09-24",
+      "last_updated": "2026-09-24",
+      "date": "2026-09-24",
+      "doi": "10.5281/zenodo.22938153",
+      "status": "Preprint (Draft)",
+      "description": "Paper 37: TEP-ARP \u2014 Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs. Application of the Temporal Equivalence Principle to Halton Arp's discordant quasar-galaxy pairs. The intrinsic conformal factor A_int = (1+z_G)/(1+z_Q) isolates a distance-independent proper-time gradient; luminous bridges, foreground absorption systems, and Poisson chance-alignment statistics demonstrate spatial proximity.",
+      "previous_version": "",
+      "paper": "37"
+    }
+  },
+  "n_steps_run": 1,
+  "n_succeeded": 1,
+  "n_failed": 0,
+  "total_elapsed_s": 1.09,
+  "steps": [
+    {
+      "step": "step_41",
+      "block": "IV",
+      "description": "Manuscript figure generation from all results",
+      "status": "ok",
+      "elapsed_s": 1.09
+    }
+  ],
+  "outputs": {
+    "results": [
+      ".gitkeep",
+      "pipeline_run_manifest.json",
+      "step_00_arp_pair_catalog.json",
+      "step_01_ned_verification.json",
+      "step_02_optical_imaging.json",
+      "step_03_multiwavelength_manifest.json",
+      "step_04_spectroscopic_ingestion.json",
+      "step_05_redshift_independent_distances.json",
+      "step_10_intrinsic_conformal_factor.json",
+      "step_11_redshift_decomposition.json",
+      "step_12_scalar_field_profiles.json",
+      "step_13_proper_time_budget.json",
+      "step_20_bridge_morphology.json",
+      "step_21_absorption_systems.json",
+      "step_22_quasar_galaxy_association.json",
+      "step_23_chance_alignment.json",
+      "step_24_forward_crosscorrelation.json",
+      "step_25_satellite_redshift_asymmetry.json",
+      "step_26_lens_magnification_budget.json",
+      "step_27_geometric_coherence.json",
+      "step_28_archive_kinematic_audit.json",
+      "step_29_lya_forest_audit.json",
+      "step_30_bridge_redshift_transect.json",
+      "step_31_mcmc_field_profile.json",
+      "step_32_pair_sample_statistics.json",
+      "step_33_residuals_analysis.json",
+      "step_40_falsification_summary.json",
+      "step_41_manuscript_figures.json"
+    ],
+    "figures": [
+      ".gitkeep",
+      "step_20_bridge_morphology.png",
+      "step_24_radial_overdensity.png",
+      "step_30_bridge_redshift_transect.png",
+      "step_31_mcmc_corner.png",
+      "step_31_mcmc_field_profile.png",
+      "step_31_mcmc_profiles.png",
+      "step_32_pair_sample_statistics.png",
+      "step_33_residuals_analysis.png",
+      "step_41_chance_alignment.png",
+      "step_41_field_transition.png",
+      "step_41_pair_gallery.png"
+    ]
+  }
+}

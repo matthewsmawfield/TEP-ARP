@@ -1,0 +1,12 @@
+test,value
+xray_selection_repriced_joint_p,1.291598789670569e-22
+minor_axis_binomial_p_all,0.23987542010344126
+minor_axis_vtest_p_all,0.29221321405063877
+radial_ordering_binomial_p,0.021270751953125
+radial_ordering_permutation_p,0.05833333333333333
+halo_scale_permutation_p,0.019444444444444445
+paired_redshift_fisher_p_members,0.40121425203911604
+paired_redshift_fisher_p_census,0.6488803481040551
+symmetric_config_joint_p:NGC1097-jetQSOs,0.2790441904380612
+symmetric_config_joint_p:NGC2639-QSOs,0.7397919317821472
+symmetric_config_joint_p:NGC4258-QSOs,0.1963496344867991

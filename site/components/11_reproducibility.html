@@ -1,0 +1,171 @@
+<h2>Data Availability and Reproducibility</h2>
+
+<h3>Open Science Commitment</h3>
+
+<p>
+    This preprint is released under CC and MIT licenses. All
+    materials required to reproduce the analysis&mdash;scripts, data
+    references, and the manuscript source&mdash;are openly available.
+    Feedback and collaboration are welcome.
+</p>
+
+<h3>Repository Structure</h3>
+
+<p>
+    The complete project is hosted at
+    <a href="https://github.com/matthewsmawfield/TEP-ARP">https://github.com/matthewsmawfield/TEP-ARP</a>
+    and is structured as follows:
+</p>
+
+<ul>
+    <li><em>site/components/</em>&mdash;HTML source files for
+        each manuscript section. These are the only files that should
+        be edited; all other formats are auto-generated.</li>
+    <li><em>scripts/steps/</em>&mdash;Reproducible analysis pipeline
+        with 26 registered step scripts organized into five blocks
+        (data ingestion and target catalogue, TEP formalism,
+        physical-connection evidence, field-gradient inference,
+        and synthesis / figures).</li>
+    <li><em>core/</em>&mdash;Shared TEP framework Python
+        modules (scalar field, conformal scaling, screening,
+        cosmology, constants).</li>
+    <li><em>scripts/</em>&mdash;Utility scripts including the
+        pipeline runner (<code>run_pipeline.py</code>) and PDF
+        generation (<code>generate_site_pdf.py</code>).</li>
+    <li><em>results/</em>&mdash;Generated outputs and figures
+        (populated by running the pipeline).</li>
+</ul>
+
+<h3>Reproducing the Analysis</h3>
+
+<p>
+    The full analysis pipeline can be reproduced by running:
+</p>
+
+<pre><code>cd /path/to/TEP-ARP
+python3 scripts/run_pipeline.py</code></pre>
+
+<p>
+    This executes all 26 registered step scripts in sequence, populating
+    <code>results/figures/</code> and <code>results/outputs/</code>
+    with fresh data. Individual blocks or steps can be run
+    selectively:
+</p>
+
+<pre><code>python3 scripts/run_pipeline.py --block II     # Physical-connection evidence only
+python3 scripts/run_pipeline.py --step 23      # Single step only</code></pre>
+
+<p>
+    The pipeline is deterministic: seeded where randomness enters
+    (MCMC chains, control-field placement). A verification test
+    suite re-derives the headline numbers from the processed
+    tables offline:
+</p>
+
+<pre><code>python3 -m pytest scripts/tests/ -v</code></pre>
+
+<p>
+    The pipeline is fully implemented and all 26 registered steps run
+    successfully against real published data. The pipeline structure,
+    data sources, and analysis methodology are documented in
+    <code>scripts/README.md</code>.
+</p>
+
+<h3>Building the Manuscript</h3>
+
+<p>
+    The manuscript site is built from the HTML component files:
+</p>
+
+<pre><code>cd site
+npm install
+npm run build</code></pre>
+
+<p>
+    This generates the static site in <code>site/dist/</code> and the
+    markdown version at the repository root
+    (<code>37-TEP-ARP-v0.1-Pasadena.md</code>). A PDF can be
+    generated from the built site:
+</p>
+
+<pre><code>python3 scripts/generate_site_pdf.py</code></pre>
+
+<h3>Data Sources</h3>
+
+<p>
+    The analysis draws on the following publicly available datasets:
+</p>
+
+<ul>
+    <li><em>NASA/IPAC Extragalactic Database (NED)</em>:
+        Redshift verification and archive-resolved positions for
+        every catalogued pair and companion.</li>
+    <li><em>DESI Legacy Imaging Surveys DR10</em>:
+        r-band CCD imaging for the bridge surface-brightness
+        transects; SDSS r for NGC 7319 and DSS2 Red through
+        SkyView as fallbacks.</li>
+    <li><em>SDSS DR16 quasar catalogue and DR18
+        spectroscopy</em>: Empirical quasar field densities and
+        spectroscopic coverage of the target fields.</li>
+    <li><em>HEASARC master catalogues and VizieR</em>:
+        Multi-wavelength coverage manifest, including the VizieR
+        VII/290 quasar catalogue used for the field-density test.</li>
+    <li><em>2MRS galaxy catalogue</em> (Huchra et al. 2012;
+        VizieR J/ApJS/199/26): The 23,205-galaxy parent sample for
+        the forward galaxy&ndash;quasar cross-correlation.</li>
+    <li><em>Tully 2MASS group catalogue</em> (Tully 2015;
+        VizieR J/AJ/149/171): The 2,822 nests and 14,142 satellites used for the
+        satellite redshift-asymmetry audit step (the signature
+        reported by Arp &amp; Sulentic 1985 and examined further
+        by Girardi et al. 1993).</li>
+    <li><em>Redshift-independent distances</em>: Tully&ndash;Fisher,
+        fundamental-plane, and related calibrators compiled through
+        the Cosmicflows-4 catalogue (Tully et al. 2023; VizieR
+        J/ApJ/944/94) for the host galaxies.</li>
+    <li><em>Host morphological position angles</em>: literature
+        photometric position angles and axis ratios from the NED
+        diameters tables (median over $2$&ndash;$14$ references per
+        galaxy), with HyperLEDA mean PAs (Paturel et al. 2003;
+        VizieR VII/237) as fallback.</li>
+    <li><em>X-ray selection accounting</em>: Milliquas association
+        type flags (e.g. QX, KX) counted on the same control-field
+        cones as the quasar field-density test, giving the measured
+        X-ray-detected quasar-class density used for the
+        selection-aware repricing.</li>
+</ul>
+
+<h3>Companion Papers</h3>
+
+<p>
+    This paper is part of the TEP Research Series. The foundational
+    framework is developed in TEP (Paper 0); the measurement
+    taxonomy and screening regime analysis are developed in
+    TEP-EXP (Paper 9); and the AGN proper-time gradient
+    interpretation is developed in TEP-AGN (Paper 32).
+</p>
+
+<h3>Citation</h3>
+
+<p>
+    If you use this code or data, please cite:
+</p>
+
+<pre><code>@misc{smawfield2026arp,
+  title        = {Temporal Equivalence Principle: Localized
+                  Proper-Time Gradients and the Spatial Proximity
+                  of Discordant Pairs},
+  author       = {Smawfield, Matthew Lukin},
+  year         = {2026},
+  doi          = {10.5281/zenodo.22938153},
+  url          = {https://doi.org/10.5281/zenodo.22938153},
+  note         = {Preprint, Version v0.1 (Pasadena)}
+}</code></pre>
+
+<h3>Contact</h3>
+
+<p>
+    <em>Matthew Lukin Smawfield</em><br>
+    Email: matthew@mlsmawfield.com<br>
+    ORCID: <a href="https://orcid.org/0009-0003-8219-3159">0009-0003-8219-3159</a><br>
+    Website: <a href="https://mlsmawfield.com/tep/arp/">https://mlsmawfield.com/tep/arp/</a>
+</p>

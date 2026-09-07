@@ -1,0 +1,17 @@
+[20:29:41] [PROCESS] Building multi-wavelength coverage manifest...
+[20:29:55] [TEST] NGC4319-Mrk205: queried 3 X-ray + 2 radio archives
+[20:30:05] [TEST] NGC7603-NGC7603B: queried 3 X-ray + 2 radio archives
+[20:30:15] [TEST] NGC3067-3C232: queried 3 X-ray + 2 radio archives
+[20:30:23] [TEST] NGC1073-QSOs: queried 3 X-ray + 2 radio archives
+[20:30:31] [TEST] NGC7319-QSO: queried 3 X-ray + 2 radio archives
+[20:30:41] [TEST] NGC1199-companion: queried 3 X-ray + 2 radio archives
+[20:30:51] [TEST] NGC3628-XQSO: queried 3 X-ray + 2 radio archives
+[20:30:59] [TEST] NGC4258-QSOs: queried 3 X-ray + 2 radio archives
+[20:31:10] [TEST] NGC2639-QSOs: queried 3 X-ray + 2 radio archives
+[20:31:19] [TEST] NGC1097-jetQSOs: queried 3 X-ray + 2 radio archives
+[20:31:28] [TEST] NGC1232-NGC1232A: queried 3 X-ray + 2 radio archives
+[20:31:36] [TEST] NGC3516-Qchain: queried 3 X-ray + 2 radio archives
+[20:31:36] [SUCCESS] Saved manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/multiwavelength_manifest.csv
+[20:31:36] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_03_multiwavelength_manifest.json
+[20:31:36] [SUCCESS] Multi-wavelength manifest complete: 60/60 queries answered (45 with records, 15 empty, 0 failed; 0 fields unresolved).
+[20:31:36] [SUCCESS] step_03 completed in 115.0s

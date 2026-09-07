@@ -1,0 +1,20 @@
+pair_id,object,role,status,n_spectra,sdss_z
+NGC4319-Mrk205,NGC 4319,galaxy,no_sdss_spectrum,0,
+NGC4319-Mrk205,Markarian 205,companion,no_sdss_spectrum,0,
+NGC7603-NGC7603B,NGC 7603,galaxy,no_sdss_spectrum,0,
+NGC7603-NGC7603B,NGC 7603B,companion,downloaded,1,0.05570214
+NGC3067-3C232,NGC 3067,galaxy,downloaded,1,0.004841116
+NGC3067-3C232,3C 232,companion,downloaded,2,0.5306148
+NGC1073-QSOs,NGC 1073,galaxy,no_sdss_spectrum,0,
+NGC7319-QSO,NGC 7319,galaxy,no_sdss_spectrum,0,
+NGC7319-QSO,QSO (z=2.114),companion,unresolved_name,0,
+NGC1199-companion,NGC 1199,galaxy,no_sdss_spectrum,0,
+NGC1199-companion,compact companion (z=0.044),companion,unresolved_name,0,
+NGC3628-XQSO,NGC 3628,galaxy,no_sdss_spectrum,0,
+NGC3628-XQSO,Wee 51 (minor-axis X-ray quasar),companion,resolve_failed: no SIMBAD match,0,
+NGC4258-QSOs,NGC 4258,galaxy,no_sdss_spectrum,0,
+NGC2639-QSOs,NGC 2639,galaxy,no_sdss_spectrum,0,
+NGC1097-jetQSOs,NGC 1097,galaxy,no_sdss_spectrum,0,
+NGC1232-NGC1232A,NGC 1232,galaxy,no_sdss_spectrum,0,
+NGC1232-NGC1232A,NGC 1232A,companion,no_sdss_spectrum,0,
+NGC3516-Qchain,NGC 3516,galaxy,no_sdss_spectrum,0,

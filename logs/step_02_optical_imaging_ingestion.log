@@ -1,0 +1,30 @@
+[20:29:15] [PROCESS] Downloading optical imaging for Arp pair fields...
+[20:29:15] [INFO] [SKIP] NGC4319-Mrk205_LS-DR10r.fits already present
+[20:29:15] [INFO] [SKIP] NGC4319-Mrk205_LS-DR10g.fits already present
+[20:29:15] [INFO] [SKIP] NGC7603-NGC7603B_LS-DR10r.fits already present
+[20:29:15] [INFO] [SKIP] NGC7603-NGC7603B_LS-DR10g.fits already present
+[20:29:15] [INFO] [SKIP] NGC3067-3C232_LS-DR10r.fits already present
+[20:29:15] [INFO] [SKIP] NGC3067-3C232_LS-DR10g.fits already present
+[20:29:15] [INFO] [SKIP] NGC1073-QSOs_LS-DR10r.fits already present
+[20:29:15] [INFO] [SKIP] NGC1073-QSOs_LS-DR10g.fits already present
+[20:29:32] [INFO] NGC 7319 LS-DR10r cutout is blank (coverage hole); falling back to SkyView.
+[20:29:41] [INFO] NGC 7319 LS-DR10g cutout is blank (coverage hole); falling back to SkyView.
+[20:29:41] [INFO] [SKIP] NGC7319-QSO_SDSSr.fits already present
+[20:29:41] [INFO] [SKIP] NGC1199-companion_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC1199-companion_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC3628-XQSO_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC3628-XQSO_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC4258-QSOs_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC4258-QSOs_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC2639-QSOs_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC2639-QSOs_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC1097-jetQSOs_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC1097-jetQSOs_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC1232-NGC1232A_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC1232-NGC1232A_LS-DR10g.fits already present
+[20:29:41] [INFO] [SKIP] NGC3516-Qchain_LS-DR10r.fits already present
+[20:29:41] [INFO] [SKIP] NGC3516-Qchain_LS-DR10g.fits already present
+[20:29:41] [SUCCESS] Saved imaging manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/imaging_manifest.csv
+[20:29:41] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_02_optical_imaging.json
+[20:29:41] [SUCCESS] Imaging ingestion complete: 23 fields imaged, 0 failed.
+[20:29:41] [SUCCESS] step_02 completed in 26.3s

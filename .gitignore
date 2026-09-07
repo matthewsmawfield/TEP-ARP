@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+egg/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env*
+.env.local
+*.pem
+*.key
+credentials.json
+*secret*.json
+
+# Large binaries and archives
+*.tar
+*.tar.gz
+*.npz
+*.zip
+*.7z
+
+# Build artifacts
+site/node_modules/
+site/dist/
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# Backups
+*_backup*
+*_v1_backup*
+results/outputs_backup*/
+
+# Data — committed for reproducibility (see data/DATA_MANIFEST.md)
+# data/ is NOT ignored; small CSV and processed files are committed.
+# Large raw .dat files are kept compressed (.gz) to reduce repo size.
+data/raw/external/*.dat
+
+# Large result files
+results/**/*.fits
+results/**/*.hdf5
+
+# Private research notes (should never be committed)
+research
+.windsurf
+
+# IDE files
+*.code-workspace
+
+# Devin working files
+.devin/
+argos*.*
+cline-runner*.*
+data/raw/external/hyperleda_vii237.vot
+manuscripts/

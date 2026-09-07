@@ -1,0 +1,354 @@
+{
+  "catalog": "Cosmicflows-4 (VizieR J/ApJ/944/94; Tully et al. 2023, ApJ 944, 94)",
+  "cone_radius_arcmin": 2.0,
+  "h0_km_s_mpc": 70.0,
+  "n_members_queried": 33,
+  "n_members_measured": 6,
+  "n_hosts_measured": 6,
+  "n_companions_measured": 0,
+  "members": [
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "role": "host",
+      "object": "NGC 4319",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC4319-Mrk205",
+      "role": "companion",
+      "object": "MRK 0205",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "role": "host",
+      "object": "NGC 7603",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "71035",
+      "match_separation_arcsec": 1.0192932999000415,
+      "vcmb_kms": 8786.0,
+      "distance_modulus": 35.27199935913086,
+      "e_distance_modulus": 0.33000001311302185,
+      "distance_mpc": 113.34434884565088,
+      "e_distance_mpc": 17.225011214249854,
+      "methods": "",
+      "literature_z": 0.0295,
+      "z_distance_mpc_h70": 126.34110729999998,
+      "distance_ratio_cf4_over_z": 0.8971296141683484
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "role": "companion",
+      "object": "NGC 7603B",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": true,
+      "pgc": "71035",
+      "match_separation_arcsec": 59.28447675848312,
+      "vcmb_kms": 8786.0,
+      "distance_modulus": 35.27199935913086,
+      "e_distance_modulus": 0.33000001311302185,
+      "distance_mpc": 113.34434884565088,
+      "e_distance_mpc": 17.225011214249854,
+      "methods": "",
+      "literature_z": 0.0565,
+      "z_distance_mpc_h70": 241.9753411,
+      "distance_ratio_cf4_over_z": 0.46841280739763314
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "role": "host",
+      "object": "NGC 3067",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "28805",
+      "match_separation_arcsec": 0.7059686749781132,
+      "vcmb_kms": 1738.0,
+      "distance_modulus": 31.684999465942383,
+      "e_distance_modulus": 0.4300000071525574,
+      "distance_mpc": 21.727006445039862,
+      "e_distance_mpc": 4.302432250959184,
+      "methods": "tully_fisher",
+      "literature_z": 0.0049,
+      "z_distance_mpc_h70": 20.985472059999996,
+      "distance_ratio_cf4_over_z": 1.0353356066005917
+    },
+    {
+      "pair_id": "NGC3067-3C232",
+      "role": "companion",
+      "object": "3C 232",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": true,
+      "pgc": "28805",
+      "match_separation_arcsec": 110.57706842676704,
+      "vcmb_kms": 1738.0,
+      "distance_modulus": 31.684999465942383,
+      "e_distance_modulus": 0.4300000071525574,
+      "distance_mpc": 21.727006445039862,
+      "e_distance_mpc": 4.302432250959184,
+      "methods": "tully_fisher",
+      "literature_z": 0.533,
+      "z_distance_mpc_h70": 2282.7054302,
+      "distance_ratio_cf4_over_z": 0.0095180946948272
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "role": "host",
+      "object": "NGC 1073",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "role": "companion",
+      "object": "QSO B0240+011",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "role": "companion",
+      "object": "QSO B0241+011",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1073-QSOs",
+      "role": "companion",
+      "object": "[VV96] J024333.6+012222",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "role": "host",
+      "object": "NGC 7319",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": false,
+      "pgc": "69260",
+      "match_separation_arcsec": 86.60353125890843,
+      "vcmb_kms": 6238.0,
+      "distance_modulus": 34.72200012207031,
+      "e_distance_modulus": 0.3799999952316284,
+      "distance_mpc": 87.98325489020533,
+      "e_distance_mpc": 15.396758573685592,
+      "methods": "",
+      "literature_z": 0.0225,
+      "z_distance_mpc_h70": 96.36186149999999,
+      "distance_ratio_cf4_over_z": 0.913050594090125
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "role": "companion",
+      "object": "[VV2006] J223603.7+335824",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": false,
+      "pgc": "69260",
+      "match_separation_arcsec": 84.16244930932997,
+      "vcmb_kms": 6238.0,
+      "distance_modulus": 34.72200012207031,
+      "e_distance_modulus": 0.3799999952316284,
+      "distance_mpc": 87.98325489020533,
+      "e_distance_mpc": 15.396758573685592,
+      "methods": "",
+      "literature_z": 2.114,
+      "z_distance_mpc_h70": 9053.732231599999,
+      "distance_ratio_cf4_over_z": 0.009717898943721765
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "role": "host",
+      "object": "NGC 1199",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "11527",
+      "match_separation_arcsec": 1.867302108466917,
+      "vcmb_kms": 2393.0,
+      "distance_modulus": 32.683998107910156,
+      "e_distance_modulus": 0.3199999928474426,
+      "distance_mpc": 34.41910883609822,
+      "e_distance_mpc": 5.0721872095167,
+      "methods": "surface_brightness_fluctuation",
+      "literature_z": 0.0083,
+      "z_distance_mpc_h70": 35.54682002,
+      "distance_ratio_cf4_over_z": 0.9682753286154068
+    },
+    {
+      "pair_id": "NGC1199-companion",
+      "role": "companion",
+      "object": "2MASXi J0303366-153740",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": true,
+      "pgc": "11527",
+      "match_separation_arcsec": 57.40358857706029,
+      "vcmb_kms": 2393.0,
+      "distance_modulus": 32.683998107910156,
+      "e_distance_modulus": 0.3199999928474426,
+      "distance_mpc": 34.41910883609822,
+      "e_distance_mpc": 5.0721872095167,
+      "methods": "surface_brightness_fluctuation",
+      "literature_z": 0.044,
+      "z_distance_mpc_h70": 188.44097359999998,
+      "distance_ratio_cf4_over_z": 0.18265193698881538
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "role": "host",
+      "object": "NGC 3628",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "34697",
+      "match_separation_arcsec": 2.7045298338650237,
+      "vcmb_kms": 1192.0,
+      "distance_modulus": 30.135000228881836,
+      "e_distance_modulus": 0.4000000059604645,
+      "distance_mpc": 10.641431303892324,
+      "e_distance_mpc": 1.9602241162866276,
+      "methods": "tully_fisher",
+      "literature_z": 0.002822,
+      "z_distance_mpc_h70": 12.085918806799999,
+      "distance_ratio_cf4_over_z": 0.8804817799954976
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "role": "companion",
+      "object": "WEE 51",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "role": "host",
+      "object": "NGC 4258",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "39600",
+      "match_separation_arcsec": 0.7500083127449156,
+      "vcmb_kms": 652.0,
+      "distance_modulus": 29.38800048828125,
+      "e_distance_modulus": 0.02500000037252903,
+      "distance_mpc": 7.543972518331142,
+      "e_distance_mpc": 0.08685319460754362,
+      "methods": "tully_fisher;surface_brightness_fluctuation;cepheid;tip_red_giant_branch;maser",
+      "literature_z": 0.0015,
+      "z_distance_mpc_h70": 6.424124099999999,
+      "distance_ratio_cf4_over_z": 1.174319238062531
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "role": "companion",
+      "object": "SDSS J121902.21+470505.4",
+      "status": "no_cf4_match",
+      "nearest_entry_is_host": false,
+      "pgc": "39615",
+      "match_separation_arcsec": 74.73417556792393,
+      "vcmb_kms": 481.0,
+      "distance_modulus": 29.260000228881836,
+      "e_distance_modulus": 0.019999999552965164,
+      "distance_mpc": 7.112135886180686,
+      "e_distance_mpc": 0.06550519081931544,
+      "methods": "tip_red_giant_branch",
+      "literature_z": 0.398,
+      "z_distance_mpc_h70": 1704.5342612,
+      "distance_ratio_cf4_over_z": 0.004172480452914868
+    },
+    {
+      "pair_id": "NGC4258-QSOs",
+      "role": "companion",
+      "object": "SDSS J121952.31+472058.5",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "role": "host",
+      "object": "NGC 2639",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "role": "companion",
+      "object": "SDSS J084331.40+500227.0",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "role": "companion",
+      "object": "SDSS J084326.65+500845.6",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "role": "host",
+      "object": "NGC 1097",
+      "status": "measured",
+      "nearest_entry_is_host": true,
+      "pgc": "10488",
+      "match_separation_arcsec": 0.4200062374450107,
+      "vcmb_kms": 1105.0,
+      "distance_modulus": 30.885000228881836,
+      "e_distance_modulus": 0.4000000059604645,
+      "distance_mpc": 15.031421245271774,
+      "e_distance_mpc": 2.768890160129821,
+      "methods": "tully_fisher",
+      "literature_z": 0.00424,
+      "z_distance_mpc_h70": 18.158857456,
+      "distance_ratio_cf4_over_z": 0.8277735139280546
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "role": "companion",
+      "object": "CEMM J1779.9BL  2",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "role": "companion",
+      "object": "WISP 257  129",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "role": "host",
+      "object": "NGC 1232",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC1232-NGC1232A",
+      "role": "companion",
+      "object": "NGC 1232A",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "host",
+      "object": "NGC 3516",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "companion",
+      "object": "[VV98] J110833.2+722610",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "companion",
+      "object": "1WGA J1106.2+7244",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "companion",
+      "object": "NuSTAR J110752+7230.7",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "companion",
+      "object": "1WGA J1105.4+7238",
+      "status": "not_in_cf4"
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "role": "companion",
+      "object": "1WGA J1107.7+7232",
+      "status": "not_in_cf4"
+    }
+  ],
+  "method": "Simbad name resolution (hosts; companions use step_20 archive positions); VizieR cone search of Cosmicflows-4 within 2.0 arcmin; nearest entry adopted only inside 30.0 arcsec, beyond which it is a different object (compact-group neighbour). A companion whose nearest entry shares the host PGC is recorded as lacking an independent measurement. Distances derive from the catalogue combined modulus DM \u00b1 e_DM; the method-specific moduli present are listed per member. The z-distance uses c\u00b7z/H0 with H0 = 70.0 km/s/Mpc, the pipeline convention."
+}
