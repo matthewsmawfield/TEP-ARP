@@ -1,0 +1,27 @@
+[06:21:11] [PROCESS] Running Bayesian model selection (nested sampling)...
+[06:21:11] [TEST] knot [LG2002] 3: HWHM = 0.64 arcsec (w = 0.0109 transect units)
+[06:21:11] [TEST] knot [LG2002] 2: HWHM = 0.67 arcsec (w = 0.0113 transect units)
+[06:21:11] [TEST]           const_null: logZ = -55897.56 ± 0.00 (k=0, chi2_min=111842.6)
+[06:21:12] [TEST]               linear: logZ = -22933.50 ± 0.12 (k=1, chi2_min=45902.7)
+[06:21:13] [TEST]          exponential: logZ = -10829.53 ± 0.13 (k=2, chi2_min=21691.2)
+[06:21:14] [TEST]                 tanh: logZ = -10829.59 ± 0.14 (k=3, chi2_min=21691.2)
+[06:21:16] [TEST]               yukawa: logZ = -48189.18 ± 0.17 (k=2, chi2_min=96399.6)
+[06:21:20] [TEST]          single_well: logZ =  -1102.24 ± 0.21 (k=3, chi2_min=2213.5)
+[06:21:23] [TEST]         nested_2well: logZ =      5.04 ± 0.20 (k=3, chi2_min=2.7)
+[06:21:27] [TEST]         nested_3well: logZ =      3.54 ± 0.22 (k=4, chi2_min=0.0)
+[06:21:31] [TEST]   nested_3well_flatw: logZ =      1.08 ± 0.23 (k=4, chi2_min=0.0)
+[06:21:44] [TEST]    nested_3well_fwhm: logZ =      4.66 ± 0.21 (k=4, chi2_min=0.0)
+[06:21:44] [TEST] Bayes factor nested_3well vs           const_null: dlogZ = +55901.10 (log10 B = +24277.5)
+[06:21:44] [TEST] Bayes factor nested_3well vs               linear: dlogZ = +22937.04 (log10 B = +9961.4)
+[06:21:44] [TEST] Bayes factor nested_3well vs          exponential: dlogZ = +10833.07 (log10 B = +4704.7)
+[06:21:44] [TEST] Bayes factor nested_3well vs                 tanh: dlogZ = +10833.13 (log10 B = +4704.8)
+[06:21:44] [TEST] Bayes factor nested_3well vs               yukawa: dlogZ = +48192.72 (log10 B = +20929.8)
+[06:21:44] [TEST] Bayes factor nested_3well vs          single_well: dlogZ =  +1105.78 (log10 B = +480.2)
+[06:21:44] [TEST] Bayes factor nested_3well vs         nested_2well: dlogZ =     -1.50 (log10 B = -0.7)
+[06:21:44] [TEST] Bayes factor nested_3well vs         nested_3well: dlogZ =     -0.00 (log10 B = -0.0)
+[06:21:44] [TEST] Bayes factor nested_3well vs   nested_3well_flatw: dlogZ =     +2.46 (log10 B = +1.1)
+[06:21:44] [TEST] Bayes factor nested_3well vs    nested_3well_fwhm: dlogZ =     -1.12 (log10 B = -0.5)
+[06:21:44] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_34_bayesian_model_selection.json
+[06:21:44] [SUCCESS] Saved figure: step_34_bayesian_model_selection.png
+[06:21:44] [SUCCESS] Bayesian model selection complete.
+[06:21:44] [SUCCESS] step_34 completed in 33.5s

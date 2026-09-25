@@ -22,7 +22,7 @@
         each manuscript section. These are the only files that should
         be edited; all other formats are auto-generated.</li>
     <li><em>scripts/steps/</em>&mdash;Reproducible analysis pipeline
-        with 26 registered step scripts organized into five blocks
+        with 32 registered step scripts organized into five blocks
         (data ingestion and target catalogue, TEP formalism,
         physical-connection evidence, field-gradient inference,
         and synthesis / figures).</li>
@@ -46,7 +46,7 @@
 python3 scripts/run_pipeline.py</code></pre>
 
 <p>
-    This executes all 26 registered step scripts in sequence, populating
+    This executes all 32 registered step scripts in sequence, populating
     <code>results/figures/</code> and <code>results/outputs/</code>
     with fresh data. Individual blocks or steps can be run
     selectively:
@@ -65,7 +65,7 @@ python3 scripts/run_pipeline.py --step 23      # Single step only</code></pre>
 <pre><code>python3 -m pytest scripts/tests/ -v</code></pre>
 
 <p>
-    The pipeline is fully implemented and all 26 registered steps run
+    The pipeline is fully implemented and all 32 registered steps run
     successfully against real published data. The pipeline structure,
     data sources, and analysis methodology are documented in
     <code>scripts/README.md</code>.
@@ -84,7 +84,7 @@ npm run build</code></pre>
 <p>
     This generates the static site in <code>site/dist/</code> and the
     markdown version at the repository root
-    (<code>37-TEP-ARP-v0.1-Pasadena.md</code>). A PDF can be
+    (<code>37-TEP-ARP-v0.2-Pasadena.md</code>). A PDF can be
     generated from the built site:
 </p>
 
@@ -114,7 +114,7 @@ npm run build</code></pre>
         VizieR J/ApJS/199/26): The 23,205-galaxy parent sample for
         the forward galaxy&ndash;quasar cross-correlation.</li>
     <li><em>Tully 2MASS group catalogue</em> (Tully 2015;
-        VizieR J/AJ/149/171): The 2,822 nests and 14,142 satellites used for the
+        VizieR J/AJ/149/171): The 2,822 nests and 14,155 satellites used for the
         satellite redshift-asymmetry audit step (the signature
         reported by Arp &amp; Sulentic 1985 and examined further
         by Girardi et al. 1993).</li>
@@ -158,7 +158,7 @@ npm run build</code></pre>
   year         = {2026},
   doi          = {10.5281/zenodo.22938153},
   url          = {https://doi.org/10.5281/zenodo.22938153},
-  note         = {Preprint, Version v0.1 (Pasadena)}
+  note         = {Preprint, Version v0.2 (Pasadena)}
 }</code></pre>
 
 <h3>Contact</h3>

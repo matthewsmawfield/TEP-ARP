@@ -1,38 +1,38 @@
-[20:31:39] [PROCESS] Querying Cosmicflows-4 redshift-independent distances...
-[20:31:39] [INFO] NGC 4319: no CF4 entry
-[20:31:40] [INFO] MRK 0205: no CF4 entry
-[20:31:40] [TEST] NGC 7603: DM = 35.27 ± 0.33 -> 113.3 ± 17.2 Mpc (combined; z-distance 126.3 Mpc) [measured]
-[20:31:41] [TEST] NGC 7603B: DM = 35.27 ± 0.33 -> 113.3 ± 17.2 Mpc (combined; z-distance 242.0 Mpc) [no_cf4_match]
-[20:31:41] [TEST] NGC 3067: DM = 31.68 ± 0.43 -> 21.7 ± 4.3 Mpc (tully_fisher; z-distance 21.0 Mpc) [measured]
-[20:31:42] [TEST] 3C 232: DM = 31.68 ± 0.43 -> 21.7 ± 4.3 Mpc (tully_fisher; z-distance 2282.7 Mpc) [no_cf4_match]
-[20:31:42] [INFO] NGC 1073: no CF4 entry
-[20:31:42] [INFO] QSO B0240+011: no CF4 entry
-[20:31:43] [INFO] QSO B0241+011: no CF4 entry
-[20:31:43] [INFO] [VV96] J024333.6+012222: no CF4 entry
-[20:31:43] [TEST] NGC 7319: DM = 34.72 ± 0.38 -> 88.0 ± 15.4 Mpc (combined; z-distance 96.4 Mpc) [no_cf4_match]
-[20:31:44] [TEST] [VV2006] J223603.7+335824: DM = 34.72 ± 0.38 -> 88.0 ± 15.4 Mpc (combined; z-distance 9053.7 Mpc) [no_cf4_match]
-[20:31:44] [TEST] NGC 1199: DM = 32.68 ± 0.32 -> 34.4 ± 5.1 Mpc (surface_brightness_fluctuation; z-distance 35.5 Mpc) [measured]
-[20:31:45] [TEST] 2MASXi J0303366-153740: DM = 32.68 ± 0.32 -> 34.4 ± 5.1 Mpc (surface_brightness_fluctuation; z-distance 188.4 Mpc) [no_cf4_match]
-[20:31:45] [TEST] NGC 3628: DM = 30.14 ± 0.40 -> 10.6 ± 2.0 Mpc (tully_fisher; z-distance 12.1 Mpc) [measured]
-[20:31:46] [INFO] WEE 51: no CF4 entry
-[20:31:46] [TEST] NGC 4258: DM = 29.39 ± 0.03 -> 7.5 ± 0.1 Mpc (tully_fisher;surface_brightness_fluctuation;cepheid;tip_red_giant_branch;maser; z-distance 6.4 Mpc) [measured]
-[20:31:46] [TEST] SDSS J121902.21+470505.4: DM = 29.26 ± 0.02 -> 7.1 ± 0.1 Mpc (tip_red_giant_branch; z-distance 1704.5 Mpc) [no_cf4_match]
-[20:31:47] [INFO] SDSS J121952.31+472058.5: no CF4 entry
-[20:31:47] [INFO] NGC 2639: no CF4 entry
-[20:31:48] [INFO] SDSS J084331.40+500227.0: no CF4 entry
-[20:31:48] [INFO] SDSS J084326.65+500845.6: no CF4 entry
-[20:31:49] [TEST] NGC 1097: DM = 30.89 ± 0.40 -> 15.0 ± 2.8 Mpc (tully_fisher; z-distance 18.2 Mpc) [measured]
-[20:31:49] [INFO] CEMM J1779.9BL  2: no CF4 entry
-[20:31:49] [INFO] WISP 257  129: no CF4 entry
-[20:31:50] [INFO] NGC 1232: no CF4 entry
-[20:31:50] [INFO] NGC 1232A: no CF4 entry
-[20:31:51] [INFO] NGC 3516: no CF4 entry
-[20:31:51] [INFO] [VV98] J110833.2+722610: no CF4 entry
-[20:31:51] [INFO] 1WGA J1106.2+7244: no CF4 entry
-[20:31:52] [INFO] NuSTAR J110752+7230.7: no CF4 entry
-[20:31:52] [INFO] 1WGA J1105.4+7238: no CF4 entry
-[20:31:52] [INFO] 1WGA J1107.7+7232: no CF4 entry
-[20:31:52] [SUCCESS] Saved distance table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/redshift_independent_distances.csv
-[20:31:52] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_05_redshift_independent_distances.json
-[20:31:52] [SUCCESS] Distance anchoring: 6 hosts measured, 0 companions with independent distances.
-[20:31:52] [SUCCESS] step_05 completed in 13.5s
+[06:06:41] [PROCESS] Querying Cosmicflows-4 redshift-independent distances...
+[06:06:42] [INFO] NGC 4319: no CF4 entry
+[06:06:42] [INFO] MRK 0205: no CF4 entry
+[06:06:43] [TEST] NGC 7603: DM = 35.27 ± 0.33 -> 113.3 ± 17.2 Mpc (combined; z-distance 126.3 Mpc) [measured]
+[06:06:43] [TEST] NGC 7603B: DM = 35.27 ± 0.33 -> 113.3 ± 17.2 Mpc (combined; z-distance 242.0 Mpc) [no_cf4_match]
+[06:06:44] [TEST] NGC 3067: DM = 31.68 ± 0.43 -> 21.7 ± 4.3 Mpc (tully_fisher; z-distance 21.0 Mpc) [measured]
+[06:06:44] [TEST] 3C 232: DM = 31.68 ± 0.43 -> 21.7 ± 4.3 Mpc (tully_fisher; z-distance 2282.7 Mpc) [no_cf4_match]
+[06:06:45] [INFO] NGC 1073: no CF4 entry
+[06:06:45] [INFO] QSO B0240+011: no CF4 entry
+[06:06:45] [INFO] QSO B0241+011: no CF4 entry
+[06:06:46] [INFO] [VV96] J024333.6+012222: no CF4 entry
+[06:06:46] [TEST] NGC 7319: DM = 34.72 ± 0.38 -> 88.0 ± 15.4 Mpc (combined; z-distance 96.4 Mpc) [no_cf4_match]
+[06:06:46] [TEST] [VV2006] J223603.7+335824: DM = 34.72 ± 0.38 -> 88.0 ± 15.4 Mpc (combined; z-distance 9053.7 Mpc) [no_cf4_match]
+[06:06:47] [TEST] NGC 1199: DM = 32.68 ± 0.32 -> 34.4 ± 5.1 Mpc (surface_brightness_fluctuation; z-distance 35.5 Mpc) [measured]
+[06:06:47] [TEST] 2MASXi J0303366-153740: DM = 32.68 ± 0.32 -> 34.4 ± 5.1 Mpc (surface_brightness_fluctuation; z-distance 188.4 Mpc) [no_cf4_match]
+[06:06:48] [TEST] NGC 3628: DM = 30.14 ± 0.40 -> 10.6 ± 2.0 Mpc (tully_fisher; z-distance 12.1 Mpc) [measured]
+[06:06:48] [INFO] WEE 51: no CF4 entry
+[06:06:49] [TEST] NGC 4258: DM = 29.39 ± 0.03 -> 7.5 ± 0.1 Mpc (tully_fisher;surface_brightness_fluctuation;cepheid;tip_red_giant_branch;maser; z-distance 6.4 Mpc) [measured]
+[06:06:49] [TEST] SDSS J121902.21+470505.4: DM = 29.26 ± 0.02 -> 7.1 ± 0.1 Mpc (tip_red_giant_branch; z-distance 1704.5 Mpc) [no_cf4_match]
+[06:06:50] [INFO] SDSS J121952.31+472058.5: no CF4 entry
+[06:06:50] [INFO] NGC 2639: no CF4 entry
+[06:06:50] [INFO] SDSS J084331.40+500227.0: no CF4 entry
+[06:06:51] [INFO] SDSS J084326.65+500845.6: no CF4 entry
+[06:06:51] [TEST] NGC 1097: DM = 30.89 ± 0.40 -> 15.0 ± 2.8 Mpc (tully_fisher; z-distance 18.2 Mpc) [measured]
+[06:06:52] [INFO] CEMM J1779.9BL  2: no CF4 entry
+[06:06:52] [INFO] WISP 257  129: no CF4 entry
+[06:06:53] [INFO] NGC 1232: no CF4 entry
+[06:06:53] [INFO] NGC 1232A: no CF4 entry
+[06:06:54] [INFO] NGC 3516: no CF4 entry
+[06:06:54] [INFO] [VV98] J110833.2+722610: no CF4 entry
+[06:06:54] [INFO] 1WGA J1106.2+7244: no CF4 entry
+[06:06:54] [INFO] NuSTAR J110752+7230.7: no CF4 entry
+[06:06:55] [INFO] 1WGA J1105.4+7238: no CF4 entry
+[06:06:55] [INFO] 1WGA J1107.7+7232: no CF4 entry
+[06:06:55] [SUCCESS] Saved distance table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/redshift_independent_distances.csv
+[06:06:55] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_05_redshift_independent_distances.json
+[06:06:55] [SUCCESS] Distance anchoring: 6 hosts measured, 0 companions with independent distances.
+[06:06:55] [SUCCESS] step_05 completed in 13.8s

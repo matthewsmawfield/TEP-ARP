@@ -1,13 +1,13 @@
-[22:05:11] [PROCESS] Generating manuscript figures...
-[22:05:12] [SUCCESS] Saved figure: step_41_pair_gallery.png
-[22:05:12] [SUCCESS] Saved figure: step_41_field_transition.png
-[22:05:12] [SUCCESS] Saved figure: step_41_chance_alignment.png
-[22:05:12] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_41_manuscript_figures.json
-[22:05:12] [SUCCESS] Manuscript figures complete.
-[22:05:12] [SUCCESS] step_41 completed in 1.1s
-[22:05:12] [INFO] 
-[22:05:12] [INFO] ================================================================================
-[22:05:12] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 1.1s total
-[22:05:12] [INFO] ================================================================================
-[22:05:12] [INFO] 
-[22:05:13] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json
+[06:22:35] [PROCESS] Generating manuscript figures...
+[06:22:36] [SUCCESS] Saved figure: step_41_pair_gallery.png
+[06:22:36] [SUCCESS] Saved figure: step_41_field_transition.png
+[06:22:36] [SUCCESS] Saved figure: step_41_chance_alignment.png
+[06:22:36] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_41_manuscript_figures.json
+[06:22:36] [SUCCESS] Manuscript figures complete.
+[06:22:36] [SUCCESS] step_41 completed in 0.4s
+[06:22:36] [INFO] 
+[06:22:36] [INFO] ================================================================================
+[06:22:36] [INFO]    Pipeline complete: 32 succeeded, 0 failed, 1077.4s total
+[06:22:36] [INFO] ================================================================================
+[06:22:36] [INFO] 
+[06:22:36] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

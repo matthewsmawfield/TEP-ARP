@@ -21,8 +21,8 @@
         the posterior median). Markov Chain
         Monte Carlo sampling returns well depths $d_1 = 0.300$,
         $d_2 = 0.187$, and $d_Q = 0.020$ in $\phi$ units&mdash;the
-        knot depths recovering each object's own $\Delta\phi =
-        -\ln A_{\rm int}$&mdash;and bounds the shared well width
+        knot depths recovering the per-object offsets independently tabulated
+        from the same measured redshifts, $\Delta\phi = -\ln A_{\rm int}$&mdash;and bounds the shared well width
         from above at
         $w < 0.033$ of the transect length (95% credibility),
         about $1.9$ arcsec or a projected $1.2$ kpc.
@@ -143,7 +143,7 @@
     passes through all four measured points ($\chi^2 = 0.13$ at
     the posterior median) where every monotonic family fails by
     four orders of magnitude. MCMC sampling (32 walkers,
-    8\,000 steps, 2\,000 burn-in, flat priors on
+    8,000 steps, 2,000 burn-in, flat priors on
     $d_i \in [0, 2]$ and $w \in [0.002, 1]$, Gaussian likelihood in
     the measured $A_{\rm int}$ values) yields the well-depth
     posteriors of Table&nbsp;7. Because the transect contains no
@@ -187,10 +187,8 @@
     First, the well depths are individually interpretable: each
     $d_i$ is the scalar-field offset of that object's local well
     relative to the shared pair field, and the knot depths recover
-    the direct $\Delta\phi = -\ln A_{\rm int}$ of each object
-    ($0.301$ and $0.188$ respectively)&mdash;the same
-    quantity computed independently from the redshift ratios of
-    Section&nbsp;4, and insensitive to $w$ throughout the allowed
+    the per-object offsets independently tabulated from the same measured redshifts, $\Delta\phi = -\ln A_{\rm int}$
+    ($0.301$ and $0.188$ respectively), and are insensitive to $w$ throughout the allowed
     range. The companion depth $d_Q = 0.020$ sits slightly below
     its own $\Delta\phi = 0.026$ because the Lorentzian tail of
     the adjacent knot well ($x = 0.91$, only $5$ arcsec away along
@@ -221,6 +219,61 @@
 </p>
 
 <p>
+    The adequacy question is then posed in the form that
+    carries the complexity penalty automatically: Bayesian
+    model comparison by nested sampling (dynesty, 500 live
+    points, run to $\Delta\ln Z < 0.05$) under the same
+    Gaussian likelihood in the measured $A_{\rm int}$ values.
+    Table&nbsp;8 lists the marginal likelihoods of the
+    candidate families on the four-point transect.
+    The comparison resolves the
+    residual-degree-of-freedom objection directly: the
+    nested-well geometries sit $\Delta\ln Z \approx 10,833$
+    above the best monotonic families (exponential and tanh,
+    $\ln Z \approx -10,830$) and $\approx 1,106$ nats above
+    a single Lorentzian well&mdash;margins the Occam factor
+    leaves intact because the evidence already integrates out
+    the parameter volume. Within the nested family the
+    ordering is honest: the three-well model is marginally
+    disfavoured relative to the two-well fit
+    ($\Delta\ln Z = -1.5$), so the transect requires the
+    interior knot wells but does not yet compel a resolved
+    companion depression. Anchoring the shared width to the
+    measured knot compactness&mdash;LS-DR10 half-widths of
+    $0.65''$, a PSF-limited upper bound applied as a
+    truncated-normal prior $w = 0.011 \pm 0.006$&mdash;returns
+    the largest evidence of the family ($\ln Z = +4.7$):
+    the imaging-anchored prior is preferred over both flat
+    and log-uniform widths, tying the field geometry to the
+    luminous-matter distribution it is proposed to follow.
+    The absolute Bayes factors are inflated by the small
+    adopted measurement errors; what the comparison establishes is that
+    the transect rules out monotonic transitions decisively, and the
+    nested-well depths are a parameterisation whose predictive version
+    requires the depths to follow from an independent observable.
+</p>
+
+<table>
+    <caption>Table 8. Bayesian evidence for the NGC 7603 transect profile families (dynesty nested sampling, 500 live points). $\Delta\ln Z$ is measured against the best monotonic family (exponential, $\ln Z = -10,829.5$). The imaging-anchored variant applies the measured PSF-limited knot half-widths as a truncated-normal prior on $w$.</caption>
+    <tr>
+        <th>Family</th>
+        <th>$k$</th>
+        <th>$\ln Z$</th>
+        <th>$\Delta\ln Z$ vs best monotonic</th>
+    </tr>
+    <tr><td>constant $A_{\rm int} = 1$ (null)</td><td>0</td><td>$-55,898$</td><td>$-45,068$</td></tr>
+    <tr><td>linear</td><td>1</td><td>$-22,934$</td><td>$-12,104$</td></tr>
+    <tr><td>Yukawa monotonic</td><td>2</td><td>$-48,189$</td><td>$-37,360$</td></tr>
+    <tr><td>exponential monotonic</td><td>2</td><td>$-10,830$</td><td>$0$ (reference)</td></tr>
+    <tr><td>tanh step</td><td>3</td><td>$-10,830$</td><td>$-0.1$</td></tr>
+    <tr><td>single Lorentzian well</td><td>3</td><td>$-1,102$</td><td>$+9,727$</td></tr>
+    <tr><td>two nested wells</td><td>3</td><td>$+5.0$</td><td>$+10,835$</td></tr>
+    <tr><td>three nested wells, flat $w$</td><td>4</td><td>$+1.1$</td><td>$+10,831$</td></tr>
+    <tr><td>three nested wells, log-uniform $w$</td><td>4</td><td>$+3.5$</td><td>$+10,833$</td></tr>
+    <tr><td>three nested wells, imaging prior on $w$</td><td>4</td><td>$+4.7$</td><td>$+10,834$</td></tr>
+</table>
+
+<p>
     The fitted depths also carry a physical ordering the
     interpolation was not required to produce. A temporal well
     is a property of the emitting matter, and its depth tracks
@@ -233,8 +286,10 @@
     exactly ($\Delta\phi \simeq 0$). A knot of modest mass can
     therefore lie deeper than an entire galaxy without
     contradiction&mdash;the well measures the local clock rate of
-    the emission region, and a compact emitter is a deeper well
-    than an extended one whatever their relative masses. The
+    the emission region. The well depth is a property of the local
+    temporal-field configuration associated with the emitting region,
+    not simply of the total mass or geometric compactness of the
+    larger host system. The
     filament's role in the argument is thereby clarified rather
     than diminished: the continuous structure demonstrates the
     physical connection, while the clock-rate differences are

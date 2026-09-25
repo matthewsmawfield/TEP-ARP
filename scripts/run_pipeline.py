@@ -137,6 +137,8 @@ PIPELINE = [
      "Archive audit for resolved-kinematics coverage (ESO IFU, JWST, MaNGA, fibers)"),
     ("II", 29, "scripts.steps.step_29_lya_forest_audit", "Step29LyaForestAudit",
      "Ly-alpha forest path-length audit: archive coverage plus direct forest census where spectra exist"),
+    ("II", 36, "scripts.steps.step_36_lya_forest_census", "Step36LyaForestCensus",
+     "Archival forest census attempt on z>1.7 companions: slit geometry, trace extraction, IUE S/N"),
 
     # Block III: Field-Gradient Inference
     ("III", 30, "scripts.steps.step_30_bridge_redshift_transect", "Step30BridgeRedshiftTransect",
@@ -147,6 +149,16 @@ PIPELINE = [
      "Pair-sample statistics: A_int distribution and separation scaling"),
     ("III", 33, "scripts.steps.step_33_residuals_analysis", "Step33ResidualsAnalysis",
      "Residuals analysis of the transect profile fits"),
+    ("III", 34, "scripts.steps.step_34_bayesian_model_selection", "Step34BayesianModelSelection",
+     "Bayesian evidence: nested-wells vs monotonic families on the NGC 7603 transect"),
+    ("III", 35, "scripts.steps.step_35_well_depth_correlates", "Step35WellDepthCorrelates",
+     "Delta phi_int vs archival observables (2RXS hardness, FIRST/NVSS compactness, DR16Q control)"),
+    ("III", 37, "scripts.steps.step_37_sdss_companion_asymmetry", "Step37SdssCompanionAsymmetry",
+     "SDSS-scale companion redshift asymmetry (Tempel+2017 DR10 groups) with interloper/dust controls"),
+    ("III", 38, "scripts.steps.step_38_xray_population_test", "Step38XrayPopulationTest",
+     "X-ray-selected quasar overdensity around 2MRS parents vs seeded controls (low-nbar powered test)"),
+    ("III", 39, "scripts.steps.step_39_temporal_well_solution", "Step39TemporalWellSolution",
+     "Explicit confined temporal-well solution of the static field equation (interior roll, P=-2M)"),
 
     # Block IV: Synthesis & Figures
     ("IV", 40, "scripts.steps.step_40_falsification_summary", "Step40FalsificationSummary",

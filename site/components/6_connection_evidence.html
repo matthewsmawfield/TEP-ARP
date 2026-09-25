@@ -96,7 +96,7 @@
     <tr><td>NGC 3067 &ndash; 3C 232</td><td>3C 232</td><td>$-0.40$</td><td>$1.0$</td><td>$2.7$ ($0.75$)</td><td>null (absorption pair; no bridge claimed)</td></tr>
     <tr><td>NGC 1073 &ndash; BSO quasars</td><td>QSO B0240+011</td><td>$+0.34$</td><td>$6 \times 10^{-8}$</td><td>$1.9$ ($0.51$)</td><td>bright disk axis (contextual)</td></tr>
     <tr><td>NGC 7319 &ndash; QSO</td><td>[VV2006] J223603.7+335824</td><td>$+0.48$</td><td>&mdash;</td><td>$1.1$ ($0.77$)</td><td>axis across galaxy body (contextual)</td></tr>
-    <tr><td>NGC 1199 &ndash; companion</td><td>2MASXi J0303366-153740</td><td>$+0.21$</td><td>$2.4 \times 10^{-4}$</td><td>$0.9$ ($0.45$)</td><td>silhouette pair; annulus test below</td></tr>
+    <tr><td>NGC 1199 &ndash; companion</td><td>2MASX J0303366-153740</td><td>$+0.21$</td><td>$2.4 \times 10^{-4}$</td><td>$0.9$ ($0.45$)</td><td>silhouette pair; annulus test below</td></tr>
     <tr><td>NGC 3628 &ndash; WEE 51</td><td>WEE 51</td><td>$-0.72$</td><td>$1.0$</td><td>$-0.6$ ($0.68$)</td><td>minor-axis sight-line dim (contextual)</td></tr>
     <tr><td>NGC 4258 &ndash; quasar pair</td><td>SDSS J121902.21+470505.4</td><td>$+0.82$</td><td>$6 \times 10^{-5}$</td><td>$2.2$ ($0.46$)</td><td>paired-quasar axis elevated (contextual)</td></tr>
     <tr><td>NGC 2639 &ndash; quasar pair</td><td>SDSS J084331.40+500227.0</td><td>$-0.08$</td><td>$0.72$</td><td>$8.6$ ($0.66$)</td><td>null (contextual)</td></tr>
@@ -446,7 +446,7 @@
     the twelve-pair selection entirely. The parent sample is
     predefined without reference to the Arp catalogue: all
     2MRS galaxies (Huchra et al.\ 2012; VizieR J/ApJS/199/26)
-    with $500 < cz < 10\,000$ km/s and $|b| > 15^\circ$&mdash;23,205
+    with $500 < cz < 10,000$ km/s and $|b| > 15^\circ$&mdash;23,205
     galaxies spanning the velocity range of the Arp hosts, which
     remain in the sample by the same cuts. Each parent is
     cross-matched in bulk against the same confirmed Milliquas
@@ -487,7 +487,7 @@
     claim, which was never that every bright galaxy hosts a
     quasar companion: at the association rate the historical
     surveys implied ($\sim 10^{-3}$ per galaxy; Burbidge et al.\
-    1971), the expected excess in $23\,205$ fields is of order a
+    1971), the expected excess in $23,205$ fields is of order a
     few tens of objects&mdash;below this test's sensitivity&mdash;and
     the innermost arcminute, where several catalogued companions
     sit, is the region the spectroscopic catalogues sample least
@@ -645,10 +645,24 @@
     remaining seven at their baseline densities yields
     $P_{\rm joint}^{\rm sel} = 1.3 \times 10^{-22}$
     ($\log_{10} P = -21.9$; $7.2 \times 10^{-22}$ for the
-    surviving eleven systems). The baseline statistic is thus the
-    weakest form of the argument: conditioning on the
-    selection criteria the catalogue actually used strengthens
-    it by eight orders of magnitude.
+    surviving eleven systems). One further correction is
+    applied against that figure, derived from the survey-scale
+    decomposition of Section&nbsp;5.7: pointed X-ray
+    identifiers are measured there to be overdense at
+    catalogued galaxy positions by $\delta = +1.47$
+    (the coverage-uniform RASS subset returns
+    $\delta = +0.12$), so the effective density at galaxy
+    positions is $\Sigma_X \times 2.47$. Repricing the five
+    X-ray-class pairs against the corrected density moves the
+    joint to $7.1 \times 10^{-19}$
+    ($4.0 \times 10^{-18}$ for the surviving
+    eleven)&mdash;and for the most heavily pointed hosts in
+    the catalogue (Stephan's Quintet, NGC&nbsp;4258,
+    NGC&nbsp;3628) the true correction is plausibly larger
+    still. The baseline statistic remains the weakest form of
+    the argument: selection-conditioned, the ensemble remains
+    improbable at the $10^{-18}$ level even after the
+    correction is applied against itself.
 </p>
 
 <p>
@@ -907,9 +921,15 @@
     a decisive negative for the flagship sightlines. The
     $z = 2.114$ NGC&nbsp;7319 companion is reached only by the
     red edge of an IUE LWP spectrum ($24\%$ of its forest
-    band); the Keck LRIS slitmasks in the field are centred on
-    the distinct NGC&nbsp;7319 ULX $9$ arcsec away, not on the
-    companion. The $z \approx 2.1$&ndash;$2.3$ companions in
+    band at a median per-pixel signal-to-noise of $0.3$, too
+    shallow for any census); slit-level inspection of the Keck
+    records confirms the 2003 LRIS-B long-slit was pointed at
+    the distinct NGC&nbsp;7319 ULX $9.4$ arcsec away&mdash;at
+    the $115^\circ$ slit position angle the companion lies
+    $6.7$ arcsec perpendicular off the $0.7''$ slit&mdash;and
+    the seven extracted slitlets of the 2011 field slitmask
+    all belong to low-redshift emission-line regions, none
+    covering the companion position. The $z \approx 2.1$&ndash;$2.3$ companions in
     the NGC&nbsp;3516, NGC&nbsp;1097 and NGC&nbsp;1073 fields
     return only off-target mask-level files or unusable
     slitless products, and the remaining space-UV targets
@@ -938,7 +958,9 @@
     known absorption-rich character of this direction&mdash;and
     constitutes direct evidence that 3C&nbsp;232 lies at its
     cosmological distance. The NGC&nbsp;3067 association is
-    accordingly falsified at the individual-pair level. The two
+    accordingly falsified at the individual-pair level. This establishes a
+    crucial methodological result for the remaining sample: foreground absorption
+    at a galaxy's redshift does not automatically establish co-distance. The two
     absorption applications are complementary rather than
     interchangeable: Section&nbsp;5.2 uses absorbers between
     host and companion to fix the line-of-sight ordering, while
@@ -971,3 +993,203 @@
     <tr><td>1693.53</td><td>0.393</td><td>0.00</td><td>4.1</td><td>1.4</td><td>2.9</td><td>confirmed</td></tr>
     <tr><td>1699.59</td><td>0.398</td><td>1.21</td><td>7.2</td><td>27.0</td><td>7.4</td><td>confirmed</td></tr>
 </table>
+
+<h3>5.7 Companion Redshift Asymmetry at Survey Scale</h3>
+
+<p>
+    The sharpest historical claim that can be tested on
+    unselected data is the Arp&ndash;Sulentic companion-redshift
+    asymmetry: in the Local Group and the M81 group every major
+    companion carried a positive redshift offset relative to the
+    dominant galaxy. Under the symmetric-bound-satellite null the
+    sign of the offset $dV = cz_{\rm sat} - cz_{\rm cen}$ is even;
+    under the proper-time-well picture companions seated in
+    shallower wells than their hosts skew positive. Two
+    group catalogues settle the claim at increasing scale.
+    On the Tully (2015) 2MASS nests&mdash;2,822 groups and
+    14,155 satellites&mdash;the pooled sign split is null
+    ($f_+ = 0.498$, $p = 0.66$); at this sample size the standard
+    error is $0.0042$, meaning the catalogue lacks the statistical power to distinguish
+    the SDSS signal from the null ($1.8\sigma$ separation). On the Tempel et al.\ (2017)
+    SDSS DR10 flux-limited group catalogue&mdash;88,662 groups
+    and 198,583 satellites, membership assigned by a
+    friends-of-friends algorithm blind to the hypothesis&mdash;the
+    bound population ($n = 162,650$ at $|\Delta v| < 500$ km/s) carries a small
+    but decisive positive asymmetry:
+    $f_+ = 0.5075$ (two-sided binomial $p = 1.7 \times 10^{-9}$),
+    $0.5062$ in the tightly bound $|\Delta v| < 150$ km/s subset
+    ($p = 3 \times 10^{-4}$), rising with group richness from
+    $0.504$ in pairs to $0.513$ in groups of ten or more
+    members ($p = 4 \times 10^{-8}$). The per-group mean offset
+    is positive in $50.6\%$ of 82,960 bound-population groups
+    (Wilcoxon $p = 1.6 \times 10^{-5}$).
+</p>
+
+<p>
+    Two conventional explanations are controlled explicitly
+    rather than assumed away. The interloper contribution is
+    calibrated on the surely-unbound tail: at
+    $|\Delta v| > 2,000$ km/s the positive fraction is
+    $0.531$, the empirical selection asymmetry of the
+    catalogue. Scaling the offsets by each group's virial
+    velocity $\sigma_{200} = \sqrt{GM_{200}/R_{200}}$, the
+    deep-bound regime $|\Delta v|/\sigma_{200} < 1.5$ retains
+    $f_+ \approx 0.503$&ndash;$0.506$; attributing that excess
+    entirely to unbound contamination at the measured tail
+    asymmetry would require a $10$&ndash;$19\%$ interloper
+    fraction at half the virial velocity, far above the
+    friends-of-friends contamination rate. The dust alternative
+    (Girardi et al.\ 1993), under which background satellites
+    behind the host disk are dimmed below the flux limit,
+    predicts the surviving positive-offset population should be
+    systematically brighter and redder at small projected
+    separation. The measurement runs the other way: at
+    $|\Delta v| = 300$&ndash;$500$ km/s the positive-offset
+    satellites are $0.05$ mag <em>fainter</em> than the matched
+    negative-offset population, with identical mean
+    $g - r$ ($0.824$ vs $0.824$); and the asymmetry is
+    concentrated not within the host disk scale but at
+    $R_{\rm proj} > 150$ kpc, where $f_+ \approx 0.509$,
+    while the innermost $R_{\rm proj} < 50$ kpc bin is null
+    ($f_+ = 0.500$)&mdash;the radial profile in which dust can
+    act shows the suppression, and the region beyond its reach
+    retains the excess. A residual positive asymmetry of
+    $\sim 0.5$&ndash;$0.8\%$ therefore survives in an unselected
+    sample a thousand times larger than the historical
+    catalogues, in the direction Arp and Sulentic reported,
+    at an amplitude consistent with a rare genuine population
+    mixed into a mostly symmetric bound ensemble.
+</p>
+
+<p>
+    Three further controls close the remaining systematic
+    channels. The volume-limited test removes the flux-limit
+    mechanism itself: restricting satellites to windows
+    complete to a fixed absolute magnitude under the
+    $r < 17.77$ survey bound ($z < 0.06$&ndash;$0.12$,
+    $M_r < -19.9$ to $-21.3$) leaves the asymmetry not merely
+    present but strengthened, $f_+ = 0.510$&ndash;$0.513$ in
+    four complete subsamples ($p$ down to
+    $8 \times 10^{-5}$)&mdash;a flux-limited artefact cannot
+    grow when the flux limit no longer selects. The
+    mock-interloper forward model then prices contamination
+    directly rather than by assumption: the catalogue's
+    interloper-dominated annulus ($r = 3$&ndash;$10\,R_{200}$)
+    at bound velocities measures an interloper surface density
+    whose area-scaled value inside $R_{200}$ is
+    $c \approx 0.08\%$ ($\approx 1\%$ even under a maximally
+    concentrated $1/r$ radial profile, $\approx 0.05\%$ under
+    flat extrapolation of the $|\Delta v| > 2,000$ km/s
+    tail), and, crucially,
+    the sign rate of that interloper
+    population at bound velocities is measured at
+    $f_+ = 0.503$, not the $0.531$ of the extreme tail.
+    Monte-Carlo injection of the fitted contamination into a
+    symmetric bound population returns $f_+ \approx 0.5000$;
+    reproducing the observed $0.5075$ would require a
+    $24\%$ contamination fraction at the tail sign rate&mdash;or
+    more than $100\%$ at the measured bound-velocity
+    rate&mdash;against the $\lesssim 1\%$ the geometry permits.
+    Replacing the rank-1 central's redshift by the group's
+    luminosity-weighted mean reduces but does not remove the
+    asymmetry ($f_+ = 0.505$, $n = 178,116$,
+    $p = 3 \times 10^{-5}$), as expected when the luminous
+    satellites themselves carry part of the signal into the
+    reference.
+    Finally, the residual carries the amplitude scaling the
+    hypothesis specifies: the offset is the emitter's own
+    well depth, so it should grow with satellite luminosity,
+    and the largest amplitude indeed sits in the most
+    luminous bin&mdash;$\langle \Delta v \rangle = +5.9$ km/s,
+    $f_+ = 0.511$ at $M_r < -21.5$&mdash;with $f_+$
+    remaining positive in every fainter bin; and the trend
+    rises monotonically with the satellite-to-central
+    magnitude gap ($f_+ = 0.504 \to 0.518$,
+    $\langle \Delta v \rangle = +2.0 \to +7.7$ km/s). The surviving signal
+    is therefore small, directional, luminosity-scaled, and
+    not attributable to flux-limit selection, dust, or
+    measured interloper contamination. The last conventional
+    channel&mdash;a spectroscopic redshift-measurement
+    asymmetry, in which fainter, differently templated
+    satellite spectra could carry a systematic redshift bias
+    relative to the centrals they are referenced
+    against&mdash;is tested directly on the pipeline's own
+    quality metadata. Cross-matching the bound satellites
+    against SDSS DR16 spectroscopic objects returns equal
+    match rates for positive- and negative-offset members
+    (82.8% vs 83.0%), equal warning-flag rates (0.17%), and
+    equal no-redshift sentinel rates (0.8%); the asymmetry
+    is flat across redshift-error quartiles
+    ($f_+ = 0.509$ to $0.505$ from best to worst quartile,
+    opposite to the direction a noise-driven bias requires)
+    and survives at full amplitude in the clean subsample
+    with warning flags removed and errors below the median
+    ($f_+ = 0.5078$, $n = 95,844$,
+    $p = 1.3 \times 10^{-6}$). The template channel itself is
+    then closed by the same-feature-set control: restricting
+    both members to a single spectral class removes any
+    emission-versus-absorption calibration difference, and
+    the passive&ndash;passive subsample&mdash;identical
+    absorption-template reductions on both
+    sides&mdash;retains the asymmetry at full amplitude
+    ($f_+ = 0.5092$, $n = 61,122$, $p = 5 \times 10^{-6}$),
+    as do pairs matched on redshift-error ratio
+    ($f_+ = 0.505$&ndash;$0.506$ for
+    $e_{z,\rm sat}/e_{z,\rm cen}$ within a factor of two).
+    The spectral-class decomposition does reveal a genuine
+    cross-class modulation: the quadrants are anti-symmetric
+    about the mean (emission satellite on passive central,
+    $f_+ = 0.513$; passive satellite on emission central,
+    $f_+ = 0.492$; both-emission, $f_+ = 0.501$), consistent
+    with a $\sim 0.5$&ndash;$1\%$ calibration offset between
+    emission-line and absorption-line redshift pipelines
+    superposed on the within-class signal&mdash;but it cannot
+    produce the both-passive excess, and the bright-end
+    amplitude survives within the passive class
+    ($\langle\Delta v\rangle = +5.4$ km/s, $f_+ = 0.512$ at
+    $M_r < -21.5$), though the trend within that class is not
+    monotonic at the faint end. The signal is also the opposite
+    sign of the one known systematic at this amplitude: in rich cluster environments, the
+    measured cluster gravitational redshift makes satellites
+    appear <em>blueshifted</em> relative to centrals by
+    $\sim 10$ km/s (Wojtak, Hansen &amp; Hjorth 2011), so the
+    observed redshift excess survives against standard
+    macroscopic effects rather than being explained by them. A
+    measurement-quality or template-mismatch explanation is
+    thereby excluded; the residual is a small, directional,
+    luminosity-scaled excess consistent with the
+    proper-time-well reading and with any mechanism that
+    redshifts satellites relative to centrals at the
+    half-percent level, which the standard picture does not
+    forbid.
+</p>
+
+<p>
+    The population overdensity test of Section&nbsp;5.3 is then
+    sharpened on the population the discordant companions are
+    drawn from. Section&nbsp;5.4 showed the catalogue members
+    are predominantly X-ray selected, so the identical 2MRS
+    parent sample and seeded-control machinery is re-run with
+    the Milliquas target list restricted to confirmed
+    quasar-class objects carrying an X-ray catalogue
+    identification. The raw result is a strong overdensity,
+    $\delta = +1.21$ within $120$ arcsec (paired bootstrap
+    $p = 0.0005$)&mdash;but the decomposition by identifier
+    provenance shows where it comes from: $89\%$ of the X-ray
+    identifications are pointed-catalogue IDs (XMM, Chandra,
+    Swift), whose exposure depth correlates with catalogued
+    galaxy positions, and that subset alone carries
+    $\delta = +1.47$, while the coverage-uniform ROSAT All-Sky
+    Survey identifications return $\delta = +0.12$
+    ($p = 0.29$), consistent with no excess at the survey's
+    shallow flux limit. This forward population test is null, explicitly establishing that ordinary galaxies do not exhibit a generic quasar excess in modern catalogues; the question tested by the remaining sample is whether a rare subpopulation of morphologically constrained systems exists. The measured artefact is itself the
+    useful product: it prices, at $+150\%$, exactly the
+    selection bias that historical X-ray association catalogues
+    are accused of carrying, and it bounds the unbiased
+    residual to lie below the RASS sensitivity
+    ($f_{5\sigma} \approx 0.8$ associations per host at the
+    RASS depth). The population test that would decide the
+    association rate at $f \sim 10^{-3}$ requires the deeper
+    uniform coverage an all-sky survey such as eROSITA will
+    eventually provide.
+</p>

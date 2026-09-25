@@ -1,0 +1,128 @@
+{
+  "construction": "interior roll on g-metric background, P=-2M unscreened charge (Paper 0 step_16 method)",
+  "closed_form_exterior": "U(r) = -ln(1 - 2M/r)",
+  "phi_gal": 2.847466051459899e-07,
+  "confinement_limit_pc": 1200.0,
+  "engines": [
+    {
+      "mass_Msun": 1000000.0,
+      "r_s_m": 2953339382.0668783,
+      "r_s_pc": 9.571121104102758e-08,
+      "exterior_solution_check": 1.4251046745410648e-07,
+      "depth_surfaces": {
+        "u_0.19": {
+          "r_over_r_s": 5.778981709862061,
+          "r_pc": 5.531133380348461e-07,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 1101897.9139054522
+        },
+        "u_0.3": {
+          "r_over_r_s": 3.8582959135100827,
+          "r_pc": 3.692821744366978e-07,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 2759467.7819267972
+        },
+        "u_0.5": {
+          "r_over_r_s": 2.5414940825367984,
+          "r_pc": 2.432494764932023e-07,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 7767782.996226074
+        },
+        "u_1.0": {
+          "r_over_r_s": 1.5819767068693265,
+          "r_pc": 1.5141290645315994e-07,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 33053873.58971843
+        }
+      },
+      "ambient_merge_pc": 0.33612771116359974,
+      "shear_at_1p2kpc_ms2": 1.935936820677104e-13,
+      "newtonian_at_1p2kpc_ms2": 9.679684102613476e-14,
+      "shear_over_newtonian_1p2kpc": 2.0000000001595186,
+      "U_at_1p2kpc": 7.975931027067171e-11
+    },
+    {
+      "mass_Msun": 100000000.0,
+      "r_s_m": 295333938206.68787,
+      "r_s_pc": 9.57112110410276e-06,
+      "exterior_solution_check": 1.4251046745410648e-07,
+      "depth_surfaces": {
+        "u_0.19": {
+          "r_over_r_s": 5.778981709862061,
+          "r_pc": 5.5311333803484616e-05,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 11018.979139054518
+        },
+        "u_0.3": {
+          "r_over_r_s": 3.8582959135100827,
+          "r_pc": 3.692821744366979e-05,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 27594.677819267967
+        },
+        "u_0.5": {
+          "r_over_r_s": 2.5414940825367984,
+          "r_pc": 2.432494764932023e-05,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 77677.82996226074
+        },
+        "u_1.0": {
+          "r_over_r_s": 1.5819767068693265,
+          "r_pc": 1.5141290645315994e-05,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 330538.7358971843
+        }
+      },
+      "ambient_merge_pc": 33.61277111635998,
+      "shear_at_1p2kpc_ms2": 1.9359368359636002e-11,
+      "newtonian_at_1p2kpc_ms2": 9.679684102613476e-12,
+      "shear_over_newtonian_1p2kpc": 2.0000000159518687,
+      "U_at_1p2kpc": 7.975934278203629e-09
+    },
+    {
+      "mass_Msun": 10000000000.0,
+      "r_s_m": 29533393820668.785,
+      "r_s_pc": 0.0009571121104102758,
+      "exterior_solution_check": 1.4251046745410648e-07,
+      "depth_surfaces": {
+        "u_0.19": {
+          "r_over_r_s": 5.778981709862061,
+          "r_pc": 0.005531133380348462,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 110.1897913905452
+        },
+        "u_0.3": {
+          "r_over_r_s": 3.8582959135100827,
+          "r_pc": 0.0036928217443669784,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 275.9467781926797
+        },
+        "u_0.5": {
+          "r_over_r_s": 2.5414940825367984,
+          "r_pc": 0.002432494764932023,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 776.7782996226074
+        },
+        "u_1.0": {
+          "r_over_r_s": 1.5819767068693265,
+          "r_pc": 0.0015141290645315996,
+          "confined_below_1p2kpc": true,
+          "wall_shear_ms2": 3305.387358971843
+        }
+      },
+      "ambient_merge_pc": 3361.2771116359977,
+      "shear_at_1p2kpc_ms2": 1.9359383646144063e-09,
+      "newtonian_at_1p2kpc_ms2": 9.679684102613476e-10,
+      "shear_over_newtonian_1p2kpc": 2.0000015951881225,
+      "U_at_1p2kpc": 7.975937433835256e-07
+    }
+  ],
+  "controls": {
+    "ism_knot": {
+      "rho_g_cm3": 1e-20,
+      "radius_pc": 10.0,
+      "mass_Msun": 618901.0247618076,
+      "self_field_surface": 5.92357665944856e-09,
+      "conclusion": "knot gas self-field is ~1e-10; the 0.19-0.30 wells are inherited from the engine field"
+    }
+  }
+}

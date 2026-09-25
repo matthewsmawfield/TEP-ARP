@@ -1,25 +1,25 @@
-[20:33:01] [PROCESS] Running satellite redshift asymmetry test...
-[20:33:01] [INFO] Tully 2015: 25474 nests, 43038 member velocity records.
-[20:33:02] [TEST] all_offsets: 7044/14142 positive (0.498), median dV = -1.0 km/s, binomial p = 0.656
-[20:33:02] [TEST] bound_members_|dV|<300: 3770/7708 positive (0.489), median dV = -5.0 km/s, binomial p = 0.0571
-[20:33:02] [TEST] |dV| > 50 km/s: 6309/12593 positive (0.501), median dV = 51.0 km/s, binomial p = 0.831
-[20:33:02] [TEST] |dV| > 150 km/s: 4860/9684 positive (0.502), median dV = 152.0 km/s, binomial p = 0.722
-[20:33:02] [TEST] Vsys 0-2000 | |dV| 50-150: 91/180 positive (0.506), median dV = 51.0 km/s, binomial p = 0.941
-[20:33:02] [TEST] Vsys 0-2000 | |dV| 150-300: 91/168 positive (0.542), median dV = 161.5 km/s, binomial p = 0.316
-[20:33:02] [TEST] Vsys 0-2000 | |dV| 300-600: 129/180 positive (0.717), median dV = 353.0 km/s, binomial p = 5.53e-09
-[20:33:02] [TEST] Vsys 0-2000 | |dV| 600-100000: 56/93 positive (0.602), median dV = 690.0 km/s, binomial p = 0.0614
-[20:33:02] [TEST] Vsys 2000-4000 | |dV| 50-150: 164/312 positive (0.526), median dV = 54.0 km/s, binomial p = 0.396
-[20:33:02] [TEST] Vsys 2000-4000 | |dV| 150-300: 155/281 positive (0.552), median dV = 160.0 km/s, binomial p = 0.0947
-[20:33:02] [TEST] Vsys 2000-4000 | |dV| 300-600: 103/184 positive (0.560), median dV = 319.5 km/s, binomial p = 0.121
-[20:33:02] [TEST] Vsys 2000-4000 | |dV| 600-100000: 109/131 positive (0.832), median dV = 920.0 km/s, binomial p = 4.78e-15
-[20:33:02] [TEST] Vsys 4000-7000 | |dV| 50-150: 480/974 positive (0.493), median dV = -50.0 km/s, binomial p = 0.677
-[20:33:02] [TEST] Vsys 4000-7000 | |dV| 150-300: 517/1118 positive (0.462), median dV = -157.5 km/s, binomial p = 0.013
-[20:33:02] [TEST] Vsys 4000-7000 | |dV| 300-600: 490/1004 positive (0.488), median dV = -304.0 km/s, binomial p = 0.468
-[20:33:02] [TEST] Vsys 4000-7000 | |dV| 600-100000: 283/623 positive (0.454), median dV = -627.0 km/s, binomial p = 0.0248
-[20:33:02] [TEST] Vsys 7000-11000 | |dV| 50-150: 498/997 positive (0.499), median dV = -50.0 km/s, binomial p = 1
-[20:33:02] [TEST] Vsys 7000-11000 | |dV| 150-300: 561/1135 positive (0.494), median dV = -151.0 km/s, binomial p = 0.722
-[20:33:02] [TEST] Vsys 7000-11000 | |dV| 300-600: 586/1159 positive (0.506), median dV = 301.0 km/s, binomial p = 0.724
-[20:33:02] [TEST] Vsys 7000-11000 | |dV| 600-100000: 488/865 positive (0.564), median dV = 650.0 km/s, binomial p = 0.000181
-[20:33:02] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_25_satellite_redshift_asymmetry.json
-[20:33:02] [SUCCESS] Satellite asymmetry complete: 0.481 of 2822 groups have positive mean offset.
-[20:33:02] [SUCCESS] step_25 completed in 0.5s
+[06:08:24] [PROCESS] Running satellite redshift asymmetry test...
+[06:08:24] [INFO] Tully 2015: 25474 nests, 43038 member velocity records.
+[06:08:25] [TEST] all_offsets: 7044/14142 positive (0.498), median dV = -1.0 km/s, binomial p = 0.656
+[06:08:25] [TEST] bound_members_|dV|<300: 3770/7708 positive (0.489), median dV = -5.0 km/s, binomial p = 0.0571
+[06:08:25] [TEST] |dV| > 50 km/s: 6309/12593 positive (0.501), median dV = 51.0 km/s, binomial p = 0.831
+[06:08:25] [TEST] |dV| > 150 km/s: 4860/9684 positive (0.502), median dV = 152.0 km/s, binomial p = 0.722
+[06:08:25] [TEST] Vsys 0-2000 | |dV| 50-150: 91/180 positive (0.506), median dV = 51.0 km/s, binomial p = 0.941
+[06:08:25] [TEST] Vsys 0-2000 | |dV| 150-300: 91/168 positive (0.542), median dV = 161.5 km/s, binomial p = 0.316
+[06:08:25] [TEST] Vsys 0-2000 | |dV| 300-600: 129/180 positive (0.717), median dV = 353.0 km/s, binomial p = 5.53e-09
+[06:08:25] [TEST] Vsys 0-2000 | |dV| 600-100000: 56/93 positive (0.602), median dV = 690.0 km/s, binomial p = 0.0614
+[06:08:25] [TEST] Vsys 2000-4000 | |dV| 50-150: 164/312 positive (0.526), median dV = 54.0 km/s, binomial p = 0.396
+[06:08:25] [TEST] Vsys 2000-4000 | |dV| 150-300: 155/281 positive (0.552), median dV = 160.0 km/s, binomial p = 0.0947
+[06:08:25] [TEST] Vsys 2000-4000 | |dV| 300-600: 103/184 positive (0.560), median dV = 319.5 km/s, binomial p = 0.121
+[06:08:25] [TEST] Vsys 2000-4000 | |dV| 600-100000: 109/131 positive (0.832), median dV = 920.0 km/s, binomial p = 4.78e-15
+[06:08:25] [TEST] Vsys 4000-7000 | |dV| 50-150: 480/974 positive (0.493), median dV = -50.0 km/s, binomial p = 0.677
+[06:08:25] [TEST] Vsys 4000-7000 | |dV| 150-300: 517/1118 positive (0.462), median dV = -157.5 km/s, binomial p = 0.013
+[06:08:25] [TEST] Vsys 4000-7000 | |dV| 300-600: 490/1004 positive (0.488), median dV = -304.0 km/s, binomial p = 0.468
+[06:08:25] [TEST] Vsys 4000-7000 | |dV| 600-100000: 283/623 positive (0.454), median dV = -627.0 km/s, binomial p = 0.0248
+[06:08:25] [TEST] Vsys 7000-11000 | |dV| 50-150: 498/997 positive (0.499), median dV = -50.0 km/s, binomial p = 1
+[06:08:25] [TEST] Vsys 7000-11000 | |dV| 150-300: 561/1135 positive (0.494), median dV = -151.0 km/s, binomial p = 0.722
+[06:08:25] [TEST] Vsys 7000-11000 | |dV| 300-600: 586/1159 positive (0.506), median dV = 301.0 km/s, binomial p = 0.724
+[06:08:25] [TEST] Vsys 7000-11000 | |dV| 600-100000: 488/865 positive (0.564), median dV = 650.0 km/s, binomial p = 0.000181
+[06:08:25] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_25_satellite_redshift_asymmetry.json
+[06:08:25] [SUCCESS] Satellite asymmetry complete: 0.481 of 2822 groups have positive mean offset.
+[06:08:25] [SUCCESS] step_25 completed in 0.5s

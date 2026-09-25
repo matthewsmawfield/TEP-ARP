@@ -174,7 +174,7 @@ async function buildStaticSite() {
         
         console.log('✅ Static site built successfully!');
         console.log(`📁 Output: ${outputPath}`);
-        console.log('📄 Markdown: 37-TEP-ARP-v0.1-Pasadena.md (in root)');
+        console.log('📄 Markdown: 37-TEP-ARP-v0.2-Pasadena.md (in root)');
         console.log(`📊 Generated ${manifest.sections.length} sections (TEP-ARP)`);
         console.log('🚀 TEP-ARP ready for deployment');
         

@@ -1,22 +1,22 @@
-[20:31:36] [PROCESS] Ingesting SDSS spectroscopy for pair members...
-[20:31:36] [INFO] NGC 4319: no SDSS spectrum in footprint
-[20:31:37] [INFO] Markarian 205 resolved via SIMBAD fallback.
-[20:31:37] [INFO] Markarian 205: no SDSS spectrum in footprint
-[20:31:37] [INFO] NGC 7603: no SDSS spectrum in footprint
-[20:31:37] [SUCCESS] NGC 7603B: 1 SDSS spectrum/a downloaded
-[20:31:38] [SUCCESS] NGC 3067: 1 SDSS spectrum/a downloaded
-[20:31:38] [SUCCESS] 3C 232: 2 SDSS spectrum/a downloaded
-[20:31:38] [INFO] NGC 1073: no SDSS spectrum in footprint
-[20:31:38] [INFO] NGC 7319: no SDSS spectrum in footprint
-[20:31:38] [INFO] NGC 1199: no SDSS spectrum in footprint
-[20:31:38] [INFO] NGC 3628: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 4258: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 2639: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 1097: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 1232: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 1232A: no SDSS spectrum in footprint
-[20:31:39] [INFO] NGC 3516: no SDSS spectrum in footprint
-[20:31:39] [SUCCESS] Saved spectroscopic manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/spectroscopic_manifest.csv
-[20:31:39] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_04_spectroscopic_ingestion.json
-[20:31:39] [SUCCESS] Spectroscopic ingestion complete: 4 spectra retrieved.
-[20:31:39] [SUCCESS] step_04 completed in 2.5s
+[06:06:39] [PROCESS] Ingesting SDSS spectroscopy for pair members...
+[06:06:39] [INFO] NGC 4319: no SDSS spectrum in footprint
+[06:06:40] [INFO] Markarian 205 resolved via SIMBAD fallback.
+[06:06:40] [INFO] Markarian 205: no SDSS spectrum in footprint
+[06:06:40] [INFO] NGC 7603: no SDSS spectrum in footprint
+[06:06:40] [SUCCESS] NGC 7603B: 1 SDSS spectrum/a downloaded
+[06:06:40] [SUCCESS] NGC 3067: 1 SDSS spectrum/a downloaded
+[06:06:41] [SUCCESS] 3C 232: 2 SDSS spectrum/a downloaded
+[06:06:41] [INFO] NGC 1073: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 7319: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 1199: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 3628: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 4258: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 2639: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 1097: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 1232: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 1232A: no SDSS spectrum in footprint
+[06:06:41] [INFO] NGC 3516: no SDSS spectrum in footprint
+[06:06:41] [SUCCESS] Saved spectroscopic manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/spectroscopic_manifest.csv
+[06:06:41] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_04_spectroscopic_ingestion.json
+[06:06:41] [SUCCESS] Spectroscopic ingestion complete: 4 spectra retrieved.
+[06:06:41] [SUCCESS] step_04 completed in 2.3s

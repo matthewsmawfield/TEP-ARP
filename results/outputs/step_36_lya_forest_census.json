@@ -1,0 +1,1717 @@
+{
+  "method": "Archival census attempt on every ground-accessible (z>1.7) quasar-class companion: per-product geometric (slit PA decomposition from file headers) and spectroscopic (trace extraction, emission-line scan, IUE S/N) verification that the Ly-alpha forest band was or was not observed at usable resolution.",
+  "targets": [
+    {
+      "pair_id": "NGC1073-QSOs",
+      "resolved_name": "[VV96] J024333.6+012222",
+      "z": 1.945,
+      "forest_lo_a": 3065.7450000000003,
+      "forest_hi_a": 3489.8250000000003,
+      "lya_emission_obs_a": 3580.1481500000004,
+      "koa_records": [
+        {
+          "koaid": "LB.20050311.21368.fits",
+          "slitname": "long_1.0",
+          "ra": 40.89521,
+          "dec": 1.39833,
+          "grisname": "600/4000",
+          "elaptime_s": 600.0,
+          "progtitl": "The Early-Time Deceleration Test with Type Ia Suprenovae",
+          "filehand": "/koadata26/LRIS/20050311/lev0/LB.20050311.21368.fits",
+          "offset_arcsec": 94.46242084986308
+        },
+        {
+          "koaid": "LR.20050311.21367.fits",
+          "slitname": "long_1.0",
+          "ra": 40.89521,
+          "dec": 1.39833,
+          "grisname": "",
+          "elaptime_s": 600.0,
+          "progtitl": "The Early-Time Deceleration Test with Type Ia Suprenovae",
+          "filehand": "/koadata26/LRIS/20050311/lev0/LR.20050311.21367.fits",
+          "offset_arcsec": 94.46242084986308
+        }
+      ],
+      "iue_product": {
+        "product": "lwp18109mxlo_vo.fits",
+        "snr_median": 0.7099237442016602,
+        "covered_a": 279.593994140625
+      },
+      "verdict": "forest_unobserved",
+      "detail": [
+        "IUE lwp18109mxlo_vo.fits covers 280 A of the band but at S/N=0.71 (no continuum)",
+        "LB.20050311.21368.fits: pointing 94\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20050311.21367.fits: pointing 94\" off \u2014 beyond the 175\" slit half-length"
+      ]
+    },
+    {
+      "pair_id": "NGC7319-QSO",
+      "resolved_name": "[VV2006] J223603.7+335824",
+      "z": 2.114,
+      "forest_lo_a": 3241.674,
+      "forest_hi_a": 3690.09,
+      "lya_emission_obs_a": 3785.59638,
+      "koa_records": [
+        {
+          "koaid": "LB.20001012.30369.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.30369.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20001012.30720.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.30720.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20001012.31115.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.31115.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20001012.31373.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.31373.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20001012.31707.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.31707.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20001012.32586.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "600/5000",
+          "elaptime_s": 180.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LB.20001012.32586.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LB.20031003.28349.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01658,
+          "dec": 33.97075,
+          "grisname": "400/3400",
+          "elaptime_s": 300.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LB.20031003.28349.fits",
+          "offset_arcsec": 9.927356964377024
+        },
+        {
+          "koaid": "LB.20031003.28810.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01658,
+          "dec": 33.97086,
+          "grisname": "400/3400",
+          "elaptime_s": 600.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LB.20031003.28810.fits",
+          "offset_arcsec": 9.557386269174371
+        },
+        {
+          "koaid": "LB.20031003.29568.fits",
+          "slitname": "long_0.7",
+          "ra": 339.0165,
+          "dec": 33.97089,
+          "grisname": "400/3400",
+          "elaptime_s": 1200.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LB.20031003.29568.fits",
+          "offset_arcsec": 9.37176938970979
+        },
+        {
+          "koaid": "LB.20031003.30962.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01646,
+          "dec": 33.97089,
+          "grisname": "400/3400",
+          "elaptime_s": 1200.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LB.20031003.30962.fits",
+          "offset_arcsec": 9.331230288346134
+        },
+        {
+          "koaid": "LB.20051030.20746.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "clear",
+          "elaptime_s": 120.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LB.20051030.20746.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LB.20051030.21035.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "clear",
+          "elaptime_s": 700.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LB.20051030.21035.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LB.20051030.22532.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "clear",
+          "elaptime_s": 180.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LB.20051030.22532.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LB.20051030.22909.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "clear",
+          "elaptime_s": 180.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LB.20051030.22909.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LB.20101216.22475.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.94083,
+          "grisname": "clear",
+          "elaptime_s": 60.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LB.20101216.22475.fits",
+          "offset_arcsec": 123.60073369247912
+        },
+        {
+          "koaid": "LB.20101216.22648.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.9325,
+          "grisname": "clear",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LB.20101216.22648.fits",
+          "offset_arcsec": 152.29685888199086
+        },
+        {
+          "koaid": "LB.20110928.29507.fits",
+          "slitname": "direct",
+          "ra": 339.00437,
+          "dec": 33.97108,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.29507.fits",
+          "offset_arcsec": 33.96252049070367
+        },
+        {
+          "koaid": "LB.20110928.29798.fits",
+          "slitname": "direct",
+          "ra": 338.99925,
+          "dec": 33.96917,
+          "grisname": "clear",
+          "elaptime_s": 10.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.29798.fits",
+          "offset_arcsec": 50.53872561313961
+        },
+        {
+          "koaid": "LB.20110928.29939.fits",
+          "slitname": "stq_1.fi",
+          "ra": 338.99925,
+          "dec": 33.96917,
+          "grisname": "clear",
+          "elaptime_s": 10.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.29939.fits",
+          "offset_arcsec": 50.53872561313961
+        },
+        {
+          "koaid": "LB.20110928.30505.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97108,
+          "grisname": "clear",
+          "elaptime_s": 10.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.30505.fits",
+          "offset_arcsec": 33.96252049070367
+        },
+        {
+          "koaid": "LB.20110928.30897.fits",
+          "slitname": "direct",
+          "ra": 339.00437,
+          "dec": 33.97108,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.30897.fits",
+          "offset_arcsec": 33.96252049070367
+        },
+        {
+          "koaid": "LB.20110928.31038.fits",
+          "slitname": "direct",
+          "ra": 339.00088,
+          "dec": 33.97061,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.31038.fits",
+          "offset_arcsec": 44.492415990084005
+        },
+        {
+          "koaid": "LB.20110928.31167.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00088,
+          "dec": 33.97061,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.31167.fits",
+          "offset_arcsec": 44.492415990084005
+        },
+        {
+          "koaid": "LB.20110928.31280.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.31280.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LB.20110928.31436.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.31436.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LB.20110928.33183.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.33183.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LB.20110928.34464.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 530.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.34464.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LB.20110928.40143.fits",
+          "slitname": "direct",
+          "ra": 339.00346,
+          "dec": 33.97056,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.40143.fits",
+          "offset_arcsec": 37.06623155838622
+        },
+        {
+          "koaid": "LB.20110928.40501.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00346,
+          "dec": 33.97044,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.40501.fits",
+          "offset_arcsec": 37.18492062569958
+        },
+        {
+          "koaid": "LB.20110928.40658.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.0035,
+          "dec": 33.97089,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.40658.fits",
+          "offset_arcsec": 36.64810391742251
+        },
+        {
+          "koaid": "LB.20110928.41286.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00388,
+          "dec": 33.97039,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.41286.fits",
+          "offset_arcsec": 36.03545075096784
+        },
+        {
+          "koaid": "LB.20110928.41428.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00338,
+          "dec": 33.97044,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.41428.fits",
+          "offset_arcsec": 37.41425676885187
+        },
+        {
+          "koaid": "LB.20110928.44981.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00183,
+          "dec": 33.97033,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LB.20110928.44981.fits",
+          "offset_arcsec": 41.978861009128735
+        },
+        {
+          "koaid": "LB.20110929.18631.fits",
+          "slitname": "direct",
+          "ra": 339.00437,
+          "dec": 33.97036,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.18631.fits",
+          "offset_arcsec": 34.67310009332306
+        },
+        {
+          "koaid": "LB.20110929.18972.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00433,
+          "dec": 33.9705,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.18972.fits",
+          "offset_arcsec": 34.63494286910382
+        },
+        {
+          "koaid": "LB.20110929.19095.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97058,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.19095.fits",
+          "offset_arcsec": 34.436840709938345
+        },
+        {
+          "koaid": "LB.20110929.19302.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97058,
+          "grisname": "600/4000",
+          "elaptime_s": 1275.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.19302.fits",
+          "offset_arcsec": 34.436840709938345
+        },
+        {
+          "koaid": "LB.20110929.20638.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97058,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.20638.fits",
+          "offset_arcsec": 34.436840709938345
+        },
+        {
+          "koaid": "LB.20110929.23167.fits",
+          "slitname": "direct",
+          "ra": 339.00437,
+          "dec": 33.97108,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.23167.fits",
+          "offset_arcsec": 33.96252049070367
+        },
+        {
+          "koaid": "LB.20110929.23421.fits",
+          "slitname": "stq_2.fi",
+          "ra": 339.0035,
+          "dec": 33.97017,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.23421.fits",
+          "offset_arcsec": 37.35505921213109
+        },
+        {
+          "koaid": "LB.20110929.23617.fits",
+          "slitname": "stq_2.fi",
+          "ra": 339.0035,
+          "dec": 33.97017,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.23617.fits",
+          "offset_arcsec": 37.35505921213109
+        },
+        {
+          "koaid": "LB.20110929.24947.fits",
+          "slitname": "stq_2.fi",
+          "ra": 339.0035,
+          "dec": 33.97017,
+          "grisname": "600/4000",
+          "elaptime_s": 1270.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.24947.fits",
+          "offset_arcsec": 37.35505921213109
+        },
+        {
+          "koaid": "LB.20110929.26519.fits",
+          "slitname": "direct",
+          "ra": 338.99987,
+          "dec": 33.97456,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.26519.fits",
+          "offset_arcsec": 46.62373948769418
+        },
+        {
+          "koaid": "LB.20110929.26807.fits",
+          "slitname": "stq_3.fi",
+          "ra": 338.99704,
+          "dec": 33.97608,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.26807.fits",
+          "offset_arcsec": 55.746961084794165
+        },
+        {
+          "koaid": "LB.20110929.27006.fits",
+          "slitname": "stq_3.fi",
+          "ra": 338.99704,
+          "dec": 33.97608,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.27006.fits",
+          "offset_arcsec": 55.746961084794165
+        },
+        {
+          "koaid": "LB.20110929.28367.fits",
+          "slitname": "stq_3.fi",
+          "ra": 338.99704,
+          "dec": 33.97608,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.28367.fits",
+          "offset_arcsec": 55.746961084794165
+        },
+        {
+          "koaid": "LB.20110929.29839.fits",
+          "slitname": "direct",
+          "ra": 338.99987,
+          "dec": 34.00194,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.29839.fits",
+          "offset_arcsec": 112.96006499561081
+        },
+        {
+          "koaid": "LB.20110929.30097.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.0005,
+          "dec": 34.00106,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.30097.fits",
+          "offset_arcsec": 109.29980634487501
+        },
+        {
+          "koaid": "LB.20110929.30278.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.0005,
+          "dec": 34.00106,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.30278.fits",
+          "offset_arcsec": 109.29980634487501
+        },
+        {
+          "koaid": "LB.20110929.31600.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.0005,
+          "dec": 34.00106,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.31600.fits",
+          "offset_arcsec": 109.29980634487501
+        },
+        {
+          "koaid": "LB.20110929.33247.fits",
+          "slitname": "direct",
+          "ra": 338.99987,
+          "dec": 34.00194,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.33247.fits",
+          "offset_arcsec": 112.96006499561081
+        },
+        {
+          "koaid": "LB.20110929.33463.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.00208,
+          "dec": 34.00111,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.33463.fits",
+          "offset_arcsec": 107.63146956773836
+        },
+        {
+          "koaid": "LB.20110929.33634.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.00208,
+          "dec": 34.00111,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.33634.fits",
+          "offset_arcsec": 107.63146956773836
+        },
+        {
+          "koaid": "LB.20110929.34954.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.00208,
+          "dec": 34.00111,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.34954.fits",
+          "offset_arcsec": 107.63146956773836
+        },
+        {
+          "koaid": "LB.20110929.37111.fits",
+          "slitname": "direct",
+          "ra": 339.01229,
+          "dec": 33.99444,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.37111.fits",
+          "offset_arcsec": 76.55522551593361
+        },
+        {
+          "koaid": "LB.20110929.37345.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01142,
+          "dec": 33.99558,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.37345.fits",
+          "offset_arcsec": 80.9719632893379
+        },
+        {
+          "koaid": "LB.20110929.37469.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.37469.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.37654.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.37654.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.38993.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1265.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.38993.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.40422.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 9.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.40422.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.40488.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.40488.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.40615.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.40615.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.40755.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.40755.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.40895.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 120.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.40895.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.41072.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 120.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.41072.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.41250.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 120.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.41250.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LB.20110929.41425.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 120.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LB.20110929.41425.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20001012.23188.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94833,
+          "grisname": "",
+          "elaptime_s": 10.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.23188.fits",
+          "offset_arcsec": 90.08891494684924
+        },
+        {
+          "koaid": "LR.20001012.23503.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94833,
+          "grisname": "",
+          "elaptime_s": 10.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.23503.fits",
+          "offset_arcsec": 90.08891494684924
+        },
+        {
+          "koaid": "LR.20001012.23744.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94833,
+          "grisname": "",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.23744.fits",
+          "offset_arcsec": 90.08891494684924
+        },
+        {
+          "koaid": "LR.20001012.23910.fits",
+          "slitname": "direct",
+          "ra": 339.01079,
+          "dec": 33.95108,
+          "grisname": "",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.23910.fits",
+          "offset_arcsec": 81.29406819637533
+        },
+        {
+          "koaid": "LR.20001012.24075.fits",
+          "slitname": "direct",
+          "ra": 339.01087,
+          "dec": 33.94553,
+          "grisname": "",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.24075.fits",
+          "offset_arcsec": 101.00821976088046
+        },
+        {
+          "koaid": "LR.20001012.24241.fits",
+          "slitname": "direct",
+          "ra": 339.01754,
+          "dec": 33.94558,
+          "grisname": "",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.24241.fits",
+          "offset_arcsec": 100.11289922587478
+        },
+        {
+          "koaid": "LR.20001012.24407.fits",
+          "slitname": "direct",
+          "ra": 339.01746,
+          "dec": 33.95114,
+          "grisname": "",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.24407.fits",
+          "offset_arcsec": 80.12855077501783
+        },
+        {
+          "koaid": "LR.20001012.25019.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94833,
+          "grisname": "",
+          "elaptime_s": 30.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.25019.fits",
+          "offset_arcsec": 90.08891494684924
+        },
+        {
+          "koaid": "LR.20001012.25230.fits",
+          "slitname": "direct",
+          "ra": 339.01079,
+          "dec": 33.95108,
+          "grisname": "",
+          "elaptime_s": 30.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.25230.fits",
+          "offset_arcsec": 81.29406819637533
+        },
+        {
+          "koaid": "LR.20001012.25440.fits",
+          "slitname": "direct",
+          "ra": 339.01087,
+          "dec": 33.94553,
+          "grisname": "",
+          "elaptime_s": 30.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.25440.fits",
+          "offset_arcsec": 101.00821976088046
+        },
+        {
+          "koaid": "LR.20001012.25651.fits",
+          "slitname": "direct",
+          "ra": 339.01754,
+          "dec": 33.94558,
+          "grisname": "",
+          "elaptime_s": 30.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.25651.fits",
+          "offset_arcsec": 100.11289922587478
+        },
+        {
+          "koaid": "LR.20001012.25862.fits",
+          "slitname": "direct",
+          "ra": 339.01746,
+          "dec": 33.95114,
+          "grisname": "",
+          "elaptime_s": 30.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.25862.fits",
+          "offset_arcsec": 80.12855077501783
+        },
+        {
+          "koaid": "LR.20001012.30384.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.30384.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20001012.30726.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.30726.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20001012.31113.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.31113.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20001012.31370.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.31370.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20001012.31705.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.31705.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20001012.32584.fits",
+          "slitname": "long_1.5",
+          "ra": 339.01304,
+          "dec": 33.94772,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata26/LRIS/20001012/lev0/LR.20001012.32584.fits",
+          "offset_arcsec": 92.48059785518096
+        },
+        {
+          "koaid": "LR.20031003.28348.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01658,
+          "dec": 33.97075,
+          "grisname": "",
+          "elaptime_s": 300.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LR.20031003.28348.fits",
+          "offset_arcsec": 9.927356964377024
+        },
+        {
+          "koaid": "LR.20031003.28808.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01658,
+          "dec": 33.97086,
+          "grisname": "",
+          "elaptime_s": 600.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LR.20031003.28808.fits",
+          "offset_arcsec": 9.557386269174371
+        },
+        {
+          "koaid": "LR.20031003.29566.fits",
+          "slitname": "long_0.7",
+          "ra": 339.0165,
+          "dec": 33.97089,
+          "grisname": "",
+          "elaptime_s": 1200.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LR.20031003.29566.fits",
+          "offset_arcsec": 9.37176938970979
+        },
+        {
+          "koaid": "LR.20031003.30960.fits",
+          "slitname": "long_0.7",
+          "ra": 339.01646,
+          "dec": 33.97089,
+          "grisname": "",
+          "elaptime_s": 1200.0,
+          "progtitl": "Spectroscopy of Quasar Candidates Near AGN Galaxies",
+          "filehand": "/koadata26/LRIS/20031003/lev0/LR.20031003.30960.fits",
+          "offset_arcsec": 9.331230288346134
+        },
+        {
+          "koaid": "LR.20051030.20744.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "",
+          "elaptime_s": 120.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LR.20051030.20744.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LR.20051030.21039.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "",
+          "elaptime_s": 600.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LR.20051030.21039.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LR.20051030.22531.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "",
+          "elaptime_s": 180.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LR.20051030.22531.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LR.20051030.22902.fits",
+          "slitname": "direct",
+          "ra": 339.01417,
+          "dec": 33.94806,
+          "grisname": "",
+          "elaptime_s": 180.0,
+          "progtitl": "GRB Host Galaxies",
+          "filehand": "/koadata26/LRIS/20051030/lev0/LR.20051030.22902.fits",
+          "offset_arcsec": 91.06009393966686
+        },
+        {
+          "koaid": "LR.20101216.22486.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.94083,
+          "grisname": "clear",
+          "elaptime_s": 5.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.22486.fits",
+          "offset_arcsec": 123.60073369247912
+        },
+        {
+          "koaid": "LR.20101216.22661.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.9325,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.22661.fits",
+          "offset_arcsec": 152.29685888199086
+        },
+        {
+          "koaid": "LR.20101216.22812.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.9325,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.22812.fits",
+          "offset_arcsec": 152.29685888199086
+        },
+        {
+          "koaid": "LR.20101216.22930.fits",
+          "slitname": "direct",
+          "ra": 339.00208,
+          "dec": 33.9325,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.22930.fits",
+          "offset_arcsec": 152.29685888199086
+        },
+        {
+          "koaid": "LR.20101216.23385.fits",
+          "slitname": "direct",
+          "ra": 339.00008,
+          "dec": 33.92908,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.23385.fits",
+          "offset_arcsec": 165.76121330360198
+        },
+        {
+          "koaid": "LR.20101216.23596.fits",
+          "slitname": "direct",
+          "ra": 339.00004,
+          "dec": 33.93186,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.23596.fits",
+          "offset_arcsec": 156.20211547052847
+        },
+        {
+          "koaid": "LR.20101216.23714.fits",
+          "slitname": "direct",
+          "ra": 338.99867,
+          "dec": 33.93261,
+          "grisname": "clear",
+          "elaptime_s": 20.0,
+          "progtitl": "LRIS Engineering",
+          "filehand": "/koadata25/LRIS/20101216/lev0/LR.20101216.23714.fits",
+          "offset_arcsec": 154.89481288789366
+        },
+        {
+          "koaid": "LR.20110928.31448.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LR.20110928.31448.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LR.20110928.33197.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LR.20110928.33197.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LR.20110928.34527.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00083,
+          "dec": 33.97067,
+          "grisname": "600/4000",
+          "elaptime_s": 460.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110928/lev0/LR.20110928.34527.fits",
+          "offset_arcsec": 44.591089734923635
+        },
+        {
+          "koaid": "LR.20110929.19315.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97058,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.19315.fits",
+          "offset_arcsec": 34.436840709938345
+        },
+        {
+          "koaid": "LR.20110929.20646.fits",
+          "slitname": "stq_1.fi",
+          "ra": 339.00437,
+          "dec": 33.97058,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.20646.fits",
+          "offset_arcsec": 34.436840709938345
+        },
+        {
+          "koaid": "LR.20110929.23629.fits",
+          "slitname": "stq_2.fi",
+          "ra": 339.0035,
+          "dec": 33.97017,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.23629.fits",
+          "offset_arcsec": 37.35505921213109
+        },
+        {
+          "koaid": "LR.20110929.24961.fits",
+          "slitname": "stq_2.fi",
+          "ra": 339.0035,
+          "dec": 33.97017,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.24961.fits",
+          "offset_arcsec": 37.35505921213109
+        },
+        {
+          "koaid": "LR.20110929.27016.fits",
+          "slitname": "stq_3.fi",
+          "ra": 338.99704,
+          "dec": 33.97608,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.27016.fits",
+          "offset_arcsec": 55.746961084794165
+        },
+        {
+          "koaid": "LR.20110929.28380.fits",
+          "slitname": "stq_3.fi",
+          "ra": 338.99704,
+          "dec": 33.97608,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.28380.fits",
+          "offset_arcsec": 55.746961084794165
+        },
+        {
+          "koaid": "LR.20110929.30290.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.0005,
+          "dec": 34.00106,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.30290.fits",
+          "offset_arcsec": 109.29980634487501
+        },
+        {
+          "koaid": "LR.20110929.31621.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.0005,
+          "dec": 34.00106,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.31621.fits",
+          "offset_arcsec": 109.29980634487501
+        },
+        {
+          "koaid": "LR.20110929.33644.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.00208,
+          "dec": 34.00111,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.33644.fits",
+          "offset_arcsec": 107.63146956773836
+        },
+        {
+          "koaid": "LR.20110929.34971.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.00208,
+          "dec": 34.00111,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.34971.fits",
+          "offset_arcsec": 107.63146956773836
+        },
+        {
+          "koaid": "LR.20110929.37663.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.37663.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.39005.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1200.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.39005.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.40431.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 2.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.40431.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.40625.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.40625.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.40768.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 1.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.40768.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.40908.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 15.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.40908.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.41078.fits",
+          "slitname": "stq_5.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 15.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.41078.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.41262.fits",
+          "slitname": "stq_4.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 15.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.41262.fits",
+          "offset_arcsec": 80.81165520227204
+        },
+        {
+          "koaid": "LR.20110929.41421.fits",
+          "slitname": "stq_6.fi",
+          "ra": 339.01138,
+          "dec": 33.99553,
+          "grisname": "600/4000",
+          "elaptime_s": 15.0,
+          "progtitl": "A Comprehensive Survey of Chemical Evolution in Mergers",
+          "filehand": "/koadata25/LRIS/20110929/lev0/LR.20110929.41421.fits",
+          "offset_arcsec": 80.81165520227204
+        }
+      ],
+      "iue_product": {
+        "product": "lwp18109mxlo_vo.fits",
+        "snr_median": 0.32414430379867554,
+        "covered_a": 103.84912109375
+      },
+      "lris_2003": {
+        "koaid": "LB.20031003.30962.fits",
+        "progtitl": "U44L",
+        "pa_deg": 114.99964724,
+        "slitwidt": 0.7,
+        "slitlen_arcsec": 175.0,
+        "pointing_ra": 339.0164583333333,
+        "pointing_dec": 33.970888888888894,
+        "along_arcsec": 6.53757697333422,
+        "perp_arcsec": 6.66122460510862,
+        "total_arcsec": 9.333371626693877,
+        "companion_on_slit": false,
+        "on_slit_trace_col": 2035,
+        "on_slit_rms": 7.2831731408775395,
+        "on_slit_peaks": [
+          {
+            "row": 155,
+            "lam_guess": 1928.8725,
+            "excess": 370.26337762751143,
+            "sigma": 50.838195174761275
+          }
+        ],
+        "lya_expected_rows": [
+          1859,
+          2234
+        ],
+        "lya_at_expected_rows": [
+          {
+            "row_expected": 1859,
+            "net_counts_window": 97.5
+          },
+          {
+            "row_expected": 2234,
+            "net_counts_window": 101.5
+          }
+        ],
+        "on_slit_shows_companion_lya": true
+      },
+      "lris_2011_mask": {
+        "koaid": "LB.20110929.19302.fits",
+        "n_slitlets": 7,
+        "slitlets": [
+          {
+            "col": 604,
+            "span": [
+              589,
+              620
+            ],
+            "n_peaks_5sig": 5,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": [
+              {
+                "row": 3703,
+                "lam_guess": 5632.889999999999,
+                "excess": 631.0957119025759,
+                "sigma": 6.558501929942661
+              },
+              {
+                "row": 3700,
+                "lam_guess": 5631.0,
+                "excess": 626.057714404235,
+                "sigma": 6.506145820254791
+              },
+              {
+                "row": 3691,
+                "lam_guess": 5625.33,
+                "excess": 622.2805971799319,
+                "sigma": 6.4668930886357945
+              },
+              {
+                "row": 3686,
+                "lam_guess": 5622.18,
+                "excess": 622.1275340085309,
+                "sigma": 6.465302418494796
+              }
+            ]
+          },
+          {
+            "col": 826,
+            "span": [
+              810,
+              842
+            ],
+            "n_peaks_5sig": 0,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": []
+          },
+          {
+            "col": 1502,
+            "span": [
+              1485,
+              1521
+            ],
+            "n_peaks_5sig": 0,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": []
+          },
+          {
+            "col": 1845,
+            "span": [
+              1838,
+              1854
+            ],
+            "n_peaks_5sig": 7,
+            "lya_row_hit": true,
+            "lowz_nebular_match": 0.016,
+            "top_peaks": [
+              {
+                "row": 2847,
+                "lam_guess": 5093.61,
+                "excess": 7662.817338682604,
+                "sigma": 213.75714257277897
+              },
+              {
+                "row": 2770,
+                "lam_guess": 5045.1,
+                "excess": 2567.6886135747845,
+                "sigma": 71.6266298406595
+              },
+              {
+                "row": 2612,
+                "lam_guess": 4945.5599999999995,
+                "excess": 689.8966633645356,
+                "sigma": 19.244924276982797
+              },
+              {
+                "row": 3572,
+                "lam_guess": 5550.360000000001,
+                "excess": 656.6441192879419,
+                "sigma": 18.317332179856013
+              }
+            ]
+          },
+          {
+            "col": 2810,
+            "span": [
+              2794,
+              2829
+            ],
+            "n_peaks_5sig": 4,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": [
+              {
+                "row": 2990,
+                "lam_guess": 5183.7,
+                "excess": 605.6881811710044,
+                "sigma": 5.815475965045302
+              },
+              {
+                "row": 3005,
+                "lam_guess": 5193.15,
+                "excess": 592.8290255675035,
+                "sigma": 5.692009612774142
+              },
+              {
+                "row": 3001,
+                "lam_guess": 5190.63,
+                "excess": 574.2167478548585,
+                "sigma": 5.513305030024365
+              },
+              {
+                "row": 3014,
+                "lam_guess": 5198.82,
+                "excess": 531.220386204004,
+                "sigma": 5.100478239708731
+              }
+            ]
+          },
+          {
+            "col": 2887,
+            "span": [
+              2871,
+              2908
+            ],
+            "n_peaks_5sig": 0,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": []
+          },
+          {
+            "col": 2944,
+            "span": [
+              2929,
+              2964
+            ],
+            "n_peaks_5sig": 0,
+            "lya_row_hit": false,
+            "lowz_nebular_match": null,
+            "top_peaks": []
+          }
+        ],
+        "row_lya_expected": 770.7879047619047,
+        "n_slitlets_with_lya_like_line": 0,
+        "verdict_note": "no slitlet shows a QSO-like Ly-alpha emission line at the companion's observed wavelength; slitlet emission-line sources are classified as low-z nebular emitters by multi-line template matching"
+      },
+      "verdict": "forest_unobserved",
+      "detail": [
+        "IUE lwp18109mxlo_vo.fits covers 104 A of the band but at S/N=0.32 (no continuum)",
+        "LB.20001012.30369.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20001012.30720.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20001012.31115.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20001012.31373.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20001012.31707.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20001012.32586.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20051030.20746.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20051030.21035.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20051030.22532.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20051030.22909.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20101216.22475.fits: pointing 124\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20101216.22648.fits: pointing 152\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.29839.fits: pointing 113\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.30097.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.30278.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.31600.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.33247.fits: pointing 113\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.33463.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.33634.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
+        "LB.20110929.34954.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.23188.fits: pointing 90\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.23503.fits: pointing 90\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.23744.fits: pointing 90\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.24075.fits: pointing 101\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.24241.fits: pointing 100\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.25019.fits: pointing 90\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.25440.fits: pointing 101\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.25651.fits: pointing 100\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.30384.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.30726.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.31113.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.31370.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.31705.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20001012.32584.fits: pointing 92\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20051030.20744.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20051030.21039.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20051030.22531.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20051030.22902.fits: pointing 91\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.22486.fits: pointing 124\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.22661.fits: pointing 152\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.22812.fits: pointing 152\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.22930.fits: pointing 152\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.23385.fits: pointing 166\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.23596.fits: pointing 156\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20101216.23714.fits: pointing 155\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20110929.30290.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20110929.31621.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20110929.33644.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20110929.34971.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
+        "KOA LB.20031003.30962.fits (2003, U44L): slit PA 115 deg, companion 6.7\" perpendicular off the 0.7\" slit \u2014 not observed",
+        "KOA LB.20110929.19302.fits (2011 stq mask): 7 slitlets extracted; no slitlet shows a QSO-like Ly-alpha emission line at the companion's observed wavelength; slitlet emission-line sources are classified as low-z nebular emitters by multi-line template matching"
+      ]
+    },
+    {
+      "pair_id": "NGC1097-jetQSOs",
+      "resolved_name": "WISP 257  129",
+      "z": 2.3342,
+      "forest_lo_a": 3470.9022,
+      "forest_hi_a": 3951.027,
+      "lya_emission_obs_a": 4053.2869140000003,
+      "koa_records": [],
+      "iue_product": null,
+      "verdict": "forest_unobserved",
+      "detail": []
+    },
+    {
+      "pair_id": "NGC3516-Qchain",
+      "resolved_name": "1WGA J1107.7+7232",
+      "z": 2.0999999046325684,
+      "forest_lo_a": 3227.0999007225037,
+      "forest_hi_a": 3673.4998869895935,
+      "lya_emission_obs_a": 3768.5768840646747,
+      "koa_records": [
+        {
+          "koaid": "LB.20160214.43045.fits",
+          "slitname": "long_1.5",
+          "ra": 166.9605,
+          "dec": 72.51739,
+          "grisname": "600/4000",
+          "elaptime_s": 930.0,
+          "progtitl": "Optical Follow-Up of NuSTAR Hard X-Ray Sources",
+          "filehand": "/koadata25/LRIS/20160214/lev0/LB.20160214.43045.fits",
+          "offset_arcsec": 101.44145106860647
+        },
+        {
+          "koaid": "LR.20160214.43055.fits",
+          "slitname": "long_1.5",
+          "ra": 166.9605,
+          "dec": 72.51739,
+          "grisname": "600/4000",
+          "elaptime_s": 900.0,
+          "progtitl": "Optical Follow-Up of NuSTAR Hard X-Ray Sources",
+          "filehand": "/koadata25/LRIS/20160214/lev0/LR.20160214.43055.fits",
+          "offset_arcsec": 101.44145106860647
+        }
+      ],
+      "iue_product": {
+        "product": "lwp18109mxlo_vo.fits",
+        "snr_median": 0.6420719027519226,
+        "covered_a": 119.826171875
+      },
+      "verdict": "forest_unobserved",
+      "detail": [
+        "IUE lwp18109mxlo_vo.fits covers 120 A of the band but at S/N=0.64 (no continuum)",
+        "LB.20160214.43045.fits: pointing 101\" off \u2014 beyond the 175\" slit half-length",
+        "LR.20160214.43055.fits: pointing 101\" off \u2014 beyond the 175\" slit half-length"
+      ]
+    }
+  ],
+  "positive_control": "step_29 3C 232 census (HST/COS): the pipeline detects a forest where one exists; a non-detection here is informative only once a covering spectrum exists.",
+  "conclusion": "No archival spectrum covers any z>1.7 companion's Ly-alpha forest band at usable resolution. The NGC 7319 z=2.114 companion \u2014 the highest-value target \u2014 was never on the slit: the 2003 Burbidge LRIS long-slit was pointed at the separate 'NGC 7319 ULX' position 9.4 arcsec away at a PA leaving the companion ~6.8 arcsec perpendicular off the 0.7-arcsec slit, and the 2011 Kewley merger mask allocated slitlets only to low-z star-forming regions. The forest census therefore requires a dedicated blue-arm observation.",
+  "csv": "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/lya_forest_census.csv"
+}

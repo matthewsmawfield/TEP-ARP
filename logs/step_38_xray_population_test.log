@@ -1,0 +1,22 @@
+[06:22:34] [PROCESS] Running X-ray-selected population test...
+[06:22:34] [INFO] 23205 2MRS parents, 92820 seeded controls (identical to step_24).
+[06:22:34] [TEST] xray_rass annulus 0-60: delta = +0.154 (+0.5 sigma)
+[06:22:34] [TEST] xray_rass annulus 60-120: delta = +0.101 (+0.4 sigma)
+[06:22:34] [TEST] xray_rass annulus 120-180: delta = +0.031 (+0.2 sigma)
+[06:22:35] [TEST] xray_rass 0-120 arcsec: 0.00194 vs 0.00173 per field; delta = +0.118; bootstrap p = 0.2929
+[06:22:35] [TEST] xray_pointed annulus 0-60: delta = +0.924 (+3.7 sigma)
+[06:22:35] [TEST] xray_pointed annulus 60-120: delta = +1.680 (+8.0 sigma)
+[06:22:35] [TEST] xray_pointed annulus 120-180: delta = +1.134 (+8.4 sigma)
+[06:22:35] [TEST] xray_pointed 0-120 arcsec: 0.01801 vs 0.00728 per field; delta = +1.473; bootstrap p = 0.0005
+[06:22:35] [TEST] xray_all annulus 0-60: delta = +0.755 (+3.6 sigma)
+[06:22:35] [TEST] xray_all annulus 60-120: delta = +1.393 (+8.0 sigma)
+[06:22:35] [TEST] xray_all annulus 120-180: delta = +0.964 (+8.3 sigma)
+[06:22:35] [TEST] xray_all 0-120 arcsec: 0.01995 vs 0.00902 per field; delta = +1.213; bootstrap p = 0.0005
+[06:22:35] [TEST] non_xray annulus 0-60: delta = -0.407 (-11.2 sigma)
+[06:22:35] [TEST] non_xray annulus 60-120: delta = -0.135 (-5.0 sigma)
+[06:22:35] [TEST] non_xray annulus 120-180: delta = -0.085 (-3.7 sigma)
+[06:22:35] [TEST] non_xray 0-120 arcsec: 0.07378 vs 0.09260 per field; delta = -0.203; bootstrap p = 1.0000
+[06:22:35] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_38_xray_population_test.json
+[06:22:35] [SUCCESS] Saved figure: step_38_xray_overdensity.png
+[06:22:35] [SUCCESS] X-ray population test complete: f_5sig = 0.3457.
+[06:22:35] [SUCCESS] step_38 completed in 0.9s

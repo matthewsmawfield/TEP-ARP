@@ -1,7 +1,7 @@
-[20:32:18] [PROCESS] Compiling foreground absorption systems...
-[20:32:18] [TEST] NGC3067-3C232: absorption_system=True
-[20:32:18] [TEST] NGC1199-companion: absorption_system=True
-[20:32:18] [SUCCESS] Saved absorption table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/absorption_systems.csv
-[20:32:18] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_21_absorption_systems.json
-[20:32:18] [SUCCESS] Absorption system analysis complete.
-[20:32:18] [SUCCESS] step_21 completed in 0.0s
+[06:07:41] [PROCESS] Compiling foreground absorption systems...
+[06:07:41] [TEST] NGC3067-3C232: absorption_system=True
+[06:07:41] [TEST] NGC1199-companion: absorption_system=True
+[06:07:41] [SUCCESS] Saved absorption table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/absorption_systems.csv
+[06:07:41] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_21_absorption_systems.json
+[06:07:41] [SUCCESS] Absorption system analysis complete.
+[06:07:41] [SUCCESS] step_21 completed in 0.0s

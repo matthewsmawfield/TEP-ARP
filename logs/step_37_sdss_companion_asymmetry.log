@@ -1,0 +1,78 @@
+[06:21:57] [PROCESS] Building SDSS-scale satellite offset sample...
+[06:21:57] [INFO] Tempel+2017: 88662 groups, 584449 galaxies.
+[06:21:57] [INFO] 385866 rank-1 rows verified.
+[06:21:58] [INFO] 198583 satellites in 88662 groups with a rank-1 central.
+[06:21:58] [TEST] Interloper baseline (|dV|>2000 km/s): f_+ = 0.5311 on n = 305.
+[06:22:11] [TEST] |dV|/sig200 0-0.5: f_+ = 0.5045 (n=10360), implied interloper frac = 0.15
+[06:22:11] [TEST] |dV|/sig200 0.5-1.0: f_+ = 0.5033 (n=9847), implied interloper frac = 0.11
+[06:22:11] [TEST] |dV|/sig200 1.0-1.5: f_+ = 0.5058 (n=9919), implied interloper frac = 0.19
+[06:22:11] [TEST] |dV|/sig200 1.5-2.0: f_+ = 0.4983 (n=9559), implied interloper frac = -0.06
+[06:22:11] [TEST] |dV|/sig200 2.0-4.0: f_+ = 0.5071 (n=32534), implied interloper frac = 0.23
+[06:22:11] [TEST] |dV|/sig200 4.0-100.0: f_+ = 0.5102 (n=126343), implied interloper frac = 0.33
+[06:22:17] [TEST] vol-limited z<0.06 M_r<-19.9: f_+ = 0.5101 (n=18156), p(0.5)=0.00645
+[06:22:17] [TEST] vol-limited z<0.08 M_r<-20.5: f_+ = 0.5110 (n=26201), p(0.5)=0.000373
+[06:22:17] [TEST] vol-limited z<0.1 M_r<-20.9: f_+ = 0.5115 (n=29034), p(0.5)=8.62e-05
+[06:22:18] [TEST] vol-limited z<0.12 M_r<-21.3: f_+ = 0.5126 (n=24276), p(0.5)=8.34e-05
+[06:22:18] [TEST] mock interlopers (geometric_uniform_far_region): c_bound = 0.00075 (sign rate 0.5027), predicted f_+ = 0.5000 vs observed 0.5075; needed c = 2.762, shortfall 3682x
+[06:22:18] [TEST] mock interlopers (geometric_1overr_central_concentration): c_bound = 0.00975 (sign rate 0.5027), predicted f_+ = 0.5000 vs observed 0.5075; needed c = 2.762, shortfall 283x
+[06:22:19] [TEST] mock interlopers (velocity_tail_flat): c_bound = 0.00054 (sign rate 0.5311), predicted f_+ = 0.5000 vs observed 0.5075; needed c = 0.240, shortfall 447x
+[06:22:21] [TEST] amp scaling M_r -99 to -21.5: f_+ = 0.5113, <dV> = +5.93 km/s (n=42651)
+[06:22:21] [TEST] amp scaling M_r -21.5 to -21.0: f_+ = 0.5061, <dV> = +3.13 km/s (n=33904)
+[06:22:21] [TEST] amp scaling M_r -21.0 to -20.5: f_+ = 0.5106, <dV> = +4.03 km/s (n=29594)
+[06:22:21] [TEST] amp scaling M_r -20.5 to -20.0: f_+ = 0.5015, <dV> = -0.83 km/s (n=22221)
+[06:22:21] [TEST] amp scaling M_r -20.0 to -19.5: f_+ = 0.5061, <dV> = +1.22 km/s (n=13022)
+[06:22:21] [TEST] amp scaling M_r -19.5 to -19.0: f_+ = 0.5078, <dV> = +1.43 km/s (n=8047)
+[06:22:21] [TEST] amp scaling M_r -19.0 to -18.0: f_+ = 0.5063, <dV> = +1.39 km/s (n=8762)
+[06:22:21] [TEST] amp scaling drmag 0-1.0: f_+ = 0.5042, <dV> = +2.04 km/s (n=83313)
+[06:22:21] [TEST] amp scaling drmag 1.0-2.0: f_+ = 0.5088, <dV> = +2.67 km/s (n=47181)
+[06:22:21] [TEST] amp scaling drmag 2.0-3.0: f_+ = 0.5147, <dV> = +6.44 km/s (n=20452)
+[06:22:21] [TEST] amp scaling drmag 3.0-20.0: f_+ = 0.5178, <dV> = +7.66 km/s (n=10248)
+[06:22:28] [TEST] spec-bias e_zsp 1.00e-05-1.00e-05: f_+ = 0.5093 (n=55491)
+[06:22:28] [TEST] spec-bias e_zsp 1.00e-05-2.00e-05: f_+ = 0.5078 (n=95928)
+[06:22:28] [TEST] spec-bias e_zsp 2.00e-05-3.00e-05: f_+ = 0.5051 (n=67498)
+[06:22:28] [TEST] spec-bias e_zsp 3.00e-05-5.19e-01: f_+ = 0.5048 (n=37874)
+[06:22:28] [TEST] spec-bias clean subsample: f_+ = 0.5078 (n=95844, p=1.29e-06)
+[06:22:28] [TEST] spec-bias drmag -1-0: f_+ = 0.4773 (n=1456)
+[06:22:28] [TEST] spec-bias drmag 0-0.2: f_+ = 0.4989 (n=18033)
+[06:22:28] [TEST] spec-bias drmag 0.2-0.5: f_+ = 0.5077 (n=27306)
+[06:22:28] [TEST] spec-bias drmag 0.5-1.0: f_+ = 0.5042 (n=37974)
+[06:22:28] [TEST] spec-bias drmag 1.0-2.0: f_+ = 0.5088 (n=47181)
+[06:22:28] [TEST] spec-bias drmag 2.0-20.0: f_+ = 0.5157 (n=30700)
+[06:22:34] [TEST] spec-class sat passive (no subCl): f_+ = 0.5057 (n=77309)
+[06:22:34] [TEST] spec-class sat emission-line: f_+ = 0.5087 (n=57542)
+[06:22:34] [TEST] spec-class both emission: f_+ = 0.5007 (n=21409)
+[06:22:34] [TEST] spec-class both passive: f_+ = 0.5092 (n=61122)
+[06:22:34] [TEST] spec-class sat emit, cen passive: f_+ = 0.5134 (n=36133)
+[06:22:34] [TEST] spec-class sat passive, cen emit: f_+ = 0.4924 (n=16187)
+[06:22:34] [TEST] within-class passive M_r -24 to -21.5: f_+ = 0.5120, <dV> = +5.40 km/s (n=26901)
+[06:22:34] [TEST] within-class passive M_r -21.5 to -21.0: f_+ = 0.5030, <dV> = +1.91 km/s (n=18552)
+[06:22:34] [TEST] within-class passive M_r -21.0 to -20.5: f_+ = 0.5097, <dV> = +3.23 km/s (n=13797)
+[06:22:34] [TEST] within-class passive M_r -20.5 to -20.0: f_+ = 0.4922, <dV> = -3.89 km/s (n=8623)
+[06:22:34] [TEST] within-class passive M_r -20.0 to -19.5: f_+ = 0.4899, <dV> = -5.58 km/s (n=4138)
+[06:22:34] [TEST] within-class passive M_r -19.5 to -18.0: f_+ = 0.5070, <dV> = +0.69 km/s (n=4142)
+[06:22:34] [TEST] all_offsets: f_+ = 0.5083 (n=198581), p(0.5)=1.45e-13, p(interloper)=2.06e-92
+[06:22:34] [TEST] bound |dV|<500: f_+ = 0.5075 (n=162650), p(0.5)=1.71e-09, p(interloper)=1.78e-81
+[06:22:34] [TEST] tightly bound |dV|<150: f_+ = 0.5062 (n=85467), p(0.5)=0.000312, p(interloper)=2.19e-48
+[06:22:34] [TEST] |dV|>30: f_+ = 0.5088 (n=178374), p(0.5)=1.14e-13, p(interloper)=1.02e-79
+[06:22:34] [TEST] interlopers |dV|>2000: f_+ = 0.5311 (n=305), p(0.5)=0.303, p(interloper)=0.303
+[06:22:34] [TEST] |dV| 30-100 km/s: f_+ = 0.5040 (n=42076), p(0.5)=0.105, p(interloper)=6.46e-29
+[06:22:34] [TEST] |dV| 100-300 km/s: f_+ = 0.5093 (n=68807), p(0.5)=1.02e-06, p(interloper)=2.07e-30
+[06:22:34] [TEST] |dV| 300-500 km/s: f_+ = 0.5104 (n=31560), p(0.5)=0.000237, p(interloper)=1.48e-13
+[06:22:34] [TEST] |dV| 500-1000 km/s: f_+ = 0.5109 (n=29608), p(0.5)=0.000178, p(interloper)=3.15e-12
+[06:22:34] [TEST] |dV| 1000-2000 km/s: f_+ = 0.5166 (n=6018), p(0.5)=0.0103, p(interloper)=0.0246
+[06:22:34] [TEST] |dV| 2000-6000 km/s: f_+ = 0.5311 (n=305), p(0.5)=0.303, p(interloper)=1
+[06:22:34] [TEST] R_proj 0-0.05 Mpc: f_+ = 0.5001 (n=5909), p(0.5)=1, p(interloper)=1.82e-06
+[06:22:34] [TEST] R_proj 0.05-0.15 Mpc: f_+ = 0.5034 (n=20361), p(0.5)=0.341, p(interloper)=2.08e-15
+[06:22:34] [TEST] R_proj 0.15-0.3 Mpc: f_+ = 0.5088 (n=35039), p(0.5)=0.00104, p(interloper)=5.13e-17
+[06:22:34] [TEST] R_proj 0.3-0.6 Mpc: f_+ = 0.5089 (n=59870), p(0.5)=1.3e-05, p(interloper)=1.29e-27
+[06:22:34] [TEST] R_proj 0.6-1.5 Mpc: f_+ = 0.5080 (n=40112), p(0.5)=0.00147, p(interloper)=1.38e-20
+[06:22:34] [TEST] pairs Ngal=2: f_+ = 0.5041 (n=51296), p(0.5)=0.0618, p(interloper)=1.72e-34
+[06:22:34] [TEST] Ngal 3-9: f_+ = 0.5083 (n=104474), p(0.5)=8.53e-08, p(interloper)=1.65e-49
+[06:22:34] [TEST] Ngal>=10: f_+ = 0.5133 (n=42811), p(0.5)=3.79e-08, p(interloper)=1.46e-13
+[06:22:34] [TEST] dust ctrl |dV| 30-150: <dmag> +1.260 vs -1.265, diff=-0.005, <g-r> +0.691 vs 0.694
+[06:22:34] [TEST] dust ctrl |dV| 150-300: <dmag> +1.328 vs -1.299, diff=+0.029, <g-r> +0.759 vs 0.756
+[06:22:34] [TEST] dust ctrl |dV| 300-500: <dmag> +1.407 vs -1.353, diff=+0.054, <g-r> +0.824 vs 0.824
+[06:22:34] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_37_sdss_companion_asymmetry.json
+[06:22:34] [SUCCESS] Saved figure: step_37_sdss_companion_asymmetry.png
+[06:22:34] [SUCCESS] SDSS asymmetry complete: bound f_+ = 0.5075 vs interloper baseline 0.5311.
+[06:22:34] [SUCCESS] step_37 completed in 37.3s

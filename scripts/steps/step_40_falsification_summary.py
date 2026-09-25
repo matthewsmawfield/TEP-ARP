@@ -79,12 +79,21 @@ class Step40FalsificationSummary:
         s27 = _load_json(
             self.results / "step_27_geometric_coherence.json"
         )
+        s38 = _load_json(
+            self.results / "step_38_xray_population_test.json"
+        )
         s28 = _load_json(self.results / "step_28_archive_kinematic_audit.json")
         s29 = _load_json(self.results / "step_29_lya_forest_audit.json")
         s30 = _load_json(self.results / "step_30_bridge_redshift_transect.json")
         s31 = _load_json(self.results / "step_31_mcmc_field_profile.json")
         s32 = _load_json(self.results / "step_32_pair_sample_statistics.json")
         s33 = _load_json(self.results / "step_33_residuals_analysis.json")
+        s34 = _load_json(
+            self.results / "step_34_bayesian_model_selection.json")
+        s35 = _load_json(
+            self.results / "step_35_well_depth_correlates.json")
+        s37 = _load_json(
+            self.results / "step_37_sdss_companion_asymmetry.json")
 
         rows = []
 
@@ -92,12 +101,12 @@ class Step40FalsificationSummary:
         if s10:
             vals = s10["a_int_range"]
             rows.append({
-                "test": "Intrinsic conformal factor",
-                "observable": "A_int(Q) = (1+z_G)/(1+z_Q) < 1",
-                "tep_prediction": "A_int < 1 for every companion; sub-unity local field",
-                "std_prediction": "no local field; A_int is a distance ratio artifact",
-                "result": f"A_int in [{vals[0]:.3f}, {vals[1]:.3f}] across {s10['n_pairs']} pairs",
-                "verdict": "consistent_with_tep",
+                "test": "Pair redshift-ratio diagnostic",
+                "observable": "A_pair(Q) = (1+z_G)/(1+z_Q) < 1",
+                "tep_prediction": "A_pair < 1 for every companion; sub-unity local field",
+                "std_prediction": "no local field; A_pair is a distance ratio artifact",
+                "result": f"A_pair in [{vals[0]:.3f}, {vals[1]:.3f}] across {s10['n_pairs']} systems; interpreted as A_int only for systems surviving the co-distance tests",
+                "verdict": "sub_unity_ratio_measured",
             })
 
         # 2. Absorption ordering
@@ -306,7 +315,7 @@ class Step40FalsificationSummary:
         # strongest plausible foreground-lens correction.
         if s26:
             rows.append({
-                "test": "Gravitational-lensing magnification bias",
+                "test": "Lensing magnification budget",
                 "observable": (
                     "SIS magnification mu at each catalogued "
                     "separation and the mu^(alpha-1) density-bias "
@@ -329,49 +338,7 @@ class Step40FalsificationSummary:
                 "verdict": "magnification_bias_bounded",
             })
 
-        # 5b. Population-level forward test: predefined parent sample
-        if s24:
-            inner = s24["inner_0_180_arcsec"]
-            r_str = (
-                f"{s24['n_parent_galaxies']} 2MRS parents, "
-                f"delta = {inner['overdensity_delta']:+.3f} within "
-                f"{s24['max_separation_arcsec']:.0f} arcsec "
-                f"(bootstrap p = {inner['bootstrap_p_one_sided']:.3f})"
-            )
-            act = s24.get("active_host_subset") or {}
-            if act.get("overdensity_delta") is not None:
-                r_str += (
-                    f"; Seyfert-class subset "
-                    f"(n = {act['n_active_hosts']}): "
-                    f"delta = {act['overdensity_delta']:+.3f} "
-                    f"(p = {act['bootstrap_p_one_sided']:.3f})"
-                )
-            pr = s24.get("pairing_signature") or {}
-            if pr.get("n_pairs_parents") is not None:
-                r_str += (
-                    f"; flanking same-z pair signature: "
-                    f"{pr['n_pairs_parents']} pairs in parents vs "
-                    f"{pr['expected_from_controls']:.1f} expected from "
-                    f"controls (p = {pr['poisson_p_excess']:.3f})"
-                )
-            rows.append({
-                "test": "Forward galaxy-quasar cross-correlation",
-                "observable": (
-                    "confirmed-quasar surface density around a "
-                    "predefined bright-galaxy sample vs seeded "
-                    "offset controls"
-                ),
-                "tep_prediction": (
-                    "generic excess if associations are a "
-                    "population-level effect; no requirement if "
-                    "deep-well companions are rare"
-                ),
-                "std_prediction": "no excess",
-                "result": r_str,
-                "verdict": "no_generic_excess",
-            })
-
-        # 5c. Geometric and spectroscopic coherence (step_27)
+        # 5b. Geometric and spectroscopic coherence (step_27)
         if s27:
             ma = s27.get("minor_axis_anisotropy", {})
             ma_all = ma.get("samples", {}).get("all_companions", {})
@@ -405,12 +372,67 @@ class Step40FalsificationSummary:
                     f"{ma_all.get('p_vtest_minor_axis', float('nan')):.3g})"
                 )
             if xr.get("sigma_xray_deg2") is not None:
-                parts.append(
+                sel_str = (
                     f"X-ray-selected repricing: Sigma_X = "
                     f"{xr['sigma_xray_deg2']:.1f} deg^-2 measured on the "
                     f"control fields; selection-aware joint P = "
                     f"{xr['joint_probability_selection_aware']:.2e}"
                 )
+                # Pointed-coverage correction: the step_38
+                # decomposition measured the X-ray-flagged
+                # population overdense at catalogued-galaxy
+                # positions by delta = +1.47 (pointed identifiers)
+                # vs +0.12 for the coverage-uniform RASS subset.
+                # The effective density at galaxy positions is
+                # therefore Sigma_X * (1 + delta); repricing the
+                # X-ray-class pairs against it weakens the joint
+                # accordingly.
+                if s38:
+                    try:
+                        from scipy.stats import poisson as _pois
+                        dp = s38["results"]["xray_pointed"][
+                            "inner_0_120_arcsec"]["overdensity_delta"]
+                        dr = s38["results"]["xray_rass"][
+                            "inner_0_120_arcsec"]["overdensity_delta"]
+                        factor = 1.0 + dp
+                        joint_corr = 1.0
+                        excl = {}
+                        for p in xr["pairs"]:
+                            lam = p["lambda_sel"] * (
+                                factor
+                                if p["selection_class"] == "xray"
+                                else 1.0)
+                            p_c = float(
+                                1.0 - _pois.cdf(p["n_members"] - 1,
+                                                lam))
+                            joint_corr *= p_c
+                            excl[p["pair_id"]] = p_c
+                        surviving = {
+                            k: joint_corr / v for k, v in
+                            excl.items() if v > 0}
+                        sel_str += (
+                            f"; pointed-coverage-corrected "
+                            f"(delta_pointed = {dp:+.2f} vs "
+                            f"delta_RASS = {dr:+.2f}, factor "
+                            f"{factor:.2f} on the five X-ray-class "
+                            f"pairs): joint P = {joint_corr:.2e}")
+                        self._xray_pointed = {
+                            "delta_pointed": float(dp),
+                            "delta_rass": float(dr),
+                            "correction_factor": float(factor),
+                            "joint_probability_corrected":
+                                float(joint_corr),
+                            "joint_excluding_corrected": surviving,
+                        }
+                        print_status(
+                            f"X-ray pointed-coverage correction: "
+                            f"factor {factor:.2f} -> joint P = "
+                            f"{joint_corr:.2e}", "TEST")
+                    except Exception as exc:
+                        print_status(
+                            f"pointed-coverage correction failed: "
+                            f"{exc}", "ERROR")
+                parts.append(sel_str)
             if ro.get("n_ordered_member_pairs"):
                 n_near = ro.get("n_nearer_higher_z",
                                 ro['n_ordered_member_pairs']
@@ -465,6 +487,48 @@ class Step40FalsificationSummary:
                     "verdict": "see_measurement",
                 })
 
+        # 5c. Population-level forward test: predefined parent sample
+        if s24:
+            inner = s24["inner_0_180_arcsec"]
+            r_str = (
+                f"{s24['n_parent_galaxies']} 2MRS parents, "
+                f"delta = {inner['overdensity_delta']:+.3f} within "
+                f"{s24['max_separation_arcsec']:.0f} arcsec "
+                f"(bootstrap p = {inner['bootstrap_p_one_sided']:.3f})"
+            )
+            act = s24.get("active_host_subset") or {}
+            if act.get("overdensity_delta") is not None:
+                r_str += (
+                    f"; Seyfert-class subset "
+                    f"(n = {act['n_active_hosts']}): "
+                    f"delta = {act['overdensity_delta']:+.3f} "
+                    f"(p = {act['bootstrap_p_one_sided']:.3f})"
+                )
+            pr = s24.get("pairing_signature") or {}
+            if pr.get("n_pairs_parents") is not None:
+                r_str += (
+                    f"; flanking same-z pair signature: "
+                    f"{pr['n_pairs_parents']} pairs in parents vs "
+                    f"{pr['expected_from_controls']:.1f} expected from "
+                    f"controls (p = {pr['poisson_p_excess']:.3f})"
+                )
+            rows.append({
+                "test": "Forward galaxy-quasar cross-correlation",
+                "observable": (
+                    "confirmed-quasar surface density around a "
+                    "predefined bright-galaxy sample vs seeded "
+                    "offset controls"
+                ),
+                "tep_prediction": (
+                    "generic excess if associations are a "
+                    "population-level effect; no requirement if "
+                    "deep-well companions are rare"
+                ),
+                "std_prediction": "no excess",
+                "result": r_str,
+                "verdict": "no_generic_excess",
+            })
+
         # 5d. Archival Kinematic Audit
         if s28:
             rows.append({
@@ -512,6 +576,156 @@ class Step40FalsificationSummary:
                 "std_prediction": "populated forest at cosmic-mean incidence dN/dz",
                 "result": r_str,
                 "verdict": verdict,
+            })
+
+        # 5f. Survey-scale companion redshift asymmetry (step_37)
+        if s37:
+            offs = {s["cut"]: s for s in s37["offset_statistics"]}
+            bnd = offs.get(f"bound |dV|<{500:.0f}", {})
+            rich = {s["cut"]: s
+                    for s in s37.get("richness_split", [])}
+            big = rich.get("Ngal>=10", {})
+            vl = s37.get("volume_limited_control", [])
+            vl_str = ""
+            if vl:
+                vl_str = (
+                    "; volume-limited f_+ = "
+                    + "/".join(f"{v['frac_positive']:.3f}"
+                               for v in vl)
+                    + f" (z < {min(v['z_max'] for v in vl):.2f}-"
+                    + f"{max(v['z_max'] for v in vl):.2f})"
+                )
+            sq = (s37.get("spectroscopic_bias_control") or {})
+            sqs = ""
+            if sq.get("clean_subsample"):
+                cs = sq["clean_subsample"]
+                sqs = (
+                    f"; clean-spectrum subset f_+ = "
+                    f"{cs['frac_positive']:.4f} (n = {cs['n_satellites']}, "
+                    f"p = {cs['binomial_p_vs_half']:.3g})"
+                )
+            amp = (s37.get("amplitude_scaling") or {}).get(
+                "by_satellite_M_r", [])
+            amp_str = ""
+            if amp:
+                amp_str = (
+                    f"; largest amplitude in the brightest bin "
+                    f"(median dV {amp[0]['median_dv_kms']:+.1f} km/s "
+                    f"at M_r < {amp[0]['M_r_hi']})"
+                )
+            rows.append({
+                "test": "Companion redshift asymmetry at survey scale",
+                "observable": (
+                    "fraction of satellites redshifted relative to the "
+                    "rank-1 group central, SDSS DR10 groups "
+                    "(Tempel et al. 2017)"
+                ),
+                "tep_prediction": (
+                    "satellites in deeper wells are systematically "
+                    "redshifted; f_+ > 0.5 with luminosity-scaled "
+                    "amplitude"
+                ),
+                "std_prediction": "symmetric f_+ = 0.5",
+                "result": (
+                    f"{s37['n_satellites']} satellites; bound "
+                    f"f_+ = {bnd.get('frac_positive', float('nan')):.4f} "
+                    f"(p = {bnd.get('binomial_p_vs_half', float('nan')):.3g}), "
+                    f"Ngal>=10 f_+ = {big.get('frac_positive', float('nan')):.3f}"
+                    f"{vl_str}{sqs}{amp_str}"
+                ),
+                "verdict": "see_measurement",
+            })
+
+        # 5g. X-ray-selected population test (step_38)
+        if s38:
+            xr = s38["results"]
+            inn_x = xr["xray_all"]["inner_0_120_arcsec"]
+            inn_p = xr["xray_pointed"]["inner_0_120_arcsec"]
+            inn_r = xr["xray_rass"]["inner_0_120_arcsec"]
+            powr = s38.get("power", {})
+            rows.append({
+                "test": "X-ray-selected quasar overdensity",
+                "observable": (
+                    "X-ray-flagged quasar surface density around the "
+                    "2MRS parents vs seeded controls, decomposed by "
+                    "pointed versus RASS catalogue identifiers"
+                ),
+                "tep_prediction": (
+                    "population-level excess if X-ray selection is "
+                    "unbiased"
+                ),
+                "std_prediction": "no excess beyond coverage bias",
+                "result": (
+                    f"raw delta = {inn_x['overdensity_delta']:+.2f} "
+                    f"(p = {inn_x['bootstrap_p_one_sided']:.3g}) "
+                    f"decomposes into pointed IDs "
+                    f"delta = {inn_p['overdensity_delta']:+.2f} "
+                    f"versus coverage-uniform RASS "
+                    f"delta = {inn_r['overdensity_delta']:+.2f} "
+                    f"(p = {inn_r['bootstrap_p_one_sided']:.2f}); "
+                    f"5-sigma association-rate sensitivity at RASS "
+                    f"depth f = "
+                    f"{powr.get('f_5sigma_association_rate_rass_only', float('nan')):.2f}"
+                ),
+                "verdict": "pointed_coverage_artefact",
+            })
+
+        # 5h. Bayesian model comparison on the transect (step_34)
+        if s34:
+            rows.append({
+                "test": "Bayesian model comparison",
+                "observable": (
+                    "dynesty nested-sampling evidence for the nested-"
+                    "wells profile versus monotonic transition families "
+                    "on the four-point transect"
+                ),
+                "tep_prediction": (
+                    "non-monotonic locally depressed profile preferred"
+                ),
+                "std_prediction": (
+                    "monotonic interpolation between host and "
+                    "companion"
+                ),
+                "result": (
+                    f"nested wells favoured over the best monotonic "
+                    f"family ({s34['best_monotonic']['model']}) by "
+                    f"dlogZ = {s34['dlogZ_nested3_vs_best_monotonic']:.0f} "
+                    f"(log10 B = {s34['log10_bayes_factor_vs_best_monotonic']:.0f})"
+                ),
+                "verdict": "consistent_with_tep",
+            })
+
+        # 5i. Well depth vs independent observables (step_35)
+        if s35:
+            corr = [c for c in s35["correlations"]
+                    if c.get("rho") is not None]
+            best = max(corr, key=lambda c: c["rho"]) if corr else None
+            b_str = (
+                f"strongest correlation ({best['label']}, "
+                f"n = {best['n']}): rho = {best['rho']:+.2f}, "
+                f"p = {best['p']:.2f}"
+            ) if best else "no measurable correlations"
+            det = s35.get("detection_summary", {})
+            rows.append({
+                "test": "Well depth vs independent observables",
+                "observable": (
+                    "Delta_phi_int versus archival X-ray, radio and "
+                    "optical observables across quasar-class companions"
+                ),
+                "tep_prediction": (
+                    "deeper wells correlate with hard X-ray / compact "
+                    "radio / broad-line signatures"
+                ),
+                "std_prediction": "no correlation at chance alignment",
+                "result": (
+                    f"{s35['n_quasar_class_companions']} companions, "
+                    f"{s35['n_observables_tested']} observables "
+                    f"(Bonferroni p < "
+                    f"{s35['bonferroni_p_threshold']:.3f}); {b_str}; "
+                    f"all {det.get('n_4xmm_matched', 0)} "
+                    "4XMM-matched companions unresolved"
+                ),
+                "verdict": "inconclusive_low_power",
             })
 
         # 6. Transect continuity
@@ -608,12 +822,15 @@ class Step40FalsificationSummary:
             "n_chance_rejected": n_rej,
             "n_tep_rejected": n_tep_rej,
             "tests": rows,
+            "xray_pointed_correction": getattr(self, "_xray_pointed",
+                                               None),
             "missing_steps": [
                 k for k, v in {
                     "05": s05, "10": s10, "11": s11, "20": s20, "21": s21,
                     "22": s22, "23": s23, "24": s24, "25": s25, "26": s26,
                     "27": s27, "28": s28, "29": s29, "30": s30,
-                    "31": s31, "32": s32, "33": s33,
+                    "31": s31, "32": s32, "33": s33, "34": s34,
+                    "35": s35, "37": s37, "38": s38,
                 }.items() if v is None
             ],
         }

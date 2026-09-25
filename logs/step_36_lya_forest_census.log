@@ -1,0 +1,72 @@
+[06:20:47] [PROCESS] Census attempt: archival spectra vs z>1.7 forest bands...
+[06:20:47] [INFO] 4 ground-accessible companions
+[06:20:47] [INFO] [VV96] J024333.6+012222 z=1.945: forest 3066-3490 A
+[06:20:52] [INFO] [VV2006] J223603.7+335824 z=2.114: forest 3242-3690 A
+[06:20:57] [INFO] WISP 257  129 z=2.3342: forest 3471-3951 A
+[06:21:01] [INFO] 1WGA J1107.7+7232 z=2.0999999046325684: forest 3227-3673 A
+[06:21:04] [TEST] [VV96] J024333.6+012222: forest_unobserved
+[06:21:04] [INFO]    IUE lwp18109mxlo_vo.fits covers 280 A of the band but at S/N=0.71 (no continuum)
+[06:21:04] [INFO]    LB.20050311.21368.fits: pointing 94" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20050311.21367.fits: pointing 94" off — beyond the 175" slit half-length
+[06:21:04] [TEST] [VV2006] J223603.7+335824: forest_unobserved
+[06:21:04] [INFO]    IUE lwp18109mxlo_vo.fits covers 104 A of the band but at S/N=0.32 (no continuum)
+[06:21:04] [INFO]    LB.20001012.30369.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20001012.30720.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20001012.31115.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20001012.31373.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20001012.31707.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20001012.32586.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20051030.20746.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20051030.21035.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20051030.22532.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20051030.22909.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20101216.22475.fits: pointing 124" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20101216.22648.fits: pointing 152" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.29839.fits: pointing 113" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.30097.fits: pointing 109" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.30278.fits: pointing 109" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.31600.fits: pointing 109" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.33247.fits: pointing 113" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.33463.fits: pointing 108" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.33634.fits: pointing 108" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LB.20110929.34954.fits: pointing 108" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.23188.fits: pointing 90" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.23503.fits: pointing 90" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.23744.fits: pointing 90" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.24075.fits: pointing 101" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.24241.fits: pointing 100" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.25019.fits: pointing 90" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.25440.fits: pointing 101" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.25651.fits: pointing 100" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.30384.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.30726.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.31113.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.31370.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.31705.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20001012.32584.fits: pointing 92" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20051030.20744.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20051030.21039.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20051030.22531.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20051030.22902.fits: pointing 91" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.22486.fits: pointing 124" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.22661.fits: pointing 152" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.22812.fits: pointing 152" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.22930.fits: pointing 152" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.23385.fits: pointing 166" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.23596.fits: pointing 156" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20101216.23714.fits: pointing 155" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20110929.30290.fits: pointing 109" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20110929.31621.fits: pointing 109" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20110929.33644.fits: pointing 108" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20110929.34971.fits: pointing 108" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    KOA LB.20031003.30962.fits (2003, U44L): slit PA 115 deg, companion 6.7" perpendicular off the 0.7" slit — not observed
+[06:21:04] [INFO]    KOA LB.20110929.19302.fits (2011 stq mask): 7 slitlets extracted; no slitlet shows a QSO-like Ly-alpha emission line at the companion's observed wavelength; slitlet emission-line sources are classified as low-z nebular emitters by multi-line template matching
+[06:21:04] [TEST] WISP 257  129: forest_unobserved
+[06:21:04] [TEST] 1WGA J1107.7+7232: forest_unobserved
+[06:21:04] [INFO]    IUE lwp18109mxlo_vo.fits covers 120 A of the band but at S/N=0.64 (no continuum)
+[06:21:04] [INFO]    LB.20160214.43045.fits: pointing 101" off — beyond the 175" slit half-length
+[06:21:04] [INFO]    LR.20160214.43055.fits: pointing 101" off — beyond the 175" slit half-length
+[06:21:04] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_36_lya_forest_census.json
+[06:21:05] [SUCCESS] Saved figure: step_36_lya_forest_census.png
+[06:21:05] [SUCCESS] Ly-alpha forest census attempt complete.
+[06:21:05] [SUCCESS] step_36 completed in 17.3s

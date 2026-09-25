@@ -1,0 +1,121 @@
+{
+  "n_quasar_class_companions": 18,
+  "detection_summary": {
+    "n_4xmm_matched": 7,
+    "n_4xmm_resolved_extent": 0,
+    "n_2rxs_matched": 2,
+    "n_first_matched": 3,
+    "n_nvss_matched": 4,
+    "n_dr16q_matched": 3,
+    "note": "every 4XMM-matched companion is unresolved (ext = 0): the X-ray emitters are point sources at XMM resolution"
+  },
+  "selection": "companion_type contains 'quasar' or 'Seyfert' in the verified catalogue: the 18 quasar-class companions; galaxy companions (NGC 7603B, NGC 1232A) and the NGC 1199 compact object are excluded",
+  "search_radii_arcsec": {
+    "IX/69": 15.0,
+    "J/A+A/588/A103/cat2rxs": 40.0,
+    "VIII/92/first14": 10.0,
+    "VIII/65/nvss": 15.0,
+    "VII/289": 10.0
+  },
+  "catalogs": {
+    "4XMM-DR13": "IX/69",
+    "2RXS": "J/A+A/588/A103/cat2rxs",
+    "FIRST": "VIII/92/first14",
+    "NVSS": "VIII/65/nvss",
+    "DR16Q": "VII/289"
+  },
+  "delta_phi_definition": "ln[(1+z_comp)/(1+z_gal)]",
+  "correlations": [
+    {
+      "observable": "xray_hardness",
+      "label": "X-ray hardness (4XMM HR2 / 2RXS HR1)",
+      "log10_x": false,
+      "n": 7,
+      "rho": -0.10714285714285716,
+      "p": 0.8191508555699912,
+      "rho_ci95": [
+        -0.8867924528301889,
+        1.0
+      ],
+      "pearson_r": 0.01844933875556115,
+      "pearson_p": 0.9686847599088766
+    },
+    {
+      "observable": "xmm_ext_arcsec",
+      "label": "4XMM source extent",
+      "n": 7,
+      "rho": null,
+      "p": null,
+      "note": "observable constant across matched companions (e.g. all unresolved/point sources) \u2014 correlation undefined"
+    },
+    {
+      "observable": "xmm_flux8",
+      "label": "4XMM 0.2-12 keV flux",
+      "log10_x": true,
+      "n": 7,
+      "rho": -0.3571428571428572,
+      "p": 0.4316113520383278,
+      "rho_ci95": [
+        -1.0,
+        0.75
+      ],
+      "pearson_r": -0.5147138723904072,
+      "pearson_p": 0.2371858941336442
+    },
+    {
+      "observable": "cts_2rxs",
+      "label": "ROSAT count rate",
+      "n": 2,
+      "rho": null,
+      "p": null,
+      "note": "fewer than 4 matched companions"
+    },
+    {
+      "observable": "first_compactness",
+      "label": "FIRST Fint/Fpeak",
+      "n": 3,
+      "rho": null,
+      "p": null,
+      "note": "fewer than 4 matched companions"
+    },
+    {
+      "observable": "first_fint_mjy",
+      "label": "FIRST flux",
+      "n": 3,
+      "rho": null,
+      "p": null,
+      "note": "fewer than 4 matched companions"
+    },
+    {
+      "observable": "nvss_s14_mjy",
+      "label": "NVSS S1.4",
+      "log10_x": true,
+      "n": 4,
+      "rho": 0.39999999999999997,
+      "p": 0.6,
+      "rho_ci95": null,
+      "pearson_r": 0.31942114468095006,
+      "pearson_p": 0.6805788553190499
+    },
+    {
+      "observable": "nvss_over_first",
+      "label": "NVSS/FIRST flux ratio",
+      "n": 2,
+      "rho": null,
+      "p": null,
+      "note": "fewer than 4 matched companions"
+    },
+    {
+      "observable": "gmag",
+      "label": "SDSS g (control)",
+      "n": 3,
+      "rho": null,
+      "p": null,
+      "note": "fewer than 4 matched companions"
+    }
+  ],
+  "n_observables_tested": 3,
+  "bonferroni_p_threshold": 0.016666666666666666,
+  "control_note": "gmag is a control observable: it tracks apparent brightness and would reveal a Malmquist-like correlation contaminating the physical observables. A significant correlation of delta_phi with a non-redshift physical property (hardness, compactness) indicates the well depth is a property of the emitter; nulls bound the claim and are reported equally.",
+  "csv": "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/well_depth_correlates.csv"
+}

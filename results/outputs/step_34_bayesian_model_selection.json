@@ -1,0 +1,336 @@
+{
+  "method": "dynesty static nested sampling, nlive=500, dlogz=0.05; Gaussian likelihood in A_int with propagated z errors; uniform priors on amplitudes/depths, log-uniform on shape scales (flat-w variant reproduces the step_31 prior), truncated-normal imaging prior in the nested_3well_fwhm variant. Fixed seed 20260924; deterministic.",
+  "transect_points": 4,
+  "well_centers": [
+    0.545607813399531,
+    0.9051116558813485,
+    1.0
+  ],
+  "knot_compactness_measurement": {
+    "image": "data/raw/skyview/NGC7603-NGC7603B_LS-DR10r.fits",
+    "pixel_scale_arcsec": 0.262,
+    "psf_fwhm_arcsec_assumed": 1.3,
+    "knots": [
+      {
+        "resolved_name": "[LG2002] 3",
+        "hwhm_px": 2.4612931567088783,
+        "hwhm_arcsec": 0.6448588070577261,
+        "w_transect": 0.010929810289114002,
+        "psf_limited": true
+      },
+      {
+        "resolved_name": "[LG2002] 2",
+        "hwhm_px": 2.548893866115784,
+        "hwhm_arcsec": 0.6678101929223355,
+        "w_transect": 0.011318816829192127,
+        "psf_limited": true
+      }
+    ],
+    "w_prior": {
+      "kind": "truncated normal",
+      "mu": 0.011124313559153064,
+      "sigma": 0.005562156779576532,
+      "lo": 0.002,
+      "hi": 1.0,
+      "note": "knots unresolved at LS-DR10 resolution; measured HWHM is PSF-limited and therefore an upper bound on the physical well width"
+    }
+  },
+  "models": [
+    {
+      "model": "const_null",
+      "label": "A = 1 (no intrinsic field)",
+      "n_params": 0,
+      "logZ": -55897.55824735029,
+      "logZ_err": 0.0,
+      "ess": null,
+      "chi2_min": 111842.60529790029,
+      "dlogZ_vs_nested3": -55901.10065514825,
+      "log10_bayes_factor_vs_nested3": -24277.539546849137
+    },
+    {
+      "model": "linear",
+      "label": "linear monotonic",
+      "n_params": 1,
+      "logZ": -22933.501154607653,
+      "logZ_err": 0.1174419682516368,
+      "ess": 1553.5477509216494,
+      "chi2_min": 45902.70439789274,
+      "dlogZ_vs_nested3": -22937.043562405615,
+      "log10_bayes_factor_vs_nested3": -9961.431450327264
+    },
+    {
+      "model": "exponential",
+      "label": "exponential monotonic",
+      "n_params": 2,
+      "logZ": -10829.527169756151,
+      "logZ_err": 0.13463978173815433,
+      "ess": 1648.394493374127,
+      "chi2_min": 21691.153085247388,
+      "dlogZ_vs_nested3": -10833.069577554113,
+      "log10_bayes_factor_vs_nested3": -4704.742339605742
+    },
+    {
+      "model": "tanh",
+      "label": "tanh step",
+      "n_params": 3,
+      "logZ": -10829.591072202053,
+      "logZ_err": 0.1353655795686945,
+      "ess": 1620.563947412283,
+      "chi2_min": 21691.153085443413,
+      "dlogZ_vs_nested3": -10833.133480000015,
+      "log10_bayes_factor_vs_nested3": -4704.770092085378
+    },
+    {
+      "model": "yukawa",
+      "label": "Yukawa monotonic",
+      "n_params": 2,
+      "logZ": -48189.175924861374,
+      "logZ_err": 0.17195843516409792,
+      "ess": 2387.558773845116,
+      "chi2_min": 96399.58822031888,
+      "dlogZ_vs_nested3": -48192.71833265934,
+      "log10_bayes_factor_vs_nested3": -20929.83163979163
+    },
+    {
+      "model": "single_well",
+      "label": "single Lorentzian well",
+      "n_params": 3,
+      "logZ": -1102.2353597505785,
+      "logZ_err": 0.20867668864976488,
+      "ess": 2674.899512399684,
+      "chi2_min": 2213.4938569754704,
+      "dlogZ_vs_nested3": -1105.7777675485404,
+      "log10_bayes_factor_vs_nested3": -480.23318265762776
+    },
+    {
+      "model": "nested_2well",
+      "label": "two knot wells (companion unfitted)",
+      "n_params": 3,
+      "logZ": 5.039296031791387,
+      "logZ_err": 0.20092753968032534,
+      "ess": 2354.368992635728,
+      "chi2_min": 2.6626238024326483,
+      "dlogZ_vs_nested3": 1.4968882338294343,
+      "log10_bayes_factor_vs_nested3": 0.6500902999780278
+    },
+    {
+      "model": "nested_3well",
+      "label": "three nested wells (TEP)",
+      "n_params": 4,
+      "logZ": 3.5424077979619524,
+      "logZ_err": 0.21724880686617606,
+      "ess": 2379.6716997169856,
+      "chi2_min": 0.006433131547368021,
+      "dlogZ_vs_nested3": 0.0,
+      "log10_bayes_factor_vs_nested3": 0.0
+    },
+    {
+      "model": "nested_3well_flatw",
+      "label": "three nested wells, flat w (step_31 prior)",
+      "n_params": 4,
+      "logZ": 1.0822209209215492,
+      "logZ_err": 0.2304715057721403,
+      "ess": 2393.608575850659,
+      "chi2_min": 0.013504363230588012,
+      "dlogZ_vs_nested3": -2.460186877040403,
+      "log10_bayes_factor_vs_nested3": -1.068445585149441
+    },
+    {
+      "model": "nested_3well_fwhm",
+      "label": "three nested wells, imaging prior on w",
+      "n_params": 4,
+      "logZ": 4.657561249051548,
+      "logZ_err": 0.211085328505051,
+      "ess": 2311.82676717218,
+      "chi2_min": 0.004247251727711898,
+      "dlogZ_vs_nested3": 1.1151534510895953,
+      "log10_bayes_factor_vs_nested3": 0.48430499028357904
+    }
+  ],
+  "posteriors": {
+    "const_null": {},
+    "linear": {
+      "a_q": {
+        "median": 0.8027779847343379,
+        "p16": 0.8020119667484015,
+        "p84": 0.8034879574130819,
+        "p95": 0.8040209004271454
+      }
+    },
+    "exponential": {
+      "a_q": {
+        "median": 0.8185734473688023,
+        "p16": 0.8179512084325523,
+        "p84": 0.8191898547326508,
+        "p95": 0.8195945580838845
+      },
+      "k": {
+        "median": 44.35128171024599,
+        "p16": 25.481198619330723,
+        "p84": 76.4954921097896,
+        "p95": 91.54368125110929
+      }
+    },
+    "tanh": {
+      "a_q": {
+        "median": 0.8185792922968459,
+        "p16": 0.8179606412651919,
+        "p84": 0.8191626692044317,
+        "p95": 0.8195604619632664
+      },
+      "x0": {
+        "median": 0.2040519763889925,
+        "p16": 0.05934392856636738,
+        "p84": 0.36746195610966753,
+        "p95": 0.44061248985653795
+      },
+      "w": {
+        "median": 0.016176177499254988,
+        "p16": 0.007236676029903808,
+        "p84": 0.03961556453402627,
+        "p95": 0.06180954528116969
+      }
+    },
+    "yukawa": {
+      "a_q": {
+        "median": 0.8454377247980387,
+        "p16": 0.8441407167015548,
+        "p84": 0.8467006560370608,
+        "p95": 0.8474353144586192
+      },
+      "m": {
+        "median": 0.1002749242846953,
+        "p16": 0.10007256185173335,
+        "p84": 0.10072728938428464,
+        "p95": 0.10115996170335002
+      }
+    },
+    "single_well": {
+      "d": {
+        "median": 1.9912946857275715,
+        "p16": 1.978239119159286,
+        "p84": 1.9979604231381822,
+        "p95": 1.999414346731966
+      },
+      "x0": {
+        "median": 0.6963202004585076,
+        "p16": 0.6959300303103425,
+        "p84": 0.6967083704657163,
+        "p95": 0.696978646743633
+      },
+      "w": {
+        "median": 0.06331189823400836,
+        "p16": 0.06310248423103772,
+        "p84": 0.06355734828143748,
+        "p95": 0.06380630479530468
+      }
+    },
+    "nested_2well": {
+      "d1": {
+        "median": 0.29912751309414737,
+        "p16": 0.29789408918722965,
+        "p84": 0.30029158309206094,
+        "p95": 0.30106082887070257
+      },
+      "d2": {
+        "median": 0.18551209601396745,
+        "p16": 0.1841738631174289,
+        "p84": 0.18676678637615068,
+        "p95": 0.18763239132286127
+      },
+      "w": {
+        "median": 0.03631792552212777,
+        "p16": 0.035262882898179006,
+        "p84": 0.037387667450653576,
+        "p95": 0.038074858800309405
+      }
+    },
+    "nested_3well": {
+      "d1": {
+        "median": 0.3007480856106746,
+        "p16": 0.299505755800984,
+        "p84": 0.30196925282840276,
+        "p95": 0.30273852095977927
+      },
+      "d2": {
+        "median": 0.1879106985498735,
+        "p16": 0.18638548832516097,
+        "p84": 0.1893432905584356,
+        "p95": 0.19025650902850683
+      },
+      "dq": {
+        "median": 0.024234343074528673,
+        "p16": 0.018961016705260306,
+        "p84": 0.026307780719228045,
+        "p95": 0.027335402066592466
+      },
+      "w": {
+        "median": 0.007295916992172005,
+        "p16": 0.002947408223799586,
+        "p84": 0.017646396427718244,
+        "p95": 0.02502817220746963
+      }
+    },
+    "nested_3well_flatw": {
+      "d1": {
+        "median": 0.3004493211870866,
+        "p16": 0.2991654614970195,
+        "p84": 0.3016626781016868,
+        "p95": 0.30256323003824664
+      },
+      "d2": {
+        "median": 0.1873003969526121,
+        "p16": 0.18565102548986628,
+        "p84": 0.18879549809357002,
+        "p95": 0.18972676634233565
+      },
+      "dq": {
+        "median": 0.020403104307295184,
+        "p16": 0.01116662305615044,
+        "p84": 0.024846013607328143,
+        "p95": 0.026392881919121633
+      },
+      "w": {
+        "median": 0.01573962736370969,
+        "p16": 0.006607065654203503,
+        "p84": 0.026545053847964916,
+        "p95": 0.03259958314018051
+      }
+    },
+    "nested_3well_fwhm": {
+      "d1": {
+        "median": 0.30073725357795583,
+        "p16": 0.2995400002262809,
+        "p84": 0.30190341397483017,
+        "p95": 0.30263469479572
+      },
+      "d2": {
+        "median": 0.18776457942714747,
+        "p16": 0.18640032727614764,
+        "p84": 0.18911754321804958,
+        "p95": 0.1899630668402195
+      },
+      "dq": {
+        "median": 0.02276875871105581,
+        "p16": 0.019392531708054113,
+        "p84": 0.02520231168027704,
+        "p95": 0.0265102273244372
+      },
+      "w": {
+        "median": 0.01166265383816487,
+        "p16": 0.006521762610714483,
+        "p84": 0.016951123971526434,
+        "p95": 0.019975774702601867
+      }
+    }
+  },
+  "reference_model": "nested_3well",
+  "best_monotonic": {
+    "model": "exponential",
+    "logZ": -10829.527169756151
+  },
+  "dlogZ_nested3_vs_best_monotonic": 10833.069577554113,
+  "log10_bayes_factor_vs_best_monotonic": 4704.742339605742,
+  "occam_note": "The evidence integral penalises prior volume: the four-parameter nested-wells model must overcome an Occam factor that the two- and three-parameter monotonic families do not pay. The reported \u0394logZ is therefore the answer to the 'four parameters on four points' objection \u2014 a saturated chi2 is not evidence, but a large evidence margin after the parameter-volume penalty is. The nested_2well and single_well rows localise which wells the data actually require.",
+  "csv": "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/bayesian_model_selection.csv"
+}

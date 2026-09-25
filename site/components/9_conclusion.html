@@ -5,7 +5,7 @@
     discordant quasar&ndash;galaxy pairs catalogued by Halton
     Arp. A twelve-pair catalogue drawn from the published
     literature and verified against the NASA/IPAC Extragalactic
-    Database has been carried through a twenty-five-step
+    Database has been carried through a thirty-two-step
     reproducible pipeline&mdash;archive imaging, redshift
     verification, bridge transects, absorption ordering,
     chance-alignment statistics, field-profile fitting, and
@@ -26,8 +26,7 @@
 </p>
 
 <p>
-    Second, for the valid sample, physical association is
-    demonstrated independently of any redshift model. Every
+    Second, for the surviving sample, multiple systems carry direct structural or ordering evidence for association independently of the redshift interpretation, and the ensemble is strongly inconsistent with the specified random-projection model. Every
     companion resolves to an archive position, so each
     measurement is taken on the true companion axis. The
     NGC&nbsp;7603 filament is detected as real emitted light:
@@ -42,12 +41,12 @@
 </p>
 
 <p>
-    Third, the chance-superposition hypothesis
-    is rejected for the surviving ensemble: at archive-measured
+    Third, the surviving catalogue is highly unlikely under the explicitly
+    specified independent random-placement model: at archive-measured
     separations and excluding the one system falsified by the 
     path-length audit, the joint Poisson probability
-    for the eleven remaining systems evaluates to a severity 
-    statistic of $P = 3.6 \times 10^{-13}$ under the most conservative
+    for the eleven remaining systems is computed. Because the catalogue is historically selected rather than prospectively sampled, these probabilities should be interpreted as conditional severity statistics rather than unconditional frequencies for the parent sky population. The baseline severity 
+    statistic is $P = 3.6 \times 10^{-13}$ under the most conservative
     density assumption&mdash;the empirical quasar density of the
     same sight-lines&mdash;and $6.6 \times 10^{-14}$ under the
     published SDSS DR16 quasar surface density. Conditioning on
@@ -56,7 +55,10 @@
     axis-claimed systems against their morphology-defined
     corridors gives $4.9 \times 10^{-19}$, and repricing the
     five X-ray-selected systems against the measured X-ray-AGN
-    density of the same control fields gives $7.2 \times 10^{-22}$,
+    density of the same control fields, corrected for the pointed-coverage
+    overdensity measured on the survey-scale population
+    ($\delta = +1.47$ on pointed identifiers versus $+0.12$ on
+    coverage-uniform RASS), gives $4.0 \times 10^{-18}$,
     while the foreground-lensing
     correction inflates the baseline figure by a factor of only
     $1.3$&ndash;$2.3$ even at the uniform
@@ -89,12 +91,49 @@
     nested-wells field profile&mdash;each compact object
     contributing its own Lorentzian depression to the shared
     pair field&mdash;interpolating all four measured points
-    exactly, with MCMC well depths that recover each object's
-    independently computed field offset $\Delta\phi = -\ln A_{\rm
-    int}$ and a shared width bounded above at a projected
+    exactly, with MCMC well depths that recover the per-object
+    offsets independently tabulated from the same measured redshifts, $\Delta\phi = -\ln A_{\rm
+    int}$, and a shared width bounded above at a projected
     $1.2$ kpc. The filament is quantitatively represented by a
     compact nested-wells TEP profile, while the monotonic
-    alternatives tested fail.
+    alternatives tested fail. Bayesian model comparison by
+    nested sampling carries the Occam penalty explicitly: the
+    nested-well geometries are favoured over the best monotonic
+    family by $\Delta\ln Z \approx 10,833$ under the stated
+    priors, and the variant anchored to the measured
+    (PSF-limited) knot compactness returns the largest evidence
+    of the family.
+</p>
+
+<p>
+    Sixth, the companion-redshift asymmetry survives transfer to
+    an unselected sample at survey scale, and it survives the
+    controls that decide whether it is systematic. On the SDSS
+    DR10 group catalogue, 162,650 of the 198,583 satellite
+    velocity offsets satisfy the adopted bound-regime cut; this
+    subset shows a small positive redshift asymmetry
+    ($f_+ = 0.5075$, $p = 1.7 \times 10^{-9}$).
+    The excess strengthens in volume-limited subsamples
+    ($f_+ = 0.510$&ndash;$0.513$), excluding flux-limit
+    selection; it persists beyond the reach of host dust, with
+    the photometric signature inverted relative to the
+    extinction prediction; and forward-modelled injection of
+    the catalogue's own measured interloper population falls
+    short of reproducing it by two orders of magnitude in
+    contamination fraction; and it persists at full amplitude
+    among the highest-quality redshifts in the catalogue
+    ($f_+ = 0.5078$ in the clean SDSS-metadata subsample),
+    excluding a measurement-quality origin&mdash;while its
+    amplitude scales with satellite luminosity in the
+    direction a proper-time-well reading specifies. A residual signal of
+    order $0.5\%$ in data nobody selected for anomalies, in the
+    direction the historical catalogues reported. The parallel
+    X-ray-selected overdensity is shown to be a
+    pointed-coverage artefact: decomposed by identifier
+    provenance, the excess is carried by pointed-catalogue
+    identifications while the coverage-uniform RASS subset is
+    consistent with null. Both results are stated at their
+    measured significance and neither is overclaimed.
 </p>
 
 <p>
@@ -105,14 +144,18 @@
     scalar field. The discordant pairs emerge as a heterogeneous
     catalogue containing at least one falsified historical association
     and a surviving subset with strong proximity evidence&mdash;a
-    population of naturally occurring differential-clock experiments
-    where redshift is the deterministic signature of localized
-    proper-time gradients. The same audit that found the false
+    population of candidate naturally occurring differential-clock experiments;
+    if co-distance is confirmed in the surviving high-$z$ systems, their redshift
+    ratios become a direct measurement of the local clock factor predicted by TEP. The same audit that found the false
     positive identifies the observation that settles the flagship
-    case: a single blue-arm echelle exposure on the
-    $z = 2.114$ companion of NGC&nbsp;7319 would deliver the
-    decisive $z > 2$ forest sightline, converting the catalogue's
-    residual uncertainty into a targeted observational programme.
+    case: slit-level inspection of the Keck archive shows the
+    $z = 2.114$ companion of NGC&nbsp;7319 was never on the slit,
+    so the decisive $z > 2$ forest sightline requires a single
+    blue-arm echelle exposure. A programme covering the four
+    ground-accessible $z > 1.9$ companions has been drafted for submission;
+    it will provide the definitive test of the proximity reading,
+    with the binary outcome pre-registered&mdash;three or more normal
+    forests among the four refutes the proximity reading.
 </p>
 
 <h3>Acknowledgements</h3>

@@ -21,7 +21,7 @@ when a required input is missing.
 
 ## Pipeline Structure
 
-The pipeline consists of 26 registered steps in 5 blocks:
+The pipeline consists of 32 registered steps in 5 blocks:
 
 ### Block 0: Data Ingestion & Target Catalog (Steps 00-05)
 - `step_00_arp_pair_catalog.py` — Twelve discordant pairs with published redshifts, separations, and connection evidence
@@ -48,15 +48,21 @@ The pipeline consists of 26 registered steps in 5 blocks:
 - `step_27_geometric_coherence.py` — Structure tests the catalogue was not selected on: minor-axis anisotropy, radial redshift ordering, halo-scale clustering, paired-redshift excess, symmetric configurations, and X-ray-selection-aware repricing
 - `step_28_archive_kinematic_audit.py` — Live audit of resolved-kinematics coverage (ESO MUSE/VIMOS/SINFONI/GIRAFFE, JWST IFU, MaNGA, fiber spectroscopy) with client-side in-cone filtering and program-level provenance
 - `step_29_lya_forest_audit.py` — Ly-alpha forest path-length audit: per-companion forest-band coverage across SDSS/MAST/ESO/KOA gated by actual grating wavelength ranges and on-target slit requirements, plus a direct Lyman-confirmed forest census on the archived HST/COS spectra of 3C 232
+- `step_36_lya_forest_census.py` — Archival census of the z = 2.114 NGC 7319 companion across SDSS, DESI-DR1, LAMOST and SPARCL, plus Keck slit-geometry forensics on the existing LRIS coverage
 
-### Block III: Field-Gradient Inference (Steps 30-33)
+### Block III: Field-Gradient Inference (Steps 30-39)
 - `step_30_bridge_redshift_transect.py` — Four-point NGC 7603 transect fits across all profile families
 - `step_31_mcmc_field_profile.py` — emcee MCMC posterior on nested-wells depths and shared width (Metropolis fallback)
 - `step_32_pair_sample_statistics.py` — A_int distribution and separation-scaling statistics
 - `step_33_residuals_analysis.py` — Weighted residuals, chi-squared, residual RMS, lag-1 autocorrelation, Lilliefors normality check
+- `step_34_bayesian_model_selection.py` — dynesty nested-sampling evidence: nested-wells vs exponential/tanh/Yukawa families on the transect
+- `step_35_well_depth_correlates.py` — Delta_phi_int vs archival observables (4XMM, 2RXS, FIRST, NVSS, DR16Q) across quasar-class companions
+- `step_37_sdss_companion_asymmetry.py` — Survey-scale satellite redshift asymmetry on SDSS DR10 groups (Tempel et al. 2017) with volume-limited, dust, mock-interloper, spectroscopic-quality and spectral-class controls
+- `step_38_xray_population_test.py` — X-ray-selected quasar overdensity on 2MRS parents, decomposed by pointed versus coverage-uniform RASS catalogue identifiers
+- `step_39_temporal_well_solution.py` — Explicit temporal-well field solution: inward roll on the engine geometry with the established exterior boundary condition
 
 ### Block IV: Synthesis & Figures (Steps 40-41)
-- `step_40_falsification_summary.py` — Thirteen-test falsification table: TEP proximity vs chance superposition
+- `step_40_falsification_summary.py` — Eighteen-test falsification table: TEP proximity vs chance superposition, including the pointed-coverage-corrected X-ray joint probability
 - `step_41_manuscript_figures.py` — Manuscript figures from all results
 
 ## Verification
@@ -79,7 +85,7 @@ python3 scripts/generate_site_pdf.py
 python3 scripts/generate_site_pdf.py --quality high --wait-time 10
 ```
 
-Generates `37-TEP-ARP-v0.1-Pasadena.pdf` from the built static site (root and
+Generates `37-TEP-ARP-v0.2-Pasadena.pdf` from the built static site (root and
 `site/public/docs/`). Requires the site to be built first (`cd site && npm run build`).
 
 ## Utilities

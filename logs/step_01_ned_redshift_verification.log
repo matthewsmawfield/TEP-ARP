@@ -1,33 +1,33 @@
-[20:29:08] [PROCESS] Verifying redshifts against NED...
-[20:29:08] [TEST] NGC 4319: lit z=0.0047  NED z=0.004923  [verified]
-[20:29:09] [TEST] Markarian 205: lit z=0.0708  NED z=0.070846  [verified]
-[20:29:09] [TEST] NGC 7603: lit z=0.0295  NED z=0.028762  [verified]
-[20:29:09] [TEST] NGC 7603B: lit z=0.0565  NED z=0.055702  [verified]
-[20:29:10] [TEST] NGC 3067: lit z=0.0049  NED z=0.004841  [verified]
-[20:29:10] [TEST] 3C 232: lit z=0.5330  NED z=0.530615  [verified]
-[20:29:10] [TEST] NGC 1073: lit z=0.0070  NED z=0.004013  [verified]
-[20:29:10] [INFO] Skipping multi-object companion 'three disk quasars (BSO 1-3)' (queried individually in later steps)
-[20:29:11] [TEST] NGC 7319: lit z=0.0225  NED z=0.022507  [verified]
-[20:29:11] [INFO] NED name lookup: 'QSO (z=2.114)' is not a resolvable catalogue identifier; trying alternate resolvers.
-[20:29:11] [TEST] QSO (z=2.114): lit z=2.1140  NED z=2.114  [verified]
-[20:29:12] [TEST] NGC 1199: lit z=0.0083  NED z=0.008573  [verified]
-[20:29:12] [INFO] NED name lookup: 'compact companion (z=0.044)' is not a resolvable catalogue identifier; trying alternate resolvers.
-[20:29:12] [TEST] compact companion (z=0.044): lit z=0.0440  NED z=0.0444  [verified]
-[20:29:13] [TEST] NGC 3628: lit z=0.0038  NED z=0.002822  [verified]
-[20:29:13] [INFO] NED name lookup: 'Wee 51 (minor-axis X-ray quasar)' is not a resolvable catalogue identifier; trying alternate resolvers.
-[20:29:13] [TEST] Wee 51 (minor-axis X-ray quasar): lit z=2.1500  NED z=1.498283  [corrected]
-[20:29:13] [TEST] NGC 4258: lit z=0.0015  NED z=0.001538  [verified]
-[20:29:13] [INFO] Skipping multi-object companion 'X-ray quasar pair (E and W arm sources)' (queried individually in later steps)
-[20:29:14] [TEST] NGC 2639: lit z=0.0111  NED z=0.011128  [verified]
-[20:29:14] [INFO] Skipping multi-object companion 'paired X-ray quasars and minor-axis chain' (queried individually in later steps)
-[20:29:14] [TEST] NGC 1097: lit z=0.0042  NED z=0.00424  [verified]
-[20:29:14] [INFO] Skipping multi-object companion 'quasar field correlated with optical jets' (queried individually in later steps)
-[20:29:14] [TEST] NGC 1232: lit z=0.0053  NED z=0.005347  [verified]
-[20:29:15] [TEST] NGC 1232A: lit z=0.0220  NED z=0.022012  [verified]
-[20:29:15] [TEST] NGC 3516: lit z=0.0088  NED z=0.008836  [verified]
-[20:29:15] [INFO] Skipping multi-object companion 'X-ray quasar chain (5+ ROSAT QSOs)' (queried individually in later steps)
-[20:29:15] [SUCCESS] Saved verification table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/ned_verification.csv
-[20:29:15] [SUCCESS] Saved verified catalog: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/arp_pair_catalog_verified.csv
-[20:29:15] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_01_ned_verification.json
-[20:29:15] [SUCCESS] NED verification complete: 18 verified, 1 corrected, 0 discrepant, 0 unmatched.
-[20:29:15] [SUCCESS] step_01 completed in 7.3s
+[06:04:39] [PROCESS] Verifying redshifts against NED...
+[06:04:39] [TEST] NGC 4319: lit z=0.0047  NED z=0.004923  [verified]
+[06:04:40] [TEST] Markarian 205: lit z=0.0708  NED z=0.070846  [verified]
+[06:04:40] [TEST] NGC 7603: lit z=0.0295  NED z=0.028762  [verified]
+[06:04:40] [TEST] NGC 7603B: lit z=0.0565  NED z=0.055702  [verified]
+[06:04:41] [TEST] NGC 3067: lit z=0.0049  NED z=0.004841  [verified]
+[06:04:41] [TEST] 3C 232: lit z=0.5330  NED z=0.530615  [verified]
+[06:04:41] [TEST] NGC 1073: lit z=0.0070  NED z=0.004013  [verified]
+[06:04:41] [INFO] Skipping multi-object companion 'three disk quasars (BSO 1-3)' (queried individually in later steps)
+[06:04:41] [TEST] NGC 7319: lit z=0.0225  NED z=0.022507  [verified]
+[06:04:41] [INFO] NED name lookup: 'QSO (z=2.114)' is not a resolvable catalogue identifier; trying alternate resolvers.
+[06:04:42] [TEST] QSO (z=2.114): lit z=2.1140  NED z=2.114  [verified]
+[06:04:42] [TEST] NGC 1199: lit z=0.0083  NED z=0.008573  [verified]
+[06:04:42] [INFO] NED name lookup: 'compact companion (z=0.044)' is not a resolvable catalogue identifier; trying alternate resolvers.
+[06:04:43] [TEST] compact companion (z=0.044): lit z=0.0440  NED z=0.0444  [verified]
+[06:04:43] [TEST] NGC 3628: lit z=0.0038  NED z=0.002822  [verified]
+[06:04:43] [INFO] NED name lookup: 'Wee 51 (minor-axis X-ray quasar)' is not a resolvable catalogue identifier; trying alternate resolvers.
+[06:04:44] [TEST] Wee 51 (minor-axis X-ray quasar): lit z=2.1500  NED z=1.498283  [corrected]
+[06:04:44] [TEST] NGC 4258: lit z=0.0015  NED z=0.001538  [verified]
+[06:04:44] [INFO] Skipping multi-object companion 'X-ray quasar pair (E and W arm sources)' (queried individually in later steps)
+[06:04:45] [TEST] NGC 2639: lit z=0.0111  NED z=0.011128  [verified]
+[06:04:45] [INFO] Skipping multi-object companion 'paired X-ray quasars and minor-axis chain' (queried individually in later steps)
+[06:04:45] [TEST] NGC 1097: lit z=0.0042  NED z=0.00424  [verified]
+[06:04:45] [INFO] Skipping multi-object companion 'quasar field correlated with optical jets' (queried individually in later steps)
+[06:04:45] [TEST] NGC 1232: lit z=0.0053  NED z=0.005347  [verified]
+[06:04:45] [TEST] NGC 1232A: lit z=0.0220  NED z=0.022012  [verified]
+[06:04:46] [TEST] NGC 3516: lit z=0.0088  NED z=0.008836  [verified]
+[06:04:46] [INFO] Skipping multi-object companion 'X-ray quasar chain (5+ ROSAT QSOs)' (queried individually in later steps)
+[06:04:46] [SUCCESS] Saved verification table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/ned_verification.csv
+[06:04:46] [SUCCESS] Saved verified catalog: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/arp_pair_catalog_verified.csv
+[06:04:46] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_01_ned_verification.json
+[06:04:46] [SUCCESS] NED verification complete: 18 verified, 1 corrected, 0 discrepant, 0 unmatched.
+[06:04:46] [SUCCESS] step_01 completed in 7.2s

@@ -1,0 +1,29 @@
+[06:21:44] [PROCESS] Pulling archival observables for quasar-class companions...
+[06:21:44] [TEST] 18 quasar-class companions
+[06:21:44] [TEST] MRK 0205                         dphi=+0.064 4XMM=Y 2RXS=Y FIRST=- NVSS=- DR16Q=-
+[06:21:44] [TEST] 3C 232                           dphi=+0.422 4XMM=- 2RXS=- FIRST=Y NVSS=Y DR16Q=Y
+[06:21:45] [TEST] QSO B0240+011                    dphi=+0.462 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=Y
+[06:21:45] [TEST] QSO B0241+011                    dphi=+0.868 4XMM=- 2RXS=- FIRST=Y NVSS=Y DR16Q=-
+[06:21:45] [TEST] [VV96] J024333.6+012222          dphi=+1.073 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:45] [TEST] [VV2006] J223603.7+335824        dphi=+1.114 4XMM=Y 2RXS=Y FIRST=- NVSS=- DR16Q=-
+[06:21:45] [TEST] WEE 51                           dphi=+0.913 4XMM=Y 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:45] [TEST] SDSS J121902.21+470505.4         dphi=+0.341 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:46] [TEST] SDSS J121952.31+472058.5         dphi=+0.501 4XMM=Y 2RXS=- FIRST=Y NVSS=- DR16Q=Y
+[06:21:46] [TEST] SDSS J084331.40+500227.0         dphi=+0.249 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:46] [TEST] SDSS J084326.65+500845.6         dphi=+0.279 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:46] [TEST] CEMM J1779.9BL  2                dphi=+0.421 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:46] [TEST] WISP 257  129                    dphi=+1.200 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:46] [TEST] [VV98] J110833.2+722610          dphi=+0.275 4XMM=Y 2RXS=- FIRST=- NVSS=Y DR16Q=-
+[06:21:47] [TEST] 1WGA J1106.2+7244                dphi=+0.516 4XMM=Y 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:47] [TEST] NuSTAR J110752+7230.7            dphi=+0.634 4XMM=- 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:47] [TEST] 1WGA J1105.4+7238                dphi=+0.866 4XMM=Y 2RXS=- FIRST=- NVSS=- DR16Q=-
+[06:21:47] [TEST] 1WGA J1107.7+7232                dphi=+1.123 4XMM=- 2RXS=- FIRST=- NVSS=Y DR16Q=-
+[06:21:47] [SUCCESS] Saved correlate table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/well_depth_correlates.csv
+[06:21:52] [TEST] dphi vs X-ray hardness (4XMM HR2 / 2RXS HR1)       n= 7  rho=-0.107 [-0.887,+1.000]  p=0.8192
+[06:21:52] [TEST] dphi vs 4XMM source extent                         n= 7  constant (all matched companions identical)
+[06:21:57] [TEST] dphi vs 4XMM 0.2-12 keV flux                       n= 7  rho=-0.357 [-1.000,+0.750]  p=0.4316
+[06:21:57] [TEST] dphi vs NVSS S1.4                                  n= 4  rho=+0.400 [  n<6  ]  p=0.6000
+[06:21:57] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_35_well_depth_correlates.json
+[06:21:57] [SUCCESS] Saved figure: step_35_well_depth_correlates.png
+[06:21:57] [SUCCESS] Well-depth correlate analysis complete.
+[06:21:57] [SUCCESS] step_35 completed in 12.5s

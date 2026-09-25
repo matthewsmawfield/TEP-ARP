@@ -1,8 +1,8 @@
-[20:34:37] [PROCESS] Analysing pair-sample statistics...
-[20:34:37] [TEST] Spearman(z_intrinsic, separation): rho=0.12, p=0.713
-[20:34:37] [TEST] A_int distribution: mean=0.713, sd=0.224, skew=-0.24, kurtosis=-1.07
-[20:34:37] [TEST] A_int by absorption flag: {'count': {False: 10, True: 2}, 'mean': {False: 0.6930314896176961, True: 0.8106583327709921}, 'std': {False: 0.23170749494403226, True: 0.21940995201575753}}
-[20:34:37] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_32_pair_sample_statistics.json
-[20:34:38] [SUCCESS] Saved figure: step_32_pair_sample_statistics.png
-[20:34:38] [SUCCESS] Pair-sample statistics complete.
-[20:34:38] [SUCCESS] step_32 completed in 0.2s
+[06:21:10] [PROCESS] Analysing pair-sample statistics...
+[06:21:10] [TEST] Spearman(z_intrinsic, separation): rho=0.12, p=0.713
+[06:21:10] [TEST] A_int distribution: mean=0.713, sd=0.224, skew=-0.24, kurtosis=-1.07
+[06:21:10] [TEST] A_int by absorption flag: {'count': {False: 10, True: 2}, 'mean': {False: 0.6930314896176961, True: 0.8106583327709921}, 'std': {False: 0.23170749494403226, True: 0.21940995201575753}}
+[06:21:10] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_32_pair_sample_statistics.json
+[06:21:11] [SUCCESS] Saved figure: step_32_pair_sample_statistics.png
+[06:21:11] [SUCCESS] Pair-sample statistics complete.
+[06:21:11] [SUCCESS] step_32 completed in 0.2s

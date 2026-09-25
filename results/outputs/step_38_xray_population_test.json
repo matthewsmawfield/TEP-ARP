@@ -1,0 +1,203 @@
+{
+  "design": {
+    "parent_sample": "2MRS table3 (VizieR J/ApJS/199/26), 500<cz<10000 km/s, |b|>15 deg \u2014 identical to step_24",
+    "target_population": "Milliquas v7.2 confirmed classes Q/A/B/K with non-empty XName (X-ray catalogue identification)",
+    "internal_control_population": "same catalogue, confirmed classes, empty XName",
+    "controls": "4 seeded 1.5-deg offset fields per galaxy, identical seed to step_24",
+    "inner_aperture_arcsec": 120.0,
+    "self_match_arcsec": 3.0,
+    "rng_seed": 20260924
+  },
+  "results": {
+    "xray_rass": {
+      "annuli": [
+        {
+          "annulus_arcsec": "0-60",
+          "mean_per_galaxy": 0.0006464124111182935,
+          "mean_per_control": 0.0005602240896358543,
+          "overdensity_delta": 0.15384615384615397,
+          "delta_sigma": 0.45506880893002905,
+          "n_gal_matches": 15,
+          "n_ctrl_matches": 52
+        },
+        {
+          "annulus_arcsec": "60-120",
+          "mean_per_galaxy": 0.001292824822236587,
+          "mean_per_control": 0.001174315880198233,
+          "overdensity_delta": 0.10091743119266061,
+          "delta_sigma": 0.4328622810851426,
+          "n_gal_matches": 30,
+          "n_ctrl_matches": 109
+        },
+        {
+          "annulus_arcsec": "120-180",
+          "mean_per_galaxy": 0.0018099547511312218,
+          "mean_per_control": 0.0017560870502046973,
+          "overdensity_delta": 0.030674846625766916,
+          "delta_sigma": 0.17170951429478076,
+          "n_gal_matches": 42,
+          "n_ctrl_matches": 163
+        }
+      ],
+      "inner_0_120_arcsec": {
+        "mean_per_galaxy": 0.0019392372333548805,
+        "mean_per_control": 0.0017345399698340874,
+        "surface_density_deg2_galaxy": 0.555550544729305,
+        "surface_density_deg2_control": 0.49690909834121166,
+        "overdensity_delta": 0.11801242236024856,
+        "paired_mean_difference": 0.00020469726352079294,
+        "bootstrap_ci95": [
+          -0.00038784744667097606,
+          0.0008403361344537816
+        ],
+        "bootstrap_p_one_sided": 0.2928535732133933,
+        "p_fisher_combined": 1.0
+      }
+    },
+    "xray_pointed": {
+      "annuli": [
+        {
+          "annulus_arcsec": "0-60",
+          "mean_per_galaxy": 0.003835380305968541,
+          "mean_per_control": 0.0019931049342814047,
+          "overdensity_delta": 0.9243243243243244,
+          "delta_sigma": 3.6634772068412773,
+          "n_gal_matches": 89,
+          "n_ctrl_matches": 185
+        },
+        {
+          "annulus_arcsec": "60-120",
+          "mean_per_galaxy": 0.014177978883861237,
+          "mean_per_control": 0.005289808230984702,
+          "overdensity_delta": 1.680244399185336,
+          "delta_sigma": 8.020047467901042,
+          "n_gal_matches": 329,
+          "n_ctrl_matches": 491
+        },
+        {
+          "annulus_arcsec": "120-180",
+          "mean_per_galaxy": 0.02059900883430295,
+          "mean_per_control": 0.009653092006033183,
+          "overdensity_delta": 1.1339285714285712,
+          "delta_sigma": 8.415618115189167,
+          "n_gal_matches": 478,
+          "n_ctrl_matches": 896
+        }
+      ],
+      "inner_0_120_arcsec": {
+        "mean_per_galaxy": 0.018013359189829777,
+        "mean_per_control": 0.007282913165266107,
+        "surface_density_deg2_galaxy": 5.1604472821522105,
+        "surface_density_deg2_control": 2.0864009346500567,
+        "overdensity_delta": 1.4733727810650885,
+        "paired_mean_difference": 0.010730446024563672,
+        "bootstrap_ci95": [
+          0.008629336349924585,
+          0.012712777418659772
+        ],
+        "bootstrap_p_one_sided": 0.0004997501249375312,
+        "p_fisher_combined": 1.0
+      }
+    },
+    "xray_all": {
+      "annuli": [
+        {
+          "annulus_arcsec": "0-60",
+          "mean_per_galaxy": 0.004481792717086834,
+          "mean_per_control": 0.0025533290239172592,
+          "overdensity_delta": 0.7552742616033754,
+          "delta_sigma": 3.613452942565598,
+          "n_gal_matches": 104,
+          "n_ctrl_matches": 237
+        },
+        {
+          "annulus_arcsec": "60-120",
+          "mean_per_galaxy": 0.015470803706097824,
+          "mean_per_control": 0.006464124111182934,
+          "overdensity_delta": 1.3933333333333335,
+          "delta_sigma": 8.008304704114716,
+          "n_gal_matches": 359,
+          "n_ctrl_matches": 600
+        },
+        {
+          "annulus_arcsec": "120-180",
+          "mean_per_galaxy": 0.022408963585434174,
+          "mean_per_control": 0.011409179056237879,
+          "overdensity_delta": 0.9641170915958452,
+          "delta_sigma": 8.29697782858464,
+          "n_gal_matches": 520,
+          "n_ctrl_matches": 1059
+        }
+      ],
+      "inner_0_120_arcsec": {
+        "mean_per_galaxy": 0.019952596423184657,
+        "mean_per_control": 0.009017453135100193,
+        "surface_density_deg2_galaxy": 5.715997826881515,
+        "surface_density_deg2_control": 2.583310032991268,
+        "overdensity_delta": 1.2126642771804064,
+        "paired_mean_difference": 0.010935143288084464,
+        "bootstrap_ci95": [
+          0.008801174315880199,
+          0.013122171945701358
+        ],
+        "bootstrap_p_one_sided": 0.0004997501249375312,
+        "p_fisher_combined": 1.0
+      }
+    },
+    "non_xray": {
+      "annuli": [
+        {
+          "annulus_arcsec": "0-60",
+          "mean_per_galaxy": 0.013747037276449041,
+          "mean_per_control": 0.023173884938590822,
+          "overdensity_delta": -0.4067875406787541,
+          "delta_sigma": -11.217611228570874,
+          "n_gal_matches": 319,
+          "n_ctrl_matches": 2151
+        },
+        {
+          "annulus_arcsec": "60-120",
+          "mean_per_galaxy": 0.060030165912518856,
+          "mean_per_control": 0.06942469295410472,
+          "overdensity_delta": -0.13531967721911853,
+          "delta_sigma": -4.956355526819723,
+          "n_gal_matches": 1393,
+          "n_ctrl_matches": 6444
+        },
+        {
+          "annulus_arcsec": "120-180",
+          "mean_per_galaxy": 0.10583925878043525,
+          "mean_per_control": 0.11572936867054515,
+          "overdensity_delta": -0.08545894619251537,
+          "delta_sigma": -3.6992820630039667,
+          "n_gal_matches": 2456,
+          "n_ctrl_matches": 10742
+        }
+      ],
+      "inner_0_120_arcsec": {
+        "mean_per_galaxy": 0.0737772031889679,
+        "mean_per_control": 0.09259857789269554,
+        "surface_density_deg2_galaxy": 21.135611835034894,
+        "surface_density_deg2_control": 26.527538510824314,
+        "overdensity_delta": -0.20325770796974985,
+        "paired_mean_difference": -0.018821374703727644,
+        "bootstrap_ci95": [
+          -0.022840443869855634,
+          -0.014662249515190694
+        ],
+        "bootstrap_p_one_sided": 1.0,
+        "p_fisher_combined": 1.0
+      }
+    }
+  },
+  "power": {
+    "nbar_xray_per_control_field": 0.009017453135100193,
+    "xray_surface_density_deg2": 2.583310032991268,
+    "f_5sigma_association_rate": 0.34565056491014173,
+    "nbar_rass_per_control_field": 0.0017345399698340874,
+    "f_5sigma_association_rate_rass_only": 0.7881104062391007,
+    "note": "At the X-ray-selected surface density the 0-120 arcsec aperture reaches 5-sigma sensitivity to a per-host association rate f ~ f_5sigma; the full-catalogue step_24 aperture was powerless at f < 1e-2."
+  },
+  "subset_caveat": "The raw X-ray-flagged overdensity is dominated by pointed-catalogue selection: ~89% of XName IDs are XMM/Chandra/Swift pointed-observation identifiers, whose exposure depth correlates with catalogued galaxy positions. The xray_rass subset (ROSAT all-sky IDs only) is the coverage-uniform, bias-controlled measurement; xray_pointed isolates the artefact component for quantification.",
+  "method": "Identical machinery to step_24 restricted to the X-ray-flagged quasar subset (the population the discordant companions are drawn from per the section-5.4 X-ray selection), split by ID provenance: RASS all-sky (uniform coverage) vs pointed catalogues (galaxy-correlated depth). The non-X-ray confirmed population is processed in parallel as an internal control."
+}

@@ -1,18 +1,18 @@
-[20:31:52] [PROCESS] Computing intrinsic conformal factors...
-[20:31:52] [PROCESS] Loaded 12 pairs from arp_pair_catalog_verified.csv
-[20:31:52] [TEST] NGC4319-Mrk205: A_int=0.9383  Delta_phi=0.0637  z_intrinsic=0.066
-[20:31:52] [TEST] NGC7603-NGC7603B: A_int=0.9744  Delta_phi=0.0259  z_intrinsic=0.026
-[20:31:52] [TEST] NGC3067-3C232: A_int=0.6555  Delta_phi=0.4223  z_intrinsic=0.526
-[20:31:52] [TEST] NGC1073-QSOs: A_int=0.6295  Delta_phi=0.4628  z_intrinsic=0.589
-[20:31:52] [TEST] NGC7319-QSO: A_int=0.3284  Delta_phi=1.1137  z_intrinsic=2.045
-[20:31:52] [TEST] NGC1199-companion: A_int=0.9658  Delta_phi=0.0348  z_intrinsic=0.035
-[20:31:52] [TEST] NGC3628-XQSO: A_int=0.4014  Delta_phi=0.9128  z_intrinsic=1.491
-[20:31:52] [TEST] NGC4258-QSOs: A_int=0.7164  Delta_phi=0.3335  z_intrinsic=0.396
-[20:31:52] [TEST] NGC2639-QSOs: A_int=0.7749  Delta_phi=0.2550  z_intrinsic=0.290
-[20:31:52] [TEST] NGC1097-jetQSOs: A_int=0.6607  Delta_phi=0.4145  z_intrinsic=0.514
-[20:31:52] [TEST] NGC1232-NGC1232A: A_int=0.9837  Delta_phi=0.0164  z_intrinsic=0.017
-[20:31:52] [TEST] NGC3516-Qchain: A_int=0.5227  Delta_phi=0.6488  z_intrinsic=0.913
-[20:31:52] [SUCCESS] Saved conformal factor table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/intrinsic_conformal_factors.csv
-[20:31:52] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_10_intrinsic_conformal_factor.json
-[20:31:52] [SUCCESS] Intrinsic conformal factors computed.
-[20:31:52] [SUCCESS] step_10 completed in 0.0s
+[06:06:55] [PROCESS] Computing intrinsic conformal factors...
+[06:06:55] [PROCESS] Loaded 12 pairs from arp_pair_catalog_verified.csv
+[06:06:55] [TEST] NGC4319-Mrk205: A_int=0.9383  Delta_phi=0.0637  z_intrinsic=0.066
+[06:06:55] [TEST] NGC7603-NGC7603B: A_int=0.9744  Delta_phi=0.0259  z_intrinsic=0.026
+[06:06:55] [TEST] NGC3067-3C232: A_int=0.6555  Delta_phi=0.4223  z_intrinsic=0.526
+[06:06:55] [TEST] NGC1073-QSOs: A_int=0.6295  Delta_phi=0.4628  z_intrinsic=0.589
+[06:06:55] [TEST] NGC7319-QSO: A_int=0.3284  Delta_phi=1.1137  z_intrinsic=2.045
+[06:06:55] [TEST] NGC1199-companion: A_int=0.9658  Delta_phi=0.0348  z_intrinsic=0.035
+[06:06:55] [TEST] NGC3628-XQSO: A_int=0.4014  Delta_phi=0.9128  z_intrinsic=1.491
+[06:06:55] [TEST] NGC4258-QSOs: A_int=0.7164  Delta_phi=0.3335  z_intrinsic=0.396
+[06:06:55] [TEST] NGC2639-QSOs: A_int=0.7749  Delta_phi=0.2550  z_intrinsic=0.290
+[06:06:55] [TEST] NGC1097-jetQSOs: A_int=0.6607  Delta_phi=0.4145  z_intrinsic=0.514
+[06:06:55] [TEST] NGC1232-NGC1232A: A_int=0.9837  Delta_phi=0.0164  z_intrinsic=0.017
+[06:06:55] [TEST] NGC3516-Qchain: A_int=0.5227  Delta_phi=0.6488  z_intrinsic=0.913
+[06:06:55] [SUCCESS] Saved conformal factor table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/intrinsic_conformal_factors.csv
+[06:06:55] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_10_intrinsic_conformal_factor.json
+[06:06:55] [SUCCESS] Intrinsic conformal factors computed.
+[06:06:55] [SUCCESS] step_10 completed in 0.0s

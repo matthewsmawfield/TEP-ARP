@@ -1,8 +1,8 @@
 {
   "n_positions_audited": 14,
   "n_archive_queries": 70,
-  "n_queries_answered": 70,
-  "n_queries_failed": 0,
+  "n_queries_answered": 68,
+  "n_queries_failed": 2,
   "eso_instruments": [
     "muse",
     "vimos",
@@ -20,8 +20,8 @@
       "n_jwst_ifu": 0,
       "n_manga": 0,
       "n_spectro_fibers": 0,
-      "n_hst_imaging": 30,
-      "n_failed_queries": 0,
+      "n_hst_imaging": 0,
+      "n_failed_queries": 1,
       "verdict": "no_spatial_spectroscopy"
     },
     {
@@ -32,9 +32,9 @@
       "min_eso_ifu_offset_arcmin": 0.015147601073702941,
       "n_jwst_ifu": 0,
       "n_manga": 0,
-      "n_spectro_fibers": 17,
-      "n_hst_imaging": 46,
-      "n_failed_queries": 0,
+      "n_spectro_fibers": 0,
+      "n_hst_imaging": 0,
+      "n_failed_queries": 1,
       "verdict": "ifu_covers_position"
     },
     {

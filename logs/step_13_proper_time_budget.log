@@ -1,17 +1,17 @@
-[20:31:53] [PROCESS] Computing proper-time budgets...
-[20:31:53] [TEST] NGC4319-Mrk205: clocks at 0.938x host rate; fictitious gap 278 Mpc / 0.88 Gyr
-[20:31:53] [TEST] NGC7603-NGC7603B: clocks at 0.974x host rate; fictitious gap 113 Mpc / 0.35 Gyr
-[20:31:53] [TEST] NGC3067-3C232: clocks at 0.656x host rate; fictitious gap 1975 Mpc / 5.20 Gyr
-[20:31:53] [TEST] NGC1073-QSOs: clocks at 0.629x host rate; fictitious gap 2176 Mpc / 5.61 Gyr
-[20:31:53] [TEST] NGC7319-QSO: clocks at 0.328x host rate; fictitious gap 5244 Mpc / 10.10 Gyr
-[20:31:53] [TEST] NGC1199-companion: clocks at 0.966x host rate; fictitious gap 151 Mpc / 0.48 Gyr
-[20:31:53] [TEST] NGC3628-XQSO: clocks at 0.401x host rate; fictitious gap 4349 Mpc / 9.22 Gyr
-[20:31:53] [TEST] NGC4258-QSOs: clocks at 0.716x host rate; fictitious gap 1538 Mpc / 4.24 Gyr
-[20:31:53] [TEST] NGC2639-QSOs: clocks at 0.775x host rate; fictitious gap 1165 Mpc / 3.31 Gyr
-[20:31:53] [TEST] NGC1097-jetQSOs: clocks at 0.661x host rate; fictitious gap 1936 Mpc / 5.12 Gyr
-[20:31:53] [TEST] NGC1232-NGC1232A: clocks at 0.984x host rate; fictitious gap 71 Mpc / 0.23 Gyr
-[20:31:53] [TEST] NGC3516-Qchain: clocks at 0.523x host rate; fictitious gap 3092 Mpc / 7.30 Gyr
-[20:31:53] [SUCCESS] Saved proper-time budget: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/proper_time_budget.csv
-[20:31:53] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_13_proper_time_budget.json
-[20:31:53] [SUCCESS] Proper-time budgets computed.
-[20:31:53] [SUCCESS] step_13 completed in 0.1s
+[06:06:55] [PROCESS] Computing proper-time budgets...
+[06:06:55] [TEST] NGC4319-Mrk205: clocks at 0.938x host rate; fictitious gap 278 Mpc / 0.88 Gyr
+[06:06:55] [TEST] NGC7603-NGC7603B: clocks at 0.974x host rate; fictitious gap 113 Mpc / 0.35 Gyr
+[06:06:55] [TEST] NGC3067-3C232: clocks at 0.656x host rate; fictitious gap 1975 Mpc / 5.20 Gyr
+[06:06:55] [TEST] NGC1073-QSOs: clocks at 0.629x host rate; fictitious gap 2176 Mpc / 5.61 Gyr
+[06:06:55] [TEST] NGC7319-QSO: clocks at 0.328x host rate; fictitious gap 5244 Mpc / 10.10 Gyr
+[06:06:55] [TEST] NGC1199-companion: clocks at 0.966x host rate; fictitious gap 151 Mpc / 0.48 Gyr
+[06:06:55] [TEST] NGC3628-XQSO: clocks at 0.401x host rate; fictitious gap 4349 Mpc / 9.22 Gyr
+[06:06:55] [TEST] NGC4258-QSOs: clocks at 0.716x host rate; fictitious gap 1538 Mpc / 4.24 Gyr
+[06:06:55] [TEST] NGC2639-QSOs: clocks at 0.775x host rate; fictitious gap 1165 Mpc / 3.31 Gyr
+[06:06:55] [TEST] NGC1097-jetQSOs: clocks at 0.661x host rate; fictitious gap 1936 Mpc / 5.12 Gyr
+[06:06:55] [TEST] NGC1232-NGC1232A: clocks at 0.984x host rate; fictitious gap 71 Mpc / 0.23 Gyr
+[06:06:55] [TEST] NGC3516-Qchain: clocks at 0.523x host rate; fictitious gap 3092 Mpc / 7.30 Gyr
+[06:06:55] [SUCCESS] Saved proper-time budget: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/proper_time_budget.csv
+[06:06:55] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_13_proper_time_budget.json
+[06:06:55] [SUCCESS] Proper-time budgets computed.
+[06:06:55] [SUCCESS] step_13 completed in 0.0s

@@ -1,9 +1,9 @@
 {
   "pipeline": "TEP-ARP",
   "title": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
-  "run_mode": "partial (1 steps)",
+  "run_mode": "full",
   "environment": {
-    "generated_utc": "2026-09-24T21:05:12+00:00",
+    "generated_utc": "2026-09-25T05:22:36+00:00",
     "python_version": "3.13.5",
     "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
     "packages": {
@@ -17,32 +17,249 @@
       "corner": "2.2.3",
       "requests": "2.32.4"
     },
-    "git_commit": "a3cb9976b954a8d0983c628b2f2b464993ad3967",
+    "git_commit": "12ceb06ddedb194b24c130ed32211fb47f115dab",
     "git_dirty": true,
     "manuscript_version": {
-      "version": "0.1",
+      "version": "0.2",
       "codename": "Pasadena",
       "first_published": "2026-09-24",
-      "last_updated": "2026-09-24",
-      "date": "2026-09-24",
+      "last_updated": "2026-09-25",
+      "date": "2026-09-25",
       "doi": "10.5281/zenodo.22938153",
       "status": "Preprint (Draft)",
       "description": "Paper 37: TEP-ARP \u2014 Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs. Application of the Temporal Equivalence Principle to Halton Arp's discordant quasar-galaxy pairs. The intrinsic conformal factor A_int = (1+z_G)/(1+z_Q) isolates a distance-independent proper-time gradient; luminous bridges, foreground absorption systems, and Poisson chance-alignment statistics demonstrate spatial proximity.",
-      "previous_version": "",
+      "previous_version": "0.1",
       "paper": "37"
     }
   },
-  "n_steps_run": 1,
-  "n_succeeded": 1,
+  "n_steps_run": 32,
+  "n_succeeded": 32,
   "n_failed": 0,
-  "total_elapsed_s": 1.09,
+  "total_elapsed_s": 1077.4,
   "steps": [
+    {
+      "step": "step_00",
+      "block": "0",
+      "description": "Arp discordant-pair catalog: published redshifts, separations, connection evidence",
+      "status": "ok",
+      "elapsed_s": 0.32
+    },
+    {
+      "step": "step_01",
+      "block": "0",
+      "description": "NED redshift verification for all catalog members",
+      "status": "ok",
+      "elapsed_s": 7.22
+    },
+    {
+      "step": "step_02",
+      "block": "0",
+      "description": "SkyView optical imaging ingestion (DSS2 Red / SDSS r) for each pair field",
+      "status": "ok",
+      "elapsed_s": 17.76
+    },
+    {
+      "step": "step_03",
+      "block": "0",
+      "description": "HEASARC (Chandra/XMM/ROSAT) and VizieR (NVSS/FIRST) coverage manifest",
+      "status": "ok",
+      "elapsed_s": 95.38
+    },
+    {
+      "step": "step_04",
+      "block": "0",
+      "description": "SDSS spectroscopic ingestion for pair members in the footprint",
+      "status": "ok",
+      "elapsed_s": 2.31
+    },
+    {
+      "step": "step_05",
+      "block": "0",
+      "description": "Cosmicflows-4 redshift-independent distances for catalog members",
+      "status": "ok",
+      "elapsed_s": 13.82
+    },
+    {
+      "step": "step_10",
+      "block": "I",
+      "description": "Intrinsic conformal factor A_int(Q) = (1+z_G)/(1+z_Q) per pair",
+      "status": "ok",
+      "elapsed_s": 0.01
+    },
+    {
+      "step": "step_11",
+      "block": "I",
+      "description": "Redshift decomposition: background shear vs intrinsic local shear",
+      "status": "ok",
+      "elapsed_s": 0.4
+    },
+    {
+      "step": "step_12",
+      "block": "I",
+      "description": "Candidate scalar-field profile families across the bridge coordinate",
+      "status": "ok",
+      "elapsed_s": 0.02
+    },
+    {
+      "step": "step_13",
+      "block": "I",
+      "description": "Proper-time budget: clock-rate ratios and fictitious distance gaps",
+      "status": "ok",
+      "elapsed_s": 0.01
+    },
+    {
+      "step": "step_20",
+      "block": "II",
+      "description": "Luminous bridge surface-brightness transects vs control axes",
+      "status": "ok",
+      "elapsed_s": 45.74
+    },
+    {
+      "step": "step_21",
+      "block": "II",
+      "description": "Foreground absorption systems at the host-galaxy redshift",
+      "status": "ok",
+      "elapsed_s": 0.0
+    },
+    {
+      "step": "step_22",
+      "block": "II",
+      "description": "Quasar overdensity around Arp hosts vs seeded random fields",
+      "status": "ok",
+      "elapsed_s": 42.25
+    },
+    {
+      "step": "step_23",
+      "block": "II",
+      "description": "Poisson chance-alignment probabilities per pair and joint",
+      "status": "ok",
+      "elapsed_s": 0.01
+    },
+    {
+      "step": "step_24",
+      "block": "II",
+      "description": "Forward galaxy-quasar cross-correlation: predefined 2MRS parent sample vs controls",
+      "status": "ok",
+      "elapsed_s": 0.76
+    },
+    {
+      "step": "step_25",
+      "block": "II",
+      "description": "Satellite redshift asymmetry on Tully 2015 groups (Arp & Sulentic signature)",
+      "status": "ok",
+      "elapsed_s": 0.54
+    },
+    {
+      "step": "step_26",
+      "block": "II",
+      "description": "SIS lensing magnification-bias budget: bounded correction to joint P",
+      "status": "ok",
+      "elapsed_s": 0.02
+    },
+    {
+      "step": "step_27",
+      "block": "II",
+      "description": "Geometric/spectroscopic coherence: minor-axis anisotropy, z-ordering, halo scale, pairing, X-ray repricing",
+      "status": "ok",
+      "elapsed_s": 8.44
+    },
+    {
+      "step": "step_28",
+      "block": "II",
+      "description": "Archive audit for resolved-kinematics coverage (ESO IFU, JWST, MaNGA, fibers)",
+      "status": "ok",
+      "elapsed_s": 600.79
+    },
+    {
+      "step": "step_29",
+      "block": "II",
+      "description": "Ly-alpha forest path-length audit: archive coverage plus direct forest census where spectra exist",
+      "status": "ok",
+      "elapsed_s": 133.42
+    },
+    {
+      "step": "step_36",
+      "block": "II",
+      "description": "Archival forest census attempt on z>1.7 companions: slit geometry, trace extraction, IUE S/N",
+      "status": "ok",
+      "elapsed_s": 17.34
+    },
+    {
+      "step": "step_30",
+      "block": "III",
+      "description": "Redshift transect fits: A_int(x) families on the NGC 7603 four-point transect",
+      "status": "ok",
+      "elapsed_s": 0.12
+    },
+    {
+      "step": "step_31",
+      "block": "III",
+      "description": "MCMC posterior on the scalar-field profile shape parameter",
+      "status": "ok",
+      "elapsed_s": 5.51
+    },
+    {
+      "step": "step_32",
+      "block": "III",
+      "description": "Pair-sample statistics: A_int distribution and separation scaling",
+      "status": "ok",
+      "elapsed_s": 0.16
+    },
+    {
+      "step": "step_33",
+      "block": "III",
+      "description": "Residuals analysis of the transect profile fits",
+      "status": "ok",
+      "elapsed_s": 0.18
+    },
+    {
+      "step": "step_34",
+      "block": "III",
+      "description": "Bayesian evidence: nested-wells vs monotonic families on the NGC 7603 transect",
+      "status": "ok",
+      "elapsed_s": 33.52
+    },
+    {
+      "step": "step_35",
+      "block": "III",
+      "description": "Delta phi_int vs archival observables (2RXS hardness, FIRST/NVSS compactness, DR16Q control)",
+      "status": "ok",
+      "elapsed_s": 12.55
+    },
+    {
+      "step": "step_37",
+      "block": "III",
+      "description": "SDSS-scale companion redshift asymmetry (Tempel+2017 DR10 groups) with interloper/dust controls",
+      "status": "ok",
+      "elapsed_s": 37.27
+    },
+    {
+      "step": "step_38",
+      "block": "III",
+      "description": "X-ray-selected quasar overdensity around 2MRS parents vs seeded controls (low-nbar powered test)",
+      "status": "ok",
+      "elapsed_s": 0.89
+    },
+    {
+      "step": "step_39",
+      "block": "III",
+      "description": "Explicit confined temporal-well solution of the static field equation (interior roll, P=-2M)",
+      "status": "ok",
+      "elapsed_s": 0.16
+    },
+    {
+      "step": "step_40",
+      "block": "IV",
+      "description": "Falsification summary: TEP spatial proximity vs chance superposition",
+      "status": "ok",
+      "elapsed_s": 0.01
+    },
     {
       "step": "step_41",
       "block": "IV",
       "description": "Manuscript figure generation from all results",
       "status": "ok",
-      "elapsed_s": 1.09
+      "elapsed_s": 0.45
     }
   ],
   "outputs": {
@@ -73,6 +290,12 @@
       "step_31_mcmc_field_profile.json",
       "step_32_pair_sample_statistics.json",
       "step_33_residuals_analysis.json",
+      "step_34_bayesian_model_selection.json",
+      "step_35_well_depth_correlates.json",
+      "step_36_lya_forest_census.json",
+      "step_37_sdss_companion_asymmetry.json",
+      "step_38_xray_population_test.json",
+      "step_39_temporal_well_solution.json",
       "step_40_falsification_summary.json",
       "step_41_manuscript_figures.json"
     ],
@@ -86,6 +309,12 @@
       "step_31_mcmc_profiles.png",
       "step_32_pair_sample_statistics.png",
       "step_33_residuals_analysis.png",
+      "step_34_bayesian_model_selection.png",
+      "step_35_well_depth_correlates.png",
+      "step_36_lya_forest_census.png",
+      "step_37_sdss_companion_asymmetry.png",
+      "step_38_xray_overdensity.png",
+      "step_39_temporal_well_solution.png",
       "step_41_chance_alignment.png",
       "step_41_field_transition.png",
       "step_41_pair_gallery.png"

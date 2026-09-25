@@ -1,23 +1,17 @@
-[21:03:18] [PROCESS] Decomposing redshifts into background and intrinsic shear...
-[21:03:18] [TEST] NGC4319-Mrk205: D_C(G)=20.0 Mpc, D_C(Q)=298.3 Mpc, inflation=14.9x, r_proj=4.1 kpc
-[21:03:18] [TEST] NGC7603-NGC7603B: D_C(G)=125.5 Mpc, D_C(Q)=238.9 Mpc, inflation=1.9x, r_proj=34.9 kpc
-[21:03:18] [TEST] NGC3067-3C232: D_C(G)=21.0 Mpc, D_C(Q)=1995.6 Mpc, inflation=95.2x, r_proj=11.5 kpc
-[21:03:18] [TEST] NGC1073-QSOs: D_C(G)=29.9 Mpc, D_C(Q)=2205.4 Mpc, inflation=73.7x, r_proj=17.3 kpc
-[21:03:18] [TEST] NGC7319-QSO: D_C(G)=95.9 Mpc, D_C(Q)=5340.2 Mpc, inflation=55.7x, r_proj=4.0 kpc
-[21:03:18] [TEST] NGC1199-companion: D_C(G)=35.5 Mpc, D_C(Q)=186.6 Mpc, inflation=5.3x, r_proj=9.9 kpc
-[21:03:18] [TEST] NGC3628-XQSO: D_C(G)=12.1 Mpc, D_C(Q)=4360.7 Mpc, inflation=361.0x, r_proj=17.5 kpc
-[21:03:18] [TEST] NGC4258-QSOs: D_C(G)=6.4 Mpc, D_C(Q)=1544.6 Mpc, inflation=240.5x, r_proj=17.9 kpc
-[21:03:18] [TEST] NGC2639-QSOs: D_C(G)=47.4 Mpc, D_C(Q)=1212.0 Mpc, inflation=25.6x, r_proj=136.4 kpc
-[21:03:18] [TEST] NGC1097-jetQSOs: D_C(G)=18.1 Mpc, D_C(Q)=1953.7 Mpc, inflation=107.7x, r_proj=63.1 kpc
-[21:03:18] [TEST] NGC1232-NGC1232A: D_C(G)=22.9 Mpc, D_C(Q)=93.8 Mpc, inflation=4.1x, r_proj=29.1 kpc
-[21:03:18] [TEST] NGC3516-Qchain: D_C(G)=37.6 Mpc, D_C(Q)=3130.0 Mpc, inflation=83.2x, r_proj=121.9 kpc
-[21:03:18] [SUCCESS] Saved decomposition table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/redshift_decomposition.csv
-[21:03:18] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_11_redshift_decomposition.json
-[21:03:18] [SUCCESS] Redshift decomposition complete.
-[21:03:18] [SUCCESS] step_11 completed in 1.0s
-[21:03:18] [INFO] 
-[21:03:18] [INFO] ================================================================================
-[21:03:18] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 1.0s total
-[21:03:18] [INFO] ================================================================================
-[21:03:18] [INFO] 
-[21:03:20] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json
+[06:06:55] [PROCESS] Decomposing redshifts into background and intrinsic shear...
+[06:06:55] [TEST] NGC4319-Mrk205: D_C(G)=20.0 Mpc, D_C(Q)=298.3 Mpc, inflation=14.9x, r_proj=4.1 kpc
+[06:06:55] [TEST] NGC7603-NGC7603B: D_C(G)=125.5 Mpc, D_C(Q)=238.9 Mpc, inflation=1.9x, r_proj=34.9 kpc
+[06:06:55] [TEST] NGC3067-3C232: D_C(G)=21.0 Mpc, D_C(Q)=1995.6 Mpc, inflation=95.2x, r_proj=11.5 kpc
+[06:06:55] [TEST] NGC1073-QSOs: D_C(G)=29.9 Mpc, D_C(Q)=2205.4 Mpc, inflation=73.7x, r_proj=17.3 kpc
+[06:06:55] [TEST] NGC7319-QSO: D_C(G)=95.9 Mpc, D_C(Q)=5340.2 Mpc, inflation=55.7x, r_proj=4.0 kpc
+[06:06:55] [TEST] NGC1199-companion: D_C(G)=35.5 Mpc, D_C(Q)=186.6 Mpc, inflation=5.3x, r_proj=9.9 kpc
+[06:06:55] [TEST] NGC3628-XQSO: D_C(G)=12.1 Mpc, D_C(Q)=4360.7 Mpc, inflation=361.0x, r_proj=17.5 kpc
+[06:06:55] [TEST] NGC4258-QSOs: D_C(G)=6.4 Mpc, D_C(Q)=1544.6 Mpc, inflation=240.5x, r_proj=17.9 kpc
+[06:06:55] [TEST] NGC2639-QSOs: D_C(G)=47.4 Mpc, D_C(Q)=1212.0 Mpc, inflation=25.6x, r_proj=136.4 kpc
+[06:06:55] [TEST] NGC1097-jetQSOs: D_C(G)=18.1 Mpc, D_C(Q)=1953.7 Mpc, inflation=107.7x, r_proj=63.1 kpc
+[06:06:55] [TEST] NGC1232-NGC1232A: D_C(G)=22.9 Mpc, D_C(Q)=93.8 Mpc, inflation=4.1x, r_proj=29.1 kpc
+[06:06:55] [TEST] NGC3516-Qchain: D_C(G)=37.6 Mpc, D_C(Q)=3130.0 Mpc, inflation=83.2x, r_proj=121.9 kpc
+[06:06:55] [SUCCESS] Saved decomposition table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/redshift_decomposition.csv
+[06:06:55] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_11_redshift_decomposition.json
+[06:06:55] [SUCCESS] Redshift decomposition complete.
+[06:06:55] [SUCCESS] step_11 completed in 0.4s

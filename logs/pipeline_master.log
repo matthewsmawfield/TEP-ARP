@@ -1,16 +1,47 @@
-[22:05:11] [INFO] 
-[22:05:11] [INFO] ================================================================================
-[22:05:11] [INFO]    TEP-ARP Analysis Pipeline
-[22:05:11] [INFO] ================================================================================
-[22:05:11] [INFO] 
-[22:05:11] [PROCESS] Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
-[22:05:11] [INFO] Project root: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP
-[22:05:11] [INFO] Results: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results
-[22:05:11] [INFO] Logs: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/logs
-[22:05:11] [PROCESS] Running 1 step(s)
-[22:05:12] [INFO]   step_41: OK (1.1s)
-[22:05:12] [INFO] 
-[22:05:12] [INFO] ================================================================================
-[22:05:12] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 1.1s total
-[22:05:12] [INFO] ================================================================================
-[22:05:12] [INFO] 
+[06:04:38] [INFO] 
+[06:04:38] [INFO] ================================================================================
+[06:04:38] [INFO]    TEP-ARP Analysis Pipeline
+[06:04:38] [INFO] ================================================================================
+[06:04:38] [INFO] 
+[06:04:38] [PROCESS] Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+[06:04:38] [INFO] Project root: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP
+[06:04:38] [INFO] Results: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results
+[06:04:38] [INFO] Logs: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/logs
+[06:04:38] [PROCESS] Running 32 step(s)
+[06:04:39] [INFO]   step_00: OK (0.3s)
+[06:04:46] [INFO]   step_01: OK (7.2s)
+[06:05:04] [INFO]   step_02: OK (17.8s)
+[06:06:39] [INFO]   step_03: OK (95.4s)
+[06:06:41] [INFO]   step_04: OK (2.3s)
+[06:06:55] [INFO]   step_05: OK (13.8s)
+[06:06:55] [INFO]   step_10: OK (0.0s)
+[06:06:55] [INFO]   step_11: OK (0.4s)
+[06:06:55] [INFO]   step_12: OK (0.0s)
+[06:06:55] [INFO]   step_13: OK (0.0s)
+[06:07:41] [INFO]   step_20: OK (45.7s)
+[06:07:41] [INFO]   step_21: OK (0.0s)
+[06:08:23] [INFO]   step_22: OK (42.2s)
+[06:08:23] [INFO]   step_23: OK (0.0s)
+[06:08:24] [INFO]   step_24: OK (0.8s)
+[06:08:25] [INFO]   step_25: OK (0.5s)
+[06:08:25] [INFO]   step_26: OK (0.0s)
+[06:08:33] [INFO]   step_27: OK (8.4s)
+[06:18:34] [INFO]   step_28: OK (600.8s)
+[06:20:47] [INFO]   step_29: OK (133.4s)
+[06:21:05] [INFO]   step_36: OK (17.3s)
+[06:21:05] [INFO]   step_30: OK (0.1s)
+[06:21:10] [INFO]   step_31: OK (5.5s)
+[06:21:11] [INFO]   step_32: OK (0.2s)
+[06:21:11] [INFO]   step_33: OK (0.2s)
+[06:21:44] [INFO]   step_34: OK (33.5s)
+[06:21:57] [INFO]   step_35: OK (12.5s)
+[06:22:34] [INFO]   step_37: OK (37.3s)
+[06:22:35] [INFO]   step_38: OK (0.9s)
+[06:22:35] [INFO]   step_39: OK (0.2s)
+[06:22:35] [INFO]   step_40: OK (0.0s)
+[06:22:36] [INFO]   step_41: OK (0.4s)
+[06:22:36] [INFO] 
+[06:22:36] [INFO] ================================================================================
+[06:22:36] [INFO]    Pipeline complete: 32 succeeded, 0 failed, 1077.4s total
+[06:22:36] [INFO] ================================================================================
+[06:22:36] [INFO] 

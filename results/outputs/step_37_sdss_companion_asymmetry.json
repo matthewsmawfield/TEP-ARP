@@ -1,0 +1,1470 @@
+{
+  "catalog": "Tempel et al. 2017 SDSS DR10 flux-limited groups (VizieR J/A+A/602/A100); central = rank-1 galaxy; dV = c(z_sat - z_cen)/(1+z_cen)",
+  "n_groups": 88662,
+  "n_satellites": 198583,
+  "interloper_baseline": {
+    "cut_kms": 2000.0,
+    "n": 305,
+    "frac_positive": 0.5311475409836065,
+    "note": "measured survey selection asymmetry of surely-unbound members; used as the null probability p0 for all bound-regime tests"
+  },
+  "offset_statistics": [
+    {
+      "cut": "all_offsets",
+      "n_satellites": 198581,
+      "n_positive": 100938,
+      "frac_positive": 0.508296362693309,
+      "frac_positive_ci95": [
+        0.5061207404460604,
+        0.5103965344465539
+      ],
+      "median_dv_kms": 4.690139220691603,
+      "binomial_p_vs_half": 1.445890014316992e-13,
+      "binomial_p_vs_interloper": 2.0580163178490066e-92
+    },
+    {
+      "cut": "bound |dV|<500",
+      "n_satellites": 162650,
+      "n_positive": 82540,
+      "frac_positive": 0.5074700276667692,
+      "frac_positive_ci95": [
+        0.5050351363647542,
+        0.5098011398568723
+      ],
+      "median_dv_kms": 3.4530533740873324,
+      "binomial_p_vs_half": 1.7127997939911303e-09,
+      "binomial_p_vs_interloper": 1.7758865587969176e-81
+    },
+    {
+      "cut": "tightly bound |dV|<150",
+      "n_satellites": 85467,
+      "n_positive": 43261,
+      "frac_positive": 0.5061719728082184,
+      "frac_positive_ci95": [
+        0.5028603938270017,
+        0.5094013618972961
+      ],
+      "median_dv_kms": 1.5253363756186908,
+      "binomial_p_vs_half": 0.0003117421724377836,
+      "binomial_p_vs_interloper": 2.1945458188413334e-48
+    },
+    {
+      "cut": "|dV|>30",
+      "n_satellites": 178374,
+      "n_positive": 90755,
+      "frac_positive": 0.5087905187975826,
+      "frac_positive_ci95": [
+        0.5064747384708534,
+        0.5110834538665949
+      ],
+      "median_dv_kms": 34.721508955837166,
+      "binomial_p_vs_half": 1.144482081913495e-13,
+      "binomial_p_vs_interloper": 1.0175843014386098e-79
+    },
+    {
+      "cut": "interlopers |dV|>2000",
+      "n_satellites": 305,
+      "n_positive": 162,
+      "frac_positive": 0.5311475409836065,
+      "frac_positive_ci95": [
+        0.47540983606557374,
+        0.5868852459016394
+      ],
+      "median_dv_kms": 2018.8120006205384,
+      "binomial_p_vs_half": 0.3026846346430978,
+      "binomial_p_vs_interloper": 0.3026846346430978
+    }
+  ],
+  "dv_bands": [
+    {
+      "cut": "|dV| 30-100 km/s",
+      "n_satellites": 42076,
+      "n_positive": 21205,
+      "frac_positive": 0.5039690084608803,
+      "frac_positive_ci95": [
+        0.4989780397376176,
+        0.5089362106664131
+      ],
+      "median_dv_kms": 30.44957570080299,
+      "binomial_p_vs_half": 0.10450162859152054,
+      "binomial_p_vs_interloper": 6.464641249680066e-29
+    },
+    {
+      "cut": "|dV| 100-300 km/s",
+      "n_satellites": 68807,
+      "n_positive": 35045,
+      "frac_positive": 0.5093231793276847,
+      "frac_positive_ci95": [
+        0.5056313311145668,
+        0.5131894284011801
+      ],
+      "median_dv_kms": 102.22509648861632,
+      "binomial_p_vs_half": 1.0214210782953565e-06,
+      "binomial_p_vs_interloper": 2.0741413017524077e-30
+    },
+    {
+      "cut": "|dV| 300-500 km/s",
+      "n_satellites": 31560,
+      "n_positive": 16107,
+      "frac_positive": 0.510361216730038,
+      "frac_positive_ci95": [
+        0.5047211660329531,
+        0.5157493662864385
+      ],
+      "median_dv_kms": 302.9089972409736,
+      "binomial_p_vs_half": 0.00023704894601693803,
+      "binomial_p_vs_interloper": 1.4750048180787736e-13
+    },
+    {
+      "cut": "|dV| 500-1000 km/s",
+      "n_satellites": 29608,
+      "n_positive": 15127,
+      "frac_positive": 0.5109092137260199,
+      "frac_positive_ci95": [
+        0.5053026209132667,
+        0.5166517495271549
+      ],
+      "median_dv_kms": 505.92703585383856,
+      "binomial_p_vs_half": 0.00017781199400694847,
+      "binomial_p_vs_interloper": 3.1486600006169253e-12
+    },
+    {
+      "cut": "|dV| 1000-2000 km/s",
+      "n_satellites": 6018,
+      "n_positive": 3109,
+      "frac_positive": 0.5166168162180126,
+      "frac_positive_ci95": [
+        0.5041542040545032,
+        0.5287512462612164
+      ],
+      "median_dv_kms": 1009.1365185900587,
+      "binomial_p_vs_half": 0.010304733323710704,
+      "binomial_p_vs_interloper": 0.02461090285282059
+    },
+    {
+      "cut": "|dV| 2000-6000 km/s",
+      "n_satellites": 305,
+      "n_positive": 162,
+      "frac_positive": 0.5311475409836065,
+      "frac_positive_ci95": [
+        0.47540983606557374,
+        0.5868852459016394
+      ],
+      "median_dv_kms": 2018.8120006205384,
+      "binomial_p_vs_half": 0.3026846346430978,
+      "binomial_p_vs_interloper": 1.0
+    }
+  ],
+  "virial_normalized_bands": [
+    {
+      "cut": "|dV|/sig200 0-0.5",
+      "n_satellites": 10360,
+      "n_positive": 5227,
+      "frac_positive": 0.5045366795366796,
+      "frac_positive_ci95": [
+        0.49507575757575756,
+        0.5141864504921829
+      ],
+      "median_dv_kms": 0.14395904491585076,
+      "binomial_p_vs_half": 0.36087575520022214,
+      "binomial_p_vs_interloper": 6.117188105477572e-08,
+      "sig_lo": 0,
+      "sig_hi": 0.5,
+      "implied_interloper_frac": 0.14565129038813407
+    },
+    {
+      "cut": "|dV|/sig200 0.5-1.0",
+      "n_satellites": 9847,
+      "n_positive": 4956,
+      "frac_positive": 0.5033004976134864,
+      "frac_positive_ci95": [
+        0.4936503503605159,
+        0.5130496597948614
+      ],
+      "median_dv_kms": 15.085160602067212,
+      "binomial_p_vs_half": 0.5189597702435097,
+      "binomial_p_vs_interloper": 3.3054301145150656e-08,
+      "sig_lo": 0.5,
+      "sig_hi": 1.0,
+      "implied_interloper_frac": 0.10596334443298416
+    },
+    {
+      "cut": "|dV|/sig200 1.0-1.5",
+      "n_satellites": 9919,
+      "n_positive": 5017,
+      "frac_positive": 0.5057969553382398,
+      "frac_positive_ci95": [
+        0.4956119568504889,
+        0.5159819538259904
+      ],
+      "median_dv_kms": 30.143641857631792,
+      "binomial_p_vs_half": 0.2523549084918026,
+      "binomial_p_vs_interloper": 4.389804387937357e-07,
+      "sig_lo": 1.0,
+      "sig_hi": 1.5,
+      "implied_interloper_frac": 0.1861127766487506
+    },
+    {
+      "cut": "|dV|/sig200 1.5-2.0",
+      "n_satellites": 9559,
+      "n_positive": 4763,
+      "frac_positive": 0.4982738780207135,
+      "frac_positive_ci95": [
+        0.4884402134114447,
+        0.5084239983261848
+      ],
+      "median_dv_kms": -45.041962884279855,
+      "binomial_p_vs_half": 0.7434442063218565,
+      "binomial_p_vs_interloper": 1.2953728917435363e-10,
+      "sig_lo": 1.5,
+      "sig_hi": 2.0,
+      "implied_interloper_frac": -0.055417600387619635
+    },
+    {
+      "cut": "|dV|/sig200 2.0-4.0",
+      "n_satellites": 32534,
+      "n_positive": 16498,
+      "frac_positive": 0.5071002643388455,
+      "frac_positive_ci95": [
+        0.5015360853261204,
+        0.5125722321263908
+      ],
+      "median_dv_kms": 60.741279172695585,
+      "binomial_p_vs_half": 0.010592342051163205,
+      "binomial_p_vs_interloper": 3.825229386512807e-18,
+      "sig_lo": 2.0,
+      "sig_hi": 4.0,
+      "implied_interloper_frac": 0.22795585508924984
+    },
+    {
+      "cut": "|dV|/sig200 4.0-100.0",
+      "n_satellites": 126343,
+      "n_positive": 64461,
+      "frac_positive": 0.5102063430502679,
+      "frac_positive_ci95": [
+        0.5075700671980244,
+        0.513048605779505
+      ],
+      "median_dv_kms": 125.32565744319268,
+      "binomial_p_vs_half": 4.074175392087577e-13,
+      "binomial_p_vs_interloper": 3.174306355416031e-50,
+      "sig_lo": 4.0,
+      "sig_hi": 100.0,
+      "implied_interloper_frac": 0.3276773295086018
+    }
+  ],
+  "rproj_binned_mpc": [
+    {
+      "cut": "R_proj 0-0.05 Mpc",
+      "n_satellites": 5909,
+      "n_positive": 2955,
+      "frac_positive": 0.5000846166864106,
+      "frac_positive_ci95": [
+        0.48756134709764765,
+        0.5124386529023524
+      ],
+      "median_dv_kms": 0.10136138743896064,
+      "binomial_p_vs_half": 1.0,
+      "binomial_p_vs_interloper": 1.8242212608666446e-06,
+      "rproj_lo_mpc": 0,
+      "rproj_hi_mpc": 0.05
+    },
+    {
+      "cut": "R_proj 0.05-0.15 Mpc",
+      "n_satellites": 20361,
+      "n_positive": 10249,
+      "frac_positive": 0.5033642748391532,
+      "frac_positive_ci95": [
+        0.49663449732331416,
+        0.5100461666912234
+      ],
+      "median_dv_kms": 1.2162982939840492,
+      "binomial_p_vs_half": 0.34053860124429797,
+      "binomial_p_vs_interloper": 2.0806155784397407e-15,
+      "rproj_lo_mpc": 0.05,
+      "rproj_hi_mpc": 0.15
+    },
+    {
+      "cut": "R_proj 0.15-0.3 Mpc",
+      "n_satellites": 35039,
+      "n_positive": 17827,
+      "frac_positive": 0.5087759353862839,
+      "frac_positive_ci95": [
+        0.5036666286138304,
+        0.5141984645680527
+      ],
+      "median_dv_kms": 4.041421154394589,
+      "binomial_p_vs_half": 0.0010372719930144738,
+      "binomial_p_vs_interloper": 5.134217398910022e-17,
+      "rproj_lo_mpc": 0.15,
+      "rproj_hi_mpc": 0.3
+    },
+    {
+      "cut": "R_proj 0.3-0.6 Mpc",
+      "n_satellites": 59870,
+      "n_positive": 30469,
+      "frac_positive": 0.50891932520461,
+      "frac_positive_ci95": [
+        0.5049857192964875,
+        0.5129695512017505
+      ],
+      "median_dv_kms": 3.943426734743582,
+      "binomial_p_vs_half": 1.2956093694798072e-05,
+      "binomial_p_vs_interloper": 1.2867040148465694e-27,
+      "rproj_lo_mpc": 0.3,
+      "rproj_hi_mpc": 0.6
+    },
+    {
+      "cut": "R_proj 0.6-1.5 Mpc",
+      "n_satellites": 40112,
+      "n_positive": 20375,
+      "frac_positive": 0.5079527323494216,
+      "frac_positive_ci95": [
+        0.5031785206790816,
+        0.5128767481863734
+      ],
+      "median_dv_kms": 4.420367023930502,
+      "binomial_p_vs_half": 0.0014696503722470941,
+      "binomial_p_vs_interloper": 1.383104865933531e-20,
+      "rproj_lo_mpc": 0.6,
+      "rproj_hi_mpc": 1.5
+    }
+  ],
+  "rproj_binned_r200": [
+    {
+      "cut": "R_proj 0-0.1 R200",
+      "n_satellites": 4034,
+      "n_positive": 2043,
+      "frac_positive": 0.506445215666832,
+      "frac_positive_ci95": [
+        0.4910758552305404,
+        0.5213187902825979
+      ],
+      "median_dv_kms": 5.15621505722664,
+      "binomial_p_vs_half": 0.42199237457350636,
+      "binomial_p_vs_interloper": 0.0016919338909485672,
+      "r200_lo": 0,
+      "r200_hi": 0.1
+    },
+    {
+      "cut": "R_proj 0.1-0.3 R200",
+      "n_satellites": 16054,
+      "n_positive": 8077,
+      "frac_positive": 0.5031144886009717,
+      "frac_positive_ci95": [
+        0.4953889996262613,
+        0.5110891366637599
+      ],
+      "median_dv_kms": 2.1890215116367107,
+      "binomial_p_vs_half": 0.4345997690470965,
+      "binomial_p_vs_interloper": 1.154412308544453e-12,
+      "r200_lo": 0.1,
+      "r200_hi": 0.3
+    },
+    {
+      "cut": "R_proj 0.3-0.6 R200",
+      "n_satellites": 31382,
+      "n_positive": 15991,
+      "frac_positive": 0.5095596201644255,
+      "frac_positive_ci95": [
+        0.5037122008730841,
+        0.5148981932893605
+      ],
+      "median_dv_kms": 7.103025245731703,
+      "binomial_p_vs_half": 0.0007211339250611564,
+      "binomial_p_vs_interloper": 1.9536651720548553e-14,
+      "r200_lo": 0.3,
+      "r200_hi": 0.6
+    },
+    {
+      "cut": "R_proj 0.6-1.0 R200",
+      "n_satellites": 41315,
+      "n_positive": 20970,
+      "frac_positive": 0.5075638387994675,
+      "frac_positive_ci95": [
+        0.5028197991044415,
+        0.5123562870628101
+      ],
+      "median_dv_kms": 6.124381985329538,
+      "binomial_p_vs_half": 0.002140602099823417,
+      "binomial_p_vs_interloper": 8.449039645000111e-22,
+      "r200_lo": 0.6,
+      "r200_hi": 1.0
+    },
+    {
+      "cut": "R_proj 1.0-2.0 R200",
+      "n_satellites": 45139,
+      "n_positive": 23025,
+      "frac_positive": 0.5100910520835641,
+      "frac_positive_ci95": [
+        0.5054825095815149,
+        0.5145888256275062
+      ],
+      "median_dv_kms": 8.58816290287132,
+      "binomial_p_vs_half": 1.8413475127510064e-05,
+      "binomial_p_vs_interloper": 3.3411147097597293e-19,
+      "r200_lo": 1.0,
+      "r200_hi": 2.0
+    }
+  ],
+  "dust_magnitude_control": [
+    {
+      "dv_band_kms": [
+        30,
+        150
+      ],
+      "rproj_cut_mpc": 0.15,
+      "n_pos": 5859,
+      "n_neg": 5910,
+      "mean_drmag_pos": 1.2597441566820278,
+      "mean_drmag_neg": 1.264518898646362,
+      "diff_pos_minus_neg": -0.00477474196433425,
+      "mean_gr_pos": 0.6911390273084145,
+      "mean_gr_neg": 0.6935530412859561
+    },
+    {
+      "dv_band_kms": [
+        150,
+        300
+      ],
+      "rproj_cut_mpc": 0.15,
+      "n_pos": 3609,
+      "n_neg": 3503,
+      "mean_drmag_pos": 1.3284517838736494,
+      "mean_drmag_neg": 1.29922148215815,
+      "diff_pos_minus_neg": 0.02923030171549934,
+      "mean_gr_pos": 0.758834817400942,
+      "mean_gr_neg": 0.7555408835284042
+    },
+    {
+      "dv_band_kms": [
+        300,
+        500
+      ],
+      "rproj_cut_mpc": 0.15,
+      "n_pos": 1925,
+      "n_neg": 1874,
+      "mean_drmag_pos": 1.4073237548051947,
+      "mean_drmag_neg": 1.3532655282817503,
+      "diff_pos_minus_neg": 0.054058226523444386,
+      "mean_gr_pos": 0.8237726374025973,
+      "mean_gr_neg": 0.8235983644610458
+    }
+  ],
+  "richness_split": [
+    {
+      "cut": "pairs Ngal=2",
+      "n_satellites": 51296,
+      "n_positive": 25860,
+      "frac_positive": 0.5041328758577667,
+      "frac_positive_ci95": [
+        0.49995077684854866,
+        0.5082563307795777
+      ],
+      "median_dv_kms": 1.5516251631641222,
+      "binomial_p_vs_half": 0.061807944939272295,
+      "binomial_p_vs_interloper": 1.7173638437858246e-34
+    },
+    {
+      "cut": "Ngal 3-9",
+      "n_satellites": 104474,
+      "n_positive": 53103,
+      "frac_positive": 0.5082891437103968,
+      "frac_positive_ci95": [
+        0.5051440536013401,
+        0.5113378798755683
+      ],
+      "median_dv_kms": 4.94810796466837,
+      "binomial_p_vs_half": 8.530546869967931e-08,
+      "binomial_p_vs_interloper": 1.6512368476128643e-49
+    },
+    {
+      "cut": "Ngal>=10",
+      "n_satellites": 42811,
+      "n_positive": 21975,
+      "frac_positive": 0.5133026558594753,
+      "frac_positive_ci95": [
+        0.5087010347807807,
+        0.5180450117960337
+      ],
+      "median_dv_kms": 15.252196035883609,
+      "binomial_p_vs_half": 3.790657752580883e-08,
+      "binomial_p_vs_interloper": 1.4641468336492536e-13
+    }
+  ],
+  "lumw_reference_control": {
+    "cut": "lumw-mean reference, |dV|<500",
+    "n_satellites": 178116,
+    "n_positive": 89935,
+    "frac_positive": 0.5049237575512587,
+    "frac_positive_ci95": [
+      0.5026724157290754,
+      0.5071306058972804
+    ],
+    "median_dv_kms": 1.839572673590366,
+    "binomial_p_vs_half": 3.271608254040149e-05,
+    "binomial_p_vs_interloper": 8.832381897343948e-109
+  },
+  "volume_limited_control": [
+    {
+      "cut": "vol-limited z<0.06, M_r<-19.9",
+      "n_satellites": 18156,
+      "n_positive": 9262,
+      "frac_positive": 0.5101343908349857,
+      "frac_positive_ci95": [
+        0.5028613130645517,
+        0.5177902621722846
+      ],
+      "median_dv_kms": 4.296203447620348,
+      "binomial_p_vs_half": 0.006454346958099644,
+      "binomial_p_vs_interloper": 1.4538295246139321e-08,
+      "z_max": 0.06,
+      "M_r_cut": -19.9,
+      "completeness_M_lim": -19.809736463857295,
+      "n_all_offsets": 21636
+    },
+    {
+      "cut": "vol-limited z<0.08, M_r<-20.5",
+      "n_satellites": 26201,
+      "n_positive": 13389,
+      "frac_positive": 0.5110110301133545,
+      "frac_positive_ci95": [
+        0.5051706041754132,
+        0.5168132895691004
+      ],
+      "median_dv_kms": 5.725096327572295,
+      "binomial_p_vs_half": 0.00037283116832280264,
+      "binomial_p_vs_interloper": 6.80028431068029e-11,
+      "z_max": 0.08,
+      "M_r_cut": -20.5,
+      "completeness_M_lim": -20.377403678641546,
+      "n_all_offsets": 32017
+    },
+    {
+      "cut": "vol-limited z<0.1, M_r<-20.9",
+      "n_satellites": 29034,
+      "n_positive": 14852,
+      "frac_positive": 0.5115381965970931,
+      "frac_positive_ci95": [
+        0.5061643245849694,
+        0.5173615416408348
+      ],
+      "median_dv_kms": 5.83095992894651,
+      "binomial_p_vs_half": 8.623931234529233e-05,
+      "binomial_p_vs_interloper": 2.2840567945645006e-11,
+      "z_max": 0.1,
+      "M_r_cut": -20.9,
+      "completeness_M_lim": -20.83715830046427,
+      "n_all_offsets": 36400
+    },
+    {
+      "cut": "vol-limited z<0.12, M_r<-21.3",
+      "n_satellites": 24276,
+      "n_positive": 12445,
+      "frac_positive": 0.5126462349645741,
+      "frac_positive_ci95": [
+        0.5063426841324765,
+        0.5187438210578349
+      ],
+      "median_dv_kms": 6.599646230720571,
+      "binomial_p_vs_half": 8.335764733423848e-05,
+      "binomial_p_vs_interloper": 7.977585406787047e-09,
+      "z_max": 0.12,
+      "M_r_cut": -21.3,
+      "completeness_M_lim": -21.225189215151932,
+      "n_all_offsets": 30872
+    }
+  ],
+  "mock_interloper_forward_model": {
+    "geometric_uniform_far_region": {
+      "interloper_frac_in_bound": 0.0007500676290485208,
+      "interloper_sign_rate": 0.5027022158169699,
+      "f_plus_predicted_pure_contamination": 0.500002026844611,
+      "f_plus_mc_p99": 0.5029514546393528,
+      "f_plus_observed": 0.5074637877185648,
+      "contamination_fraction_needed": 2.7620990417168576,
+      "shortfall_factor": 3682.4666666666417,
+      "observed_exceeds_mc_p99": true
+    },
+    "geometric_1overr_central_concentration": {
+      "interloper_frac_in_bound": 0.00975087917763077,
+      "interloper_sign_rate": 0.5027022158169699,
+      "f_plus_predicted_pure_contamination": 0.5000263489799431,
+      "f_plus_mc_p99": 0.5028297223520153,
+      "f_plus_observed": 0.5074637877185648,
+      "contamination_fraction_needed": 2.7620990417168576,
+      "shortfall_factor": 283.2666666666648,
+      "observed_exceeds_mc_p99": true
+    },
+    "velocity_tail_flat": {
+      "interloper_frac_in_bound": 0.0005360370607185894,
+      "interloper_sign_rate": 0.5311475409836065,
+      "f_plus_predicted_pure_contamination": 0.5000166962363175,
+      "f_plus_mc_p99": 0.5026319996065218,
+      "f_plus_observed": 0.5074637877185648,
+      "contamination_fraction_needed": 0.2396268688591867,
+      "shortfall_factor": 447.0341445010401,
+      "observed_exceeds_mc_p99": true
+    },
+    "far_region_reference": {
+      "region": "3-10 R200, |dV|<500 km/s",
+      "n": 11102,
+      "frac_positive": 0.5027022158169699,
+      "note": "measured sign rate of interloper-dominated correlated-structure members at bound velocities; the extreme-tail baseline 0.531 does not extend to |dV|<500"
+    }
+  },
+  "spectroscopic_bias_control": {
+    "f_plus_vs_apparent_rmag": [
+      {
+        "cut": "rmag 10-16.5",
+        "n_satellites": 30566,
+        "n_positive": 15631,
+        "frac_positive": 0.5113851992409867,
+        "frac_positive_ci95": [
+          0.5058226460773408,
+          0.5171448668455146
+        ],
+        "median_dv_kms": 5.589842281047295,
+        "binomial_p_vs_half": 7.025512644708885e-05,
+        "binomial_p_vs_interloper": 4.579310189430641e-12
+      },
+      {
+        "cut": "rmag 16.5-17.0",
+        "n_satellites": 29375,
+        "n_positive": 14966,
+        "frac_positive": 0.5094808510638298,
+        "frac_positive_ci95": [
+          0.5036595744680851,
+          0.5149276595744681
+        ],
+        "median_dv_kms": 4.974681712039894,
+        "binomial_p_vs_half": 0.0011781200408697158,
+        "binomial_p_vs_interloper": 1.0749442479784141e-13
+      },
+      {
+        "cut": "rmag 17.0-17.3",
+        "n_satellites": 29813,
+        "n_positive": 14934,
+        "frac_positive": 0.5009224163955321,
+        "frac_positive_ci95": [
+          0.4956897997517861,
+          0.5066254654009996
+        ],
+        "median_dv_kms": 0.43117759618583257,
+        "binomial_p_vs_half": 0.7544747054735975,
+        "binomial_p_vs_interloper": 1.585883894861355e-25
+      },
+      {
+        "cut": "rmag 17.3-17.6",
+        "n_satellites": 43418,
+        "n_positive": 22069,
+        "frac_positive": 0.508291492007923,
+        "frac_positive_ci95": [
+          0.5036735069900274,
+          0.5127023883553282
+        ],
+        "median_dv_kms": 3.453054449470755,
+        "binomial_p_vs_half": 0.0005592026721897434,
+        "binomial_p_vs_interloper": 1.5414752103747744e-21
+      },
+      {
+        "cut": "rmag 17.6-17.77",
+        "n_satellites": 29477,
+        "n_positive": 14940,
+        "frac_positive": 0.5068358381110697,
+        "frac_positive_ci95": [
+          0.5013213243775019,
+          0.5124838862880793
+        ],
+        "median_dv_kms": 3.032274914271253,
+        "binomial_p_vs_half": 0.019207603868640528,
+        "binomial_p_vs_interloper": 6.671958969868948e-17
+      }
+    ],
+    "f_plus_vs_drmag_fine": [
+      {
+        "cut": "drmag -1-0",
+        "n_satellites": 1456,
+        "n_positive": 695,
+        "frac_positive": 0.47733516483516486,
+        "frac_positive_ci95": [
+          0.45123626373626374,
+          0.5027644230769229
+        ],
+        "median_dv_kms": -8.756924153531823,
+        "binomial_p_vs_half": 0.08844680494699819,
+        "binomial_p_vs_interloper": 4.140275159499416e-05
+      },
+      {
+        "cut": "drmag 0-0.2",
+        "n_satellites": 18033,
+        "n_positive": 8996,
+        "frac_positive": 0.498863195253147,
+        "frac_positive_ci95": [
+          0.4912660123107636,
+          0.5063494704153496
+        ],
+        "median_dv_kms": -0.4670096133360964,
+        "binomial_p_vs_half": 0.7658037438918401,
+        "binomial_p_vs_interloper": 4.211502845884084e-18
+      },
+      {
+        "cut": "drmag 0.2-0.5",
+        "n_satellites": 27306,
+        "n_positive": 13863,
+        "frac_positive": 0.507690617446715,
+        "frac_positive_ci95": [
+          0.5019216684366646,
+          0.5135688651261581
+        ],
+        "median_dv_kms": 3.2992764978498563,
+        "binomial_p_vs_half": 0.011223347954625179,
+        "binomial_p_vs_interloper": 8.732384249563513e-15
+      },
+      {
+        "cut": "drmag 0.5-1.0",
+        "n_satellites": 37974,
+        "n_positive": 19147,
+        "frac_positive": 0.5042134091746985,
+        "frac_positive_ci95": [
+          0.49902564912835096,
+          0.5090331542634434
+        ],
+        "median_dv_kms": 1.8293021913003669,
+        "binomial_p_vs_half": 0.1016301297058968,
+        "binomial_p_vs_interloper": 8.034771243293859e-26
+      },
+      {
+        "cut": "drmag 1.0-2.0",
+        "n_satellites": 47181,
+        "n_positive": 24006,
+        "frac_positive": 0.5088065110955682,
+        "frac_positive_ci95": [
+          0.5041318723241914,
+          0.5135650247975924
+        ],
+        "median_dv_kms": 4.228650008788141,
+        "binomial_p_vs_half": 0.00013277931866127738,
+        "binomial_p_vs_interloper": 2.5765892556571205e-22
+      },
+      {
+        "cut": "drmag 2.0-20.0",
+        "n_satellites": 30700,
+        "n_positive": 15833,
+        "frac_positive": 0.5157328990228013,
+        "frac_positive_ci95": [
+          0.5103900651465798,
+          0.5210114006514659
+        ],
+        "median_dv_kms": 7.953587446744028,
+        "binomial_p_vs_half": 3.6296517635163655e-08,
+        "binomial_p_vs_interloper": 6.505835043788752e-08
+      }
+    ],
+    "f_plus_vs_g_minus_r": [
+      {
+        "cut": "g-r 0-0.65",
+        "n_satellites": 52101,
+        "n_positive": 26685,
+        "frac_positive": 0.5121782691311108,
+        "frac_positive_ci95": [
+          0.5079557014260763,
+          0.516612445058636
+        ],
+        "median_dv_kms": 4.493626979376706,
+        "binomial_p_vs_half": 2.769435810233765e-08,
+        "binomial_p_vs_interloper": 4.307695518933932e-18
+      },
+      {
+        "cut": "g-r 0.65-0.95",
+        "n_satellites": 79586,
+        "n_positive": 40105,
+        "frac_positive": 0.5039202874877491,
+        "frac_positive_ci95": [
+          0.5004080440272909,
+          0.5072565243067335
+        ],
+        "median_dv_kms": 1.9109163818311816,
+        "binomial_p_vs_half": 0.027218621598871496,
+        "binomial_p_vs_interloper": 2.401226029553509e-53
+      },
+      {
+        "cut": "g-r 0.95-3.0",
+        "n_satellites": 30647,
+        "n_positive": 15588,
+        "frac_positive": 0.5086305347994909,
+        "frac_positive_ci95": [
+          0.5032294113808404,
+          0.5138679522317933
+        ],
+        "median_dv_kms": 5.353681791522426,
+        "binomial_p_vs_half": 0.002560267270038312,
+        "binomial_p_vs_interloper": 3.068381574205008e-15
+      }
+    ],
+    "xmatch_n": 134869,
+    "xmatch_rate": 0.8291874677224995,
+    "xmatch_rate_pos": 0.8284104676520475,
+    "xmatch_rate_neg": 0.8299837723130695,
+    "e_zsp_sentinel_frac_pos": 0.007955891600976936,
+    "e_zsp_sentinel_frac_neg": 0.007835764776658144,
+    "f_plus_vs_e_zsp": [
+      {
+        "cut": "e_zsp 1.00e-05-1.00e-05",
+        "n_satellites": 55491,
+        "n_positive": 28259,
+        "frac_positive": 0.5092537528608243,
+        "frac_positive_ci95": [
+          0.5052166117027987,
+          0.5133098160061992
+        ],
+        "median_dv_kms": 3.7282108864415435,
+        "binomial_p_vs_half": 1.3270402515434488e-05,
+        "binomial_p_vs_interloper": 5.456969665107756e-25,
+        "e_zsp_lo": 1e-05,
+        "e_zsp_hi": 1e-05
+      },
+      {
+        "cut": "e_zsp 1.00e-05-2.00e-05",
+        "n_satellites": 95928,
+        "n_positive": 48713,
+        "frac_positive": 0.5078079392877992,
+        "frac_positive_ci95": [
+          0.5047217704945376,
+          0.5111023371695438
+        ],
+        "median_dv_kms": 3.433500836029335,
+        "binomial_p_vs_half": 1.3418465128542547e-06,
+        "binomial_p_vs_interloper": 1.8030808032045084e-47,
+        "e_zsp_lo": 1e-05,
+        "e_zsp_hi": 2e-05
+      },
+      {
+        "cut": "e_zsp 2.00e-05-3.00e-05",
+        "n_satellites": 67498,
+        "n_positive": 34091,
+        "frac_positive": 0.5050668167945717,
+        "frac_positive_ci95": [
+          0.5011914991333205,
+          0.5088390198373309
+        ],
+        "median_dv_kms": 2.631095765578044,
+        "binomial_p_vs_half": 0.00856549072461787,
+        "binomial_p_vs_interloper": 6.330304807111684e-42,
+        "e_zsp_lo": 2e-05,
+        "e_zsp_hi": 3e-05
+      },
+      {
+        "cut": "e_zsp 3.00e-05-5.19e-01",
+        "n_satellites": 37874,
+        "n_positive": 19120,
+        "frac_positive": 0.5048318107408777,
+        "frac_positive_ci95": [
+          0.49976238251135285,
+          0.5097693790262964
+        ],
+        "median_dv_kms": 2.6869684203986877,
+        "binomial_p_vs_half": 0.060719450108303465,
+        "binomial_p_vs_interloper": 1.1499177163877713e-24,
+        "e_zsp_lo": 3e-05,
+        "e_zsp_hi": 0.51878
+      }
+    ],
+    "clean_subsample": {
+      "cut": "clean: f_zsp=0 & e_zsp<=median",
+      "n_satellites": 95844,
+      "n_positive": 48672,
+      "frac_positive": 0.507825215975961,
+      "frac_positive_ci95": [
+        0.5047890321772881,
+        0.5111535411710697
+      ],
+      "median_dv_kms": 3.443789576596485,
+      "binomial_p_vs_half": 1.2851814630832538e-06,
+      "binomial_p_vs_interloper": 2.2863926611301193e-47
+    },
+    "e_zsp_and_warnrate_pos_vs_neg": [
+      {
+        "rmag_bin": [
+          16.0,
+          17.0
+        ],
+        "median_e_zsp_pos": 2e-05,
+        "median_e_zsp_neg": 2e-05,
+        "warnrate_pos": 0.0011180679785330948,
+        "warnrate_neg": 0.0013799448022079118
+      },
+      {
+        "rmag_bin": [
+          17.0,
+          17.3
+        ],
+        "median_e_zsp_pos": 2e-05,
+        "median_e_zsp_neg": 2e-05,
+        "warnrate_pos": 0.0017783525988198205,
+        "warnrate_neg": 0.0017204653449123383
+      },
+      {
+        "rmag_bin": [
+          17.3,
+          17.6
+        ],
+        "median_e_zsp_pos": 2e-05,
+        "median_e_zsp_neg": 2e-05,
+        "warnrate_pos": 0.0017692472657087712,
+        "warnrate_neg": 0.001052281789986708
+      },
+      {
+        "rmag_bin": [
+          17.6,
+          17.77
+        ],
+        "median_e_zsp_pos": 2e-05,
+        "median_e_zsp_neg": 2e-05,
+        "warnrate_pos": 0.0014085609202598012,
+        "warnrate_neg": 0.0014478764478764478
+      }
+    ],
+    "spclass_frac_pos": 0.9998820633025224,
+    "spclass_frac_neg": 0.9999242068244175,
+    "spectral_class_control": {
+      "f_plus_both_red_gr_gt_0.7": {
+        "cut": "sat & cen g-r > 0.7",
+        "n_satellites": 88469,
+        "n_positive": 44825,
+        "frac_positive": 0.506674654398716,
+        "frac_positive_ci95": [
+          0.5031985418786029,
+          0.5098796202102408
+        ],
+        "median_dv_kms": 3.6270448670224527,
+        "binomial_p_vs_half": 7.2698610736166e-05,
+        "binomial_p_vs_interloper": 4.2282301559897175e-48
+      },
+      "f_plus_both_blue_gr_le_0.7": {
+        "cut": "sat & cen g-r <= 0.7",
+        "n_satellites": 20864,
+        "n_positive": 10574,
+        "frac_positive": 0.506805981595092,
+        "frac_positive_ci95": [
+          0.49985261694785277,
+          0.5136131614263804
+        ],
+        "median_dv_kms": 1.9803558745772154,
+        "binomial_p_vs_half": 0.05008208129968507,
+        "binomial_p_vs_interloper": 1.9918757433007512e-12
+      },
+      "f_plus_sat_blue_cen_red": {
+        "cut": "sat blue, cen red",
+        "n_satellites": 40408,
+        "n_positive": 20810,
+        "frac_positive": 0.5149970302910315,
+        "frac_positive_ci95": [
+          0.5103413927935062,
+          0.5199966590774103
+        ],
+        "median_dv_kms": 6.775446603252682,
+        "binomial_p_vs_half": 1.693268583913403e-09,
+        "binomial_p_vs_interloper": 8.023992886617198e-11
+      },
+      "f_plus_sat_red_cen_blue": {
+        "cut": "sat red, cen blue",
+        "n_satellites": 12909,
+        "n_positive": 6331,
+        "frac_positive": 0.4904330312185297,
+        "frac_positive_ci95": [
+          0.48171959721146396,
+          0.49868319132455463
+        ],
+        "median_dv_kms": -4.222419093295134,
+        "binomial_p_vs_half": 0.030371941653150967,
+        "binomial_p_vs_interloper": 2.1294219008994385e-20
+      },
+      "xmatch_sat_n": 57557,
+      "xmatch_cen_n": 45184,
+      "subcl_counts_satellite": {
+        "nan": 105095,
+        "STARFORMING": 44222,
+        "STARBURST": 9147,
+        "AGN": 2694,
+        "BROADLINE": 1485,
+        "F9": 7,
+        "G9IV": 1,
+        "F5": 1
+      },
+      "f_plus_sat_passive": {
+        "cut": "sat passive (no subCl)",
+        "n_satellites": 77309,
+        "n_positive": 39095,
+        "frac_positive": 0.5056979135676312,
+        "frac_positive_ci95": [
+          0.5021788619989394,
+          0.5091516731124937
+        ],
+        "median_dv_kms": 3.0849235826079817,
+        "binomial_p_vs_half": 0.0015509013220429229,
+        "binomial_p_vs_interloper": 1.5093977045809388e-45
+      },
+      "f_plus_sat_emission": {
+        "cut": "sat emission-line",
+        "n_satellites": 57542,
+        "n_positive": 29271,
+        "frac_positive": 0.5086893052031559,
+        "frac_positive_ci95": [
+          0.5045001911647145,
+          0.5129474992179625
+        ],
+        "median_dv_kms": 3.477987224044188,
+        "binomial_p_vs_half": 3.117678723343838e-05,
+        "binomial_p_vs_interloper": 3.988951929019569e-27
+      },
+      "f_plus_sat_EA": {
+        "cut": "sat E+A",
+        "n_satellites": 0,
+        "n_positive": 0,
+        "frac_positive": null,
+        "frac_positive_ci95": [
+          null,
+          null
+        ],
+        "median_dv_kms": null,
+        "binomial_p_vs_half": null,
+        "binomial_p_vs_interloper": null
+      },
+      "f_plus_both_emission": {
+        "cut": "both emission",
+        "n_satellites": 21409,
+        "n_positive": 10719,
+        "frac_positive": 0.5006772852538652,
+        "frac_positive_ci95": [
+          0.49404456069877156,
+          0.5073111775421552
+        ],
+        "median_dv_kms": 0.22990724928742295,
+        "binomial_p_vs_half": 0.848241122954133,
+        "binomial_p_vs_interloper": 4.451062621895872e-19
+      },
+      "f_plus_both_passive": {
+        "cut": "both passive",
+        "n_satellites": 61122,
+        "n_positive": 31125,
+        "frac_positive": 0.5092274467458525,
+        "frac_positive_ci95": [
+          0.5054234903391522,
+          0.5130973610588485
+        ],
+        "median_dv_kms": 5.1799754570873455,
+        "binomial_p_vs_half": 5.148193959480214e-06,
+        "binomial_p_vs_interloper": 1.977253732289412e-27
+      },
+      "f_plus_sat_emit_cen_passive": {
+        "cut": "sat emit, cen passive",
+        "n_satellites": 36133,
+        "n_positive": 18552,
+        "frac_positive": 0.5134364708161514,
+        "frac_positive_ci95": [
+          0.5080653419311987,
+          0.5186124872000664
+        ],
+        "median_dv_kms": 5.921974637737692,
+        "binomial_p_vs_half": 3.339116725471156e-07,
+        "binomial_p_vs_interloper": 1.560032536484049e-11
+      },
+      "f_plus_sat_passive_cen_emit": {
+        "cut": "sat passive, cen emit",
+        "n_satellites": 16187,
+        "n_positive": 7970,
+        "frac_positive": 0.49237042070797554,
+        "frac_positive_ci95": [
+          0.48467846553002225,
+          0.5002470966147764
+        ],
+        "median_dv_kms": -3.7770923674959165,
+        "binomial_p_vs_half": 0.05316703353583274,
+        "binomial_p_vs_interloper": 5.482157142265828e-23
+      },
+      "f_plus_err_ratio_0.5_2.0": {
+        "cut": "e_zsp sat/cen in [0.5, 2.0]",
+        "n_satellites": 95774,
+        "n_positive": 48344,
+        "frac_positive": 0.5047716499258671,
+        "frac_positive_ci95": [
+          0.501445836596189,
+          0.5080976246410859
+        ],
+        "median_dv_kms": 2.3164906431175436,
+        "binomial_p_vs_half": 0.003175793390595246,
+        "binomial_p_vs_interloper": 5.073663276729125e-60
+      },
+      "f_plus_err_ratio_0.75_1.33": {
+        "cut": "e_zsp sat/cen in [0.75, 1.33]",
+        "n_satellites": 50796,
+        "n_positive": 25680,
+        "frac_positive": 0.5055516182376565,
+        "frac_positive_ci95": [
+          0.5012495816682088,
+          0.5098534362265488
+        ],
+        "median_dv_kms": 2.608711930250142,
+        "binomial_p_vs_half": 0.01248861889973925,
+        "binomial_p_vs_interloper": 7.582166773075747e-31
+      },
+      "within_passive_scaling": [
+        {
+          "cut": "passive M_r -24 to -21.5",
+          "n_satellites": 26901,
+          "n_positive": 13772,
+          "frac_positive": 0.5119512285788632,
+          "frac_positive_ci95": [
+            0.5059103412385696,
+            0.517769124972121
+          ],
+          "median_dv_kms": 6.620529884490351,
+          "binomial_p_vs_half": 9.061275606042304e-05,
+          "binomial_p_vs_interloper": 2.8820744907033687e-10,
+          "mean_dv_kms": 5.397052436602158,
+          "mean_dv_se_kms": 1.4321000294648822,
+          "M_r_lo": -24,
+          "M_r_hi": -21.5
+        },
+        {
+          "cut": "passive M_r -21.5 to -21.0",
+          "n_satellites": 18552,
+          "n_positive": 9331,
+          "frac_positive": 0.5029646399310047,
+          "frac_positive_ci95": [
+            0.49584950409659334,
+            0.509973318240621
+          ],
+          "median_dv_kms": 1.303637860052887,
+          "binomial_p_vs_half": 0.42356090040341327,
+          "binomial_p_vs_interloper": 1.5692368243709035e-14,
+          "mean_dv_kms": 1.913772820846591,
+          "mean_dv_se_kms": 1.6323229386841704,
+          "M_r_lo": -21.5,
+          "M_r_hi": -21.0
+        },
+        {
+          "cut": "passive M_r -21.0 to -20.5",
+          "n_satellites": 13797,
+          "n_positive": 7032,
+          "frac_positive": 0.5096760165253316,
+          "frac_positive_ci95": [
+            0.500867879402812,
+            0.5179029569502827
+          ],
+          "median_dv_kms": 5.143986084147144,
+          "binomial_p_vs_half": 0.023534472450612434,
+          "binomial_p_vs_interloper": 4.4096142700623997e-07,
+          "mean_dv_kms": 3.233734827395001,
+          "mean_dv_se_kms": 1.852135306449947,
+          "M_r_lo": -21.0,
+          "M_r_hi": -20.5
+        },
+        {
+          "cut": "passive M_r -20.5 to -20.0",
+          "n_satellites": 8623,
+          "n_positive": 4244,
+          "frac_positive": 0.4921720978777688,
+          "frac_positive_ci95": [
+            0.4813840890641308,
+            0.5026093007074104
+          ],
+          "median_dv_kms": -3.692194661708461,
+          "binomial_p_vs_half": 0.1490075393134641,
+          "binomial_p_vs_interloper": 4.379285426052978e-13,
+          "mean_dv_kms": -3.8861034732990323,
+          "mean_dv_se_kms": 2.370585382889212,
+          "M_r_lo": -20.5,
+          "M_r_hi": -20.0
+        },
+        {
+          "cut": "passive M_r -20.0 to -19.5",
+          "n_satellites": 4138,
+          "n_positive": 2027,
+          "frac_positive": 0.48985016916384727,
+          "frac_positive_ci95": [
+            0.4751087481875302,
+            0.5055582406959884
+          ],
+          "median_dv_kms": -5.708684713976378,
+          "binomial_p_vs_half": 0.19694861564979144,
+          "binomial_p_vs_interloper": 1.0730454955092598e-07,
+          "mean_dv_kms": -5.583977422331098,
+          "mean_dv_se_kms": 3.3564230147557357,
+          "M_r_lo": -20.0,
+          "M_r_hi": -19.5
+        },
+        {
+          "cut": "passive M_r -19.5 to -18.0",
+          "n_satellites": 4142,
+          "n_positive": 2100,
+          "frac_positive": 0.5070014485755674,
+          "frac_positive_ci95": [
+            0.49179140511830033,
+            0.5226943505552873
+          ],
+          "median_dv_kms": 3.7917755524812486,
+          "binomial_p_vs_half": 0.3757997895802192,
+          "binomial_p_vs_interloper": 0.00194429288797418,
+          "mean_dv_kms": 0.6929041842164169,
+          "mean_dv_se_kms": 3.422267956118299,
+          "M_r_lo": -19.5,
+          "M_r_hi": -18.0
+        }
+      ],
+      "within_emission_scaling": [
+        {
+          "cut": "emission M_r -24 to -21.0",
+          "n_satellites": 17221,
+          "n_positive": 8788,
+          "frac_positive": 0.5103071830904129,
+          "frac_positive_ci95": [
+            0.5024054932930725,
+            0.5176833517217351
+          ],
+          "median_dv_kms": 5.419779525073125,
+          "binomial_p_vs_half": 0.006982864185494205,
+          "binomial_p_vs_interloper": 4.373983638270081e-08,
+          "mean_dv_kms": 7.179674204698031,
+          "mean_dv_se_kms": 1.663848797048212,
+          "M_r_lo": -24,
+          "M_r_hi": -21.0
+        },
+        {
+          "cut": "emission M_r -21.0 to -20.0",
+          "n_satellites": 20805,
+          "n_positive": 10640,
+          "frac_positive": 0.5114155251141552,
+          "frac_positive_ci95": [
+            0.5047344388368181,
+            0.518000480653689
+          ],
+          "median_dv_kms": 4.470258064127427,
+          "binomial_p_vs_half": 0.001015010417311291,
+          "binomial_p_vs_interloper": 1.2212468344656374e-08,
+          "mean_dv_kms": 3.5074109105818456,
+          "mean_dv_se_kms": 1.4146412590220305,
+          "M_r_lo": -21.0,
+          "M_r_hi": -20.0
+        },
+        {
+          "cut": "emission M_r -20.0 to -18.0",
+          "n_satellites": 16832,
+          "n_positive": 8524,
+          "frac_positive": 0.5064163498098859,
+          "frac_positive_ci95": [
+            0.4986929657794677,
+            0.514199144486692
+          ],
+          "median_dv_kms": 1.9581715550751153,
+          "binomial_p_vs_half": 0.09747948706398357,
+          "binomial_p_vs_interloper": 1.3722462385010598e-10,
+          "mean_dv_kms": 1.8902453287608565,
+          "mean_dv_se_kms": 1.52482982999884,
+          "M_r_lo": -20.0,
+          "M_r_hi": -18.0
+        }
+      ]
+    }
+  },
+  "amplitude_scaling": {
+    "by_satellite_M_r": [
+      {
+        "cut": "M_r -99 to -21.5",
+        "n_satellites": 42651,
+        "n_positive": 21807,
+        "frac_positive": 0.5112893015404094,
+        "frac_positive_ci95": [
+          0.5063766060208197,
+          0.5157325565037981
+        ],
+        "median_dv_kms": 6.176634671893126,
+        "binomial_p_vs_half": 3.18821804951912e-06,
+        "binomial_p_vs_interloper": 2.2144450287580075e-16,
+        "M_r_lo": -99,
+        "M_r_hi": -21.5,
+        "mean_dv_kms": 5.926274563891042,
+        "mean_dv_se_kms": 1.1286821816232473
+      },
+      {
+        "cut": "M_r -21.5 to -21.0",
+        "n_satellites": 33904,
+        "n_positive": 17159,
+        "frac_positive": 0.5061054742803209,
+        "frac_positive_ci95": [
+          0.500677648655026,
+          0.5114440773949976
+        ],
+        "median_dv_kms": 3.014024896644,
+        "binomial_p_vs_half": 0.02489694391185232,
+        "binomial_p_vs_interloper": 2.6900388064135964e-20,
+        "M_r_lo": -21.5,
+        "M_r_hi": -21.0,
+        "mean_dv_kms": 3.130997839346498,
+        "mean_dv_se_kms": 1.1843986509719346
+      },
+      {
+        "cut": "M_r -21.0 to -20.5",
+        "n_satellites": 29594,
+        "n_positive": 15110,
+        "frac_positive": 0.5105764682030142,
+        "frac_positive_ci95": [
+          0.5047812130427437,
+          0.516066903193107
+        ],
+        "median_dv_kms": 5.19604511505066,
+        "binomial_p_vs_half": 0.0002798933864750696,
+        "binomial_p_vs_interloper": 1.4077049450592457e-12,
+        "M_r_lo": -21.0,
+        "M_r_hi": -20.5,
+        "mean_dv_kms": 4.027753760362828,
+        "mean_dv_se_kms": 1.2367733172805853
+      },
+      {
+        "cut": "M_r -20.5 to -20.0",
+        "n_satellites": 22221,
+        "n_positive": 11143,
+        "frac_positive": 0.5014625804419243,
+        "frac_positive_ci95": [
+          0.4954299986499257,
+          0.5077640520228613
+        ],
+        "median_dv_kms": 0.634066997763915,
+        "binomial_p_vs_half": 0.6676790527143902,
+        "binomial_p_vs_interloper": 8.390904367894846e-19,
+        "M_r_lo": -20.5,
+        "M_r_hi": -20.0,
+        "mean_dv_kms": -0.8268233324945179,
+        "mean_dv_se_kms": 1.4072807949070605
+      },
+      {
+        "cut": "M_r -20.0 to -19.5",
+        "n_satellites": 13022,
+        "n_positive": 6591,
+        "frac_positive": 0.5061434495469206,
+        "frac_positive_ci95": [
+          0.49738903394255873,
+          0.5146674857932729
+        ],
+        "median_dv_kms": 2.6353363647536368,
+        "binomial_p_vs_half": 0.1635133249067781,
+        "binomial_p_vs_interloper": 1.1413355587022713e-08,
+        "M_r_lo": -20.0,
+        "M_r_hi": -19.5,
+        "mean_dv_kms": 1.2190860135523942,
+        "mean_dv_se_kms": 1.7980225243464205
+      },
+      {
+        "cut": "M_r -19.5 to -19.0",
+        "n_satellites": 8047,
+        "n_positive": 4086,
+        "frac_positive": 0.5077668696408599,
+        "frac_positive_ci95": [
+          0.49744936000994155,
+          0.5191997017522058
+        ],
+        "median_dv_kms": 3.053374686889412,
+        "binomial_p_vs_half": 0.16687328332089643,
+        "binomial_p_vs_interloper": 2.7991322262043518e-05,
+        "M_r_lo": -19.5,
+        "M_r_hi": -19.0,
+        "mean_dv_kms": 1.4306501762437958,
+        "mean_dv_se_kms": 2.2638707973721863
+      },
+      {
+        "cut": "M_r -19.0 to -18.0",
+        "n_satellites": 8762,
+        "n_positive": 4436,
+        "frac_positive": 0.5062771056836338,
+        "frac_positive_ci95": [
+          0.495660237388724,
+          0.5162063455832002
+        ],
+        "median_dv_kms": 2.1828607561582576,
+        "binomial_p_vs_half": 0.2442357238533648,
+        "binomial_p_vs_interloper": 3.2078823596620955e-06,
+        "M_r_lo": -19.0,
+        "M_r_hi": -18.0,
+        "mean_dv_kms": 1.3924166632542918,
+        "mean_dv_se_kms": 2.183448750375542
+      }
+    ],
+    "by_satellite_minus_central_rmag": [
+      {
+        "cut": "drmag 0-1.0",
+        "n_satellites": 83313,
+        "n_positive": 42006,
+        "frac_positive": 0.504195023585755,
+        "frac_positive_ci95": [
+          0.5007198670091462,
+          0.507802410159157
+        ],
+        "median_dv_kms": 1.835751007371798,
+        "binomial_p_vs_half": 0.015595370943736418,
+        "binomial_p_vs_interloper": 1.0634021629676349e-54,
+        "drmag_lo": 0,
+        "drmag_hi": 1.0,
+        "mean_dv_kms": 2.040574359100572,
+        "mean_dv_se_kms": 0.7253723660628795
+      },
+      {
+        "cut": "drmag 1.0-2.0",
+        "n_satellites": 47181,
+        "n_positive": 24006,
+        "frac_positive": 0.5088065110955682,
+        "frac_positive_ci95": [
+          0.5043846170149633,
+          0.5131829935144758
+        ],
+        "median_dv_kms": 4.228650008788141,
+        "binomial_p_vs_half": 0.00013277931866127738,
+        "binomial_p_vs_interloper": 2.5765892556571205e-22,
+        "drmag_lo": 1.0,
+        "drmag_hi": 2.0,
+        "mean_dv_kms": 2.6744799852433707,
+        "mean_dv_se_kms": 1.0182597830944258
+      },
+      {
+        "cut": "drmag 2.0-3.0",
+        "n_satellites": 20452,
+        "n_positive": 10527,
+        "frac_positive": 0.5147173870526109,
+        "frac_positive_ci95": [
+          0.5074809309602972,
+          0.5214661157832974
+        ],
+        "median_dv_kms": 7.51631781613159,
+        "binomial_p_vs_half": 2.6366341692936906e-05,
+        "binomial_p_vs_interloper": 2.5827411287338735e-06,
+        "drmag_lo": 2.0,
+        "drmag_hi": 3.0,
+        "mean_dv_kms": 6.442436629110916,
+        "mean_dv_se_kms": 1.5997260535089632
+      },
+      {
+        "cut": "drmag 3.0-20.0",
+        "n_satellites": 10248,
+        "n_positive": 5306,
+        "frac_positive": 0.51775956284153,
+        "frac_positive_ci95": [
+          0.5080991412958626,
+          0.5272272638563622
+        ],
+        "median_dv_kms": 9.414515471437861,
+        "binomial_p_vs_half": 0.00033559055661561637,
+        "binomial_p_vs_interloper": 0.0066881033580109914,
+        "drmag_lo": 3.0,
+        "drmag_hi": 20.0,
+        "mean_dv_kms": 7.664354011936147,
+        "mean_dv_se_kms": 2.3104560980517372
+      }
+    ]
+  },
+  "per_group_bound": {
+    "n_groups": 82960,
+    "frac_groups_mean_dv_positive": 0.5062560270009643,
+    "wilcoxon_p_positive": 1.624108549246217e-05
+  },
+  "method": "FoF group membership is blind to the hypothesis. The sign asymmetry of satellite velocity offsets is tested against the empirically measured interloper baseline (|dV|>2000 km/s tail), not the symmetric 0.5; dust-obscuration alternatives are controlled by the R_proj dependence and by the satellite-central magnitude and g-r colour asymmetry of matched +/-dV populations."
+}

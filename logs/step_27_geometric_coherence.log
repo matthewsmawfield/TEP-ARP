@@ -1,31 +1,25 @@
-[22:04:57] [PROCESS] Running geometric-coherence tests...
-[22:04:58] [INFO] X-ray-detected confirmed quasar-class objects in control fields: 17/302 -> Sigma_X = 3.758 +/- 0.911 deg^-2 (fraction 0.056 of the field density)
-[22:04:58] [TEST] Sigma_X = 3.76 deg^-2 (17/302 control members X-ray detected); selection-aware joint P = 1.29e-22
-[22:04:58] [INFO] NGC 4319: PA = 150.0 deg (axis_ratio=0.70, n=4)
-[22:04:58] [INFO] NGC 7603: PA = 162.3 deg (axis_ratio=0.70, n=7)
-[22:04:58] [INFO] NGC 3067: PA = 103.7 deg (axis_ratio=0.38, n=7)
-[22:04:59] [INFO] NGC 1073: PA = 33.7 deg (axis_ratio=0.72, n=3)
-[22:04:59] [INFO] NGC 7319: PA = 147.5 deg (axis_ratio=0.56, n=2)
-[22:04:59] [INFO] NGC 1199: PA = 40.2 deg (axis_ratio=0.72, n=3)
-[22:05:00] [INFO] NGC 3628: PA = 100.5 deg (axis_ratio=0.43, n=7)
-[22:05:00] [INFO] NGC 4258: PA = 167.6 deg (axis_ratio=0.49, n=8)
-[22:05:00] [INFO] NGC 2639: PA = 143.4 deg (axis_ratio=0.51, n=9)
-[22:05:01] [INFO] NGC 1097: PA = 133.9 deg (axis_ratio=1.62, n=13)
-[22:05:01] [INFO] NGC 1232: PA = 111.7 deg (axis_ratio=1.27, n=14)
-[22:05:01] [INFO] NGC 3516: PA = 21.3 deg (axis_ratio=0.72, n=3)
-[22:05:06] [TEST] Minor-axis anisotropy: 9/21 within 30 deg (binomial p=0.24; V-test p=0.292)
-[22:05:06] [TEST] Radial z-ordering: 13/16 nearer=higher-z (perm p=0.0583; binomial p=0.0213)
-[22:05:06] [TEST] Halo-scale clustering: std(log10 kpc) = 0.296, permutation p = 0.0194
-[22:05:07] [TEST] Paired-redshift excess: Fisher p = 0.401 (members) / 0.649 (field census)
-[22:05:08] [TEST] Symmetry NGC1097-jetQSOs: phi=72.2 deg, ratio=0.73, joint p=0.279
-[22:05:08] [TEST] Symmetry NGC2639-QSOs: phi=20.9 deg, ratio=0.40, joint p=0.74
-[22:05:08] [TEST] Symmetry NGC4258-QSOs: phi=103.1 deg, ratio=0.73, joint p=0.196
-[22:05:08] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_27_geometric_coherence.json
-[22:05:08] [SUCCESS] Geometric-coherence tests complete.
-[22:05:08] [SUCCESS] step_27 completed in 11.4s
-[22:05:08] [INFO] 
-[22:05:08] [INFO] ================================================================================
-[22:05:08] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 11.4s total
-[22:05:08] [INFO] ================================================================================
-[22:05:08] [INFO] 
-[22:05:09] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json
+[06:08:25] [PROCESS] Running geometric-coherence tests...
+[06:08:25] [INFO] X-ray-detected confirmed quasar-class objects in control fields: 17/302 -> Sigma_X = 3.758 +/- 0.911 deg^-2 (fraction 0.056 of the field density)
+[06:08:25] [TEST] Sigma_X = 3.76 deg^-2 (17/302 control members X-ray detected); selection-aware joint P = 1.29e-22
+[06:08:25] [INFO] NGC 4319: PA = 150.0 deg (axis_ratio=0.70, n=4)
+[06:08:25] [INFO] NGC 7603: PA = 162.3 deg (axis_ratio=0.70, n=7)
+[06:08:25] [INFO] NGC 3067: PA = 103.7 deg (axis_ratio=0.38, n=7)
+[06:08:26] [INFO] NGC 1073: PA = 33.7 deg (axis_ratio=0.72, n=3)
+[06:08:26] [INFO] NGC 7319: PA = 147.5 deg (axis_ratio=0.56, n=2)
+[06:08:26] [INFO] NGC 1199: PA = 40.2 deg (axis_ratio=0.72, n=3)
+[06:08:27] [INFO] NGC 3628: PA = 100.5 deg (axis_ratio=0.43, n=7)
+[06:08:27] [INFO] NGC 4258: PA = 167.6 deg (axis_ratio=0.49, n=8)
+[06:08:27] [INFO] NGC 2639: PA = 143.4 deg (axis_ratio=0.51, n=9)
+[06:08:28] [INFO] NGC 1097: PA = 133.9 deg (axis_ratio=1.62, n=13)
+[06:08:28] [INFO] NGC 1232: PA = 111.7 deg (axis_ratio=1.27, n=14)
+[06:08:28] [INFO] NGC 3516: PA = 21.3 deg (axis_ratio=0.72, n=3)
+[06:08:31] [TEST] Minor-axis anisotropy: 9/21 within 30 deg (binomial p=0.24; V-test p=0.292)
+[06:08:31] [TEST] Radial z-ordering: 13/16 nearer=higher-z (perm p=0.0583; binomial p=0.0213)
+[06:08:31] [TEST] Halo-scale clustering: std(log10 kpc) = 0.296, permutation p = 0.0194
+[06:08:33] [TEST] Paired-redshift excess: Fisher p = 0.401 (members) / 0.649 (field census)
+[06:08:33] [TEST] Symmetry NGC1097-jetQSOs: phi=72.2 deg, ratio=0.73, joint p=0.279
+[06:08:33] [TEST] Symmetry NGC2639-QSOs: phi=20.9 deg, ratio=0.40, joint p=0.74
+[06:08:33] [TEST] Symmetry NGC4258-QSOs: phi=103.1 deg, ratio=0.73, joint p=0.196
+[06:08:33] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_27_geometric_coherence.json
+[06:08:33] [SUCCESS] Geometric-coherence tests complete.
+[06:08:33] [SUCCESS] step_27 completed in 8.4s

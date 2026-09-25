@@ -27,7 +27,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 DATA = PROJECT_ROOT / "data" / "processed"
 RESULTS = PROJECT_ROOT / "results" / "outputs"
 
-# All 25 registered pipeline steps and their required JSON outputs
+# All 32 registered pipeline steps and their required JSON outputs
 EXPECTED_OUTPUTS = [
     "step_00_arp_pair_catalog.json",
     "step_01_ned_verification.json",
@@ -49,10 +49,16 @@ EXPECTED_OUTPUTS = [
     "step_27_geometric_coherence.json",
     "step_28_archive_kinematic_audit.json",
     "step_29_lya_forest_audit.json",
+    "step_36_lya_forest_census.json",
     "step_30_bridge_redshift_transect.json",
     "step_31_mcmc_field_profile.json",
     "step_32_pair_sample_statistics.json",
     "step_33_residuals_analysis.json",
+    "step_34_bayesian_model_selection.json",
+    "step_35_well_depth_correlates.json",
+    "step_37_sdss_companion_asymmetry.json",
+    "step_38_xray_population_test.json",
+    "step_39_temporal_well_solution.json",
     "step_40_falsification_summary.json",
     "step_41_manuscript_figures.json",
 ]
@@ -200,11 +206,11 @@ def test_profile_family_boundary_conditions():
 
 
 def test_falsification_summary_integrity():
-    """The falsification table covers all fourteen tests with verdicts."""
+    """The falsification table covers all eighteen tests with verdicts."""
     s40 = json.loads(
         (RESULTS / "step_40_falsification_summary.json").read_text()
     )
-    assert s40["n_tests"] == 14
+    assert s40["n_tests"] == 18
     assert s40["n_chance_rejected"] == 1
     assert s40["n_association_proven"] == 1
     verdicts = {t["test"]: t["verdict"] for t in s40["tests"]}
