@@ -1,0 +1,9 @@
+[13:22:19] [PROCESS] Building falsification adjudication ledger...
+[13:22:19] [SUCCESS] Adjudication complete: 1 falsified in 1 decisive catalogue-pair test; 18 unique strong controls, 95% upper bound 0.153.
+[13:22:19] [SUCCESS] step_48 completed in 3.1s
+[13:22:19] [INFO] 
+[13:22:19] [INFO] ================================================================================
+[13:22:19] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 3.1s total
+[13:22:19] [INFO] ================================================================================
+[13:22:19] [INFO] 
+[13:22:20] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

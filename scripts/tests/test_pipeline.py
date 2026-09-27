@@ -27,7 +27,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 DATA = PROJECT_ROOT / "data" / "processed"
 RESULTS = PROJECT_ROOT / "results" / "outputs"
 
-# All 32 registered pipeline steps and their required JSON outputs
+# Registered pipeline steps and their required JSON outputs
 EXPECTED_OUTPUTS = [
     "step_00_arp_pair_catalog.json",
     "step_01_ned_verification.json",
@@ -61,6 +61,12 @@ EXPECTED_OUTPUTS = [
     "step_39_temporal_well_solution.json",
     "step_40_falsification_summary.json",
     "step_41_manuscript_figures.json",
+    "step_42_extended_forest_audit.json",
+    "step_43_keck_lris_ulx_verification.json",
+    "step_44_survey_erasure_audit.json",
+    "step_45_candidate_sweep.json",
+    "step_47_redshift_correction_audit.json",
+    "step_48_falsification_adjudication.json",
 ]
 
 SIGMA_SDSS = 51.6   # SDSS DR16Q published density (deg^-2)
@@ -72,6 +78,31 @@ def test_all_step_outputs_exist():
     missing = [f for f in EXPECTED_OUTPUTS
                if not (RESULTS / f).exists() or (RESULTS / f).stat().st_size == 0]
     assert not missing, f"Missing/empty pipeline outputs: {missing}"
+
+
+def test_falsification_adjudication_denominators():
+    """The direct and population controls retain their distinct denominators."""
+    s48 = json.loads(
+        (RESULTS / "step_48_falsification_adjudication.json").read_text()
+    )
+    ledger = s48["catalogue_pair_ledger"]
+    control = s48["population_control"]
+    assert ledger["n_pairs"] == 12
+    assert ledger["n_decisively_tested"] == 1
+    assert ledger["n_falsified"] == 1
+    assert ledger["n_confirmed_codistant"] == 0
+    assert ledger["n_archival_non_discriminating"] == 2
+    assert ledger["n_without_decisive_path_data"] == 9
+    assert control["n_sdss_unique"] == 12
+    assert control["n_desi_projection_rows"] == 8
+    assert control["n_desi_unique"] == 7
+    assert control["n_cross_survey_duplicates"] == 1
+    assert control["n_unique_sightlines"] == 18
+    assert control["n_proximity_candidates"] == 0
+    expected = 1.0 - 0.05 ** (1.0 / 18.0)
+    assert np.isclose(
+        control["empty_forest_fraction_upper_95_one_sided"], expected
+    )
 
 
 def test_intrinsic_conformal_factor_arithmetic():

@@ -1,7 +1,7 @@
 <h2>6. Results III: Field-Gradient Inference</h2>
 
 <div class="key-finding">
-    <h4>Monotonic Families Fail, and the Nested-Well Interpolation Width Is Bounded</h4>
+    <h4>The Transect Refutes a Single Shared Transition, and the Nested-Well Width Is Bounded</h4>
     <p>
         The measured four-point redshift transect of the
         NGC&nbsp;7603 filament is non-monotonic: the interior
@@ -11,21 +11,25 @@
         endpoint ($A_{\rm int} = 0.97$). No monotonic
         interpolating family can represent the transition&mdash;the
         exponential, tanh, and Yukawa fits return
-        $\chi^2/{\rm dof} \sim 3 \times 10^{4}$&mdash;while the
-        nested-wells profile, in which each compact object carries
-        its own Lorentzian depression on the shared pair field,
-        exactly interpolates all four measured points without 
-        residual degrees of freedom
-
-        (best-fit $\chi^2 = 3 \times 10^{-5}$; $\chi^2 = 0.13$ at
-        the posterior median). Markov Chain
-        Monte Carlo sampling returns well depths $d_1 = 0.300$,
-        $d_2 = 0.187$, and $d_Q = 0.020$ in $\phi$ units&mdash;the
-        knot depths recovering the per-object offsets independently tabulated
-        from the same measured redshifts, $\Delta\phi = -\ln A_{\rm int}$&mdash;and bounds the shared well width
-        from above at
+        $\chi^2/{\rm dof} \sim 3 \times 10^{4}$&mdash;so a single
+        shared transition is refuted outright. The nested-wells
+        profile, in which each compact object carries its own
+        Lorentzian depression on the shared pair field, is the
+        parameterisation consistent with this structure: it
+        interpolates all four points exactly (four parameters on
+        four points, no residual degrees of freedom), so the fit
+        is a consistency demonstration rather than a measurement&mdash;the
+        fitted depths $d_1 = 0.300$, $d_2 = 0.187$,
+        $d_Q = 0.020$ restate the per-object offsets
+        $\Delta\phi = -\ln A_{\rm int}$ of the same redshifts.
+        What the data constrain beyond the depths is real but
+        narrower: the shared width is bounded above at
         $w < 0.033$ of the transect length (95% credibility),
-        about $1.9$ arcsec or a projected $1.2$ kpc.
+        about $1.9$ arcsec or a projected $1.2$ kpc; the knot
+        centres coincide with the detected filament corridor; and
+        the diffuse filament continuum sits at ambient depth,
+        supplying the fifth datum a chance superposition does not
+        produce.
     </p>
 </div>
 
@@ -37,7 +41,10 @@
     ($z = 0.0295$), two emission knots embedded in the luminous
     filament ($z = 0.391$ and $z = 0.243$; L&oacute;pez-Corredoira
     &amp; Guti&eacute;rrez 2002), and the companion NGC&nbsp;7603B
-    ($z = 0.0565$). Both knots resolve to archive positions in
+    ($z = 0.0565$). The original authors calculated the mathematical
+    probability of two unrelated background objects perfectly threading
+    the exact corridor of this foreground filament at less than
+    $8 \times 10^{-10}$. Both knots resolve to archive positions in
     Simbad (the [LG2002] emission-line objects), so their transect
     coordinates are measured&mdash;projected onto the resolved
     host&ndash;companion axis at $x = 0.55$ and $x = 0.91$&mdash;rather
@@ -155,17 +162,25 @@
 </p>
 
 <p>
-    The objection that four parameters on four points guarantee
-    $\chi^2 \approx 0$ for any interpolating family conflates the
-    fit residual with the information content: under the flat
-    priors a saturated model could leave $w$ anywhere in
-    $[0.002, 1]$, yet the data bound it below $3.3\%$ of the
-    transect. The honest quantifier is the prior-to-posterior
-    contraction. For $w$ the prior CDF at the 95% bound is
-    $0.031$&mdash;a compression factor of $31$ and $3.4$ nats of
-    posterior information&mdash;and the companion depth $d_Q$
-    is compressed by a factor of $72$. A wide, smooth monotonic
-    field is ruled out by the measured depths, not assumed away.
+    The saturation objection must be answered precisely. With
+    four parameters on four points the depths are determined by
+    the data they fit&mdash;they restate the per-object
+    $\Delta\phi$ values rather than recover them&mdash;and the
+    same interpolation would succeed on any interior redshift
+    assignment, including a chance superposition. The
+    information the transect adds is therefore not carried by
+    the depths at all but by the three constraints the data
+    impose on the residual structure: the shared width is
+    bounded below $3.3\%$ of the transect (prior-to-posterior
+    compression factor $31$, $3.4$ nats), confining each
+    depression to its own emitter rather than permitting a
+    distributed gradient; the wells are centred on the detected
+    filament corridor at the archive-resolved knot positions,
+    which a superposition is not required to arrange; and the
+    diffuse continuum sits at ambient depth between them. A
+    wide, smooth monotonic field is ruled out by the measured
+    depths, not assumed away&mdash;that is the content the
+    comparison genuinely carries.
 </p>
 
 <table>
@@ -186,9 +201,11 @@
     Three features of the posterior carry physical weight.
     First, the well depths are individually interpretable: each
     $d_i$ is the scalar-field offset of that object's local well
-    relative to the shared pair field, and the knot depths recover
-    the per-object offsets independently tabulated from the same measured redshifts, $\Delta\phi = -\ln A_{\rm int}$
-    ($0.301$ and $0.188$ respectively), and are insensitive to $w$ throughout the allowed
+    relative to the shared pair field, and the knot depths restate
+    the per-object offsets tabulated from the same measured redshifts, $\Delta\phi = -\ln A_{\rm int}$
+    ($0.301$ and $0.188$ respectively)&mdash;a saturated fit returns the
+    data it is given, so the equality is a consistency identity rather than
+    an independent recovery&mdash;and are insensitive to $w$ throughout the allowed
     range. The companion depth $d_Q = 0.020$ sits slightly below
     its own $\Delta\phi = 0.026$ because the Lorentzian tail of
     the adjacent knot well ($x = 0.91$, only $5$ arcsec away along
@@ -212,10 +229,12 @@
     Third, the four-parameter family interpolates the
     four measured points exactly (residual RMS $\ll 1\sigma$):
     with no residual degrees of freedom the transect exhausts
-    its informativeness in the depths, and the adequacy of the
-    family is adjudicated by the comparison of
-    Section&nbsp;6.2&mdash;every monotonic alternative fails by four
-    orders of magnitude in $\chi^2$.
+    its informativeness in the depths, so the family's adequacy
+    is a consistency statement&mdash;the nested profile is the
+    parameterisation the measured structure requires&mdash;rather
+    than a goodness-of-fit measurement. What Section&nbsp;6.2
+    adds is the genuine discriminant: every monotonic alternative
+    fails by four orders of magnitude in $\chi^2$.
 </p>
 
 <p>
@@ -226,14 +245,23 @@
     Gaussian likelihood in the measured $A_{\rm int}$ values.
     Table&nbsp;8 lists the marginal likelihoods of the
     candidate families on the four-point transect.
-    The comparison resolves the
-    residual-degree-of-freedom objection directly: the
-    nested-well geometries sit $\Delta\ln Z \approx 10,833$
+    The comparison's discriminating content is narrower than
+    the headline margin suggests, and both should be reported.
+    The nested-well geometries sit $\Delta\ln Z \approx 10,833$
     above the best monotonic families (exponential and tanh,
     $\ln Z \approx -10,830$) and $\approx 1,106$ nats above
     a single Lorentzian well&mdash;margins the Occam factor
     leaves intact because the evidence already integrates out
-    the parameter volume. Within the nested family the
+    the parameter volume. The margin's size, however, largely
+    prices a foreknown property of the point set: a monotone
+    cannot pass through a non-monotone transect, so the
+    exponential penalty on the monotonic families encodes the
+    measured ordering rather than discovering the wells. The
+    load-bearing evidence for the well structure is the
+    conjunction the ordering does not supply&mdash;the knots
+    sit on the detected filament corridor, the diffuse
+    continuum returns ambient depth between them, and the
+    shared width is confined to object scale. Within the nested family the
     ordering is honest: the three-well model is marginally
     disfavoured relative to the two-well fit
     ($\Delta\ln Z = -1.5$), so the transect requires the

@@ -1,20 +1,20 @@
-[06:07:41] [PROCESS] Running quasar-galaxy association test...
-[06:07:41] [INFO] Companion exclusion list loaded for 12 pairs (21 objects).
-[06:07:41] [TEST] NGC4319-Mrk205: 2 confirmed quasars within 6 arcmin (3 companion-inclusive; excluded: MARK 205)
-[06:07:45] [TEST] NGC7603-NGC7603B: 5 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: none)
-[06:07:48] [TEST] NGC3067-3C232: 0 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: 3C 232)
-[06:07:52] [TEST] NGC1073-QSOs: 2 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: NGC 1073 U2; NGC 1073 U1; PKS 0241+011)
-[06:07:55] [TEST] NGC7319-QSO: 2 confirmed quasars within 6 arcmin (3 companion-inclusive; excluded: Q 2233+337)
-[06:07:59] [TEST] NGC1199-companion: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
-[06:08:02] [TEST] NGC3628-XQSO: 4 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: WEE 51)
-[06:08:06] [TEST] NGC4258-QSOs: 2 confirmed quasars within 6 arcmin (2 companion-inclusive; excluded: none)
-[06:08:09] [TEST] NGC2639-QSOs: 1 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: none)
-[06:08:13] [TEST] NGC1097-jetQSOs: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
-[06:08:16] [TEST] NGC1232-NGC1232A: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
-[06:08:20] [TEST] NGC3516-Qchain: 0 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: 1WGA J1107.7+7232)
-[06:08:23] [SUCCESS] Saved member-level table: qso_field_members.csv (328 confirmed quasar-class rows across 144 control fields + 12 host cones).
-[06:08:23] [TEST] Field QSO density: 2.10 +/- 2.45 per field
-[06:08:23] [TEST] Host QSO counts mean: 1.50; excess = -0.60 (-0.24 sigma of field scatter)
-[06:08:23] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_22_quasar_galaxy_association.json
-[06:08:23] [SUCCESS] Quasar-galaxy association test complete.
-[06:08:23] [SUCCESS] step_22 completed in 42.2s
+[11:28:03] [PROCESS] Running quasar-galaxy association test...
+[11:28:03] [INFO] Companion exclusion list loaded for 12 pairs (21 objects).
+[11:28:03] [TEST] NGC4319-Mrk205: 2 confirmed quasars within 6 arcmin (3 companion-inclusive; excluded: MARK 205)
+[11:28:07] [TEST] NGC7603-NGC7603B: 5 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: none)
+[11:28:10] [TEST] NGC3067-3C232: 0 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: 3C 232)
+[11:28:14] [TEST] NGC1073-QSOs: 2 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: NGC 1073 U2; NGC 1073 U1; PKS 0241+011)
+[11:28:17] [TEST] NGC7319-QSO: 2 confirmed quasars within 6 arcmin (3 companion-inclusive; excluded: Q 2233+337)
+[11:28:21] [TEST] NGC1199-companion: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
+[11:28:24] [TEST] NGC3628-XQSO: 4 confirmed quasars within 6 arcmin (5 companion-inclusive; excluded: WEE 51)
+[11:28:28] [TEST] NGC4258-QSOs: 2 confirmed quasars within 6 arcmin (2 companion-inclusive; excluded: none)
+[11:28:31] [TEST] NGC2639-QSOs: 1 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: none)
+[11:28:35] [TEST] NGC1097-jetQSOs: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
+[11:28:38] [TEST] NGC1232-NGC1232A: 0 confirmed quasars within 6 arcmin (0 companion-inclusive; excluded: none)
+[11:28:42] [TEST] NGC3516-Qchain: 0 confirmed quasars within 6 arcmin (1 companion-inclusive; excluded: 1WGA J1107.7+7232)
+[11:28:45] [SUCCESS] Saved member-level table: qso_field_members.csv (328 confirmed quasar-class rows across 144 control fields + 12 host cones).
+[11:28:45] [TEST] Field QSO density: 2.10 +/- 2.45 per field
+[11:28:45] [TEST] Host QSO counts mean: 1.50; excess = -0.60 (-0.24 sigma of field scatter)
+[11:28:45] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_22_quasar_galaxy_association.json
+[11:28:45] [SUCCESS] Quasar-galaxy association test complete.
+[11:28:45] [SUCCESS] step_22 completed in 42.0s

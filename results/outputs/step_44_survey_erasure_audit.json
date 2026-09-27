@@ -1,0 +1,1968 @@
+{
+  "n_pairs": 12,
+  "n_archive_queries": 88,
+  "n_queries_failed": 7,
+  "n_companions_not_deblended": 1,
+  "n_companions_no_spec_within_30arcsec": 4,
+  "n_hostfields_zero_sdss_spectra": 6,
+  "low_sn_stamped_spectra": [
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "where": "host_field",
+      "plate_mjd_fiber": "8763/57309/939",
+      "class": "QSO",
+      "z": 2.413939,
+      "sn": 1.349334,
+      "ra": 349.72743,
+      "dec": 0.20611706,
+      "top_peaks": [
+        [
+          4143.8,
+          3.59
+        ],
+        [
+          4144.8,
+          4.06
+        ],
+        [
+          4145.7,
+          4.59
+        ],
+        [
+          4146.7,
+          5.0
+        ],
+        [
+          4147.6,
+          4.43
+        ],
+        [
+          4148.6,
+          5.51
+        ],
+        [
+          8342.6,
+          3.41
+        ],
+        [
+          8358.0,
+          3.52
+        ],
+        [
+          8435.3,
+          4.1
+        ],
+        [
+          9912.9,
+          4.48
+        ]
+      ],
+      "line_check": [
+        {
+          "line": "LyA",
+          "obs_lambda": 4151.0,
+          "sn": 5.51
+        },
+        {
+          "line": "NV",
+          "obs_lambda": 4233.0,
+          "sn": 1.43
+        },
+        {
+          "line": "SiIV/OIV]",
+          "obs_lambda": 4769.0,
+          "sn": 2.31
+        },
+        {
+          "line": "CIV",
+          "obs_lambda": 5288.0,
+          "sn": 2.59
+        },
+        {
+          "line": "CIII]",
+          "obs_lambda": 6517.0,
+          "sn": 1.09
+        },
+        {
+          "line": "MgII",
+          "obs_lambda": 9552.0,
+          "sn": 2.04
+        }
+      ],
+      "n_supporting_lines_ge3sigma": 1,
+      "degenerate_single_line_solutions": [
+        {
+          "line": "LyA",
+          "z": 2.408
+        },
+        {
+          "line": "CIV",
+          "z": 1.675
+        },
+        {
+          "line": "CIII]",
+          "z": 1.171
+        },
+        {
+          "line": "MgII",
+          "z": 0.481
+        },
+        {
+          "line": "[OII]",
+          "z": 0.112
+        },
+        {
+          "line": "[OIII]5007",
+          "z": -0.172
+        },
+        {
+          "line": "Ha",
+          "z": -0.369
+        }
+      ]
+    },
+    {
+      "pair_id": "NGC7603-NGC7603B",
+      "where": "host_field",
+      "plate_mjd_fiber": "8763/57309/940",
+      "class": "GALAXY",
+      "z": 1.389914,
+      "sn": 1.020183,
+      "ra": 349.72865,
+      "dec": 0.23120082,
+      "top_peaks": [
+        [
+          6832.8,
+          3.99
+        ],
+        [
+          8435.3,
+          6.41
+        ],
+        [
+          8900.2,
+          4.77
+        ],
+        [
+          8908.4,
+          6.26
+        ],
+        [
+          8910.5,
+          7.99
+        ],
+        [
+          8912.5,
+          6.36
+        ],
+        [
+          8914.6,
+          4.89
+        ],
+        [
+          9382.1,
+          4.58
+        ],
+        [
+          9718.5,
+          5.07
+        ],
+        [
+          9912.9,
+          4.01
+        ]
+      ],
+      "line_check": [
+        {
+          "line": "CIV",
+          "obs_lambda": 3702.0,
+          "sn": 2.09
+        },
+        {
+          "line": "CIII]",
+          "obs_lambda": 4562.0,
+          "sn": 1.81
+        },
+        {
+          "line": "MgII",
+          "obs_lambda": 6687.0,
+          "sn": 1.52
+        },
+        {
+          "line": "[OII]",
+          "obs_lambda": 8907.0,
+          "sn": 7.99
+        }
+      ],
+      "n_supporting_lines_ge3sigma": 1,
+      "degenerate_single_line_solutions": [
+        {
+          "line": "LyA",
+          "z": 4.619
+        },
+        {
+          "line": "CIV",
+          "z": 3.411
+        },
+        {
+          "line": "CIII]",
+          "z": 2.579
+        },
+        {
+          "line": "MgII",
+          "z": 1.442
+        },
+        {
+          "line": "[OII]",
+          "z": 0.833
+        },
+        {
+          "line": "[OIII]5007",
+          "z": 0.365
+        },
+        {
+          "line": "Ha",
+          "z": 0.041
+        }
+      ]
+    },
+    {
+      "pair_id": "NGC2639-QSOs",
+      "where": "host_field",
+      "plate_mjd_fiber": "7311/57038/939",
+      "class": "QSO",
+      "z": 2.764368,
+      "sn": 0.6803145,
+      "ra": 130.98103,
+      "dec": 50.207559,
+      "top_peaks": [
+        [
+          4570.9,
+          3.34
+        ],
+        [
+          4574.0,
+          3.37
+        ],
+        [
+          4575.1,
+          3.89
+        ],
+        [
+          4576.1,
+          3.02
+        ],
+        [
+          4577.2,
+          4.62
+        ],
+        [
+          4578.3,
+          4.26
+        ],
+        [
+          4579.3,
+          3.32
+        ],
+        [
+          5713.5,
+          3.06
+        ],
+        [
+          6287.8,
+          3.04
+        ],
+        [
+          9698.4,
+          3.18
+        ]
+      ],
+      "line_check": [
+        {
+          "line": "LyA",
+          "obs_lambda": 4577.0,
+          "sn": 4.62
+        },
+        {
+          "line": "NV",
+          "obs_lambda": 4668.0,
+          "sn": 2.51
+        },
+        {
+          "line": "SiIV/OIV]",
+          "obs_lambda": 5259.0,
+          "sn": 1.58
+        },
+        {
+          "line": "CIV",
+          "obs_lambda": 5831.0,
+          "sn": 2.54
+        },
+        {
+          "line": "CIII]",
+          "obs_lambda": 7186.0,
+          "sn": 2.05
+        }
+      ],
+      "n_supporting_lines_ge3sigma": 1,
+      "degenerate_single_line_solutions": [
+        {
+          "line": "LyA",
+          "z": 2.759
+        },
+        {
+          "line": "CIV",
+          "z": 1.951
+        },
+        {
+          "line": "CIII]",
+          "z": 1.394
+        },
+        {
+          "line": "MgII",
+          "z": 0.634
+        },
+        {
+          "line": "[OII]",
+          "z": 0.226
+        },
+        {
+          "line": "[OIII]5007",
+          "z": -0.087
+        },
+        {
+          "line": "Ha",
+          "z": -0.304
+        }
+      ]
+    }
+  ],
+  "coordinate_redshift_discrepancies": [
+    {
+      "pair_id": "NGC3628-XQSO",
+      "object_at_coord": "[HB89] 1117+137",
+      "catalogue_z": 2.15,
+      "ned_z": 1.498283
+    }
+  ],
+  "jwst_ifu_gap_ngc7319": {
+    "companion_ra": 339.0154,
+    "companion_dec": 33.9733,
+    "nearest_ifu_edge_arcsec": 3.94,
+    "nearest_ifu_obs": "jw02732-c1001_t004_miri_ch4-short",
+    "companion_inside": false
+  },
+  "hst_pointed_spectra_census": {
+    "NGC4319-Mrk205": {
+      "n_science_spectra": 20,
+      "instruments": [
+        "FOS/BL/G130H",
+        "FOS/RD/G190H",
+        "FOS/RD/G270H",
+        "HRS/2/G160M",
+        "HRS/2/G270M",
+        "STIS/E140M",
+        "STIS/FUV-MAMA/E140M"
+      ]
+    },
+    "NGC7603-NGC7603B": {
+      "n_science_spectra": 0,
+      "instruments": []
+    },
+    "NGC3067-3C232": {
+      "n_science_spectra": 37,
+      "instruments": [
+        "COS/FUV/G130M",
+        "COS/FUV/G140L",
+        "COS/FUV/G160M",
+        "COS/G130M",
+        "COS/G130M;G140L;G160M",
+        "COS/G140L;G160M",
+        "FOS/BL/G130H",
+        "FOS/BL/PRISM",
+        "FOS/RD/G190H",
+        "FOS/RD/G270H",
+        "HRS/2/G270M",
+        "STIS/FUV-MAMA/G140L",
+        "STIS/FUV-MAMA/G140M",
+        "STIS/G140L",
+        "STIS/G140M"
+      ]
+    },
+    "NGC7319-QSO": {
+      "n_science_spectra": 0,
+      "instruments": []
+    },
+    "NGC1199-companion": {
+      "n_science_spectra": 0,
+      "instruments": []
+    },
+    "NGC3628-XQSO": {
+      "n_science_spectra": 0,
+      "instruments": []
+    },
+    "NGC1232-NGC1232A": {
+      "n_science_spectra": 0,
+      "instruments": []
+    }
+  },
+  "mrk205_forest_band_audit": {
+    "spectrum": "HSLA E140M coadd (R~45000, 14 orbits)",
+    "band_angstrom": [
+      1217.7,
+      1300.7
+    ],
+    "n_raw_dips_gt4sigma": 22,
+    "n_galactic_ism_masked": 10,
+    "n_excluded_lowcont_or_intrinsic": 7,
+    "intervening_lya_candidates": [
+      {
+        "lam_obs": 1282.64,
+        "z_abs": 0.0551,
+        "resid_sigma": -4.6
+      },
+      {
+        "lam_obs": 1282.73,
+        "z_abs": 0.0552,
+        "resid_sigma": -4.5
+      },
+      {
+        "lam_obs": 1285.55,
+        "z_abs": 0.0575,
+        "resid_sigma": -4.2
+      },
+      {
+        "lam_obs": 1286.44,
+        "z_abs": 0.0582,
+        "resid_sigma": -5.1
+      },
+      {
+        "lam_obs": 1290.58,
+        "z_abs": 0.0616,
+        "resid_sigma": -7.3
+      }
+    ],
+    "n_candidates": 5,
+    "expected_cosmological": 1.5,
+    "verdict": "candidates consistent with low-z IGM incidence after ISM and intrinsic-NAL masking; host-z window is continuum-starved (median SNR ~3) and untestable; non-discriminating"
+  },
+  "ned_d_redshift_independent_distances": {
+    "objects": {
+      "NGC 4319": {
+        "n": 2,
+        "mean_d_mpc": 24.6,
+        "entries": [
+          {
+            "mM": 32.25,
+            "D_mpc": 28.2,
+            "method": "Tully est",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 31.6,
+            "D_mpc": 21.0,
+            "method": "Ring Diameter",
+            "refcode": "1981ApJS...45..541P"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0049,
+        "z_distance_mpc_h70": 21.0
+      },
+      "Markarian 205": {
+        "n": 0,
+        "mean_d_mpc": null,
+        "entries": [],
+        "role": "companion",
+        "literature_z": 0.0708,
+        "z_distance_mpc_h70": 303.2
+      },
+      "NGC 7603": {
+        "n": 0,
+        "mean_d_mpc": null,
+        "entries": [],
+        "role": "host",
+        "literature_z": 0.0288,
+        "z_distance_mpc_h70": 123.3
+      },
+      "NGC 7603B": {
+        "n": 2,
+        "mean_d_mpc": 223.0,
+        "entries": [
+          {
+            "mM": 36.83,
+            "D_mpc": 232.0,
+            "method": "Magnitude",
+            "refcode": "1986ApJ...302..245S"
+          },
+          {
+            "mM": 36.65,
+            "D_mpc": 214.0,
+            "method": "Diameter",
+            "refcode": "1986ApJ...302..245S"
+          }
+        ],
+        "role": "companion",
+        "literature_z": 0.0565,
+        "z_distance_mpc_h70": 242.0
+      },
+      "NGC 3067": {
+        "n": 5,
+        "mean_d_mpc": 20.56,
+        "entries": [
+          {
+            "mM": 31.15,
+            "D_mpc": 17.0,
+            "method": "Tully-Fisher",
+            "refcode": "2009AJ....138..323T"
+          },
+          {
+            "mM": 31.54,
+            "D_mpc": 20.3,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 31.55,
+            "D_mpc": 20.4,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 31.61,
+            "D_mpc": 20.9,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 31.92,
+            "D_mpc": 24.2,
+            "method": "Tully est",
+            "refcode": "1988NBGC.C....0000T"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0049,
+        "z_distance_mpc_h70": 21.0
+      },
+      "3C 232": {
+        "n": 0,
+        "mean_d_mpc": null,
+        "entries": [],
+        "role": "companion",
+        "literature_z": 0.533,
+        "z_distance_mpc_h70": 2282.7
+      },
+      "NGC 1073": {
+        "n": 10,
+        "mean_d_mpc": 7.374,
+        "entries": [
+          {
+            "mM": 27.51,
+            "D_mpc": 3.18,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 27.82,
+            "D_mpc": 3.66,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 27.97,
+            "D_mpc": 3.93,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 28.32,
+            "D_mpc": 4.61,
+            "method": "Tully-Fisher",
+            "refcode": "1986A&amp;A...156..157B"
+          },
+          {
+            "mM": 28.54,
+            "D_mpc": 5.11,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 28.83,
+            "D_mpc": 5.83,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 28.97,
+            "D_mpc": 6.22,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.91,
+            "D_mpc": 15.2,
+            "method": "Tully-Fisher",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 30.4,
+            "D_mpc": 12.0,
+            "method": "Ring Diameter",
+            "refcode": "1981ApJS...45..541P"
+          },
+          {
+            "mM": 30.7,
+            "D_mpc": 14.0,
+            "method": "Ring Diameter",
+            "refcode": "1981ApJS...45..541P"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.004,
+        "z_distance_mpc_h70": 17.1
+      },
+      "NGC 7319": {
+        "n": 7,
+        "mean_d_mpc": 40.114,
+        "entries": [
+          {
+            "mM": 30.75,
+            "D_mpc": 14.1,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 31.04,
+            "D_mpc": 16.1,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 31.19,
+            "D_mpc": 17.3,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 31.19,
+            "D_mpc": 17.3,
+            "method": "Tully-Fisher",
+            "refcode": "1986A&amp;A...156..157B"
+          },
+          {
+            "mM": 34.14,
+            "D_mpc": 67.4,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 34.32,
+            "D_mpc": 73.2,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 34.39,
+            "D_mpc": 75.4,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0225,
+        "z_distance_mpc_h70": 96.4
+      },
+      "NGC 1199": {
+        "n": 19,
+        "mean_d_mpc": 34.311,
+        "entries": [
+          {
+            "mM": 32.57,
+            "D_mpc": 32.7,
+            "method": "SBF",
+            "refcode": "2001MNRAS.327.1004B"
+          },
+          {
+            "mM": 32.6,
+            "D_mpc": 33.1,
+            "method": "SBF",
+            "refcode": "2001ApJ...546..681T"
+          },
+          {
+            "mM": 32.6,
+            "D_mpc": 33.1,
+            "method": "SBF",
+            "refcode": "2001MNRAS.327.1004B"
+          },
+          {
+            "mM": 32.65,
+            "D_mpc": 33.9,
+            "method": "SBF",
+            "refcode": "2013AJ....146...86T"
+          },
+          {
+            "mM": 32.19,
+            "D_mpc": 27.4,
+            "method": "D-Sigma",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 32.33,
+            "D_mpc": 29.3,
+            "method": "D-Sigma",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 33.31,
+            "D_mpc": 45.9,
+            "method": "D-Sigma",
+            "refcode": "1989ApJS...69..763F"
+          },
+          {
+            "mM": 33.53,
+            "D_mpc": 50.7,
+            "method": "D-Sigma",
+            "refcode": "1989ApJS...69..763F"
+          },
+          {
+            "mM": 31.74,
+            "D_mpc": 22.3,
+            "method": "Faber-Jackson",
+            "refcode": "1984ApJS...56...91D"
+          },
+          {
+            "mM": 31.95,
+            "D_mpc": 24.5,
+            "method": "Faber-Jackson",
+            "refcode": "1984ApJS...56...91D"
+          },
+          {
+            "mM": 32.02,
+            "D_mpc": 25.4,
+            "method": "Faber-Jackson",
+            "refcode": "1984ApJS...56...91D"
+          },
+          {
+            "mM": 32.53,
+            "D_mpc": 32.1,
+            "method": "Faber-Jackson",
+            "refcode": "1984ApJS...56...91D"
+          },
+          {
+            "mM": 32.78,
+            "D_mpc": 35.9,
+            "method": "Faber-Jackson",
+            "refcode": "1980AJ.....85..801S"
+          },
+          {
+            "mM": 33.91,
+            "D_mpc": 60.5,
+            "method": "Faber-Jackson",
+            "refcode": "1984ApJS...56...91D"
+          },
+          {
+            "mM": 32.62,
+            "D_mpc": 33.4,
+            "method": "FP",
+            "refcode": "2001MNRAS.327.1004B"
+          },
+          {
+            "mM": 32.69,
+            "D_mpc": 34.6,
+            "method": "FP",
+            "refcode": "2001MNRAS.327.1004B"
+          },
+          {
+            "mM": 33.07,
+            "D_mpc": 41.1,
+            "method": "Tully-Fisher",
+            "refcode": "2007A&amp;A...465...71T"
+          },
+          {
+            "mM": 32.5,
+            "D_mpc": 31.6,
+            "method": "Tully est",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 31.94,
+            "D_mpc": 24.4,
+            "method": "Tertiary",
+            "refcode": "1984ApJS...56...91D"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0086,
+        "z_distance_mpc_h70": 36.8
+      },
+      "NGC 3628": {
+        "n": 23,
+        "mean_d_mpc": 9.806,
+        "entries": [
+          {
+            "mM": 29.13,
+            "D_mpc": 6.7,
+            "method": "Grav. Stability Gas. Disk",
+            "refcode": "1996AstL...22...71Z"
+          },
+          {
+            "mM": 29.08,
+            "D_mpc": 6.55,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 29.11,
+            "D_mpc": 6.64,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.7,
+            "method": "Tully-Fisher",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 29.48,
+            "D_mpc": 7.87,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.9,
+            "method": "Tully-Fisher",
+            "refcode": "1997A&amp;A...326..915T"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.91,
+            "method": "Tully-Fisher",
+            "refcode": "1981ApJ...248..408D"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.91,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 29.68,
+            "D_mpc": 8.63,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 29.68,
+            "D_mpc": 8.63,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 29.87,
+            "D_mpc": 9.4,
+            "method": "Tully-Fisher",
+            "refcode": "1994A&amp;A...283...21S"
+          },
+          {
+            "mM": 29.93,
+            "D_mpc": 9.7,
+            "method": "Tully-Fisher",
+            "refcode": "1994A&amp;A...283...21S"
+          },
+          {
+            "mM": 30.07,
+            "D_mpc": 10.3,
+            "method": "Tully-Fisher",
+            "refcode": "2013AJ....146...86T"
+          },
+          {
+            "mM": 30.11,
+            "D_mpc": 10.5,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 30.13,
+            "D_mpc": 10.6,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...80..479T"
+          },
+          {
+            "mM": 30.14,
+            "D_mpc": 10.7,
+            "method": "Tully-Fisher",
+            "refcode": "2016AJ....152...50T"
+          },
+          {
+            "mM": 30.25,
+            "D_mpc": 11.2,
+            "method": "Tully-Fisher",
+            "refcode": "1997A&amp;A...326..915T"
+          },
+          {
+            "mM": 30.26,
+            "D_mpc": 11.3,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 30.32,
+            "D_mpc": 11.6,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 30.52,
+            "D_mpc": 12.7,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 30.59,
+            "D_mpc": 13.1,
+            "method": "Tully-Fisher",
+            "refcode": "2000A&amp;A...355..835E"
+          },
+          {
+            "mM": 30.7,
+            "D_mpc": 13.8,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 30.76,
+            "D_mpc": 14.2,
+            "method": "IRAS",
+            "refcode": "1997ApJS..109..333W"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0028,
+        "z_distance_mpc_h70": 12.0
+      },
+      "NGC 4258": {
+        "n": 95,
+        "mean_d_mpc": 7.271,
+        "entries": [
+          {
+            "mM": 29.12,
+            "D_mpc": 6.67,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...684..102B"
+          },
+          {
+            "mM": 29.15,
+            "D_mpc": 6.76,
+            "method": "Cepheids",
+            "refcode": "2010ApJ...715..277B"
+          },
+          {
+            "mM": 29.18,
+            "D_mpc": 6.85,
+            "method": "Cepheids",
+            "refcode": "2010ApJ...715..277B"
+          },
+          {
+            "mM": 29.18,
+            "D_mpc": 6.85,
+            "method": "Cepheids",
+            "refcode": "2015AJ....149..183H"
+          },
+          {
+            "mM": 29.21,
+            "D_mpc": 6.95,
+            "method": "Cepheids",
+            "refcode": "2007AJ....133.1810B"
+          },
+          {
+            "mM": 29.22,
+            "D_mpc": 6.98,
+            "method": "Cepheids",
+            "refcode": "2007MNRAS.379..723V"
+          },
+          {
+            "mM": 29.22,
+            "D_mpc": 6.98,
+            "method": "Cepheids",
+            "refcode": "2007MNRAS.379..723V"
+          },
+          {
+            "mM": 29.24,
+            "D_mpc": 7.05,
+            "method": "Cepheids",
+            "refcode": "2014MNRAS.440.1138E"
+          },
+          {
+            "mM": 29.26,
+            "D_mpc": 7.11,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...689..721M"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "Cepheids",
+            "refcode": "2007AJ....133.1810B"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "Cepheids",
+            "refcode": "2007ApJ...671.1640A"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...689..721M"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "Cepheids",
+            "refcode": "2008MNRAS.390.1762D"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "Cepheids",
+            "refcode": "2013MNRAS.430..546D"
+          },
+          {
+            "mM": 29.29,
+            "D_mpc": 7.21,
+            "method": "Cepheids",
+            "refcode": "2006ApJ...652.1133M"
+          },
+          {
+            "mM": 29.29,
+            "D_mpc": 7.21,
+            "method": "Cepheids",
+            "refcode": "2014MNRAS.440.1138E"
+          },
+          {
+            "mM": 29.31,
+            "D_mpc": 7.28,
+            "method": "Cepheids",
+            "refcode": "2003ApJ...586..959N"
+          },
+          {
+            "mM": 29.32,
+            "D_mpc": 7.3,
+            "method": "Cepheids",
+            "refcode": "2002ApJ...566..833C"
+          },
+          {
+            "mM": 29.35,
+            "D_mpc": 7.4,
+            "method": "Cepheids",
+            "refcode": "2013MNRAS.434.2866F"
+          },
+          {
+            "mM": 29.35,
+            "D_mpc": 7.41,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...684..102B"
+          },
+          {
+            "mM": 29.37,
+            "D_mpc": 7.48,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.38,
+            "D_mpc": 7.51,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.38,
+            "D_mpc": 7.53,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.38,
+            "D_mpc": 7.53,
+            "method": "Cepheids",
+            "refcode": "2003ApJ...586..959N"
+          },
+          {
+            "mM": 29.39,
+            "D_mpc": 7.56,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...553..562N"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "Cepheids",
+            "refcode": "2010ApJ...715..277B"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "Cepheids",
+            "refcode": "2015MNRAS.450.3597F"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "Cepheids",
+            "refcode": "2015MNRAS.450.3597F"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.71,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.73,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...553...47F"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.73,
+            "method": "Cepheids",
+            "refcode": "2003A&amp;A...411..361K"
+          },
+          {
+            "mM": 29.45,
+            "D_mpc": 7.76,
+            "method": "Cepheids",
+            "refcode": "2002A&amp;A...389...19P"
+          },
+          {
+            "mM": 29.45,
+            "D_mpc": 7.76,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...689..721M"
+          },
+          {
+            "mM": 29.46,
+            "D_mpc": 7.8,
+            "method": "Cepheids",
+            "refcode": "2008ApJ...684..102B"
+          },
+          {
+            "mM": 29.47,
+            "D_mpc": 7.8,
+            "method": "Cepheids",
+            "refcode": "2002ApJ...566..833C"
+          },
+          {
+            "mM": 29.47,
+            "D_mpc": 7.83,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...553..562N"
+          },
+          {
+            "mM": 29.48,
+            "D_mpc": 7.87,
+            "method": "Cepheids",
+            "refcode": "2002A&amp;A...389...19P"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.9,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...548..564W"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.91,
+            "method": "Cepheids",
+            "refcode": "2004MNRAS.349.1130N"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.91,
+            "method": "Cepheids",
+            "refcode": "2010ApJ...715..277B"
+          },
+          {
+            "mM": 29.49,
+            "D_mpc": 7.91,
+            "method": "Cepheids",
+            "refcode": "2011ApJ...743..176G"
+          },
+          {
+            "mM": 29.51,
+            "D_mpc": 7.98,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...553...47F"
+          },
+          {
+            "mM": 29.51,
+            "D_mpc": 7.98,
+            "method": "Cepheids",
+            "refcode": "2001ApJ...553..562N"
+          },
+          {
+            "mM": 29.53,
+            "D_mpc": 8.05,
+            "method": "Cepheids",
+            "refcode": "2002A&amp;A...383..398P"
+          },
+          {
+            "mM": 29.53,
+            "D_mpc": 8.05,
+            "method": "Cepheids",
+            "refcode": "2002A&amp;A...389...19P"
+          },
+          {
+            "mM": 29.54,
+            "D_mpc": 8.1,
+            "method": "Cepheids",
+            "refcode": "1999Natur.401..351M"
+          },
+          {
+            "mM": 29.63,
+            "D_mpc": 8.43,
+            "method": "Cepheids",
+            "refcode": "2006ApJS..165..108S"
+          },
+          {
+            "mM": 29.81,
+            "D_mpc": 9.16,
+            "method": "Cepheids",
+            "refcode": "2006A&amp;A...452..423P"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.73,
+            "method": "Miras",
+            "refcode": "2018ApJ...857...67H"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.59,
+            "method": "PNLF",
+            "refcode": "2002ApJ...577...31C"
+          },
+          {
+            "mM": 29.31,
+            "D_mpc": 7.28,
+            "method": "SBF",
+            "refcode": "2001ApJ...546..681T"
+          },
+          {
+            "mM": 29.17,
+            "D_mpc": 6.82,
+            "method": "TRGB",
+            "refcode": "2018ApJS..235...23S"
+          },
+          {
+            "mM": 29.17,
+            "D_mpc": 6.82,
+            "method": "TRGB",
+            "refcode": "2018ApJS..235...23S"
+          },
+          {
+            "mM": 29.24,
+            "D_mpc": 7.05,
+            "method": "TRGB",
+            "refcode": "2008ApJ...689..721M"
+          },
+          {
+            "mM": 29.28,
+            "D_mpc": 7.18,
+            "method": "TRGB",
+            "refcode": "2008ApJ...689..721M"
+          },
+          {
+            "mM": 29.32,
+            "D_mpc": 7.31,
+            "method": "TRGB",
+            "refcode": "2005ApJ...633..810M"
+          },
+          {
+            "mM": 29.37,
+            "D_mpc": 7.47,
+            "method": "TRGB",
+            "refcode": "2017ApJ...835...28J"
+          },
+          {
+            "mM": 29.42,
+            "D_mpc": 7.66,
+            "method": "TRGB",
+            "refcode": "2007ApJ...661..815R"
+          },
+          {
+            "mM": 29.44,
+            "D_mpc": 7.73,
+            "method": "TRGB",
+            "refcode": "2009ApJ...690..389M"
+          },
+          {
+            "mM": 28.66,
+            "D_mpc": 5.4,
+            "method": "Maser",
+            "refcode": "1995ApJ...440..619G"
+          },
+          {
+            "mM": 29.03,
+            "D_mpc": 6.4,
+            "method": "Maser",
+            "refcode": "1995Natur.373..127M"
+          },
+          {
+            "mM": 29.29,
+            "D_mpc": 7.2,
+            "method": "Maser",
+            "refcode": "1999Natur.400..539H"
+          },
+          {
+            "mM": 29.29,
+            "D_mpc": 7.2,
+            "method": "Maser",
+            "refcode": "2008ApJ...672..800H"
+          },
+          {
+            "mM": 29.31,
+            "D_mpc": 7.28,
+            "method": "Maser",
+            "refcode": "2012ApJ...752...76R"
+          },
+          {
+            "mM": 29.39,
+            "D_mpc": 7.54,
+            "method": "Maser",
+            "refcode": "2016ApJ...826...56R"
+          },
+          {
+            "mM": 29.4,
+            "D_mpc": 7.6,
+            "method": "Maser",
+            "refcode": "2013ApJ...775...13H"
+          },
+          {
+            "mM": 29.16,
+            "D_mpc": 6.79,
+            "method": "SNII optical",
+            "refcode": "2015A&amp;A...580L..15P"
+          },
+          {
+            "mM": 29.25,
+            "D_mpc": 7.08,
+            "method": "SNII optical",
+            "refcode": "2015A&amp;A...580L..15P"
+          },
+          {
+            "mM": 29.25,
+            "D_mpc": 7.08,
+            "method": "SNII optical",
+            "refcode": "2015A&amp;A...580L..15P"
+          },
+          {
+            "mM": 29.37,
+            "D_mpc": 7.48,
+            "method": "SNII optical",
+            "refcode": "2015A&amp;A...580L..15P"
+          },
+          {
+            "mM": 29.73,
+            "D_mpc": 8.83,
+            "method": "SNII optical",
+            "refcode": "2015A&amp;A...580L..15P"
+          },
+          {
+            "mM": 29.64,
+            "D_mpc": 8.47,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;A...132..253R"
+          },
+          {
+            "mM": 29.48,
+            "D_mpc": 7.87,
+            "method": "Sosies",
+            "refcode": "2002A&amp;A...393...57T"
+          },
+          {
+            "mM": 29.32,
+            "D_mpc": 7.31,
+            "method": "Statistical",
+            "refcode": "2013AJ....146...86T"
+          },
+          {
+            "mM": 28.36,
+            "D_mpc": 4.7,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 28.49,
+            "D_mpc": 4.99,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 28.56,
+            "D_mpc": 5.15,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;A...153..125G"
+          },
+          {
+            "mM": 28.56,
+            "D_mpc": 5.15,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 28.56,
+            "D_mpc": 5.15,
+            "method": "Tully-Fisher",
+            "refcode": "1986A&amp;A...156..157B"
+          },
+          {
+            "mM": 29.13,
+            "D_mpc": 6.7,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...80..479T"
+          },
+          {
+            "mM": 29.15,
+            "D_mpc": 6.8,
+            "method": "Tully-Fisher",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 29.19,
+            "D_mpc": 6.9,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 29.25,
+            "D_mpc": 7.08,
+            "method": "Tully-Fisher",
+            "refcode": "2016AJ....152...50T"
+          },
+          {
+            "mM": 29.26,
+            "D_mpc": 7.11,
+            "method": "Tully-Fisher",
+            "refcode": "2009AJ....138..323T"
+          },
+          {
+            "mM": 29.29,
+            "D_mpc": 7.2,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 29.39,
+            "D_mpc": 7.55,
+            "method": "Tully-Fisher",
+            "refcode": "2002ApJ...565..681R"
+          },
+          {
+            "mM": 29.42,
+            "D_mpc": 7.64,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 29.47,
+            "D_mpc": 7.83,
+            "method": "Tully-Fisher",
+            "refcode": "2002ApJ...565..681R"
+          },
+          {
+            "mM": 29.6,
+            "D_mpc": 8.32,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 29.8,
+            "D_mpc": 9.13,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 27.72,
+            "D_mpc": 3.5,
+            "method": "HII region diameter",
+            "refcode": "1993A&amp;A...268..419C"
+          },
+          {
+            "mM": 29.89,
+            "D_mpc": 9.49,
+            "method": "IRAS",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 27.59,
+            "D_mpc": 3.3,
+            "method": "SNII radio",
+            "refcode": "1998ApJ...500...51W"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0015,
+        "z_distance_mpc_h70": 6.4
+      },
+      "NGC 2639": {
+        "n": 0,
+        "mean_d_mpc": null,
+        "entries": [],
+        "role": "host",
+        "literature_z": 0.0112,
+        "z_distance_mpc_h70": 48.0
+      },
+      "NGC 1097": {
+        "n": 32,
+        "mean_d_mpc": 17.16,
+        "entries": [
+          {
+            "mM": 31.91,
+            "D_mpc": 24.1,
+            "method": "SNII optical",
+            "refcode": "2017ApJ...841..127M"
+          },
+          {
+            "mM": 31.97,
+            "D_mpc": 24.8,
+            "method": "SNII optical",
+            "refcode": "2014AJ....148..107R"
+          },
+          {
+            "mM": 31.98,
+            "D_mpc": 24.9,
+            "method": "SNII optical",
+            "refcode": "2014AJ....148..107R"
+          },
+          {
+            "mM": 32.15,
+            "D_mpc": 26.9,
+            "method": "SNII optical",
+            "refcode": "2010ApJ...715..833O"
+          },
+          {
+            "mM": 32.18,
+            "D_mpc": 27.3,
+            "method": "SNII optical",
+            "refcode": "2010ApJ...715..833O"
+          },
+          {
+            "mM": 32.18,
+            "D_mpc": 27.3,
+            "method": "SNII optical",
+            "refcode": "2010ApJ...715..833O"
+          },
+          {
+            "mM": 32.21,
+            "D_mpc": 27.7,
+            "method": "SNII optical",
+            "refcode": "2010ApJ...715..833O"
+          },
+          {
+            "mM": 31.15,
+            "D_mpc": 17.0,
+            "method": "CO ring diameter",
+            "refcode": "1991PASJ...43..671S"
+          },
+          {
+            "mM": 29.89,
+            "D_mpc": 9.51,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.02,
+            "D_mpc": 10.1,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;A...153..125G"
+          },
+          {
+            "mM": 30.04,
+            "D_mpc": 10.2,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.13,
+            "D_mpc": 10.6,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.24,
+            "D_mpc": 11.2,
+            "method": "Tully-Fisher",
+            "refcode": "1981ApJ...248..408D"
+          },
+          {
+            "mM": 30.26,
+            "D_mpc": 11.3,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.27,
+            "D_mpc": 11.3,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.33,
+            "D_mpc": 11.6,
+            "method": "Tully-Fisher",
+            "refcode": "1986A&amp;A...156..157B"
+          },
+          {
+            "mM": 30.38,
+            "D_mpc": 11.9,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.76,
+            "D_mpc": 14.2,
+            "method": "Tully-Fisher",
+            "refcode": "2009AJ....138..323T"
+          },
+          {
+            "mM": 30.76,
+            "D_mpc": 14.2,
+            "method": "Tully-Fisher",
+            "refcode": "2011A&amp;A...532A.104N"
+          },
+          {
+            "mM": 30.81,
+            "D_mpc": 14.5,
+            "method": "Tully-Fisher",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 30.91,
+            "D_mpc": 15.2,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 30.91,
+            "D_mpc": 15.2,
+            "method": "Tully-Fisher",
+            "refcode": "2014MNRAS.444..527S"
+          },
+          {
+            "mM": 30.94,
+            "D_mpc": 15.4,
+            "method": "Tully-Fisher",
+            "refcode": "2016AJ....152...50T"
+          },
+          {
+            "mM": 31.0,
+            "D_mpc": 15.9,
+            "method": "Tully-Fisher",
+            "refcode": "2009ApJS..182..474S"
+          },
+          {
+            "mM": 31.02,
+            "D_mpc": 16.0,
+            "method": "Tully-Fisher",
+            "refcode": "2013AJ....146...86T"
+          },
+          {
+            "mM": 31.13,
+            "D_mpc": 16.8,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...80..479T"
+          },
+          {
+            "mM": 31.16,
+            "D_mpc": 17.0,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.4,
+            "D_mpc": 19.1,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.52,
+            "D_mpc": 20.1,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...81..413M"
+          },
+          {
+            "mM": 31.52,
+            "D_mpc": 20.1,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.61,
+            "D_mpc": 21.0,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...81..413M"
+          },
+          {
+            "mM": 31.12,
+            "D_mpc": 16.7,
+            "method": "IRAS",
+            "refcode": "1997ApJS..109..333W"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0042,
+        "z_distance_mpc_h70": 18.0
+      },
+      "NGC 1232": {
+        "n": 19,
+        "mean_d_mpc": 15.432,
+        "entries": [
+          {
+            "mM": 31.14,
+            "D_mpc": 16.9,
+            "method": "Sosies",
+            "refcode": "2002A&amp;A...393...57T"
+          },
+          {
+            "mM": 30.0,
+            "D_mpc": 10.0,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.11,
+            "D_mpc": 10.5,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.27,
+            "D_mpc": 11.3,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.39,
+            "D_mpc": 12.0,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.41,
+            "D_mpc": 12.1,
+            "method": "Tully-Fisher",
+            "refcode": "1985A&amp;AS...59...43B"
+          },
+          {
+            "mM": 30.5,
+            "D_mpc": 12.6,
+            "method": "Tully-Fisher",
+            "refcode": "1986A&amp;A...156..157B"
+          },
+          {
+            "mM": 30.53,
+            "D_mpc": 12.8,
+            "method": "Tully-Fisher",
+            "refcode": "1984A&amp;AS...56..381B"
+          },
+          {
+            "mM": 30.81,
+            "D_mpc": 14.5,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...81..413M"
+          },
+          {
+            "mM": 30.81,
+            "D_mpc": 14.5,
+            "method": "Tully-Fisher",
+            "refcode": "2009AJ....138..323T"
+          },
+          {
+            "mM": 30.81,
+            "D_mpc": 14.5,
+            "method": "Tully-Fisher",
+            "refcode": "2011A&amp;A...532A.104N"
+          },
+          {
+            "mM": 30.87,
+            "D_mpc": 14.9,
+            "method": "Tully-Fisher",
+            "refcode": "1992ApJS...81..413M"
+          },
+          {
+            "mM": 31.06,
+            "D_mpc": 16.3,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.3,
+            "D_mpc": 18.2,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.36,
+            "D_mpc": 18.7,
+            "method": "Tully-Fisher",
+            "refcode": "1997ApJS..109..333W"
+          },
+          {
+            "mM": 31.38,
+            "D_mpc": 18.9,
+            "method": "Tully-Fisher",
+            "refcode": "2002ApJ...565..681R"
+          },
+          {
+            "mM": 31.5,
+            "D_mpc": 20.0,
+            "method": "Tully-Fisher",
+            "refcode": "1988NBGC.C....0000T"
+          },
+          {
+            "mM": 31.71,
+            "D_mpc": 22.0,
+            "method": "Tully-Fisher",
+            "refcode": "2009ApJS..182..474S"
+          },
+          {
+            "mM": 31.76,
+            "D_mpc": 22.5,
+            "method": "IRAS",
+            "refcode": "1997ApJS..109..333W"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0053,
+        "z_distance_mpc_h70": 22.7
+      },
+      "NGC 1232A": {
+        "n": 1,
+        "mean_d_mpc": 21.1,
+        "entries": [
+          {
+            "mM": 31.62,
+            "D_mpc": 21.1,
+            "method": "Tully est",
+            "refcode": "1988NBGC.C....0000T"
+          }
+        ],
+        "role": "companion",
+        "literature_z": 0.022,
+        "z_distance_mpc_h70": 94.2
+      },
+      "NGC 3516": {
+        "n": 4,
+        "mean_d_mpc": 51.5,
+        "entries": [
+          {
+            "mM": 34.0,
+            "D_mpc": 63.0,
+            "method": "AGN time lag",
+            "refcode": "2007MNRAS.380..669C"
+          },
+          {
+            "mM": 34.1,
+            "D_mpc": 66.1,
+            "method": "AGN time lag",
+            "refcode": "2014ApJ...784L..11Y"
+          },
+          {
+            "mM": 32.9,
+            "D_mpc": 38.0,
+            "method": "Tully-Fisher",
+            "refcode": "2016ApJ...822...69D"
+          },
+          {
+            "mM": 32.95,
+            "D_mpc": 38.9,
+            "method": "Tully est",
+            "refcode": "1988NBGC.C....0000T"
+          }
+        ],
+        "role": "host",
+        "literature_z": 0.0088,
+        "z_distance_mpc_h70": 37.7
+      }
+    }
+  },
+  "fermi_4fgl_crossmatch": {
+    "catalog": "4FGL-DR4 (VizieR J/ApJS/270/27)",
+    "radius_arcmin": 10.0,
+    "detections": {
+      "NGC4319-Mrk205": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC7603-NGC7603B": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC3067-3C232": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC7319-QSO": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC1199-companion": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC3628-XQSO": {
+        "n_4fgl_within_10arcmin": 0
+      },
+      "NGC1232-NGC1232A": {
+        "n_4fgl_within_10arcmin": 0
+      }
+    }
+  },
+  "alma_overlap_census": {
+    "radius_arcmin": 0.5,
+    "fields": {
+      "NGC7319-companion": {
+        "n_entries": 32,
+        "bands": [
+          "3",
+          "6"
+        ],
+        "programs": [
+          "uid://A001/X12f/X244",
+          "uid://A001/X12f/X248",
+          "uid://A001/X33e/Xa7.",
+          "uid://A001/X33e/Xab.",
+          "uid://A001/X3621/X38",
+          "uid://A001/X362b/X17",
+          "uid://A001/X362b/X18"
+        ]
+      },
+      "NGC7603-host": {
+        "n_entries": 4,
+        "bands": [
+          "3"
+        ],
+        "programs": [
+          "uid://A001/X2d20/X10"
+        ]
+      },
+      "NGC7603B": {
+        "n_entries": 0
+      }
+    }
+  },
+  "interpretation": "Per-companion record of where the survey chain preserves or erases discordant objects. 'absorbed_into_host_deblend' means the companion is not a photometric object in SDSS at all and therefore could never have been targeted; low-S/N stamped spectra are cases where the pipeline assigns class+z at zWarning=0 on a single degenerate feature. Coordinate-redshift discrepancies flag catalogue entries whose stored companion redshift does not match the object at the stored position \u2014 flagged, never silently corrected."
+}

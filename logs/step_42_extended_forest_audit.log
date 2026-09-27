@@ -1,0 +1,9 @@
+[13:22:12] [INFO] 2MRS galaxies with z<0.05: 23205
+[13:22:14] [SUCCESS] Step 45 complete: DESI 625 unique forests (632 projection rows) (0 anomalies), 18 unspectroscopied UVX, 30 strong mis-z
+[13:22:15] [SUCCESS] step_45 completed in 3.1s
+[13:22:15] [INFO] 
+[13:22:15] [INFO] ================================================================================
+[13:22:15] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 3.1s total
+[13:22:15] [INFO] ================================================================================
+[13:22:15] [INFO] 
+[13:22:16] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

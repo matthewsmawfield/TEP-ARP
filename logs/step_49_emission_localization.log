@@ -1,0 +1,18 @@
+[17:16:39] [INFO] Step 49: emission localization + enclosure ledger
+[17:16:41] [INFO] flagship stack: trace x2367, noise 2.56/row
+[17:16:41] [INFO]   Lya+NV blend: FWHM 4205 km/s (detected, A/N=3.3)
+[17:16:41] [INFO]   NV: FWHM 1029 km/s (detected, A/N=4.7)
+[17:16:41] [INFO]   SiIV-OIV]: FWHM 2833 km/s (marginal, A/N=2.1)
+[17:16:41] [INFO]   CIV: FWHM 3155 km/s (detected, A/N=4.5)
+[17:16:41] [INFO]   HeII: FWHM 916 km/s (marginal, A/N=1.0)
+[17:16:41] [INFO]   OIII]: FWHM 441 km/s (marginal, A/N=1.0)
+[17:16:41] [INFO] flagship C IV sigma = 3155 km/s
+[17:16:41] [INFO] flagship: du=1.114, lapse surface 1.49 R_S (photon sphere=True), escape bound 9.03e+03 R_S, unity wall 4.8 R_S
+[17:16:41] [INFO] Step 49 complete: emission localization ledger
+[17:16:41] [SUCCESS] step_49 completed in 2.4s
+[17:16:41] [INFO] 
+[17:16:41] [INFO] ================================================================================
+[17:16:41] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 2.4s total
+[17:16:41] [INFO] ================================================================================
+[17:16:41] [INFO] 
+[17:16:42] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

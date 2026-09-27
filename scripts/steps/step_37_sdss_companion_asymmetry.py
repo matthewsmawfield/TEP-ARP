@@ -7,8 +7,12 @@ Scales the Arp-Sulentic companion redshift-excess test (step 25,
 limited group catalogue (VizieR J/A+A/602/A100): ~5.9e5 galaxies
 in ~9e4 groups.  Under the symmetric-bound-satellite null the
 distribution of dV = cz_sat - cz_cen is sign-symmetric; under the
-TEP proper-time-well picture companions sitting in shallower wells
-than their dominant galaxy carry systematically positive offsets.
+TEP proper-time-well picture companions whose effective clock
+depths exceed their dominant galaxy's carry systematically
+positive offsets: at a shared distance the pair ratio is
+(1+z_sat)/(1+z_cen) = A_cen/A_sat, so positive offsets select the
+deeper-well emitters, against the shared ambient term that
+favours the central.
 
 This is the test the discordant-pair catalogue cannot be accused of
 selecting: group membership here is assigned by a FoF algorithm
@@ -52,8 +56,9 @@ Controls implemented, none assumed:
      would produce.
 
   6. Amplitude scaling.  Under TEP the companion offset is the
-     depth of the emitter's own well, so the asymmetry amplitude
-     should scale with satellite luminosity (compactness proxy).
+     pair difference of emitter well depths, so the asymmetry
+     amplitude should scale with satellite luminosity (compactness
+     proxy) relative to the reference central.
      f_+ and mean signed dV are measured in absolute-magnitude
      and central-relative-magnitude bins.
 

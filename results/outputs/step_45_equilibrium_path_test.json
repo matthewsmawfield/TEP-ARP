@@ -1,0 +1,13 @@
+{
+    "results": [
+        {
+            "name": "QSO B1117+136 (NGC 3628)",
+            "z_qso": 2.411,
+            "mg2_systems": 0,
+            "mg2_redshifts": [],
+            "alpha_nu": -0.20949782653954063,
+            "is_reddened": false,
+            "is_local_consistent": true
+        }
+    ]
+}

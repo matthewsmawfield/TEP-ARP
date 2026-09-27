@@ -1,0 +1,12 @@
+pair_id,channel,quantity,literature_value,archive_value,published_value,status
+NGC3628-XQSO,redshift_dependent,a_int,0.3183561904761905,0.40140448460002337,0.4014044846000233,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,delta_phi,1.1445844272041887,0.91278567028564,0.91278567028564,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,z_intrinsic,2.141135715012235,1.4912526849231464,1.4912526849231464,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,v_intrinsic_doppler_kms,641896.3389151054,447066.3079122096,447066.3079122096,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,distance_inflation_factor,446.191036578893,361.0365565667098,361.0365565667098,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,fictitious_distance_gap_mpc,5377.124264065144,4348.608002403578,4348.608002403578,recomputed_at_archive
+NGC3628-XQSO,redshift_dependent,fictitious_lookback_gap_gyr,10.423164978079809,9.222777071067233,9.222777071067233,recomputed_at_archive
+NGC3628-XQSO,chance_alignment,p_chance,0.6395460641317638,0.6395460641317638,0.6395460641317638,invariant
+NGC3628-XQSO,member_ordering,ordering_pairs,0.0,0.0,0.0,invariant_no_entries_nmembers_1
+NGC3628-XQSO,physical_scale,projected_separation_kpc,12.955032917133536,12.955032917133536,12.955032917133536,invariant_host_distance
+NGC3628-XQSO,verdict,discordance,0.3183561904761905,0.40140448460002337,0.40140448460002337,discordant_either_value

@@ -65,10 +65,12 @@ abstract: >
   residual diagnostics, each well confined to a projected width below $1.2$
   kpc of its emitter. All tests are aggregated into a single falsification
   table opposing the TEP spatial-proximity hypothesis against chance
-  superposition. The audit also identifies the observation that would settle
-  the question for the flagship system: a single blue-arm echelle exposure on
-  the $z = 2.114$ companion of NGC 7319 would deliver the decisive $z > 2$
-  forest sightline. The surviving discordant systems emerge not as anomalous
+  superposition. A forensic re-reduction of the raw 2003 Keck/LRIS frames
+  reproduces the published $z = 2.114$ spectrum of the NGC 7319 companion at
+  its recorded wavelengths. The audit also identifies the observation that
+  would settle the question for the flagship system: a single blue-arm echelle
+  exposure on the $z = 2.114$ companion of NGC 7319 would deliver the decisive
+  $z > 2$ forest sightline. The surviving discordant systems emerge not as anomalous
   background coincidences but as candidate naturally occurring
   differential-clock experiments; if co-distance is confirmed in the surviving
   high-$z$ systems, their redshift ratios become a direct measurement of the
@@ -85,7 +87,7 @@ keywords:
 - Markarian 205
 - NGC 7603
 license: CC-BY-4.0
-version: v0.2 (Pasadena)
+version: v0.3 (Pasadena)
 date-released: 2026-09-25
 date-published: 2026-09-24
 doi: 10.5281/zenodo.22938153
@@ -93,7 +95,7 @@ repository-code: https://github.com/matthewsmawfield/TEP-ARP
 url: https://mlsmawfield.com/tep/arp
 preferred-citation:
   type: article
-  title: 'Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs (Pasadena v0.2)'
+  title: 'Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs (Pasadena v0.3)'
   authors:
   - family-names: Smawfield
     given-names: Matthew Lukin

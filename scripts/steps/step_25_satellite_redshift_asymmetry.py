@@ -26,11 +26,15 @@ assigned symmetrically about the nest's systemic velocity, not
 about the dominant galaxy, so no construction bias toward
 positive offsets is built in; nonetheless any residual survey
 selection (e.g. completeness behind bright hosts) is recorded,
-not assumed away.  Under TEP a younger companion population
-embedded in shallower temporal wells produces systematically
-positive offsets; under the standard picture bound-group
-satellites are isotropically distributed and the sign split is
-even.
+not assumed away.  Under TEP the companions whose effective
+clock depths exceed the dominant galaxy's produce
+systematically positive offsets: at a shared distance the pair
+ratio is (1+z_sat)/(1+z_cen) = A_cen/A_sat, so positive
+offsets select the deeper-well emitters (the compact members
+of the satellite population, against the shared ambient term
+that favours the central); under the standard picture
+bound-group satellites are isotropically distributed and the
+sign split is even.
 
 This step requires network access to VizieR and fails loudly if
 the catalogue is unreachable.

@@ -1,16 +1,16 @@
-[06:08:25] [PROCESS] Computing gravitational-lensing magnification budget...
-[06:08:25] [SUCCESS] Saved lensing budget: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/lens_magnification_budget.csv (36 pair-rows)
-[06:08:25] [TEST] sigma_v=250.0 km/s, alpha=1.5: joint P = 7.749e-14 (baseline 6.459e-14, x1.200)
-[06:08:25] [TEST] sigma_v=250.0 km/s, alpha=2.0: joint P = 9.295e-14 (baseline 6.459e-14, x1.439)
-[06:08:25] [TEST] sigma_v=250.0 km/s, alpha=2.5: joint P = 1.115e-13 (baseline 6.459e-14, x1.726)
-[06:08:25] [TEST] sigma_v=300.0 km/s, alpha=1.5: joint P = 8.470e-14 (baseline 6.459e-14, x1.311)
-[06:08:25] [TEST] sigma_v=300.0 km/s, alpha=2.0: joint P = 1.111e-13 (baseline 6.459e-14, x1.719)
-[06:08:25] [TEST] sigma_v=300.0 km/s, alpha=2.5: joint P = 1.456e-13 (baseline 6.459e-14, x2.254)
-[06:08:25] [TEST] sigma_v=400.0 km/s, alpha=1.5: joint P = 1.103e-13 (baseline 6.459e-14, x1.708)
-[06:08:25] [TEST] sigma_v=400.0 km/s, alpha=2.0: joint P = 1.883e-13 (baseline 6.459e-14, x2.916)
-[06:08:25] [TEST] sigma_v=400.0 km/s, alpha=2.5: joint P = 3.214e-13 (baseline 6.459e-14, x4.976)
-[06:08:25] [TEST] Max magnification bias: mu-1 = 38.40% (NGC7319-QSO, theta=9.3 arcsec)
-[06:08:25] [TEST] Joint P with lensing correction: 1.111e-13 vs uncorrected 6.459e-14 (inflation factor 1.719)
-[06:08:25] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_26_lens_magnification_budget.json
-[06:08:25] [SUCCESS] Lensing magnification budget complete.
-[06:08:25] [SUCCESS] step_26 completed in 0.0s
+[11:28:47] [PROCESS] Computing gravitational-lensing magnification budget...
+[11:28:47] [SUCCESS] Saved lensing budget: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/lens_magnification_budget.csv (36 pair-rows)
+[11:28:47] [TEST] sigma_v=250.0 km/s, alpha=1.5: joint P = 7.749e-14 (baseline 6.459e-14, x1.200)
+[11:28:47] [TEST] sigma_v=250.0 km/s, alpha=2.0: joint P = 9.295e-14 (baseline 6.459e-14, x1.439)
+[11:28:47] [TEST] sigma_v=250.0 km/s, alpha=2.5: joint P = 1.115e-13 (baseline 6.459e-14, x1.726)
+[11:28:47] [TEST] sigma_v=300.0 km/s, alpha=1.5: joint P = 8.470e-14 (baseline 6.459e-14, x1.311)
+[11:28:47] [TEST] sigma_v=300.0 km/s, alpha=2.0: joint P = 1.111e-13 (baseline 6.459e-14, x1.719)
+[11:28:47] [TEST] sigma_v=300.0 km/s, alpha=2.5: joint P = 1.456e-13 (baseline 6.459e-14, x2.254)
+[11:28:47] [TEST] sigma_v=400.0 km/s, alpha=1.5: joint P = 1.103e-13 (baseline 6.459e-14, x1.708)
+[11:28:47] [TEST] sigma_v=400.0 km/s, alpha=2.0: joint P = 1.883e-13 (baseline 6.459e-14, x2.916)
+[11:28:47] [TEST] sigma_v=400.0 km/s, alpha=2.5: joint P = 3.214e-13 (baseline 6.459e-14, x4.976)
+[11:28:47] [TEST] Max magnification bias: mu-1 = 38.40% (NGC7319-QSO, theta=9.3 arcsec)
+[11:28:47] [TEST] Joint P with lensing correction: 1.111e-13 vs uncorrected 6.459e-14 (inflation factor 1.719)
+[11:28:47] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_26_lens_magnification_budget.json
+[11:28:47] [SUCCESS] Lensing magnification budget complete.
+[11:28:47] [SUCCESS] step_26 completed in 0.0s

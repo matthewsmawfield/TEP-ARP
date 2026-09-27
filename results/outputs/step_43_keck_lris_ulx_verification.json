@@ -1,0 +1,247 @@
+{
+  "arc_dispersion_A_per_row": 1.0591464731962201,
+  "arc_offset_A": 3014.0225806799326,
+  "flexure_rows": 44.18326421443362,
+  "flexure_scatter_rows": 3.620163113720471,
+  "flexure_A": 46.796548467014134,
+  "catalogue_line_matches": 9,
+  "calibration_anchors": [
+    {
+      "lam": 3500.0016,
+      "pred_row": 503.02350172522193,
+      "band_row": 501,
+      "implied_shift": 43.726498274778066
+    },
+    {
+      "lam": 3807.60536,
+      "pred_row": 793.4495832772233,
+      "band_row": 790,
+      "implied_shift": 42.30041672277673
+    },
+    {
+      "lam": 3953.3876800000003,
+      "pred_row": 931.0909045574314,
+      "band_row": 937,
+      "implied_shift": 51.65909544256863
+    },
+    {
+      "lam": 4054.3217600000003,
+      "pred_row": 1026.388469676454,
+      "band_row": 1027,
+      "implied_shift": 46.36153032354605
+    },
+    {
+      "lam": 4190.398880000001,
+      "pred_row": 1154.8665635413715,
+      "band_row": 1152,
+      "implied_shift": 42.883436458628466
+    },
+    {
+      "lam": 4434.254800000001,
+      "pred_row": 1385.104709228727,
+      "band_row": 1385,
+      "implied_shift": 45.64529077127304
+    },
+    {
+      "lam": 4457.44512,
+      "pred_row": 1407.0,
+      "band_row": 1407,
+      "implied_shift": 45.75
+    },
+    {
+      "lam": 4568.084400000001,
+      "pred_row": 1511.4607925343137,
+      "band_row": 1518,
+      "implied_shift": 52.28920746568633
+    },
+    {
+      "lam": 5115.04904,
+      "pred_row": 2027.8809986550089,
+      "band_row": 2033,
+      "implied_shift": 50.86900134499115
+    }
+  ],
+  "slit_wide_band_rows": [
+    501,
+    716,
+    727,
+    746,
+    760,
+    777,
+    790,
+    833,
+    847,
+    869,
+    885,
+    902,
+    914,
+    937,
+    961,
+    970,
+    980,
+    993,
+    1020,
+    1027,
+    1040,
+    1059,
+    1070,
+    1085,
+    1102,
+    1121,
+    1134,
+    1152,
+    1162,
+    1188,
+    1196,
+    1214,
+    1222,
+    1232,
+    1251,
+    1267,
+    1278,
+    1294,
+    1306,
+    1307,
+    1328,
+    1342,
+    1355,
+    1364,
+    1373,
+    1385,
+    1397,
+    1407,
+    1422,
+    1447,
+    1450,
+    1473,
+    1485,
+    1493,
+    1518,
+    1538,
+    1554,
+    1564,
+    1581,
+    1590,
+    1684,
+    2033
+  ],
+  "ulx_trace_column": 2367,
+  "lines": {
+    "Lya": {
+      "expected_row": 777.7715251235765,
+      "peak_row": 787,
+      "peak_lam": 3800.774306618344,
+      "peak_flux": 25.142857142857146,
+      "per_frame_peaks": [
+        6.071428571428569,
+        25.07142857142857,
+        56.285714285714285,
+        31.285714285714285
+      ],
+      "n_frames_detected": 3,
+      "status": "detected"
+    },
+    "NV": {
+      "expected_row": 843.8624783311709,
+      "peak_row": 851,
+      "peak_lam": 3868.559680902902,
+      "peak_flux": 36.214285714285715,
+      "per_frame_peaks": [
+        6.428571428571431,
+        38.14285714285714,
+        76.35714285714286,
+        47.07142857142857
+      ],
+      "n_frames_detected": 3,
+      "status": "detected"
+    },
+    "SiIV-OIV]": {
+      "expected_row": 1291.3926471940242,
+      "peak_row": 1279,
+      "peak_lam": 4321.874371430884,
+      "peak_flux": 21.92857142857143,
+      "per_frame_peaks": [
+        4.142857142857139,
+        24.714285714285715,
+        44.142857142857146,
+        23.214285714285715
+      ],
+      "n_frames_detected": 3,
+      "status": "detected"
+    },
+    "CIV": {
+      "expected_row": 1768.191666763098,
+      "peak_row": 1764,
+      "peak_lam": 4835.560410931051,
+      "peak_flux": 16.214285714285708,
+      "per_frame_peaks": [
+        4.428571428571431,
+        25.42857142857143,
+        42.714285714285715,
+        21.214285714285708
+      ],
+      "n_frames_detected": 3,
+      "status": "detected"
+    },
+    "HeII": {
+      "expected_row": 2020.2814454263507,
+      "peak_row": 2010,
+      "peak_lam": 5096.110443337321,
+      "peak_flux": 7.214285714285708,
+      "per_frame_peaks": [
+        4.285714285714292,
+        10.642857142857139,
+        13.42857142857143,
+        8.785714285714292
+      ],
+      "n_frames_detected": 3,
+      "status": "marginal"
+    },
+    "OIII]": {
+      "expected_row": 2088.2607115827336,
+      "peak_row": 2087,
+      "peak_lam": 5177.66472177343,
+      "peak_flux": 5.857142857142861,
+      "per_frame_peaks": [
+        2.714285714285708,
+        8.142857142857139,
+        9.357142857142861,
+        7.142857142857139
+      ],
+      "n_frames_detected": 2,
+      "status": "marginal"
+    },
+    "CIII]": {
+      "expected_row": 2808.6521015455123,
+      "status": "out_of_range"
+    },
+    "MgII": {
+      "expected_row": 5443.79282157974,
+      "status": "out_of_range"
+    }
+  },
+  "red_arm": {
+    "trace_row": 641,
+    "ciii_col": 202,
+    "ciii_peak_flux": 38.921269628965426,
+    "blue_flank": 14.668075376638935,
+    "red_flank": 47.33321177025138,
+    "spectrum_noise": 6.388949000736141,
+    "discrete_ciii_detected": false,
+    "note": "trace sits on the dichroic throughput ramp; no discrete CIII] knot detected above the rising continuum"
+  },
+  "files_used": [
+    "LB.20031003.28349.fits",
+    "LB.20031003.28810.fits",
+    "LB.20031003.29568.fits",
+    "LB.20031003.30962.fits",
+    "LR.20031003.28348.fits",
+    "LR.20031003.28808.fits",
+    "LR.20031003.29566.fits",
+    "LR.20031003.30960.fits"
+  ],
+  "blacklisted_files": [
+    "LB.20030924.03734.fits"
+  ],
+  "verdict": "The published z = 2.114 blue-arm spectrum is reproduced: the ULX trace at blue column ~2367 shows the Lya+NV complex, SiIV-OIV], CIV, HeII and OIII] at the Galianni et al. (2005) wavelengths under the host-ISM + sky-line anchored calibration (science frames are flexure-shifted ~+53 rows vs the 9h-later arcs).  Red-arm CIII]5942 falls on the dichroic throughput ramp and is not discretely detected; MgII8733 lies outside the red-arm coverage.  The verification therefore confirms the archival blue spectrum but does not independently confirm the published CIII] or MgII entries."
+}

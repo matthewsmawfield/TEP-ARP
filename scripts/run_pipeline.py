@@ -48,11 +48,12 @@ Pipeline Blocks:
     - Candidate scalar-field profile families
     - Proper-time budget and fictitious distance gaps
 
-  Block II (Steps 20-23): Physical-Connection Evidence
+  Block II (Steps 20-29, 36, 42-45, 48): Physical-Connection Evidence
     - Luminous bridge surface-brightness transects
     - Foreground absorption systems at the host redshift
     - Quasar overdensity around Arp hosts vs control fields
     - Poisson chance-alignment probabilities
+    - Pair-level path-length adjudication and population-control ledger
 
   Block III (Steps 30-33): Field-Gradient Inference
     - NGC 7603 four-point transect profile fits
@@ -60,7 +61,7 @@ Pipeline Blocks:
     - Pair-sample statistics (distribution, separation scaling)
     - Residuals analysis of the profile fits
 
-  Block IV (Steps 40-41): Synthesis & Figures
+  Block IV (Steps 40-41, 47): Synthesis & Figures
     - Falsification summary
     - Manuscript figure generation
 
@@ -139,6 +140,16 @@ PIPELINE = [
      "Ly-alpha forest path-length audit: archive coverage plus direct forest census where spectra exist"),
     ("II", 36, "scripts.steps.step_36_lya_forest_census", "Step36LyaForestCensus",
      "Archival forest census attempt on z>1.7 companions: slit geometry, trace extraction, IUE S/N"),
+    ("II", 42, "scripts.steps.step_42_extended_forest_audit", "Step42ExtendedForestAudit",
+     "Unbiased all-sky forest audit: z>1.9 QSO spectra within 100 arcsec of 2MRS z<0.05 galaxies"),
+    ("II", 43, "scripts.steps.step_43_keck_lris_ulx_verification", "Step43KeckLrisUlxVerification",
+     "Forensic re-reduction of the 2003 Keck/LRIS NGC 7319 ULX frames (flexure-calibrated)"),
+    ("II", 44, "scripts.steps.step_44_survey_erasure_audit", "Step44SurveyErasureAudit",
+     "Survey erasure-chain audit: SDSS photo/spec coverage per companion, stamped redshift demos, JWST polygons"),
+    ("II", 45, "scripts.steps.step_45_candidate_sweep", "Step45CandidateSweep",
+     "Perfect-pair sweep: DESI DR1 forest census, UVX unspectroscopied census, z-suspect re-audit"),
+    ("II", 48, "scripts.steps.step_48_falsification_adjudication", "Step48FalsificationAdjudication",
+     "Pair-level falsification ledger and de-duplicated SDSS/DESI population control"),
 
     # Block III: Field-Gradient Inference
     ("III", 30, "scripts.steps.step_30_bridge_redshift_transect", "Step30BridgeRedshiftTransect",
@@ -159,12 +170,16 @@ PIPELINE = [
      "X-ray-selected quasar overdensity around 2MRS parents vs seeded controls (low-nbar powered test)"),
     ("III", 39, "scripts.steps.step_39_temporal_well_solution", "Step39TemporalWellSolution",
      "Explicit confined temporal-well solution of the static field equation (interior roll, P=-2M)"),
+    ("III", 49, "scripts.steps.step_49_emission_localization", "Step49EmissionLocalization",
+     "Emission-region localization: measured flagship line widths + well-enclosure energetic ledger"),
 
     # Block IV: Synthesis & Figures
     ("IV", 40, "scripts.steps.step_40_falsification_summary", "Step40FalsificationSummary",
      "Falsification summary: TEP spatial proximity vs chance superposition"),
     ("IV", 41, "scripts.steps.step_41_manuscript_figures", "Step41ManuscriptFigures",
      "Manuscript figure generation from all results"),
+    ("IV", 47, "scripts.steps.step_47_redshift_correction_audit", "Step47RedshiftCorrectionAudit",
+     "Redshift-correction sensitivity audit: downstream propagation and z-independent channels"),
 ]
 
 

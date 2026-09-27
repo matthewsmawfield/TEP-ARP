@@ -1,0 +1,281 @@
+{
+  "step": "step_48_falsification_adjudication",
+  "catalogue_pair_ledger": {
+    "n_pairs": 12,
+    "n_decisively_tested": 1,
+    "n_falsified": 1,
+    "n_confirmed_codistant": 0,
+    "n_archival_non_discriminating": 2,
+    "n_without_decisive_path_data": 9,
+    "tested_result": "1 falsified in 1 decisive catalogue-pair test",
+    "inference_boundary": "The 1/1 result is the observed adjudication count, not a false-positive-rate estimate for the heterogeneous untested catalogue. The remaining pairs are unadjudicated, not survivors.",
+    "pairs": [
+      {
+        "pair_id": "NGC4319-Mrk205",
+        "adjudication": "archival_non_discriminating",
+        "evidence": "HST/STIS E140M audit: 5 candidate intervening Ly-alpha features over a short path; host-z window continuum-starved and non-discriminating"
+      },
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "adjudication": "falsified",
+        "evidence": "HST/COS forest: 9 Lyman-confirmed intervening systems against 2.3 expected; cosmological path detected"
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC7319-QSO",
+        "adjudication": "archival_non_discriminating",
+        "evidence": "Keck/LRIS spectrum verifies z=2.114 and excludes only strong absorption; R~1400 and S/N~5/A are insufficient for a forest or intervening-metal census"
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC1232-NGC1232A",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "adjudication": "no_decisive_path_data",
+        "evidence": "No public spectrum supplies a decisive path-length test"
+      }
+    ]
+  },
+  "population_control": {
+    "selection": "redshift-confirmed spectra with expected mean forest transmission below 0.5",
+    "n_sdss_unique": 12,
+    "n_desi_projection_rows": 8,
+    "n_desi_unique": 7,
+    "n_cross_survey_duplicates": 1,
+    "cross_survey_duplicates": [
+      {
+        "desi_targetid": "39633152578161414",
+        "sdss_sp_id": "3691-55274-0218",
+        "separation_arcsec": 0.07236067348994085
+      }
+    ],
+    "n_unique_sightlines": 18,
+    "n_proximity_candidates": 0,
+    "empty_forest_fraction_upper_95_one_sided": 0.1533175539572782,
+    "interval_method": "exact binomial zero-event bound: 1-alpha^(1/n)"
+  },
+  "logical_separation": {
+    "configuration_severity": "The chance-alignment product measures the rarity of the catalogued angular and morphology-conditioned configuration.",
+    "distance_adjudication": "Only a path-length or independent-distance measurement adjudicates co-distance for an individual pair.",
+    "population_prior": "The random-projection forest control bounds the prevalence of empty-forest sightlines in the surveyed population; it does not adjudicate an unobserved curated companion."
+  },
+  "strong_population_rows": [
+    {
+      "survey": "SDSS",
+      "spectrum_id": "3793-55214-0045",
+      "ra": 191.821127,
+      "dec": -2.700729,
+      "z_qso": 6.08537,
+      "verdict": "forest_normal",
+      "transmission": 0.4438942575139406,
+      "transmission_expected": 0.0538727039189077
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "7083-56722-0298",
+      "ra": 158.288348,
+      "dec": 64.730878,
+      "z_qso": 3.95707,
+      "verdict": "forest_normal",
+      "transmission": 0.5040290374594382,
+      "transmission_expected": 0.4524637471221469
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "7873-57307-0876",
+      "ra": 16.087655,
+      "dec": -0.776148,
+      "z_qso": 6.33838,
+      "verdict": "forest_normal",
+      "transmission": 0.3751086210638346,
+      "transmission_expected": 0.0361444110928428
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "5389-55953-0613",
+      "ra": 180.018093,
+      "dec": 8.163834,
+      "z_qso": 4.41999,
+      "verdict": "forest_normal",
+      "transmission": 0.3530276771303331,
+      "transmission_expected": 0.3333520067090789
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "3691-55274-0218",
+      "ra": 123.171385,
+      "dec": 44.358067,
+      "z_qso": 4.3443,
+      "verdict": "forest_normal",
+      "transmission": 0.3849484439597389,
+      "transmission_expected": 0.3521885172910466
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "4750-55630-0684",
+      "ra": 184.285844,
+      "dec": 3.669891,
+      "z_qso": 3.90231,
+      "verdict": "forest_normal",
+      "transmission": 0.5069684141270527,
+      "transmission_expected": 0.4669484706344192
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "6505-56560-0434",
+      "ra": 343.703217,
+      "dec": 32.315919,
+      "z_qso": 4.3904,
+      "verdict": "forest_normal",
+      "transmission": 0.4781280896450181,
+      "transmission_expected": 0.3406760182982533
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "7393-56749-0094",
+      "ra": 167.153395,
+      "dec": 45.111377,
+      "z_qso": 4.06274,
+      "verdict": "forest_normal",
+      "transmission": 0.6643788781935663,
+      "transmission_expected": 0.4246390462481925
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "10429-58145-0129",
+      "ra": 144.214017,
+      "dec": 31.066196,
+      "z_qso": 4.65395,
+      "verdict": "forest_normal",
+      "transmission": 0.5574996559556628,
+      "transmission_expected": 0.2775436435182115
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "4702-55618-0684",
+      "ra": 189.577335,
+      "dec": 42.206491,
+      "z_qso": 3.94221,
+      "verdict": "forest_normal",
+      "transmission": 0.5177196777468762,
+      "transmission_expected": 0.4563913016366819
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "7608-56945-0982",
+      "ra": 346.394328,
+      "dec": 19.184972,
+      "z_qso": 3.82127,
+      "verdict": "forest_normal",
+      "transmission": 0.7860358674767024,
+      "transmission_expected": 0.488417817323193
+    },
+    {
+      "survey": "SDSS",
+      "spectrum_id": "8826-57452-0374",
+      "ra": 153.442357,
+      "dec": 38.37072,
+      "z_qso": 3.99235,
+      "verdict": "forest_normal",
+      "transmission": 0.3757219528019452,
+      "transmission_expected": 0.4431513051453468
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39633062144771630",
+      "ra": 121.82996852090749,
+      "dec": 39.19346850757315,
+      "z_qso": 3.822162393769084,
+      "verdict": "measured",
+      "transmission": 0.4664445729120391,
+      "transmission_expected": 0.4881813626283057
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39628060953152562",
+      "ra": 358.3758433527709,
+      "dec": 11.32931562387084,
+      "z_qso": 3.804706821387276,
+      "verdict": "measured",
+      "transmission": 0.2840350959632097,
+      "transmission_expected": 0.4928061530215428
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39627643154334298",
+      "ra": 191.3255145475788,
+      "dec": -5.95919821770566,
+      "z_qso": 3.9851483755539534,
+      "verdict": "measured",
+      "transmission": 0.3595203595109461,
+      "transmission_expected": 0.4450506785034085
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39633348468935311",
+      "ra": 120.49007474264631,
+      "dec": 56.910266304172,
+      "z_qso": 3.9582283237999794,
+      "verdict": "measured",
+      "transmission": 0.2282179762687401,
+      "transmission_expected": 0.4521577140218007
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39633054032987837",
+      "ra": 221.3828243519811,
+      "dec": 38.79045043164324,
+      "z_qso": 3.831264286558713,
+      "verdict": "measured",
+      "transmission": 0.3212666027919992,
+      "transmission_expected": 0.4857695953638613
+    },
+    {
+      "survey": "DESI",
+      "spectrum_id": "39627707444628072",
+      "ra": 73.20209032451912,
+      "dec": -3.210673407175644,
+      "z_qso": 3.778989421063251,
+      "verdict": "measured",
+      "transmission": 0.4775575400735865,
+      "transmission_expected": 0.4996176642334228
+    }
+  ],
+  "csv": "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/falsification_adjudication.csv"
+}

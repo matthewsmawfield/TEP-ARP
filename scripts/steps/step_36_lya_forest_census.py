@@ -361,9 +361,12 @@ class Step36LyaForestCensus:
                 r3 = rec["lris_2003"]
                 detail.append(
                     f"KOA {r3['koaid']} (2003, {r3['progtitl'][:40]}): "
-                    f"slit PA {r3['pa_deg']:.0f} deg, companion "
-                    f"{r3['perp_arcsec']:.1f}\" perpendicular off the "
-                    f"{r3['slitwidt']}\" slit — not observed")
+                    f"header pointing {r3['perp_arcsec']:.1f}\" from the "
+                    "companion position is the telescope boresight, not "
+                    "the slit centre — the companion WAS on the slit "
+                    "(step_43 re-reduction reproduces its z=2.114 "
+                    "spectrum); forest band covered at R~1400, S/N~5/A "
+                    "only")
             if "lris_2011_mask" in rec:
                 r11 = rec["lris_2011_mask"]
                 detail.append(
@@ -393,15 +396,20 @@ class Step36LyaForestCensus:
             ),
             "conclusion": (
                 "No archival spectrum covers any z>1.7 companion's "
-                "Ly-alpha forest band at usable resolution. The "
-                "NGC 7319 z=2.114 companion — the highest-value target — "
-                "was never on the slit: the 2003 Burbidge LRIS long-slit "
-                "was pointed at the separate 'NGC 7319 ULX' position "
-                "9.4 arcsec away at a PA leaving the companion ~6.8 "
-                "arcsec perpendicular off the 0.7-arcsec slit, and the "
-                "2011 Kewley merger mask allocated slitlets only to "
-                "low-z star-forming regions. The forest census "
-                "therefore requires a dedicated blue-arm observation."
+                "Ly-alpha forest band at usable resolution. For the "
+                "NGC 7319 z=2.114 companion the 2003 Burbidge LRIS "
+                "long-slit frames DO contain the companion (the header "
+                "target 'NGC 7319 ULX' is the companion itself; the "
+                "9.4 arcsec header-to-companion offset is the telescope "
+                "boresight, not the slit position — Galianni et al. "
+                "2005 state the QSO was placed at slit centre), and "
+                "the re-reduction in step_43 reproduces the published "
+                "spectrum. Its forest band is covered only at R~1400, "
+                "S/N~5/A — a shallow pass excluding strong absorbers "
+                "but not a line census; the 2011 Kewley merger mask "
+                "allocated slitlets only to low-z star-forming "
+                "regions. The forest census therefore still requires a "
+                "dedicated blue-arm observation."
             ),
             "csv": str(csv_path),
         }

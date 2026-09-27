@@ -49,14 +49,20 @@ Keck Observatory Archive across all 18 quasar-class companions establishes that
 no usable spectrum of the Lyα forest band of any z > 1.7 companion exists:
 
 - NGC 7319 z = 2.114 companion: the 2003 LRIS-B long-slit exposure (programme
-  U44L, "Spectroscopy of Quasar Candidates Near AGN Galaxies") was pointed at the
-  separate "NGC 7319 ULX" X-ray source 9.4″ away; the slit position angle (115°)
-  places the companion ~6.7″ perpendicular off the 0.7″ slit. The 2011 LRIS
-  slitmask of the Stephan's Quintet field allocated slitlets only to low-redshift
-  star-forming regions; no slitlet covers the companion position. The only
-  spectral product overlapping the band is an IUE LWP large-aperture exposure of
-  the NGC 7319 nucleus with S/N ≈ 0.3 per pixel in the overlap window — no
-  continuum detection, let alone absorption census.
+  U44L, "Spectroscopy of Quasar Candidates Near AGN Galaxies") does contain the
+  companion — the header target name "NGC 7319 ULX" is the companion itself
+  (the ULX is its Chandra designation), Galianni et al. (2005) record it at
+  slit centre (PA = 205°), and a full re-reduction of the raw frames reproduces
+  the published emission lines after a +44-row flexure correction. However,
+  its forest-band coverage is only a shallow low-resolution pass: the blue arm
+  covers λ ≈ 3390–3690 Å of the 3242–3690 Å band at R ≈ 1400 with S/N ≈ 5
+  per Å — sufficient to exclude strong (damped/Lyman-limit) absorbers but not
+  to resolve the forest itself. The 2011 LRIS
+  slitmask of the Stephan's Quintet field allocated slitlets only to
+  low-redshift star-forming regions; no slitlet covers the companion position.
+  The only other spectral product overlapping the band is an IUE LWP
+  large-aperture exposure of the NGC 7319 nucleus with S/N ≈ 0.3 per pixel in
+  the overlap window — no continuum detection, let alone absorption census.
 - NGC 3516 and NGC 1073 companions: nearest KOA long-slit pointings lie 94–101″
   away, beyond the 175″ slit half-length.
 - WISP 257 129 (NGC 1097, z = 2.334): no covering spectrum in any queried

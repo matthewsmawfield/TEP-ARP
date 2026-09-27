@@ -1,0 +1,168 @@
+{
+  "n_corrected_records": 1,
+  "n_quantities_audited": 11,
+  "n_recomputed_at_archive": 7,
+  "n_invariant_channels": 3,
+  "n_mismatches": 0,
+  "corrected_pairs": [
+    {
+      "pair_id": "NGC3628-XQSO",
+      "literature_z": 2.15,
+      "archive_z": 1.498283,
+      "host_z": 0.002822,
+      "z_dependent": [
+        {
+          "quantity": "a_int",
+          "literature_value": 0.3183561904761905,
+          "archive_value": 0.40140448460002337,
+          "published_value": 0.4014044846000233,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "delta_phi",
+          "literature_value": 1.1445844272041887,
+          "archive_value": 0.91278567028564,
+          "published_value": 0.91278567028564,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "z_intrinsic",
+          "literature_value": 2.141135715012235,
+          "archive_value": 1.4912526849231464,
+          "published_value": 1.4912526849231464,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "v_intrinsic_doppler_kms",
+          "literature_value": 641896.3389151054,
+          "archive_value": 447066.3079122096,
+          "published_value": 447066.3079122096,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "distance_inflation_factor",
+          "literature_value": 446.191036578893,
+          "archive_value": 361.0365565667098,
+          "published_value": 361.0365565667098,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "fictitious_distance_gap_mpc",
+          "literature_value": 5377.124264065144,
+          "archive_value": 4348.608002403578,
+          "published_value": 4348.608002403578,
+          "status": "recomputed_at_archive"
+        },
+        {
+          "quantity": "fictitious_lookback_gap_gyr",
+          "literature_value": 10.423164978079809,
+          "archive_value": 9.222777071067233,
+          "published_value": 9.222777071067233,
+          "status": "recomputed_at_archive"
+        }
+      ]
+    }
+  ],
+  "audit_rows": [
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "a_int",
+      "literature_value": 0.3183561904761905,
+      "archive_value": 0.40140448460002337,
+      "published_value": 0.4014044846000233,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "delta_phi",
+      "literature_value": 1.1445844272041887,
+      "archive_value": 0.91278567028564,
+      "published_value": 0.91278567028564,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "z_intrinsic",
+      "literature_value": 2.141135715012235,
+      "archive_value": 1.4912526849231464,
+      "published_value": 1.4912526849231464,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "v_intrinsic_doppler_kms",
+      "literature_value": 641896.3389151054,
+      "archive_value": 447066.3079122096,
+      "published_value": 447066.3079122096,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "distance_inflation_factor",
+      "literature_value": 446.191036578893,
+      "archive_value": 361.0365565667098,
+      "published_value": 361.0365565667098,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "fictitious_distance_gap_mpc",
+      "literature_value": 5377.124264065144,
+      "archive_value": 4348.608002403578,
+      "published_value": 4348.608002403578,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "redshift_dependent",
+      "quantity": "fictitious_lookback_gap_gyr",
+      "literature_value": 10.423164978079809,
+      "archive_value": 9.222777071067233,
+      "published_value": 9.222777071067233,
+      "status": "recomputed_at_archive"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "chance_alignment",
+      "quantity": "p_chance",
+      "literature_value": 0.6395460641317638,
+      "archive_value": 0.6395460641317638,
+      "published_value": 0.6395460641317638,
+      "status": "invariant"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "member_ordering",
+      "quantity": "ordering_pairs",
+      "literature_value": 0,
+      "archive_value": 0,
+      "published_value": 0,
+      "status": "invariant_no_entries_nmembers_1"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "physical_scale",
+      "quantity": "projected_separation_kpc",
+      "literature_value": 12.955032917133536,
+      "archive_value": 12.955032917133536,
+      "published_value": 12.955032917133536,
+      "status": "invariant_host_distance"
+    },
+    {
+      "pair_id": "NGC3628-XQSO",
+      "channel": "verdict",
+      "quantity": "discordance",
+      "literature_value": 0.3183561904761905,
+      "archive_value": 0.40140448460002337,
+      "published_value": 0.40140448460002337,
+      "status": "discordant_either_value"
+    }
+  ],
+  "interpretation": "Archive-corrected companion redshifts propagate to the redshift-dependent published entries (Table 1 quantities and fictitious-gap budget), which are recomputed at the archive value.  The angular chance-alignment, member-ordering and physical-scale channels carry no companion-redshift dependence: the Poisson pricing reads separation and object class only, ordering is evaluated inside multi-member fields, and physical separations use the host's redshift-independent distance.  Each invariant is demonstrated by recomputation under both redshift readings, not asserted."
+}

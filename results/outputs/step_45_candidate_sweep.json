@@ -1,0 +1,491 @@
+{
+  "step": "step_45_candidate_sweep",
+  "desi": {
+    "catalogue": "DESI-DR1 zlya VAC (main-dark, forest-quality QSOs)",
+    "n_catalogue": 856767,
+    "n_matches_100arcsec": 1062,
+    "n_z_gt_1p9": 706,
+    "n_spectra_retrieved": 699,
+    "n_forest_measured_projection_rows": 632,
+    "n_forest_measured_unique_spectra": 625,
+    "n_band_uncovered": 74,
+    "n_anomaly": 0,
+    "max_excess_sigma": 0.2078100559513361
+  },
+  "uvx": {
+    "radius_arcmin": 2.0,
+    "g_limit": 22.5,
+    "u-g_window": [
+      -0.8,
+      0.7
+    ],
+    "per_field": [
+      {
+        "pair_id": "NGC4319-Mrk205",
+        "galaxy": "NGC 4319",
+        "n_pt": 0,
+        "n_clean": 0,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC7603-NGC7603B",
+        "galaxy": "NGC 7603",
+        "n_pt": 10,
+        "n_clean": 10,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC3067-3C232",
+        "galaxy": "NGC 3067",
+        "n_pt": 18,
+        "n_clean": 16,
+        "n_uvx": 5,
+        "n_uvx_nospec": 4
+      },
+      {
+        "pair_id": "NGC1073-QSOs",
+        "galaxy": "NGC 1073",
+        "n_pt": 20,
+        "n_clean": 0,
+        "n_uvx": 10,
+        "n_uvx_nospec": 9
+      },
+      {
+        "pair_id": "NGC7319-QSO",
+        "galaxy": "NGC 7319",
+        "n_pt": 29,
+        "n_clean": 13,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC1199-companion",
+        "galaxy": "NGC 1199",
+        "n_pt": 8,
+        "n_clean": 0,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC3628-XQSO",
+        "galaxy": "NGC 3628",
+        "n_pt": 24,
+        "n_clean": 0,
+        "n_uvx": 2,
+        "n_uvx_nospec": 2
+      },
+      {
+        "pair_id": "NGC4258-QSOs",
+        "galaxy": "NGC 4258",
+        "n_pt": 20,
+        "n_clean": 0,
+        "n_uvx": 2,
+        "n_uvx_nospec": 2
+      },
+      {
+        "pair_id": "NGC2639-QSOs",
+        "galaxy": "NGC 2639",
+        "n_pt": 15,
+        "n_clean": 3,
+        "n_uvx": 1,
+        "n_uvx_nospec": 1
+      },
+      {
+        "pair_id": "NGC1097-jetQSOs",
+        "galaxy": "NGC 1097",
+        "n_pt": 0,
+        "n_clean": 0,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC1232-NGC1232A",
+        "galaxy": "NGC 1232",
+        "n_pt": 0,
+        "n_clean": 0,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      },
+      {
+        "pair_id": "NGC3516-Qchain",
+        "galaxy": "NGC 3516",
+        "n_pt": 0,
+        "n_clean": 0,
+        "n_uvx": 0,
+        "n_uvx_nospec": 0
+      }
+    ],
+    "n_uvx_total": 20,
+    "n_uvx_nospec_total": 18
+  },
+  "zsuspect": {
+    "n_rechecked": 89,
+    "n_alt_z_preferred_strong": 30,
+    "n_sparse_at_alt_z": 0,
+    "strong_cases": [
+      {
+        "sp_id": "3793-55214-0045",
+        "z_claim": 6.08537,
+        "alt_z": 2.018,
+        "n_claimed": 0,
+        "n_alt": 3,
+        "sep_arcsec": 96.552403,
+        "z_gal": 0.0052369562946109,
+        "T_at_altz": -0.1948627382516861,
+        "ra_q": 191.821127,
+        "dec_q": -2.700729
+      },
+      {
+        "sp_id": "6801-56487-0931",
+        "z_claim": 3.0151,
+        "alt_z": 0.3,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 79.037076,
+        "z_gal": 0.0054938006479135,
+        "T_at_altz": null,
+        "ra_q": 211.262559,
+        "dec_q": 55.74184
+      },
+      {
+        "sp_id": "5768-56017-0792",
+        "z_claim": 3.29389,
+        "alt_z": 2.453,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 60.458497,
+        "z_gal": 0.0276624704147827,
+        "T_at_altz": 0.2949143052101135,
+        "ra_q": 139.222273,
+        "dec_q": 20.187969
+      },
+      {
+        "sp_id": "4060-55359-0894",
+        "z_claim": 3.31119,
+        "alt_z": 2.501,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 61.236168,
+        "z_gal": 0.008122285718075,
+        "T_at_altz": 0.2383829951286316,
+        "ra_q": 246.850905,
+        "dec_q": 19.580241
+      },
+      {
+        "sp_id": "5008-55744-0278",
+        "z_claim": 3.54416,
+        "alt_z": 0.076,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 91.561268,
+        "z_gal": 0.0330095028608091,
+        "T_at_altz": null,
+        "ra_q": 243.222571,
+        "dec_q": 27.978489
+      },
+      {
+        "sp_id": "7058-56593-0472",
+        "z_claim": 3.05952,
+        "alt_z": 1.987,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 94.518073,
+        "z_gal": 0.0295637857574122,
+        "T_at_altz": 0.0614134110510349,
+        "ra_q": 41.408902,
+        "dec_q": -8.203494
+      },
+      {
+        "sp_id": "7873-57307-0876",
+        "z_claim": 6.33838,
+        "alt_z": 1.977,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 73.374395,
+        "z_gal": 0.0178857067845249,
+        "T_at_altz": null,
+        "ra_q": 16.087655,
+        "dec_q": -0.776148
+      },
+      {
+        "sp_id": "5389-55953-0613",
+        "z_claim": 4.41999,
+        "alt_z": 3.224,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 66.426746,
+        "z_gal": 0.0204274651899348,
+        "T_at_altz": 0.1770116537809372,
+        "ra_q": 180.018093,
+        "dec_q": 8.163834
+      },
+      {
+        "sp_id": "3957-55664-0838",
+        "z_claim": 3.11081,
+        "alt_z": 2.145,
+        "n_claimed": 0,
+        "n_alt": 3,
+        "sep_arcsec": 96.272279,
+        "z_gal": 0.0210845864574751,
+        "T_at_altz": 0.3491214513778686,
+        "ra_q": 227.07599,
+        "dec_q": 19.193692
+      },
+      {
+        "sp_id": "6593-56270-0133",
+        "z_claim": 3.23741,
+        "alt_z": 2.472,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 29.944034,
+        "z_gal": 0.0195635341833716,
+        "T_at_altz": 0.2899801731109619,
+        "ra_q": 16.325986,
+        "dec_q": 31.674283
+      },
+      {
+        "sp_id": "4750-55630-0684",
+        "z_claim": 3.90231,
+        "alt_z": 2.922,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 48.133064,
+        "z_gal": 0.0067179808772907,
+        "T_at_altz": 0.2976584434509277,
+        "ra_q": 184.285844,
+        "dec_q": 3.669891
+      },
+      {
+        "sp_id": "7764-58042-0834",
+        "z_claim": 3.37637,
+        "alt_z": 1.974,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 67.598224,
+        "z_gal": 0.0217750641345353,
+        "T_at_altz": null,
+        "ra_q": 347.366671,
+        "dec_q": 32.659027
+      },
+      {
+        "sp_id": "6064-56097-0665",
+        "z_claim": 4.92859,
+        "alt_z": 1.964,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 80.04643,
+        "z_gal": 0.0276724773376386,
+        "T_at_altz": null,
+        "ra_q": 257.548784,
+        "dec_q": 42.380715
+      },
+      {
+        "sp_id": "6505-56560-0434",
+        "z_claim": 4.3904,
+        "alt_z": 1.039,
+        "n_claimed": 0,
+        "n_alt": 3,
+        "sep_arcsec": 82.091692,
+        "z_gal": 0.0221052925887815,
+        "T_at_altz": null,
+        "ra_q": 343.703217,
+        "dec_q": 32.315919
+      },
+      {
+        "sp_id": "6003-56311-0136",
+        "z_claim": 3.12906,
+        "alt_z": 1.94,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 76.724332,
+        "z_gal": 0.0289366852584396,
+        "T_at_altz": null,
+        "ra_q": 205.458092,
+        "dec_q": 26.99239
+      },
+      {
+        "sp_id": "5487-55982-0596",
+        "z_claim": 4.45089,
+        "alt_z": 1.966,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 34.419222,
+        "z_gal": 0.0316619039162085,
+        "T_at_altz": null,
+        "ra_q": 227.487832,
+        "dec_q": 9.397043
+      },
+      {
+        "sp_id": "6490-56330-0827",
+        "z_claim": 3.2299,
+        "alt_z": 2.056,
+        "n_claimed": 2,
+        "n_alt": 4,
+        "sep_arcsec": 66.171075,
+        "z_gal": 0.0182726411349547,
+        "T_at_altz": 0.2413854598999023,
+        "ra_q": 200.115146,
+        "dec_q": 32.019437
+      },
+      {
+        "sp_id": "9344-58038-0329",
+        "z_claim": 3.60368,
+        "alt_z": 1.965,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 49.711978,
+        "z_gal": 0.0293669829412453,
+        "T_at_altz": null,
+        "ra_q": 2.555412,
+        "dec_q": -4.711075
+      },
+      {
+        "sp_id": "6461-56329-0432",
+        "z_claim": 3.74716,
+        "alt_z": 1.97,
+        "n_claimed": 1,
+        "n_alt": 4,
+        "sep_arcsec": 86.603053,
+        "z_gal": 0.0217617215707274,
+        "T_at_altz": -0.0652137100696563,
+        "ra_q": 151.710312,
+        "dec_q": 31.455705
+      },
+      {
+        "sp_id": "7393-56749-0094",
+        "z_claim": 4.06274,
+        "alt_z": 1.967,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 99.886183,
+        "z_gal": 0.0206109254422938,
+        "T_at_altz": -0.2405385971069336,
+        "ra_q": 167.153395,
+        "dec_q": 45.111377
+      },
+      {
+        "sp_id": "6431-56311-0420",
+        "z_claim": 3.7683,
+        "alt_z": 2.783,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 77.23384,
+        "z_gal": 0.0201739564775842,
+        "T_at_altz": 0.2288259863853454,
+        "ra_q": 173.173595,
+        "dec_q": 20.460137
+      },
+      {
+        "sp_id": "6138-56598-0083",
+        "z_claim": 6.55773,
+        "alt_z": 2.273,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 59.070604,
+        "z_gal": 0.0220852787430696,
+        "T_at_altz": 0.4968791902065277,
+        "ra_q": 356.758533,
+        "dec_q": 14.856601
+      },
+      {
+        "sp_id": "10654-58429-0631",
+        "z_claim": 4.03684,
+        "alt_z": 1.955,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 88.104823,
+        "z_gal": 0.0207910500537008,
+        "T_at_altz": null,
+        "ra_q": 115.017158,
+        "dec_q": 49.118821
+      },
+      {
+        "sp_id": "7404-56776-0484",
+        "z_claim": 3.12919,
+        "alt_z": 1.054,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 91.254572,
+        "z_gal": 0.0248538607332143,
+        "T_at_altz": null,
+        "ra_q": 177.039992,
+        "dec_q": 46.156846
+      },
+      {
+        "sp_id": "7608-56945-0982",
+        "z_claim": 3.82127,
+        "alt_z": 2.028,
+        "n_claimed": 0,
+        "n_alt": 2,
+        "sep_arcsec": 86.92183,
+        "z_gal": 0.026158096345439,
+        "T_at_altz": 0.2462262660264969,
+        "ra_q": 346.394328,
+        "dec_q": 19.184972
+      },
+      {
+        "sp_id": "9360-58055-0751",
+        "z_claim": 3.7352,
+        "alt_z": 0.991,
+        "n_claimed": 0,
+        "n_alt": 4,
+        "sep_arcsec": 38.997238,
+        "z_gal": 0.0282862352728032,
+        "T_at_altz": null,
+        "ra_q": 121.351881,
+        "dec_q": 40.187629
+      },
+      {
+        "sp_id": "7584-56957-0681",
+        "z_claim": 3.22073,
+        "alt_z": 0.369,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 90.109859,
+        "z_gal": 0.0237097358866846,
+        "T_at_altz": null,
+        "ra_q": 340.462957,
+        "dec_q": 20.277897
+      },
+      {
+        "sp_id": "6515-56536-0176",
+        "z_claim": 3.50382,
+        "alt_z": 1.876,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 79.438533,
+        "z_gal": 0.0281294601480601,
+        "T_at_altz": null,
+        "ra_q": 356.931148,
+        "dec_q": 27.531048
+      },
+      {
+        "sp_id": "7089-56661-0904",
+        "z_claim": 3.23392,
+        "alt_z": 1.996,
+        "n_claimed": 1,
+        "n_alt": 3,
+        "sep_arcsec": 71.657133,
+        "z_gal": 0.0305944988115745,
+        "T_at_altz": 0.1467795670032501,
+        "ra_q": 158.995579,
+        "dec_q": 60.627904
+      },
+      {
+        "sp_id": "10758-58220-0835",
+        "z_claim": 4.665,
+        "alt_z": 1.026,
+        "n_claimed": 0,
+        "n_alt": 3,
+        "sep_arcsec": 78.163293,
+        "z_gal": 0.0247471202227509,
+        "T_at_altz": null,
+        "ra_q": 214.874436,
+        "dec_q": 36.152498
+      }
+    ]
+  },
+  "verdict": "No sparse-forest candidate in either survey; every high-excess spectrum resolves to a template-stamped redshift with a normal forest at the corrected z. The unspectroscopied UVX population is the only remaining candidate class."
+}

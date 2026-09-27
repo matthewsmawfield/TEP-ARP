@@ -85,7 +85,7 @@ keywords:
 - Markarian 205
 - NGC 7603
 license: CC-BY-4.0
-version: v0.2 (Pasadena)
+version: v0.3 (Pasadena)
 date-released: 2026-09-25
 date-published: 2026-09-24
 doi: 10.5281/zenodo.22938153
@@ -93,7 +93,7 @@ repository-code: https://github.com/matthewsmawfield/TEP-ARP
 url: https://mlsmawfield.com/tep/arp
 preferred-citation:
   type: article
-  title: 'Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs (Pasadena v0.2)'
+  title: 'Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs (Pasadena v0.3)'
   authors:
   - family-names: Smawfield
     given-names: Matthew Lukin

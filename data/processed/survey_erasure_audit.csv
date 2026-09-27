@@ -1,0 +1,15 @@
+pair_id,galaxy,host_ra,host_dec,companion_ned_z,companion_ned_type,companion_ra,companion_dec,coord_source,ned_region_error,photo_n,photo_status,spec_n_30arcsec,spec_n_hostfield_2arcmin,ned_obj_at_coord,ned_z_at_coord,photo_nearest_off_arcsec,photo_nearest_type,photo_nearest_clean,photo_all_one_parent,spec_rows,spec_n_discordant_hostfield
+NGC4319-Mrk205,NGC 4319,185.43324,75.32255,0.070846,G,185.43372,75.31064,ned,"The remote service returned the following error message.
+ERROR: We can't start the database search program /ned/ops/util/bin/nedexec. start_exec() returned status=-4",0.0,no_object_within_radius,0.0,0,,,,,,,,
+NGC7603-NGC7603B,NGC 7603,349.73609,0.24398,0.055702,G,349.75,0.23566,ned,,8.0,deblended_object,1.0,11,NGC 7603B,0.055702,0.16,3.0,1.0,True,"[{'class': 'GALAXY', 'z': 0.0557, 'zWarning': 0, 'sn': 26.55, 'plate_mjd_fiber': '383/51818/358'}]",9.0
+NGC3067-3C232,NGC 3067,149.58798,32.36998,0.530615,QSO,149.58729,32.40061,ned,,3.0,deblended_object,1.0,4,3C 232,0.530615,0.05,6.0,1.0,False,"[{'class': 'QSO', 'z': 0.5309, 'zWarning': 0, 'sn': 47.34, 'plate_mjd_fiber': '10450/58142/541'}]",2.0
+NGC1073-QSOs,NGC 1073,40.91883,1.37614,,,,,catalogue,,,,,5,,,,,,,,3.0
+NGC7319-QSO,NGC 7319,339.01477,33.97572,,,339.0154,33.9733,catalogue,"The remote service returned the following error message.
+ERROR: We can't start the database search program /ned/ops/util/bin/nedexec. start_exec() returned status=-4",3.0,absorbed_into_host_deblend,0.0,0,,,7.95,3.0,0.0,True,,
+NGC1199-companion,NGC 1199,45.9101,-15.61346,,,45.90269,-15.62786,catalogue,,1.0,deblended_object,0.0,0,2MASXi J0303366-153740,0.0444,0.52,3.0,0.0,True,,
+NGC3628-XQSO,NGC 3628,170.07061,13.58941,,,170.0494,13.523,catalogue,,1.0,deblended_object,1.0,2,[HB89] 1117+137,1.498283,0.29,6.0,1.0,True,"[{'class': 'QSO', 'z': 1.4985, 'zWarning': 0, 'sn': 9.72, 'plate_mjd_fiber': '5365/55945/4'}]",0.0
+NGC4258-QSOs,NGC 4258,184.7396,47.30397,,,,,catalogue,,,,,8,,,,,,,,0.0
+NGC2639-QSOs,NGC 2639,130.90866,50.20556,,,,,catalogue,,,,,6,,,,,,,,3.0
+NGC1097-jetQSOs,NGC 1097,41.57941,-30.27491,,,,,catalogue,,,,,0,,,,,,,,
+NGC1232-NGC1232A,NGC 1232,47.4393,-20.57901,0.022012,G,47.50808,-20.6006,ned,,0.0,no_object_within_radius,0.0,0,NGC 1232A,0.022012,,,,,,
+NGC3516-Qchain,NGC 3516,166.69776,72.56869,,,,,catalogue,,,,,0,,,,,,,,

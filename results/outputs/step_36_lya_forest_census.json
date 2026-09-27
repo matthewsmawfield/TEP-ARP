@@ -1651,7 +1651,7 @@
         "LR.20110929.31621.fits: pointing 109\" off \u2014 beyond the 175\" slit half-length",
         "LR.20110929.33644.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
         "LR.20110929.34971.fits: pointing 108\" off \u2014 beyond the 175\" slit half-length",
-        "KOA LB.20031003.30962.fits (2003, U44L): slit PA 115 deg, companion 6.7\" perpendicular off the 0.7\" slit \u2014 not observed",
+        "KOA LB.20031003.30962.fits (2003, U44L): header pointing 6.7\" from the companion position is the telescope boresight, not the slit centre \u2014 the companion WAS on the slit (step_43 re-reduction reproduces its z=2.114 spectrum); forest band covered at R~1400, S/N~5/A only",
         "KOA LB.20110929.19302.fits (2011 stq mask): 7 slitlets extracted; no slitlet shows a QSO-like Ly-alpha emission line at the companion's observed wavelength; slitlet emission-line sources are classified as low-z nebular emitters by multi-line template matching"
       ]
     },
@@ -1712,6 +1712,6 @@
     }
   ],
   "positive_control": "step_29 3C 232 census (HST/COS): the pipeline detects a forest where one exists; a non-detection here is informative only once a covering spectrum exists.",
-  "conclusion": "No archival spectrum covers any z>1.7 companion's Ly-alpha forest band at usable resolution. The NGC 7319 z=2.114 companion \u2014 the highest-value target \u2014 was never on the slit: the 2003 Burbidge LRIS long-slit was pointed at the separate 'NGC 7319 ULX' position 9.4 arcsec away at a PA leaving the companion ~6.8 arcsec perpendicular off the 0.7-arcsec slit, and the 2011 Kewley merger mask allocated slitlets only to low-z star-forming regions. The forest census therefore requires a dedicated blue-arm observation.",
+  "conclusion": "No archival spectrum covers any z>1.7 companion's Ly-alpha forest band at usable resolution. For the NGC 7319 z=2.114 companion the 2003 Burbidge LRIS long-slit frames DO contain the companion (the header target 'NGC 7319 ULX' is the companion itself; the 9.4 arcsec header-to-companion offset is the telescope boresight, not the slit position \u2014 Galianni et al. 2005 state the QSO was placed at slit centre), and the re-reduction in step_43 reproduces the published spectrum. Its forest band is covered only at R~1400, S/N~5/A \u2014 a shallow pass excluding strong absorbers but not a line census; the 2011 Kewley merger mask allocated slitlets only to low-z star-forming regions. The forest census therefore still requires a dedicated blue-arm observation.",
   "csv": "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/lya_forest_census.csv"
 }

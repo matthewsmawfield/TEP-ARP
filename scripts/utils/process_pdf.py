@@ -111,7 +111,7 @@ def build_metadata(cff_data):
     else:
         author_name = 'Matthew Lukin Smawfield'
 
-    version = cff_data.get('version', 'v0.2')
+    version = cff_data.get('version', 'v0.3')
     v_match = re.match(r'v?([\d.]+)(?:\s*\(([^)]+)\))?', str(version))
     if v_match:
         version_num = v_match.group(1)

@@ -1,0 +1,16 @@
+{
+    "results": [
+        {
+            "name": "NGC 7319 Companion",
+            "csc_name": "2CXO J223603.6+335825",
+            "ra_xray": 339.01525030725224,
+            "dec_xray": 33.97363588470489,
+            "significance": 8.662837987305053,
+            "flux_b": null,
+            "nh_gal": 7.71,
+            "powlaw_nh": null,
+            "powlaw_gamma": null,
+            "z_qso": 2.114
+        }
+    ]
+}

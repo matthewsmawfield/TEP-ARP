@@ -895,22 +895,6 @@
         {
           "obs_id": "3064985556950712320",
           "instrument": "GALEX",
-          "filters": "FUV",
-          "proposal_id": "--",
-          "collection": "GALEX",
-          "dist_arcsec": 0.0,
-          "usable": false,
-          "intervals": [
-            [
-              1592.73,
-              1800.0
-            ]
-          ],
-          "covered_a": 207.26999999999998
-        },
-        {
-          "obs_id": "3064985556950712320",
-          "instrument": "GALEX",
           "filters": "NUV",
           "proposal_id": "--",
           "collection": "GALEX",
@@ -923,6 +907,22 @@
             ]
           ],
           "covered_a": 63.049999999999955
+        },
+        {
+          "obs_id": "3064985556950712320",
+          "instrument": "GALEX",
+          "filters": "FUV",
+          "proposal_id": "--",
+          "collection": "GALEX",
+          "dist_arcsec": 0.0,
+          "usable": false,
+          "intervals": [
+            [
+              1592.73,
+              1800.0
+            ]
+          ],
+          "covered_a": 207.26999999999998
         }
       ],
       "koa_nearest": []

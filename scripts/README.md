@@ -21,7 +21,7 @@ when a required input is missing.
 
 ## Pipeline Structure
 
-The pipeline consists of 32 registered steps in 5 blocks:
+The pipeline consists of 38 registered steps in 5 blocks:
 
 ### Block 0: Data Ingestion & Target Catalog (Steps 00-05)
 - `step_00_arp_pair_catalog.py` — Twelve discordant pairs with published redshifts, separations, and connection evidence
@@ -37,7 +37,7 @@ The pipeline consists of 32 registered steps in 5 blocks:
 - `step_12_scalar_field_profiles.py` — Candidate A_int(x) profile families (exponential, tanh, Yukawa, nested wells)
 - `step_13_proper_time_budget.py` — Clock-rate ratios and fictitious distance/lookback gaps
 
-### Block II: Physical-Connection Evidence (Steps 20-27)
+### Block II: Physical-Connection Evidence (Steps 20-29, 36, 42-45, 48)
 - `step_20_bridge_morphology.py` — Archive-resolved companion axes; surface-brightness transects vs rotated controls; sign test, peak z, silhouette annulus
 - `step_21_absorption_systems.py` — Published foreground-absorption and silhouette ordering evidence
 - `step_22_quasar_galaxy_association.py` — Milliquas confirmed quasar-class counts around hosts vs seeded control fields; companions excluded (non-circular), inclusive counts alongside; member-level persistence to qso_field_members.csv
@@ -49,6 +49,11 @@ The pipeline consists of 32 registered steps in 5 blocks:
 - `step_28_archive_kinematic_audit.py` — Live audit of resolved-kinematics coverage (ESO MUSE/VIMOS/SINFONI/GIRAFFE, JWST IFU, MaNGA, fiber spectroscopy) with client-side in-cone filtering and program-level provenance
 - `step_29_lya_forest_audit.py` — Ly-alpha forest path-length audit: per-companion forest-band coverage across SDSS/MAST/ESO/KOA gated by actual grating wavelength ranges and on-target slit requirements, plus a direct Lyman-confirmed forest census on the archived HST/COS spectra of 3C 232
 - `step_36_lya_forest_census.py` — Archival census of the z = 2.114 NGC 7319 companion across SDSS, DESI-DR1, LAMOST and SPARCL, plus Keck slit-geometry forensics on the existing LRIS coverage
+- `step_42_extended_forest_audit.py` — Unbiased all-sky forest audit: every z > 1.9 QSO spectrum within 100 arcsec of a 2MRS z < 0.05 galaxy is retrieved from SDSS SAS and its forest transmission measured against tau_eff(z); normal forests falsify proximity for that projection, anomalous transmission flags TEP-proximity candidates
+- `step_43_keck_lris_ulx_verification.py` — Forensic re-reduction of the raw 2003 Keck/LRIS frames of the NGC 7319 z = 2.114 companion: arc dispersion, host-ISM + sky-line anchored flexure correction, per-frame line persistence, and red-arm C III] test
+- `step_44_survey_erasure_audit.py` — Catalogue-level audit of where each companion survives or is erased in the survey chain: SDSS PhotoObj deblend status at companion coordinates, SpecObj coverage within 30" of companions and 3' of hosts, re-derived spectra of low-S/N pipeline-stamped redshifts (single degenerate feature, zWarning=0), NED coordinate/redshift integrity check, and JWST IFU s_region polygon distance for the NGC 7319 companion
+- `step_45_candidate_sweep.py` — Perfect-pair candidate sweep in three channels: (A) DESI-DR1 zlya QSO catalogue cross-matched to 2MRS hosts at 100", spectra retrieved via SPARCL, forest transmission measured with the step_42 statistic; (B) UV-excess point-source census within 2' of each host with spectroscopy cross-check; (C) re-derivation of step_42 z-suspect spectra via multi-line scoring with forest re-measured at corrected redshift
+- `step_48_falsification_adjudication.py` — Pair-level adjudication ledger separating decisive tests, non-discriminating archival coverage and untested pairs; de-duplicates repeated DESI projections and SDSS/DESI overlaps, excludes rejected catalogue redshifts from the strong-forest denominator, and reports the exact zero-event population bound
 
 ### Block III: Field-Gradient Inference (Steps 30-39)
 - `step_30_bridge_redshift_transect.py` — Four-point NGC 7603 transect fits across all profile families
@@ -61,8 +66,8 @@ The pipeline consists of 32 registered steps in 5 blocks:
 - `step_38_xray_population_test.py` — X-ray-selected quasar overdensity on 2MRS parents, decomposed by pointed versus coverage-uniform RASS catalogue identifiers
 - `step_39_temporal_well_solution.py` — Explicit temporal-well field solution: inward roll on the engine geometry with the established exterior boundary condition
 
-### Block IV: Synthesis & Figures (Steps 40-41)
-- `step_40_falsification_summary.py` — Eighteen-test falsification table: TEP proximity vs chance superposition, including the pointed-coverage-corrected X-ray joint probability
+### Block IV: Synthesis & Figures (Steps 40-41, 47)
+- `step_40_falsification_summary.py` — Falsification summary for TEP proximity versus chance superposition, including the pointed-coverage-corrected X-ray joint probability
 - `step_41_manuscript_figures.py` — Manuscript figures from all results
 
 ## Verification
@@ -85,7 +90,7 @@ python3 scripts/generate_site_pdf.py
 python3 scripts/generate_site_pdf.py --quality high --wait-time 10
 ```
 
-Generates `37-TEP-ARP-v0.2-Pasadena.pdf` from the built static site (root and
+Generates `37-TEP-ARP-v0.3-Pasadena.pdf` from the built static site (root and
 `site/public/docs/`). Requires the site to be built first (`cd site && npm run build`).
 
 ## Utilities

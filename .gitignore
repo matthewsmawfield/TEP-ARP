@@ -67,3 +67,7 @@ argos*.*
 cline-runner*.*
 data/raw/external/hyperleda_vii237.vot
 manuscripts/
+
+# Step 42 regeneration caches (re-fetched automatically on pipeline rerun)
+data/processed/extended_forest_xmatch.csv
+data/raw/sdss_spectra/

@@ -1,0 +1,13 @@
+pair_id,adjudication,evidence
+NGC4319-Mrk205,archival_non_discriminating,HST/STIS E140M audit: 5 candidate intervening Ly-alpha features over a short path; host-z window continuum-starved and non-discriminating
+NGC7603-NGC7603B,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC3067-3C232,falsified,HST/COS forest: 9 Lyman-confirmed intervening systems against 2.3 expected; cosmological path detected
+NGC1073-QSOs,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC7319-QSO,archival_non_discriminating,Keck/LRIS spectrum verifies z=2.114 and excludes only strong absorption; R~1400 and S/N~5/A are insufficient for a forest or intervening-metal census
+NGC1199-companion,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC3628-XQSO,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC4258-QSOs,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC2639-QSOs,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC1097-jetQSOs,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC1232-NGC1232A,no_decisive_path_data,No public spectrum supplies a decisive path-length test
+NGC3516-Qchain,no_decisive_path_data,No public spectrum supplies a decisive path-length test

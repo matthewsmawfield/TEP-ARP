@@ -1,0 +1,12 @@
+[06:21:26] [PROCESS] Auditing redshift-correction propagation...
+[06:21:26] [INFO] 1 archive-corrected catalogue records (1 flagged by step_01).
+[06:21:26] [SUCCESS] Saved audit table: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/data/processed/redshift_correction_audit.csv
+[06:21:26] [SUCCESS] Saved JSON: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/step_47_redshift_correction_audit.json
+[06:21:26] [SUCCESS] All corrected records verified: redshift-dependent entries carry the archive value; ordering, angular and physical-scale channels demonstrated invariant.
+[06:21:26] [SUCCESS] step_47 completed in 1.0s
+[06:21:26] [INFO] 
+[06:21:26] [INFO] ================================================================================
+[06:21:26] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 1.0s total
+[06:21:26] [INFO] ================================================================================
+[06:21:26] [INFO] 
+[06:21:28] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

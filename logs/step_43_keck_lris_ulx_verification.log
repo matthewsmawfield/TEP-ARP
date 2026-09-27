@@ -1,0 +1,29 @@
+[16:33:36] [INFO] Step 43: LRIS ULX verification
+[16:33:36] [INFO] blacklisted file present but unused: LB.20030924.03734.fits
+[16:33:38] [INFO] arc solution: d=1.0591 A/row off=3014.0 A
+[16:33:38] [INFO] flexure: science shifted +44 +/- 4 rows (9 catalogue lines matched)
+[16:33:38] [INFO]   host anchor lam3500: band r501 vs predicted r503 (implied shift +44 rows)
+[16:33:38] [INFO]   host anchor lam3808: band r790 vs predicted r793 (implied shift +42 rows)
+[16:33:38] [INFO]   host anchor lam3953: band r937 vs predicted r931 (implied shift +52 rows)
+[16:33:38] [INFO]   host anchor lam4054: band r1027 vs predicted r1026 (implied shift +46 rows)
+[16:33:38] [INFO]   host anchor lam4190: band r1152 vs predicted r1155 (implied shift +43 rows)
+[16:33:38] [INFO]   host anchor lam4434: band r1385 vs predicted r1385 (implied shift +46 rows)
+[16:33:38] [INFO]   host anchor lam4457: band r1407 vs predicted r1407 (implied shift +46 rows)
+[16:33:38] [INFO]   host anchor lam4568: band r1518 vs predicted r1511 (implied shift +52 rows)
+[16:33:38] [INFO]   host anchor lam5115: band r2033 vs predicted r2028 (implied shift +51 rows)
+[16:33:38] [INFO] ULX trace at column 2367
+[16:33:38] [INFO]   Lya: lam_pub=3791.0 -> r778; peak 25.1 at lam3801 (3/4 frames)
+[16:33:38] [INFO]   NV: lam_pub=3861.0 -> r844; peak 36.2 at lam3869 (3/4 frames)
+[16:33:38] [INFO]   SiIV-OIV]: lam_pub=4335.0 -> r1291; peak 21.9 at lam4322 (3/4 frames)
+[16:33:38] [INFO]   CIV: lam_pub=4840.0 -> r1768; peak 16.2 at lam4836 (3/4 frames)
+[16:33:38] [INFO]   HeII: lam_pub=5107.0 -> r2020; peak 7.2 at lam5096 (3/4 frames)
+[16:33:38] [INFO]   OIII]: lam_pub=5179.0 -> r2088; peak 5.9 at lam5178 (2/4 frames)
+[16:33:38] [INFO] red arm: CIII]5942 -> x202; discrete line detected=False
+[16:33:38] [INFO] Step 43 complete: ULX spectrum verified
+[16:33:38] [SUCCESS] step_43 completed in 2.8s
+[16:33:38] [INFO] 
+[16:33:38] [INFO] ================================================================================
+[16:33:38] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 2.8s total
+[16:33:38] [INFO] ================================================================================
+[16:33:38] [INFO] 
+[16:33:39] [SUCCESS] Saved run manifest: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results/outputs/pipeline_run_manifest.json

@@ -1,4 +1,4 @@
-v0.2 (Pasadena) — 25 September 2026 - Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+v0.3 (Pasadena) — 25 September 2026 - Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
     - Bayesian model comparison of the NGC 7603 field transect
     - Survey-scale companion redshift asymmetry test (SDSS DR10 groups) with volume-limited, mock-interloper, dust, spectroscopic-quality and same-spectral-class controls
     - Archival Lyα-forest census and slit-geometry audit of the high-redshift companions
