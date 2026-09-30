@@ -195,6 +195,7 @@ function copyRecursiveSync(src, dest) {
             fs.mkdirSync(dest, { recursive: true });
         }
         fs.readdirSync(src).forEach(childItemName => {
+            if (childItemName === '.DS_Store') return;
             copyRecursiveSync(
                 path.join(src, childItemName),
                 path.join(dest, childItemName)

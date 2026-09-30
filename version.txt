@@ -1,7 +1,5 @@
 v0.3 (Pasadena) — 25 September 2026 - Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
-    - Bayesian model comparison of the NGC 7603 field transect
-    - Survey-scale companion redshift asymmetry test (SDSS DR10 groups) with volume-limited, mock-interloper, dust, spectroscopic-quality and same-spectral-class controls
-    - Archival Lyα-forest census and slit-geometry audit of the high-redshift companions
-    - X-ray-selected population test with pointed-coverage decomposition; the measured overdensity is propagated as a correction to the X-ray-selection-aware joint probability
-    - Blue-arm spectroscopic proposal for the decisive z > 2 forest observation, with pre-registered refutation threshold
-    - Explicit confined temporal-well solution of the static field equation
+    - Rewrote the field-inference section: the NGC 7603 transect refutes a single shared transition, and the nested-wells profile bounds the shared width (~1.9 arcsec / 1.2 kpc)
+    - Substantially expanded the discussion, including new sections on bypassing the pipeline deadlock and the gradient energy density constraint
+    - Updated abstract, connection-evidence, and conclusion sections to match the revised field inference
+    - Reference and reproducibility updates

@@ -1,6 +1,6 @@
 {
   "name": "tep-arp-site",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
   "comment": "Package version matches manuscript version v0.3 (Pasadena)",
   "main": "index.html",
