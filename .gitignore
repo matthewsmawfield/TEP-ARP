@@ -71,3 +71,11 @@ manuscripts/
 # Step 42 regeneration caches (re-fetched automatically on pipeline rerun)
 data/processed/extended_forest_xmatch.csv
 data/raw/sdss_spectra/
+
+# Raw observational datasets — kept locally, outside git
+2023.1.00812.S/
+data/jwst/
+data/raw/alma/
+data/raw/keck_lris/
+data/raw/desi_candidate_spectra.json
+data/raw/desi_zlya_qso_cat.fits
