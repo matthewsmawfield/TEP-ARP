@@ -85,6 +85,7 @@ RETRY_SLEEP_S = 3.0
 # Galactic ISM metal lines in typical forest windows (Angstrom)
 ISM_LINES = [1260.42, 1302.17, 1304.37, 1334.53, 1526.71,
              1608.45, 1670.79, 1709.60, 1741.55, 1751.91, 1808.01]
+CI_AND_HOST_LINES = ISM_LINES + [1656.27, 1656.93, 1657.91]
 
 # Approximate wavelength coverage (Angstrom) of MAST spectrograph
 # modes used to score forest-band coverage.
@@ -454,7 +455,9 @@ class Step29LyaForestAudit:
 
         cand = self._dips(wrA, nA, neA, 4.0)
         ovi = (1578.0, 1594.0)
+        z_ngc3067 = 0.00489
         systems = []
+        strict_intervening = []
         for c in cand:
             lam = c["lam"]
             if ovi[0] <= lam <= ovi[1]:
@@ -470,11 +473,24 @@ class Step29LyaForestAudit:
             confirmed = bool(
                 (d_b is not None and d_b > 2.5)
                 or (d_g is not None and d_g > 2.5))
+            is_ci_or_host = any(
+                abs(lam - s) < 2.0 or abs(lam - s * (1.0 + z_ngc3067)) < 2.2
+                for s in CI_AND_HOST_LINES
+            )
+            strict_ok = bool(
+                c["ew"] > 0.05
+                and not is_ci_or_host
+                and d_b is not None
+                and 2.5 < d_b <= 2.0 * c["sig"]
+            )
+            if strict_ok:
+                strict_intervening.append(round(lam / LYA - 1.0, 4))
             systems.append({
                 "lam_obs": lam, "ew_a": c["ew"], "sig": c["sig"],
                 "z_abs": lam / LYA - 1.0,
                 "lyb_depth_sig": d_b, "lyg_depth_sig": d_g,
                 "lyman_confirmed": confirmed,
+                "strict_host_and_ci_decontaminated": strict_ok,
             })
         n_conf = sum(s["lyman_confirmed"] for s in systems)
         z_covered = [1596.0 / LYA - 1, 1710.0 / LYA - 1]
@@ -491,6 +507,8 @@ class Step29LyaForestAudit:
             "dz_covered": float(dz_covered),
             "n_candidates_4sigma": len(systems),
             "n_lyman_confirmed": n_conf,
+            "n_lyman_confirmed_strict_host_and_ci_masked": len(strict_intervening),
+            "strict_intervening_z_abs": strict_intervening,
             "systems": systems,
             "expected_cosmological_dndz": 25.0,
             "expected_cosmological_n": 25.0 * float(dz_covered),

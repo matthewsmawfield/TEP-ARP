@@ -1,16 +1,16 @@
-[17:16:38] [INFO] 
-[17:16:38] [INFO] ================================================================================
-[17:16:38] [INFO]    TEP-ARP Analysis Pipeline
-[17:16:38] [INFO] ================================================================================
-[17:16:38] [INFO] 
-[17:16:38] [PROCESS] Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
-[17:16:38] [INFO] Project root: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP
-[17:16:38] [INFO] Results: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results
-[17:16:38] [INFO] Logs: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/logs
-[17:16:38] [PROCESS] Running 1 step(s)
-[17:16:41] [INFO]   step_49: OK (2.4s)
-[17:16:41] [INFO] 
-[17:16:41] [INFO] ================================================================================
-[17:16:41] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 2.4s total
-[17:16:41] [INFO] ================================================================================
-[17:16:41] [INFO] 
+[21:58:48] [INFO] 
+[21:58:48] [INFO] ================================================================================
+[21:58:48] [INFO]    TEP-ARP Analysis Pipeline
+[21:58:48] [INFO] ================================================================================
+[21:58:48] [INFO] 
+[21:58:48] [PROCESS] Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs
+[21:58:48] [INFO] Project root: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP
+[21:58:48] [INFO] Results: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/results
+[21:58:48] [INFO] Logs: /Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP/logs
+[21:58:48] [PROCESS] Running 1 step(s)
+[21:58:48] [INFO]   step_49: OK (0.6s)
+[21:58:48] [INFO] 
+[21:58:48] [INFO] ================================================================================
+[21:58:48] [INFO]    Pipeline complete: 1 succeeded, 0 failed, 0.6s total
+[21:58:48] [INFO] ================================================================================
+[21:58:48] [INFO] 

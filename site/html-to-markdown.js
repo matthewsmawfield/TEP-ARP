@@ -311,7 +311,7 @@ class HTMLToMarkdownConverter {
         const version = versionMatch ? versionMatch[1]
             .replace(/<[^>]+>/g, '')
             .replace(/^Version:\s*/i, '')
-            .trim() : 'v0.3 (Pasadena)';
+            .trim() : 'v0.4 (Pasadena)';
         
         const dateMatch = html.match(/<div[^>]*class=["'][^"']*date[^"']*["'][^>]*>(.*?)<\/div>/i);
         const date = dateMatch ? dateMatch[1].replace(/<[^>]+>/g, '').trim() : 'First published: 29 August 2026 · Last updated: 30 August 2026';
@@ -388,7 +388,7 @@ class HTMLToMarkdownConverter {
                 .replace(/\s*\([^)]*\)/g, '')  // strip "(Valencia)"
                 .trim()
                 .replace(/\s+/g, '-');
-            const outputName = `37-TEP-ARP-${versionSlug}-Pasadena.md`;
+            const outputName = `G37-TEP-ARP-${versionSlug}-Pasadena.md`;
             const outputPath = path.join(__dirname, '..', outputName);
             fs.writeFileSync(outputPath, markdown, 'utf8');
 
@@ -462,7 +462,7 @@ ${content}
 - [TEP-H0: The Cepheid Bias](https://doi.org/10.5281/zenodo.18209702) (Companion paper — quantitative Cepheid bias analysis)
 - [TEP-EXP: Precision Tests of GR](https://doi.org/10.5281/zenodo.18109760) (Measurement taxonomy)
 - [TEP-JWST: JWST High-Redshift Anomalies](https://doi.org/10.5281/zenodo.19000827) (High-redshift galaxy ages and masses)
-- [TEP-HUB: The Mount Wilson Paradigm](https://doi.org/10.5281/zenodo.21954258) (Cosmological redshift as temporal shear)
+- [TEP-HUB: The Mount Wilson Paradigm](https://doi.org/10.5281/zenodo.21954257) (Cosmological redshift as temporal shear)
 - [TEP-BBN: Primordial Deuterium](https://doi.org/10.5281/zenodo.21841147) (Deuterium isotope identifiability)
 
 *Source code available at: https://github.com/matthewsmawfield/TEP-ARP*

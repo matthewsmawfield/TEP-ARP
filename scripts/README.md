@@ -3,7 +3,7 @@
 ## Analysis Pipeline
 
 ```bash
-cd "/Users/matthewsmawfield/www/Temporal Equivalence Principle/TEP-ARP"
+cd "TEP-ARP"
 python3 scripts/run_pipeline.py
 ```
 
@@ -90,7 +90,7 @@ python3 scripts/generate_site_pdf.py
 python3 scripts/generate_site_pdf.py --quality high --wait-time 10
 ```
 
-Generates `37-TEP-ARP-v0.3-Pasadena.pdf` from the built static site (root and
+Generates `G37-TEP-ARP-v0.4-Pasadena.pdf` from the built static site (root and
 `site/public/docs/`). Requires the site to be built first (`cd site && npm run build`).
 
 ## Utilities

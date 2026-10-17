@@ -3,7 +3,7 @@
   "title": "Temporal Equivalence Principle: Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs",
   "run_mode": "partial (1 steps)",
   "environment": {
-    "generated_utc": "2026-09-26T16:16:41+00:00",
+    "generated_utc": "2026-10-16T20:58:48+00:00",
     "python_version": "3.13.5",
     "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
     "packages": {
@@ -17,32 +17,32 @@
       "corner": "2.2.3",
       "requests": "2.32.4"
     },
-    "git_commit": "1b5604f2b2eb0d14afe5df5376560bc199174a5c",
+    "git_commit": "7586d6cd73541f41ad915c5ad83618e660f38ca9",
     "git_dirty": true,
     "manuscript_version": {
-      "version": "0.2",
+      "version": "0.4",
       "codename": "Pasadena",
       "first_published": "2026-09-24",
-      "last_updated": "2026-09-25",
-      "date": "2026-09-25",
+      "last_updated": "2026-10-16",
+      "date": "2026-10-16",
       "doi": "10.5281/zenodo.22938153",
       "status": "Preprint (Draft)",
       "description": "Paper 37: TEP-ARP \u2014 Localized Proper-Time Gradients and the Spatial Proximity of Discordant Pairs. Application of the Temporal Equivalence Principle to Halton Arp's discordant quasar-galaxy pairs. The intrinsic conformal factor A_int = (1+z_G)/(1+z_Q) isolates a distance-independent proper-time gradient; luminous bridges, foreground absorption systems, and Poisson chance-alignment statistics demonstrate spatial proximity.",
-      "previous_version": "0.1",
+      "previous_version": "0.3",
       "paper": "37"
     }
   },
   "n_steps_run": 1,
   "n_succeeded": 1,
   "n_failed": 0,
-  "total_elapsed_s": 2.41,
+  "total_elapsed_s": 0.61,
   "steps": [
     {
       "step": "step_49",
       "block": "III",
       "description": "Emission-region localization: measured flagship line widths + well-enclosure energetic ledger",
       "status": "ok",
-      "elapsed_s": 2.41
+      "elapsed_s": 0.61
     }
   ],
   "outputs": {

@@ -995,6 +995,11 @@
       "dz_covered": 0.09377544892939693,
       "n_candidates_4sigma": 11,
       "n_lyman_confirmed": 9,
+      "n_lyman_confirmed_strict_host_and_ci_masked": 2,
+      "strict_intervening_z_abs": [
+        0.318,
+        0.3548
+      ],
       "systems": [
         {
           "lam_obs": 1602.2090111819641,
@@ -1003,7 +1008,8 @@
           "z_abs": 0.3179637658097707,
           "lyb_depth_sig": 9.43056507516499,
           "lyg_depth_sig": 0.15486997106871947,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": true
         },
         {
           "lam_obs": 1616.0094002862331,
@@ -1012,7 +1018,8 @@
           "z_abs": 0.329315850754097,
           "lyb_depth_sig": 2.910677896873632,
           "lyg_depth_sig": 1.8357837100450232,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1618.2605275869296,
@@ -1021,7 +1028,8 @@
           "z_abs": 0.33116760929111466,
           "lyb_depth_sig": 9.2187673195469,
           "lyg_depth_sig": 3.7815548277887143,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1646.937931895801,
@@ -1030,7 +1038,8 @@
           "z_abs": 0.35475740282790635,
           "lyb_depth_sig": 6.102947349596,
           "lyg_depth_sig": 1.5475540510378005,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": true
         },
         {
           "lam_obs": 1654.5721896981627,
@@ -1039,7 +1048,8 @@
           "z_abs": 0.3610372796056187,
           "lyb_depth_sig": 1.4404073993990407,
           "lyg_depth_sig": 2.065179298374883,
-          "lyman_confirmed": false
+          "lyman_confirmed": false,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1654.7679398982232,
@@ -1048,7 +1058,8 @@
           "z_abs": 0.3611983020870986,
           "lyb_depth_sig": 3.1648688200636923,
           "lyg_depth_sig": 2.065179298374883,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1656.2360663986774,
@@ -1057,7 +1068,8 @@
           "z_abs": 0.362405970698197,
           "lyb_depth_sig": 32.60594700506695,
           "lyg_depth_sig": 2.690050267673403,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1658.1935683992829,
@@ -1066,7 +1078,8 @@
           "z_abs": 0.364016195512995,
           "lyb_depth_sig": 8.859928747064039,
           "lyg_depth_sig": 1.54146189617756,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1678.649464305611,
@@ -1075,7 +1088,8 @@
           "z_abs": 0.380843044827635,
           "lyb_depth_sig": 0.9493533734329184,
           "lyg_depth_sig": 0.6409310057408815,
-          "lyman_confirmed": false
+          "lyman_confirmed": false,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1693.5264795102132,
@@ -1084,7 +1098,8 @@
           "z_abs": 0.3930807534201002,
           "lyb_depth_sig": 1.3616594909354092,
           "lyg_depth_sig": 2.948274176122281,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         },
         {
           "lam_obs": 1699.5947357120904,
@@ -1093,7 +1108,8 @@
           "z_abs": 0.39807245034597405,
           "lyb_depth_sig": 26.977754161201364,
           "lyg_depth_sig": 7.422883829098705,
-          "lyman_confirmed": true
+          "lyman_confirmed": true,
+          "strict_host_and_ci_decontaminated": false
         }
       ],
       "expected_cosmological_dndz": 25.0,

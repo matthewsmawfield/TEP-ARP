@@ -50,7 +50,23 @@
       "status": "marginal"
     }
   },
+  "flagship_widths_provenance": "cached_step49_output_raw_lris_frames_absent",
   "reference_sigma_kms": 3154.609191101194,
+  "multi_zone_stratification_audit": {
+    "host_kpc_narrow_ism_ladder_z": 0.0216,
+    "host_systemic_catalog_z": 0.0225,
+    "companion_published_z": 2.114,
+    "companion_BLR_CIV_z": 2.139417201661297,
+    "companion_BLR_CIV_fwhm_kms": 3154.609191101194,
+    "companion_semiforbidden_OIII_z": 2.096253828486762,
+    "companion_semiforbidden_OIII_fwhm_kms": 441.4174625597563,
+    "zone_depth_differential_du_BLR_to_OIII": 0.013861070383601515,
+    "lris_slit_trace_bound_kpc": 0.3,
+    "transect_confinement_bound_kpc": 1.2,
+    "confinement_bound_kpc": 1.2,
+    "halo_contrast_bound_paper0": 0.01,
+    "note": "In the re-reduced 2003 Keck/LRIS slit spectrum of NGC 7319 (step_43), the kpc-scale galaxy narrow emission ladder (H-beta, [O III], H-alpha) across the slit sits at the host redshift z_gas = 0.022 (systemic z_host = 0.0225), whereas the companion's broad C IV (FWHM = 3155 km/s) and semi-forbidden O III] 1663 (FWHM = 441 km/s) share the discordant redshift z_Q ~ 2.11 within |Delta u| = 0.0139 inside the unresolved <=0.3 kpc (0.7 arcsec) LRIS slit trace and the <1.2 kpc NGC 7603 transect confinement bound of the compact temporal well."
+  },
   "ledger_columns": {
     "lapse_depth_surface_Rs": "r(du)/R_S on U=-ln(1-2M/r): exterior-profile misidentification only",
     "escape_bound_Rs": "r/R_S where sigma = v_esc: bound-gas ceiling",
